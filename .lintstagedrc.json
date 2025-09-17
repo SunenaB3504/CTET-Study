@@ -1,0 +1,4 @@
+{
+  "*.{ts,tsx}": ["eslint --fix", "prettier --write", "jest --findRelatedTests --passWithNoTests"],
+  "*.{js,jsx,json,md}": ["prettier --write"]
+}

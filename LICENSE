@@ -1,0 +1,48 @@
+# MIT License
+
+Copyright (c) 2025 CTET Study App
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Additional Terms for CTET Study App
+
+### Educational Use
+This software is provided for educational purposes to help CTET aspirants prepare for the Central Teacher Eligibility Test. Users are encouraged to use this application for personal study and preparation.
+
+### Content Disclaimer
+While every effort has been made to ensure the accuracy of the study materials, questions, and explanations provided in this application, the developers cannot guarantee the completeness or accuracy of all content. Users should verify information with official CTET sources and subject matter experts.
+
+### No Warranty
+This software is provided "as is" without any warranties, express or implied. The developers shall not be liable for any direct, indirect, incidental, special, exemplary, or consequential damages resulting from the use of this software.
+
+### Academic Integrity
+Users are expected to maintain academic integrity when using this application. This tool is designed to aid learning and should not be used for any form of academic dishonesty.
+
+### Updates and Support
+The developers may update this software at their discretion. While efforts will be made to maintain backward compatibility, no guarantees are provided regarding future updates or continued support.
+
+### Third-Party Components
+This application uses various open-source libraries and frameworks. Each component is subject to its own license terms. Please refer to the respective licenses for third-party dependencies.
+
+### Contact Information
+For questions about this license or the software, please refer to the documentation or contact the development team through the project's repository.
+
+---
+
+*This license applies to the CTET Study App codebase and associated documentation. The license does not cover any user-generated content or modifications made by third parties.*

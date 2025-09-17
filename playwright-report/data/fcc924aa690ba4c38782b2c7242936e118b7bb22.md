@@ -1,0 +1,78 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - heading "CTET Prep Pal" [level=2] [ref=e7]
+      - navigation [ref=e8]:
+        - heading "Subjects" [level=3] [ref=e10]
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Child Development & Pedagogy" [ref=e13] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e14] [cursor=pointer]
+              - generic [ref=e16] [cursor=pointer]: Child Development & Pedagogy
+          - listitem [ref=e17]:
+            - link "Mathematics" [ref=e18] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e19] [cursor=pointer]
+              - generic [ref=e21] [cursor=pointer]: Mathematics
+          - listitem [ref=e22]:
+            - link "Environmental Studies" [ref=e23] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e24] [cursor=pointer]
+              - generic [ref=e26] [cursor=pointer]: Environmental Studies
+          - listitem [ref=e27]:
+            - link "Language I (English)" [ref=e28] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e29] [cursor=pointer]
+              - generic [ref=e31] [cursor=pointer]: Language I (English)
+          - listitem [ref=e32]:
+            - link "Language II (Hindi)" [ref=e33] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e34] [cursor=pointer]
+              - generic [ref=e36] [cursor=pointer]: Language II (Hindi)
+        - heading "Assessment" [level=3] [ref=e38]
+        - button "Full Mock Test" [ref=e39]:
+          - img [ref=e40]
+          - generic [ref=e43]: Full Mock Test
+        - heading "Planning" [level=3] [ref=e45]
+        - button "Content Readiness" [ref=e46]:
+          - img [ref=e47]
+          - generic [ref=e49]: Content Readiness
+  - generic [ref=e50]:
+    - banner [ref=e51]:
+      - heading "Welcome to your CTET Prep Pal, Sumi!" [level=1] [ref=e52]:
+        - text: Welcome to your CTET Prep Pal,
+        - generic [ref=e53]: Sumi!
+      - img [ref=e55]
+    - main [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - img [ref=e60]
+          - generic [ref=e62]:
+            - heading "Child Development & Pedagogy" [level=2] [ref=e63]
+            - paragraph [ref=e64]: Select a topic to start learning.
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - heading "Piaget, Kohlberg, and Vygotsky" [level=3] [ref=e68]
+              - paragraph [ref=e69]: Detailed notes and practice questions available.
+            - img [ref=e70]
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - heading "Inclusive Education & Children with Special Needs" [level=3] [ref=e74]
+              - paragraph [ref=e75]: Detailed notes and practice questions available.
+            - img [ref=e76]
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - heading "Learning and Pedagogy" [level=3] [ref=e80]
+              - paragraph [ref=e81]: Detailed notes and practice questions available.
+            - img [ref=e82]
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - heading "Gender as a Social Construct" [level=3] [ref=e86]
+              - paragraph [ref=e87]: Detailed notes and practice questions available.
+            - img [ref=e88]
+```

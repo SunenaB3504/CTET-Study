@@ -1,0 +1,5 @@
+{
+  "name": "CTET Prep Pal for Sumi",
+  "description": "A comprehensive and interactive web application designed to help Sumi prepare for the CTET Paper 1 examination. It features detailed subject modules, topic-wise notes, practice MCQs, full-length mock tests, and an integrated AI tutor for concept clarification, all with Text-to-Speech support for on-the-go learning.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,78 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - heading "CTET Prep Pal" [level=2] [ref=e7]
+      - navigation [ref=e8]:
+        - heading "Subjects" [level=3] [ref=e10]
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Child Development & Pedagogy" [ref=e13]:
+              - /url: "#"
+              - img [ref=e14]
+              - generic [ref=e16]: Child Development & Pedagogy
+          - listitem [ref=e17]:
+            - link "Mathematics" [ref=e18]:
+              - /url: "#"
+              - img [ref=e19]
+              - generic [ref=e21]: Mathematics
+          - listitem [ref=e22]:
+            - link "Environmental Studies" [ref=e23]:
+              - /url: "#"
+              - img [ref=e24]
+              - generic [ref=e26]: Environmental Studies
+          - listitem [ref=e27]:
+            - link "Language I (English)" [ref=e28]:
+              - /url: "#"
+              - img [ref=e29]
+              - generic [ref=e31]: Language I (English)
+          - listitem [ref=e32]:
+            - link "Language II (Hindi)" [ref=e33]:
+              - /url: "#"
+              - img [ref=e34]
+              - generic [ref=e36]: Language II (Hindi)
+        - heading "Assessment" [level=3] [ref=e38]
+        - button "Full Mock Test" [ref=e39] [cursor=pointer]:
+          - img [ref=e40] [cursor=pointer]
+          - generic [ref=e43] [cursor=pointer]: Full Mock Test
+        - heading "Planning" [level=3] [ref=e45]
+        - button "Content Readiness" [ref=e46] [cursor=pointer]:
+          - img [ref=e47] [cursor=pointer]
+          - generic [ref=e49] [cursor=pointer]: Content Readiness
+  - generic [ref=e50]:
+    - banner [ref=e51]:
+      - heading "Welcome to your CTET Prep Pal, Sumi!" [level=1] [ref=e52]:
+        - text: Welcome to your CTET Prep Pal,
+        - generic [ref=e53]: Sumi!
+      - img [ref=e55]
+    - main [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - img [ref=e60]
+          - generic [ref=e62]:
+            - heading "Child Development & Pedagogy" [level=2] [ref=e63]
+            - paragraph [ref=e64]: Select a topic to start learning.
+        - generic [ref=e65]:
+          - generic [ref=e66] [cursor=pointer]:
+            - generic [ref=e67] [cursor=pointer]:
+              - heading "Piaget, Kohlberg, and Vygotsky" [level=3] [ref=e68] [cursor=pointer]
+              - paragraph [ref=e69] [cursor=pointer]: Detailed notes and practice questions available.
+            - img [ref=e70] [cursor=pointer]
+          - generic [ref=e72] [cursor=pointer]:
+            - generic [ref=e73] [cursor=pointer]:
+              - heading "Inclusive Education & Children with Special Needs" [level=3] [ref=e74] [cursor=pointer]
+              - paragraph [ref=e75] [cursor=pointer]: Detailed notes and practice questions available.
+            - img [ref=e76] [cursor=pointer]
+          - generic [ref=e78] [cursor=pointer]:
+            - generic [ref=e79] [cursor=pointer]:
+              - heading "Learning and Pedagogy" [level=3] [ref=e80] [cursor=pointer]
+              - paragraph [ref=e81] [cursor=pointer]: Detailed notes and practice questions available.
+            - img [ref=e82] [cursor=pointer]
+          - generic [ref=e84] [cursor=pointer]:
+            - generic [ref=e85] [cursor=pointer]:
+              - heading "Gender as a Social Construct" [level=3] [ref=e86] [cursor=pointer]
+              - paragraph [ref=e87] [cursor=pointer]: Detailed notes and practice questions available.
+            - img [ref=e88] [cursor=pointer]
+```
