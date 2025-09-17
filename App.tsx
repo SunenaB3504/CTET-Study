@@ -7,6 +7,7 @@ import StudyModule from './components/StudyModule';
 import MockTest from './components/MockTest';
 import MockTestSelection from './components/MockTestSelection';
 import ReadinessTracker from './components/ReadinessTracker';
+import SampleQuestions from './components/SampleQuestions';
 import { SUBJECT_DATA } from './constants/data';
 import { QUESTION_PAPERS_DATA } from './constants/questionPapers';
 import { SYLLABUS_DATA } from './constants/syllabus';
@@ -105,6 +106,13 @@ const App: React.FC = () => {
     setCurrentContextualTopic(null);
   };
 
+  const handleShowSampleQuestions = () => {
+    setCurrentView(View.SAMPLE_QUESTIONS);
+    setSelectedSubject(null);
+    setSelectedTopic(null);
+    setCurrentContextualTopic(null);
+  };
+
   const renderContent = () => {
     switch (currentView) {
       case View.DASHBOARD:
@@ -157,6 +165,12 @@ const App: React.FC = () => {
             onBack={handleBackToDashboard}
           />
         );
+      case View.SAMPLE_QUESTIONS:
+        return (
+          <SampleQuestions
+            onBack={handleBackToDashboard}
+          />
+        );
       default:
         return selectedSubject ? (
           <Dashboard
@@ -176,6 +190,7 @@ const App: React.FC = () => {
         onSelectSubject={handleSelectSubject}
         onStartMockTest={handleStartMockTest}
         onShowReadinessTracker={handleShowReadinessTracker}
+        onShowSampleQuestions={handleShowSampleQuestions}
         selectedSubjectName={selectedSubject?.name}
         contextualTopic={currentContextualTopic}
         onSelectTopicById={handleSelectTopicById}

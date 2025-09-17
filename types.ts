@@ -35,6 +35,7 @@ export enum View {
   MOCK_TEST_SELECTION,
   MOCK_TEST,
   READINESS_TRACKER,
+  SAMPLE_QUESTIONS,
 }
 
 export interface QuestionPaper {

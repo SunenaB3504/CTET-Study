@@ -7,6 +7,7 @@ interface SidebarProps {
   onSelectSubject: (subject: Subject) => void;
   onStartMockTest: () => void;
   onShowReadinessTracker: () => void;
+  onShowSampleQuestions: () => void;
   selectedSubjectName?: SubjectName;
   contextualTopic: ContextualTopic | null;
   onSelectTopicById: (subjectName: SubjectName, topicId: string) => void;
@@ -16,6 +17,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   onSelectSubject,
   onStartMockTest,
   onShowReadinessTracker,
+  onShowSampleQuestions,
   selectedSubjectName,
   contextualTopic,
   onSelectTopicById,
@@ -73,6 +75,13 @@ const Sidebar: React.FC<SidebarProps> = ({
           >
             <PencilSquareIcon className="h-6 w-6 mr-3 text-gray-500" />
             <span>Full Mock Test</span>
+          </button>
+          <button
+            onClick={onShowSampleQuestions}
+            className="w-full flex items-center px-6 py-3 text-left text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors duration-200"
+          >
+            <BookOpenIcon className="h-6 w-6 mr-3 text-gray-500" />
+            <span>Sample Questions</span>
           </button>
 
           <div className="px-6 mt-8 mb-4">

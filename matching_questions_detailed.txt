@@ -1,0 +1,73 @@
+QUESTIONS WHERE PDF TEXT MATCHES APP TEXT
+==================================================
+
+Match #1:
+PDF Question #104 = App Question #104
+Question: 
+PDF Answer: 
+App Answer: 4
+--------------------------------------------------
+
+Match #2:
+PDF Question #105 = App Question #105
+Question: 
+PDF Answer: 
+App Answer: 1
+--------------------------------------------------
+
+Match #3:
+PDF Question #109 = App Question #109
+Question: 
+PDF Answer: 
+App Answer: 2
+--------------------------------------------------
+
+Match #4:
+PDF Question #112 = App Question #112
+Question: 
+PDF Answer: 
+App Answer: 3
+--------------------------------------------------
+
+Match #5:
+PDF Question #117 = App Question #117
+Question: 
+PDF Answer: 
+App Answer: 2
+--------------------------------------------------
+
+Match #6:
+PDF Question #118 = App Question #118
+Question: 
+PDF Answer: 
+App Answer: 2
+--------------------------------------------------
+
+Match #7:
+PDF Question #120 = App Question #120
+Question: 
+PDF Answer: 
+App Answer: 2
+--------------------------------------------------
+
+Match #8:
+PDF Question #125 = App Question #125
+Question: 
+PDF Answer: 
+App Answer: 2
+--------------------------------------------------
+
+Match #9:
+PDF Question #128 = App Question #128
+Question: 
+PDF Answer: 
+App Answer: 3
+--------------------------------------------------
+
+Match #10:
+PDF Question #132 = App Question #132
+Question: 
+PDF Answer: 
+App Answer: 2
+--------------------------------------------------
+

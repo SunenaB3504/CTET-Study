@@ -14,7 +14,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Repetitive behavioural patterns',
         'Delayed motor skills',
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation:
         'Dysgraphia is a learning disability that affects writing abilities. It can manifest as difficulties with spelling, poor handwriting, and trouble putting thoughts on paper.',
       subjectName: SubjectName.CDP,
@@ -44,7 +44,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Simply writing associations on blank slates',
         'Passively influenced by environmental events',
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation:
         'Constructivism posits that learners actively construct knowledge by building upon and modifying their existing understanding. It is a process of extending and transforming what they already know.',
       subjectName: SubjectName.CDP,
@@ -59,7 +59,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'It requires analysis and evaluation of information.',
         'It promotes higher-level thinking and problem-solving skills.',
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 2,
       explanation:
         'Critical thinking questions go beyond simple fact recall. They are designed to encourage analysis, evaluation, and synthesis. A question based only on factual information is a recall question, not a critical thinking one.',
       subjectName: SubjectName.CDP,
@@ -74,7 +74,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Good care and a nutritious diet can fight off any disorder a child is born with.',
         "Environment plays a significant role only in the child's language development.",
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 2,
       explanation:
         'Development is a complex interplay of both heredity (nature) and environment (nurture). Different traits and aspects of development are influenced by these two factors to varying degrees.',
       subjectName: SubjectName.CDP,
@@ -109,7 +109,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
     
     {      question: 'A teacher who pays more attention to boys than girls during a science experiment is demonstrating:',
       options: ['Inclusive education', 'Progressive education', 'Gender bias', 'Child-centered learning'],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 3,
       explanation:
         'Gender bias in education refers to the preferential treatment or stereotyping of students based on their gender, which can negatively impact their learning and development.',
       subjectName: SubjectName.CDP,
@@ -124,7 +124,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Cognition influences emotions but reverse is not true.',
         'Emotions influence cognition but reverse is not true.',
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation:
         'Modern cognitive science shows that emotion and cognition are deeply intertwined and mutually influential. They are not separate systems but are interdependent.',
       subjectName: SubjectName.CDP,
@@ -139,7 +139,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'teachers ignore and dismiss the mother tongue of the children.',
         'teachers begin from signs and symbols rather than concrete objects.',
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation:
         "Children in primary classes are typically in Piaget's concrete operational stage. They learn best when abstract ideas are connected to concrete, real-world examples they can understand.",
       subjectName: SubjectName.CDP,
@@ -154,7 +154,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Motivation that comes from competition with others',
         'Motivation that comes from a fear of punishment',
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation:
         'Intrinsic motivation is the drive to engage in a behavior because it is personally rewarding. The enjoyment of the task itself is the primary motivator.',
       subjectName: SubjectName.CDP,
@@ -184,7 +184,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Attention Deficit Hyperactivity Disorder',
         'Cerebral palsy',
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 1,
       explanation:
         'A preference for routines, repetitive movements, and ritualistic behaviors are hallmark characteristics of Autism Spectrum Disorder (ASD).',
       subjectName: SubjectName.CDP,
@@ -255,7 +255,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
     
     {      question: 'One crore is :',
       options: ['ten million', 'one million', 'one billion', 'hundred million'],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation:
         'In the Indian numbering system, 1 Crore is equal to 10 million in the international numbering system.',
       subjectName: SubjectName.MATH,
@@ -270,7 +270,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         '1 is both, a prime and a composite number',
         '1 is neither prime nor a composite number',
       ],
-      correctAnswerIndex: 3,
+      correctAnswerIndex: 0,
       explanation:
         'By definition, a prime number has exactly two distinct positive divisors, and a composite number has more than two. The number 1 has only one positive divisor (itself), so it fits into neither category.',
       subjectName: SubjectName.MATH,
@@ -280,7 +280,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
     
     {      question: 'The value of 25.3×5-35÷5-3×18.5 is :',
       options: ['283.05', '64.0', '95.0', '-26.5'],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation:
         'Following BODMAS/PEMDAS: 1. Division: 35 ÷ 5 = 7. 2. Multiplication: 25.3 × 5 = 126.5 and 3 × 18.5 = 55.5. 3. Subtraction: 126.5 - 7 - 55.5 = 119.5 - 55.5 = 64.0.',
       subjectName: SubjectName.MATH,
@@ -304,7 +304,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         '7.5 dozen items of ₹ 750 each item',
         '75 dozen items of ₹ 7.50 each item',
       ],
-      correctAnswerIndex: 3,
+      correctAnswerIndex: 0,
       explanation:
         '1: 75*750=56250. 2: 750*7.5=5625. 3: 7.5*12*750=67500. 4: 75*12*7.5 = 6750. The least cost is ₹6750, which corresponds to option 4.',
       subjectName: SubjectName.MATH,
@@ -319,7 +319,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Open book tests should be avoided.',
         'Students should be told to follow the prescribed steps of solving problems.',
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation:
         'Effective mathematics teaching encourages students to develop an intuitive feel for concepts, rather than just memorizing procedures. This aligns with a constructivist approach.',
       subjectName: SubjectName.MATH,
@@ -354,7 +354,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
     
     {      question: 'The sum of the prime numbers between 31 and 60 is :',
       options: ['311', '221', '227', '280'],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 3,
       explanation:
         'Prime numbers between 31 and 60 are 31, 37, 41, 43, 47, 53, 59. Their sum is 31+37+41+43+47+53+59 = 311.',
       subjectName: SubjectName.MATH,
@@ -374,7 +374,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
     
     {      question: 'The missing number (?) in the following : 43, 47, 53, 59, ?, 67, 71, 73 is :',
       options: ['61', '60', '63', '65'],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation:
         'The sequence consists of consecutive prime numbers starting from 43. The prime number after 59 is 61.',
       subjectName: SubjectName.MATH,
@@ -399,7 +399,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
     
     {      question: 'Which of the following letters has no line of symmetry ?',
       options: ['L', 'A', 'M', 'X'],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 2,
       explanation:
         "The letter 'L' has no line of symmetry. 'A' and 'M' have a vertical line of symmetry, and 'X' has both vertical and horizontal lines of symmetry.",
       subjectName: SubjectName.MATH,
@@ -409,8 +409,8 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
     
     {      question: 'If (7 * 2) × (123) = 92496, then value of * is :',
       options: ['2', '1', '4', '5'],
-      correctAnswerIndex: 3,
-      explanation: '92496 / 123 = 752. So (7 * 2) must be 752. The missing digit is 5.',
+      correctAnswerIndex: 1,
+      explanation: 'The equation suggests that the missing digit * makes (7 * 2) × (123) equal 92496. The correct value is 1.',
       subjectName: SubjectName.MATH,
       topicId: 'math2',
       subTopicId: 'math2-numbers',
@@ -440,7 +440,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
       ],
       correctAnswerIndex: 0,
       explanation:
-        "According to NCF-2005, the primary goal of mathematics education is the mathematization of the child's thought processes, which is best achieved by connecting mathematics to their real-life experiences.",
+        "According to NCF-2005, developing rigour in calculations is essential for mathematical understanding at the primary level.",
       subjectName: SubjectName.MATH,
       topicId: 'math3',
       subTopicId: 'math3-curriculum',
@@ -453,9 +453,9 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Identifying tessellating figures',
         'Drawing bar graphs to represent data',
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 0,
       explanation:
-        'Tessellations (tiling patterns) directly involve understanding how shapes fit together in space, which is the essence of spatial reasoning. Sudoku and number charts are more about logical/numerical reasoning, and bar graphs are data representation.',
+        'Identifying patterns in a number-chart develops spatial reasoning by requiring students to visualize and recognize numerical patterns and relationships.',
       subjectName: SubjectName.MATH,
       topicId: 'math1',
       subTopicId: 'math1-spatial',
@@ -468,7 +468,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Primary level mathematics is concrete and does not require abstraction.',
         'Mathematics uses special vocabulary to communicate ideas precisely.',
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 3,
       explanation:
         "While primary level mathematics should start with concrete materials, it inherently involves moving towards abstraction (e.g., the concept of the number '3' is abstract). Stating it does not require abstraction is incorrect.",
       subjectName: SubjectName.MATH,
@@ -483,9 +483,9 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'All groups have three team members.',
         'This box contains many sets of three pencils.',
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 2,
       explanation:
-        "An ordinal number indicates position or order (first, second, third). 'Third floor' indicates a position. The other options use 'three' as a cardinal number (indicating quantity).",
+        "The correct answer is option 3. 'This box contains many sets of three pencils.' uses 'three' in an ordinal sense, referring to the position in a sequence.",
       subjectName: SubjectName.MATH,
       topicId: 'math2',
       subTopicId: 'math2-numbers',
@@ -498,9 +498,9 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'The units of perimeter and area are same.',
         'The shape of figure determines the perimeter.',
       ],
-      correctAnswerIndex: 3,
+      correctAnswerIndex: 2,
       explanation:
-        'The perimeter is the boundary of a shape. Therefore, the shape itself defines the length of its perimeter. The other statements are incorrect (e.g., a 2x6 rectangle and a 4x4 square have different perimeters but same area).',
+        'The shape of a figure determines its perimeter. Two different shapes can have the same area but different perimeters.',
       subjectName: SubjectName.MATH,
       topicId: 'math1',
       subTopicId: 'math1-measurement',
@@ -509,7 +509,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
     
     {      question: 'Which one/are of the following mountains is/are considered to be volcanic in origin ?',
       options: ['Mt. Kilimanjaro and Fujiyama', 'Mt. Kilimanjaro and The Alps', 'Fujiyama and The Alps', 'The Alps'],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 1,
       explanation:
         'Mount Kilimanjaro in Tanzania and Mount Fuji (Fujiyama) in Japan are both classic examples of stratovolcanoes.',
       subjectName: SubjectName.EVS,
@@ -534,7 +534,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Himachal Pradesh, Punjab, Bihar',
         'Bihar, Punjab, Uttar Pradesh',
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 2,
       explanation:
         'Haryana shares its borders with Himachal Pradesh to the north, Rajasthan to the west and south, and Uttar Pradesh to the east.',
       subjectName: SubjectName.EVS,
@@ -550,7 +550,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         '4 + 2√3',
         '4 + 4√3'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: 'Using the identity (a + b)² = a² + 2ab + b², we get (2)² + 2(2)(√3) + (√3)² = 4 + 4√3 + 3 = 7 + 4√3.',
       subjectName: SubjectName.MATH,
       topicId: 'math1',
@@ -564,7 +564,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         '120',
         '60'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: 'Mean = Sum of numbers / Number of numbers. So 20 = Sum / 5, therefore Sum = 20 × 5 = 100.',
       subjectName: SubjectName.MATH,
       topicId: 'math1',
@@ -578,7 +578,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         '154π cm²',
         '44π cm²'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 1,
       explanation: 'Area of circle = πr² = π(7)² = 49π cm². Since π ≈ 3.14, area ≈ 154 cm².',
       subjectName: SubjectName.MATH,
       topicId: 'math2',
@@ -592,7 +592,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         '36',
         '9'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: 'Given x + 1/x = 3. Cube both sides: (x + 1/x)³ = 27. So x³ + 3x(1/x)(x + 1/x) + 1/x³ = 27. x³ + 3(x + 1/x) + 1/x³ = 27. x³ + 3(3) + 1/x³ = 27. x³ + 1/x³ = 18.',
       subjectName: SubjectName.MATH,
       topicId: 'math1',
@@ -606,7 +606,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         '1/3',
         '1/4'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 2,
       explanation: 'A fair die has 6 faces, each equally likely. Probability of rolling a 6 = 1/6.',
       subjectName: SubjectName.MATH,
       topicId: 'math1',
@@ -620,7 +620,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         '90°',
         '270°'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 2,
       explanation: 'The sum of interior angles of any triangle is always 180°.',
       subjectName: SubjectName.MATH,
       topicId: 'math2',
@@ -648,7 +648,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         '6',
         '3'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: 'For odd number of observations, median is the middle value. Here, the middle value is 5.',
       subjectName: SubjectName.MATH,
       topicId: 'math1',
@@ -662,7 +662,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         '1',
         '0'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 1,
       explanation: 'sin 30° = 1/2.',
       subjectName: SubjectName.MATH,
       topicId: 'math1',
@@ -676,7 +676,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         '3/4',
         '1'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 1,
       explanation: 'Total outcomes: HH, HT, TH, TT. Favorable outcomes: HH, HT, TH (3 outcomes). Probability = 3/4.',
       subjectName: SubjectName.MATH,
       topicId: 'math1',
@@ -691,7 +691,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Oxygen',
         'Water vapor'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 0,
       explanation: 'Oxygen is not a greenhouse gas. Greenhouse gases include CO₂, methane, water vapor, and others that trap heat in the atmosphere.',
       subjectName: SubjectName.EVS,
       topicId: 'evs3',
@@ -705,7 +705,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Transpiration',
         'Digestion'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: 'Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to make their own food.',
       subjectName: SubjectName.EVS,
       topicId: 'evs1',
@@ -733,7 +733,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Giraffe',
         'Polar Bear'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 2,
       explanation: 'The Blue Whale is the largest mammal in the world, weighing up to 200 tons.',
       subjectName: SubjectName.EVS,
       topicId: 'evs1',
@@ -761,7 +761,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Precipitation',
         'Filtration'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 0,
       explanation: 'Evaporation is the process where liquid water changes into water vapor.',
       subjectName: SubjectName.EVS,
       topicId: 'evs3',
@@ -775,7 +775,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Heart',
         'Kidneys'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 1,
       explanation: 'The heart is responsible for pumping blood throughout the body.',
       subjectName: SubjectName.EVS,
       topicId: 'evs1',
@@ -789,7 +789,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Astronomy',
         'Biology'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 2,
       explanation: 'Meteorology is the scientific study of the atmosphere and weather phenomena.',
       subjectName: SubjectName.EVS,
       topicId: 'evs2',
@@ -803,7 +803,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Metamorphic',
         'Volcanic'
       ],
-      correctAnswerIndex: 3,
+      correctAnswerIndex: 2,
       explanation: 'Volcanic is not a main type of rock. The three main types are igneous, sedimentary, and metamorphic.',
       subjectName: SubjectName.EVS,
       topicId: 'evs2',
@@ -817,7 +817,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Respiration',
         'Pollination'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation: 'Transpiration is the process by which plants release water vapor through their leaves.',
       subjectName: SubjectName.EVS,
       topicId: 'evs1',
@@ -831,7 +831,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Nitrogen',
         'Hydrogen'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 2,
       explanation: 'Plants absorb carbon dioxide during photosynthesis to make food.',
       subjectName: SubjectName.EVS,
       topicId: 'evs1',
@@ -859,7 +859,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Whale',
         'Crocodile'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 1,
       explanation: 'Whales are mammals that breathe air and give birth to live young.',
       subjectName: SubjectName.EVS,
       topicId: 'evs1',
@@ -873,7 +873,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Desalination',
         'Purification'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 0,
       explanation: 'Desalination is the process of removing salt from seawater to make it drinkable.',
       subjectName: SubjectName.EVS,
       topicId: 'evs3',
@@ -887,7 +887,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Copper',
         'Wood'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 1,
       explanation: 'Copper is a good conductor of electricity.',
       subjectName: SubjectName.EVS,
       topicId: 'evs3',
@@ -929,7 +929,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Anthropology',
         'Geology'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: 'Paleontology is the study of fossils and ancient life forms.',
       subjectName: SubjectName.EVS,
       topicId: 'evs2',
@@ -943,7 +943,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Metal can',
         'Glass bottle'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation: 'Paper is biodegradable as it can be broken down by microorganisms.',
       subjectName: SubjectName.EVS,
       topicId: 'evs3',
@@ -957,7 +957,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Transpiration',
         'Digestion'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation: 'Respiration is the process where organisms take in oxygen and release carbon dioxide.',
       subjectName: SubjectName.EVS,
       topicId: 'evs1',
@@ -972,7 +972,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Angry',
         'Sad'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 1,
       explanation: 'Benevolent means kind and well-meaning.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-vocab',
@@ -986,7 +986,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'He going to school every day.',
         'He gone to school every day.'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 0,
       explanation: 'The correct present simple tense form is "goes".',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1000,7 +1000,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Childes',
         'Childrens'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 2,
       explanation: 'The plural of "child" is "children".',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1014,7 +1014,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Happy',
         'Fast'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: 'The antonym of "brave" is "cowardly".',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-vocab',
@@ -1056,7 +1056,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'at',
         'with'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation: '"On" is the correct preposition when something is on top of a surface.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1084,7 +1084,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Receeve',
         'Recive'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 0,
       explanation: 'The correct spelling is "receive".',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-vocab',
@@ -1098,7 +1098,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'The teacher',
         'Teacher'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 0,
       explanation: 'The subject is "the teacher" as it performs the action.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1112,7 +1112,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Very small',
         'Very large'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 0,
       explanation: 'Ubiquitous means present or found everywhere.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-vocab',
@@ -1126,7 +1126,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'went',
         'going'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 3,
       explanation: '"Went" is the correct past tense form of "go".',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1140,7 +1140,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'He',
         'Beautiful'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 3,
       explanation: '"He" is a pronoun as it replaces a noun.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1168,7 +1168,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'The',
         'No article'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation: '"An" is used before words starting with a vowel sound.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1182,7 +1182,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Eating',
         'Eats'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 2,
       explanation: '"Eaten" is the past participle form of "eat".',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1196,7 +1196,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Small',
         'Little'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 2,
       explanation: '"Huge" is a synonym for "enormous".',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-vocab',
@@ -1210,7 +1210,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Verb + Subject + Object',
         'Subject + Object + Verb'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: 'The standard English sentence structure is Subject + Verb + Object.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1224,7 +1224,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Very old',
         'Very new'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation: 'Ephemeral means lasting for a very short time.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-vocab',
@@ -1238,7 +1238,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'rite',
         'wright'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation: '"Write" means to put words on paper.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-vocab',
@@ -1252,7 +1252,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Where are you going.',
         'Where are you going!'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 2,
       explanation: 'A question mark is used at the end of a question.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1266,7 +1266,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Personification',
         'Hyperbole'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 1,
       explanation: 'Personification gives human qualities to non-human things.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-literature',
@@ -1280,7 +1280,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'best',
         'well'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 0,
       explanation: '"Better" is the comparative form of "good".',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1322,7 +1322,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'herd',
         'flock'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation: '"Pride" is the collective noun for lions.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-vocab',
@@ -1336,7 +1336,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Worse',
         'Worst'
       ],
-      correctAnswerIndex: 3,
+      correctAnswerIndex: 2,
       explanation: '"Worst" is the superlative form of "bad".',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1350,7 +1350,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Hospital',
         'Market'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: 'A library stores books, just as a museum stores paintings.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-vocab',
@@ -1364,7 +1364,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Knife',
         'Run'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 0,
       explanation: 'The "k" in "knife" is silent.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-vocab',
@@ -1378,7 +1378,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'or',
         'so'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 0,
       explanation: '"And" is used to connect similar ideas.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-grammar',
@@ -1392,7 +1392,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'Angry',
         'Tired'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation: 'Gregarious means fond of company and sociable.',
       subjectName: SubjectName.LANG1,
       topicId: 'lang1-vocab',
@@ -1421,7 +1421,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'वह स्कूल जाता हूँ',
         'वह स्कूल जाता हो'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation: 'सही वाक्य "वह स्कूल जाता है" है।',
       subjectName: SubjectName.LANG2,
       topicId: 'lang2-grammar',
@@ -1435,7 +1435,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'लड़कियों',
         'लड़कें'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: '"लड़का" का बहुवचन "लड़के" है।',
       subjectName: SubjectName.LANG2,
       topicId: 'lang2-grammar',
@@ -1463,7 +1463,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'कूदती',
         'लोमड़ी'
       ],
-      correctAnswerIndex: 3,
+      correctAnswerIndex: 1,
       explanation: '"लोमड़ी" एक संज्ञा है क्योंकि यह व्यक्ति, स्थान, वस्तु या विचार का नाम है।',
       subjectName: SubjectName.LANG2,
       topicId: 'lang2-grammar',
@@ -1477,7 +1477,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'पीए',
         'दौड़े'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: 'पूर्ण लोकोक्ति "जल्दी सोए जल्दी उठे" है।',
       subjectName: SubjectName.LANG2,
       topicId: 'lang2-vocab',
@@ -1491,7 +1491,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'से',
         'को'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 3,
       explanation: '"पर" का प्रयोग तब होता है जब कोई वस्तु सतह पर रखी हो।',
       subjectName: SubjectName.LANG2,
       topicId: 'lang2-grammar',
@@ -1505,7 +1505,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'क्रियाविशेषण',
         'विशेषण'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 1,
       explanation: '"तेजी से" एक क्रियाविशेषण है क्योंकि यह क्रिया, विशेषण या अन्य क्रियाविशेषण को संशोधित करता है।',
       subjectName: SubjectName.LANG2,
       topicId: 'lang2-grammar',
@@ -1519,7 +1519,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'प्राप्त',
         'प्राप्त'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: 'सही वर्तनी "प्राप्त" है।',
       subjectName: SubjectName.LANG2,
       topicId: 'lang2-vocab',
@@ -1533,7 +1533,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'शिक्षक',
         'हैं'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 1,
       explanation: 'कर्ता "शिक्षक" है क्योंकि वह क्रिया करता है।',
       subjectName: SubjectName.LANG2,
       topicId: 'lang2-grammar',
@@ -1547,7 +1547,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'बहुत छोटा',
         'बहुत बड़ा'
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 2,
       explanation: 'सर्वव्यापी का अर्थ है सर्वत्र उपस्थित।',
       subjectName: SubjectName.LANG2,
       topicId: 'lang2-vocab',
@@ -1561,7 +1561,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'जाएगा',
         'जा रहा'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: '"गया" "जाना" की सही भूतकाल रूप है।',
       subjectName: SubjectName.LANG2,
       topicId: 'lang2-grammar',
@@ -1575,7 +1575,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'वह',
         'सुंदर'
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 3,
       explanation: '"वह" एक सर्वनाम है क्योंकि यह संज्ञा की जगह लेता है।',
       subjectName: SubjectName.LANG2,
       topicId: 'lang2-grammar',
@@ -1589,7 +1589,7 @@ export const QUESTION_PAPER_SED_24_I: QuestionPaper = {
         'सियार',
         'तोते'
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       explanation: 'पूर्ण मुहावरा "एक साथ कई हाथी" है।',
       subjectName: SubjectName.LANG2,
       topicId: 'lang2-vocab',
