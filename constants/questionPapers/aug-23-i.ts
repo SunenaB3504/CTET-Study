@@ -447,8 +447,8 @@ export const QUESTION_PAPER_AUG_23_I: QuestionPaper = {
         "28 cm",
         "32 cm"
       ],
-      correctAnswerIndex: 2,
-      explanation: "The correct answer is: 28 cm. Area = length × width = 24, so 8 × width = 24, width = 3. Perimeter = 2 × (length + width) = 2 × (8 + 3) = 22 cm. Wait, let me recalculate: 2 × (8 + 3) = 2 × 11 = 22 cm. The question seems to have an error in the expected answer.",
+      correctAnswerIndex: 0,
+      explanation: "The correct answer is: 22 cm. Area = length × width = 24, so 8 × width = 24, width = 3. Perimeter = 2 × (length + width) = 2 × (8 + 3) = 22 cm.",
       subjectName: SubjectName.MATH,
       topicId: "math2",
       subTopicId: "math2-geometry",
@@ -485,12 +485,12 @@ export const QUESTION_PAPER_AUG_23_I: QuestionPaper = {
       question: "What is the value of 4/3 + 2/1?",
       options: [
         "1",
-        "4/5",
+        "10/3",
         "6/4",
         "3/2"
       ],
       correctAnswerIndex: 1,
-      explanation: "The correct answer is: 4/5. 4/3 + 2/1 = 4/3 + 6/3 = 10/3. Wait, let me check the calculation again. 2/1 = 6/3, so 4/3 + 6/3 = 10/3. But the expected answer is 4/5. There might be an error in the original question.",
+      explanation: "The correct answer is: 10/3. 4/3 + 2/1 = 4/3 + 6/3 = 10/3.",
       subjectName: SubjectName.MATH,
       topicId: "math1",
       subTopicId: "math1-fractions",
@@ -1203,8 +1203,8 @@ export const QUESTION_PAPER_AUG_23_I: QuestionPaper = {
         "To prevent floods",
         "All of the above"
       ],
-      correctAnswerIndex: 1,
-      explanation: "The correct answer is: To store water. While dams serve multiple purposes, their primary function is water storage.",
+      correctAnswerIndex: 3,
+      explanation: "The correct answer is: All of the above. Dams serve multiple purposes including water storage, electricity generation, and flood prevention.",
       subjectName: SubjectName.EVS,
       topicId: "evs3",
       subTopicId: "evs3-water",
@@ -1245,8 +1245,8 @@ export const QUESTION_PAPER_AUG_23_I: QuestionPaper = {
         "Noise pollution",
         "Land pollution"
       ],
-      correctAnswerIndex: 1,
-      explanation: "The correct answer is: Air pollution. Air pollution is widespread and affects most urban areas globally.",
+      correctAnswerIndex: 0,
+      explanation: "The correct answer is: Water pollution. Water pollution affects more people globally and is often considered the most common form of pollution.",
       subjectName: SubjectName.EVS,
       topicId: "evs5",
       subTopicId: "evs5-pollution",
