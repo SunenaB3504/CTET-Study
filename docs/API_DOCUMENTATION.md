@@ -209,12 +209,13 @@ interface TTSControlsProps {
 
 ### State Management
 
-The app uses React's built-in state management with `useState` hooks. State is managed at the App component level and passed down through props.
+The app uses React's built-in state management with `useState` hooks. State is managed at the App component level and passed down through props. User preferences and session progress can be optionally stored in localStorage for persistence across browser sessions.
 
 ### Data Sources
 
 - **Static Data**: Subject content, topics, and questions are stored in `/constants/` directory
-- **User Data**: Test results and progress are stored in component state (can be extended to localStorage/persistence)
+- **User Data**: Test results and progress are stored in component state and optionally in localStorage
+- **Client-Side Processing**: All analytics and personalization logic runs client-side without backend dependencies
 
 ## Error Handling
 
@@ -234,28 +235,46 @@ Components include error handling for:
 
 ## Performance Considerations
 
-### Code Splitting
+### Static Hosting Optimization
 
 - Components are imported dynamically where appropriate
-- Large data files are split by subject
+- Large data files are split by subject for efficient loading
+- CDN-ready build outputs for global distribution
+- No server-side processing or database queries
 
-### Memory Management
+### Client-Side Performance
 
 - Event listeners are properly cleaned up
 - Timers are cleared on component unmount
 - Large text content is processed efficiently
+- LocalStorage operations are optimized for performance
+
+### Bundle Optimization
+
+- Tree-shaking removes unused code
+- Code splitting by routes and features
+- Compressed assets for faster loading
+- Minimal runtime dependencies
 
 ## Future Extensions
 
-### API Integration Points
+### Client-Side Enhancements
 
-- Results persistence
-- User authentication
-- Progress tracking
-- Content updates
+- Enhanced localStorage management for user preferences
+- Advanced rule-based adaptive learning algorithms
+- Offline content synchronization capabilities
+- Cross-device preference syncing (same browser/device)
 
-### Data Validation
+### Content Expansion
 
-- Input sanitization
-- Schema validation for imported data
-- Error recovery mechanisms
+- Additional question papers and study materials
+- Multimedia content integration (videos, interactive diagrams)
+- Multi-language support for regional users
+- Content update mechanisms through app refreshes
+
+### Performance Optimizations
+
+- Progressive Web App (PWA) features for better mobile experience
+- Advanced caching strategies for faster loading
+- Bundle optimization for reduced file sizes
+- Service worker implementation for offline functionality

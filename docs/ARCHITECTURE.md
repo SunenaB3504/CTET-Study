@@ -2,13 +2,30 @@
 
 ## System Overview
 
-The CTET Study App is a comprehensive web-based learning platform designed to help aspiring teachers prepare for the Central Teacher Eligibility Test (CTET) in India. Built with modern web technologies, it provides an interactive and accessible study experience.
+The CTET Study App is a comprehensive web-based learning platform designed to help aspiring teachers prepare for the Central Teacher Eligibility Test (CTET) in India. Built with modern web technologies, it provides an interactive and accessible study experience with public access and client-side adaptive learning capabilities.
 
 ## Technology Stack
 
 ### Frontend Framework
 
-- **React 19.1.1**: Latest React with concurrent features and automatic batching
+- **React 19.1.1**: Latest React with concurrent fe### Future Enhancements
+
+#### Potential Extensions
+
+1. **Enhanced PWA Features**: Advanced offline capabilities and push notifications
+2. **Voice Integration**: Text-to-speech and voice commands for accessibility
+3. **Multi-language Support**: Additional Indian languages for regional users
+4. **Content Expansion**: More question papers and study materials
+5. **Performance Analytics**: Aggregate usage statistics for content improvement
+6. **Mobile App**: Native mobile applications for iOS and Android
+
+#### Technical Debt Prevention
+
+- **Bundle Size**: Monitor and optimize bundle size for mobile performance
+- **Performance Monitoring**: Add performance metrics for user experience
+- **Error Tracking**: Implement client-side error reporting
+- **Testing Coverage**: Expand test coverage for new features
+- **Documentation**: Keep architecture documentation current with changesc batching
 - **TypeScript 5.8.2**: Strict type checking for better code quality and developer experience
 - **Vite 6.2.0**: Fast build tool with HMR (Hot Module Replacement)
 
@@ -220,7 +237,7 @@ constants/
 ```mermaid
 graph TD
     A[User Interaction] --> B[Component State Update]
-    B --> C[Data Processing]
+    B --> C[Client-Side Processing]
     C --> D[UI Rendering]
 
     E[Static Data Files] --> F[Build-time Import]
@@ -234,8 +251,9 @@ graph TD
     M[TypeScript Types] --> N[Compile-time Validation]
     N --> O[Runtime Type Safety]
 
-    P[User Progress] --> Q[Local State Management]
+    P[User Progress] --> Q[Local Storage Management]
     Q --> R[Session Persistence]
+    R --> S[Client-Side Analytics]
 ```
 
 **Data Flow Explanation:**
@@ -244,41 +262,54 @@ graph TD
 2. **Modular Organization**: Individual question papers stored in separate files for maintainability
 3. **Centralized Access**: Index file provides unified access to all question papers
 4. **Type Safety**: TypeScript interfaces ensure data structure consistency
-5. **State Management**: Component-level state for user interactions and progress tracking
+5. **Client-Side State**: User preferences and progress stored locally without backend
+6. **Session Analytics**: Performance tracking and recommendations processed client-side
 
 ## Key Design Decisions
 
-### 1. Component-Based Architecture
+### 1. Public Access Architecture
+
+- **Decision**: No login requirements, fully accessible to all users
+- **Benefits**: Maximum accessibility, zero barriers to entry, educational equity
+- **Implementation**: Client-side storage for preferences, session-based progress tracking
+
+### 2. Client-Side Adaptive Learning
+
+- **Decision**: Rule-based personalization without user accounts or backend data storage
+- **Benefits**: Privacy-focused, works offline, no server dependencies
+- **Implementation**: Local storage for user preferences, session-based analytics
+
+### 3. Component-Based Architecture
 
 - **Decision**: Modular React components for maintainability
 - **Benefits**: Reusable, testable, and scalable
 - **Implementation**: Each feature is a separate component with clear responsibilities
 
-### 2. TypeScript with Strict Mode
+### 4. TypeScript with Strict Mode
 
 - **Decision**: Full TypeScript implementation with strict type checking
 - **Benefits**: Compile-time error detection, better IDE support, self-documenting code
 - **Implementation**: Comprehensive interfaces and enums for all data structures
 
-### 3. Modular Data Architecture
+### 5. Modular Data Architecture
 
 - **Decision**: Split monolithic question papers into individual files with centralized exports
 - **Benefits**: Improved maintainability, easier collaboration, scalable content addition
 - **Implementation**: Each question paper in separate file with index-based access pattern
 
-### 4. Static Data Approach
+### 6. Static Data Approach
 
 - **Decision**: Pre-built content instead of dynamic API loading
 - **Benefits**: Fast loading, offline capability, reduced complexity
 - **Implementation**: Large JSON-like data structures in TypeScript files
 
-### 5. Responsive Design
+### 7. Responsive Design
 
 - **Decision**: Mobile-first responsive design
 - **Benefits**: Works on all devices, better user experience
 - **Implementation**: Tailwind CSS with responsive breakpoints
 
-### 6. Accessibility Features
+### 8. Accessibility Features
 
 - **Decision**: Built-in accessibility support
 - **Benefits**: Inclusive design, legal compliance, better usability
@@ -444,9 +475,17 @@ CTET-Study/
 
 ### Data Security
 
-- **No Sensitive Data**: Static educational content only
-- **Local Storage**: User preferences (if implemented)
-- **API Security**: HTTPS for any future API calls
+- **No Personal Data**: No user accounts or personal information stored
+- **Local Storage**: User preferences and progress (optional, client-side only)
+- **Static Content**: All educational content is public and static
+- **HTTPS**: Secure hosting for all static assets
+
+### Public Access Security
+
+- **No Authentication**: Zero login barriers while maintaining security
+- **Client-Side Processing**: Sensitive operations handled locally
+- **Content Integrity**: Static content prevents data tampering
+- **Privacy by Design**: No tracking or data collection by default
 
 ## Scalability Considerations
 
@@ -463,6 +502,13 @@ CTET-Study/
 - **Performance**: Only load required content, efficient data structures
 - **Maintainability**: Easy to add 1500+ questions across multiple papers
 
+### User Scalability
+
+- **No Backend**: No server-side user management or database scaling
+- **Static Hosting**: Can handle millions of users through CDN
+- **Client-Side Processing**: User load distributed across client devices
+- **Offline Capability**: Works without internet connectivity
+
 ## Deployment Architecture
 
 ### Development Environment
@@ -475,7 +521,15 @@ CTET-Study/
 
 - **Static Assets**: Optimized bundle generation
 - **CDN Ready**: Can be served from any static hosting
-- **Progressive Web App**: Can be enhanced with PWA features
+- **Progressive Web App**: Enhanced with PWA features for offline access
+- **Public Access**: No authentication or user management required
+
+### Hosting Options
+
+- **Static Hosting**: Netlify, Vercel, GitHub Pages, or any CDN
+- **No Backend Required**: Pure static site deployment
+- **Global Distribution**: CDN ensures fast access worldwide
+- **Cost Effective**: Minimal hosting costs for static content
 
 ## Future Enhancements
 

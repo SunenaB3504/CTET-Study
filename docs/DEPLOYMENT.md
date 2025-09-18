@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide provides instructions for deploying the CTET Study App to various hosting platforms. The app is built as a static React application using Vite, making it suitable for deployment to any static hosting service.
+This guide provides instructions for deploying the CTET Study App to various hosting platforms. The app is built as a static React application using Vite, making it ideal for public access without login requirements. The static nature ensures maximum accessibility and minimal hosting costs.
 
 ## Prerequisites
 
@@ -201,9 +201,10 @@ server {
 Create `.env.production` file:
 
 ```bash
-# No API keys required for current version
-# Add any future environment variables here
+# No API keys or backend configuration required
+# App runs entirely client-side with static content
 NODE_ENV=production
+VITE_APP_VERSION=1.0.0
 ```
 
 ### Build-time Configuration
@@ -215,8 +216,13 @@ export default defineConfig(({ mode }) => {
   const isProduction = mode === 'production';
 
   return {
-    // ... existing config
-    base: isProduction ? '/your-repo-name/' : '/', // For GitHub Pages
+    // Static hosting configuration
+    base: isProduction ? './' : '/', // Relative paths for static hosting
+    build: {
+      outDir: 'dist',
+      assetsDir: 'assets',
+      sourcemap: false, // Disable for production
+    },
   };
 });
 ```
@@ -241,11 +247,12 @@ For better performance, serve static assets from a CDN:
 
 ## Security Considerations
 
-### HTTPS Configuration
+### Public Access Security
 
-- Enable HTTPS on your hosting platform
-- Redirect HTTP to HTTPS
-- Use security headers (CSP, HSTS, etc.)
+- **No User Authentication**: Zero login barriers while maintaining security
+- **Static Content**: All educational content is public and immutable
+- **Client-Side Processing**: No server-side data processing or storage
+- **HTTPS Configuration**: Enable HTTPS for secure content delivery
 
 ### Content Security Policy
 
@@ -258,31 +265,54 @@ Add to `index.html`:
 />
 ```
 
+### Data Privacy
+
+- **No Personal Data Collection**: App works entirely client-side
+- **Local Storage Only**: Optional user preferences stored locally
+- **No Tracking**: No analytics or user behavior tracking by default
+
 ## Monitoring and Analytics
 
-### Performance Monitoring
+### Client-Side Performance Monitoring
 
 ```javascript
 // Add to index.html for performance monitoring
 <script>
-  // Performance observer
+  // Performance observer for client-side metrics
   const observer = new PerformanceObserver((list) => {
     for (const entry of list.getEntries()) {
-      // Log performance metrics
-      console.log(entry);
+      // Log performance metrics (client-side only)
+      console.log('Performance:', entry.name, entry.duration + 'ms');
     }
   });
-  observer.observe({ entryTypes: ['navigation', 'resource'] });
+  observer.observe({ entryTypes: ['navigation', 'resource', 'paint'] });
 </script>
 ```
 
+### Usage Analytics (Optional)
+
+For basic usage insights, consider adding client-side analytics:
+
+- **Privacy-Focused**: Only track aggregate usage patterns
+- **No Personal Data**: Anonymous usage statistics only
+- **Client-Side Processing**: All analytics processed locally
+
 ### Error Tracking
 
-Consider adding error tracking services:
+Client-side error monitoring:
 
-- Sentry for error monitoring
-- LogRocket for session replay
-- Google Analytics for usage analytics
+```javascript
+// Basic error tracking
+window.addEventListener('error', (event) => {
+  console.error('Client Error:', {
+    message: event.message,
+    filename: event.filename,
+    lineno: event.lineno,
+    colno: event.colno,
+    timestamp: new Date().toISOString(),
+  });
+});
+```
 
 ## Troubleshooting
 

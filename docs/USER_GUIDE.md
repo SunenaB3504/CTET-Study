@@ -8,9 +8,10 @@ This comprehensive guide will help you make the most of your CTET preparation ex
 
 ### First Time Setup
 
-1. **Open the App**: Navigate to the app URL in your web browser
-2. **Choose Your Subject**: Select from the five main CTET subjects in the sidebar
-3. **Start Learning**: Click on any topic to begin your study session
+1. **Open the App**: Navigate to the app URL in your web browser (no login required)
+2. **Choose Your Experience Level**: Select from Fresh Teacher, Experienced Teacher, or Subject Specialist
+3. **Select Your Subject**: Choose from the five main CTET subjects in the sidebar
+4. **Start Learning**: Click on any topic to begin your study session
 
 ### System Requirements
 
@@ -18,6 +19,7 @@ This comprehensive guide will help you make the most of your CTET preparation ex
 - **Internet**: Not required (works offline)
 - **Device**: Desktop, tablet, or mobile device
 - **Audio**: Speakers/headphones for text-to-speech feature
+- **Storage**: Local browser storage for preferences (optional)
 
 ## Navigation Guide
 
@@ -32,8 +34,9 @@ This comprehensive guide will help you make the most of your CTET preparation ex
 
 #### Header
 
-- Personalized welcome message
+- Welcome message and app information
 - Theme toggle (light/dark mode)
+- Experience level selector
 
 #### Main Content Area
 
@@ -111,15 +114,16 @@ Your results page shows:
 
 Access this feature from the sidebar to see:
 
-- **Syllabus Coverage**: Which topics you've studied
+- **Syllabus Coverage**: Which topics you've studied in your current session
 - **Question Availability**: How many practice questions are available
 - **Content Status**: Detailed, Basic, or Not Available for each subtopic
 
 ### Study Progress
 
-- **Topic Completion**: Mark topics as completed
-- **Question Attempts**: Track your quiz performance
-- **Time Spent**: Monitor study session duration
+- **Session Tracking**: Track your current study session progress
+- **Question Attempts**: Monitor quiz performance in current session
+- **Time Spent**: Monitor current study session duration
+- **Local Storage**: Optional saving of preferences between sessions
 
 ## Accessibility Features
 
@@ -171,17 +175,25 @@ Access this feature from the sidebar to see:
 
 ## Advanced Features
 
+### Adaptive Learning
+
+- **Smart Recommendations**: Questions and topics recommended based on your selected experience level and performance
+- **Difficulty Adjustment**: Question difficulty adapts based on your success rate (rule-based algorithm)
+- **Performance Tracking**: Session-based analytics to identify strengths and weaknesses
+- **Personalized Study Plans**: Suggested study paths based on your goals and current level
+
 ### Contextual Learning
 
 - **Smart Links**: During tests, get quick access to study materials
 - **Related Topics**: See connections between different subjects
-- **Progressive Difficulty**: Questions adapt to your performance level
+- **Rule-Based Adaptation**: Content recommendations based on your selected profile and performance patterns
 
 ### Offline Capability
 
 - **No Internet Required**: All content works offline
-- **Local Storage**: Your progress is saved locally
-- **Sync Ready**: Prepared for future cloud synchronization
+- **Local Storage**: Your preferences and session progress saved locally (optional)
+- **Full Functionality**: Complete study experience without connectivity
+- **Cross-Device**: Access your local preferences on the same device and browser
 
 ## Troubleshooting
 
@@ -264,9 +276,10 @@ Access this feature from the sidebar to see:
 
 ### Data Management
 
-- **Local Storage**: Your progress is saved locally on your device
-- **Backup**: Consider noting down important progress manually
-- **Privacy**: All data stays on your device - no cloud storage required
+- **Local Storage**: Your preferences are saved locally on your device (optional)
+- **Session-Based**: Progress tracking is per session by default
+- **Privacy**: All data stays on your device - no cloud storage or tracking
+- **Device-Specific**: Preferences are stored per device/browser combination
 
 ## Success Tips
 

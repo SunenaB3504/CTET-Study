@@ -8,6 +8,9 @@ import MockTest from './components/MockTest';
 import MockTestSelection from './components/MockTestSelection';
 import ReadinessTracker from './components/ReadinessTracker';
 import SampleQuestions from './components/SampleQuestions';
+import GapAnalysisDashboard from './components/GapAnalysisDashboard';
+import QualityAssessmentDashboard from './components/QualityAssessmentDashboard';
+import ExperienceLevelSelection from './components/ExperienceLevelSelection';
 import { SUBJECT_DATA } from './constants/data';
 import { QUESTION_PAPERS_DATA } from './constants/questionPapers';
 import { SYLLABUS_DATA } from './constants/syllabus';
@@ -113,6 +116,27 @@ const App: React.FC = () => {
     setCurrentContextualTopic(null);
   };
 
+  const handleShowGapAnalysis = () => {
+    setCurrentView(View.GAP_ANALYSIS_DASHBOARD);
+    setSelectedSubject(null);
+    setSelectedTopic(null);
+    setCurrentContextualTopic(null);
+  };
+
+  const handleShowQualityAssessment = () => {
+    setCurrentView(View.QUALITY_ASSESSMENT_DASHBOARD);
+    setSelectedSubject(null);
+    setSelectedTopic(null);
+    setCurrentContextualTopic(null);
+  };
+
+  const handleShowExperienceLevelSelection = () => {
+    setCurrentView(View.EXPERIENCE_LEVEL_SELECTION);
+    setSelectedSubject(null);
+    setSelectedTopic(null);
+    setCurrentContextualTopic(null);
+  };
+
   const renderContent = () => {
     switch (currentView) {
       case View.DASHBOARD:
@@ -171,6 +195,48 @@ const App: React.FC = () => {
             onBack={handleBackToDashboard}
           />
         );
+      case View.GAP_ANALYSIS_DASHBOARD:
+        return (
+          <GapAnalysisDashboard
+            existingQuestions={[
+              ...QUESTION_PAPERS_DATA.flatMap(p => p.questions),
+              ...SUBJECT_DATA.flatMap(s => s.topics.flatMap(t => t.practiceQuestions)),
+            ]}
+            onGapSelected={(gap) => {
+              // Handle gap selection - could navigate to content creation
+              console.log('Gap selected:', gap);
+            }}
+          />
+        );
+      case View.QUALITY_ASSESSMENT_DASHBOARD:
+        return (
+          <QualityAssessmentDashboard
+            questions={[
+              ...QUESTION_PAPERS_DATA.flatMap(p => p.questions),
+              ...SUBJECT_DATA.flatMap(s => s.topics.flatMap(t => t.practiceQuestions)),
+            ]}
+            onQualityIssueClick={(issue) => {
+              // Handle quality issue selection
+              console.log('Quality issue selected:', issue);
+            }}
+          />
+        );
+      case View.EXPERIENCE_LEVEL_SELECTION:
+        return (
+          <ExperienceLevelSelection
+            onLevelSelected={(level) => {
+              console.log('Experience level selected:', level);
+              // Could navigate to dashboard or show personalized content
+            }}
+            onComplete={() => {
+              // Navigate back to dashboard after setup
+              setCurrentView(View.DASHBOARD);
+              if (!selectedSubject) {
+                setSelectedSubject(SUBJECT_DATA[0]);
+              }
+            }}
+          />
+        );
       default:
         return selectedSubject ? (
           <Dashboard
@@ -191,6 +257,9 @@ const App: React.FC = () => {
         onStartMockTest={handleStartMockTest}
         onShowReadinessTracker={handleShowReadinessTracker}
         onShowSampleQuestions={handleShowSampleQuestions}
+        onShowGapAnalysis={handleShowGapAnalysis}
+        onShowQualityAssessment={handleShowQualityAssessment}
+        onShowExperienceLevelSelection={handleShowExperienceLevelSelection}
         selectedSubjectName={selectedSubject?.name}
         contextualTopic={currentContextualTopic}
         onSelectTopicById={handleSelectTopicById}

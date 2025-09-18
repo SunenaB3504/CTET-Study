@@ -1,13 +1,16 @@
 import React from 'react';
 import { Subject, SubjectName, ContextualTopic } from '../types';
 import { SUBJECT_DATA } from '../constants/data';
-import { PencilSquareIcon, BookOpenIcon, ChartBarIcon } from '@heroicons/react/24/solid';
+import { PencilSquareIcon, BookOpenIcon, ChartBarIcon, MagnifyingGlassIcon, CheckCircleIcon, UserIcon } from '@heroicons/react/24/solid';
 
 interface SidebarProps {
   onSelectSubject: (subject: Subject) => void;
   onStartMockTest: () => void;
   onShowReadinessTracker: () => void;
   onShowSampleQuestions: () => void;
+  onShowGapAnalysis: () => void;
+  onShowQualityAssessment: () => void;
+  onShowExperienceLevelSelection: () => void;
   selectedSubjectName?: SubjectName;
   contextualTopic: ContextualTopic | null;
   onSelectTopicById: (subjectName: SubjectName, topicId: string) => void;
@@ -18,6 +21,9 @@ const Sidebar: React.FC<SidebarProps> = ({
   onStartMockTest,
   onShowReadinessTracker,
   onShowSampleQuestions,
+  onShowGapAnalysis,
+  onShowQualityAssessment,
+  onShowExperienceLevelSelection,
   selectedSubjectName,
   contextualTopic,
   onSelectTopicById,
@@ -93,6 +99,27 @@ const Sidebar: React.FC<SidebarProps> = ({
           >
             <ChartBarIcon className="h-6 w-6 mr-3 text-gray-500" />
             <span>Content Readiness</span>
+          </button>
+          <button
+            onClick={onShowGapAnalysis}
+            className="w-full flex items-center px-6 py-3 text-left text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors duration-200"
+          >
+            <MagnifyingGlassIcon className="h-6 w-6 mr-3 text-gray-500" />
+            <span>Gap Analysis</span>
+          </button>
+          <button
+            onClick={onShowQualityAssessment}
+            className="w-full flex items-center px-6 py-3 text-left text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors duration-200"
+          >
+            <CheckCircleIcon className="h-6 w-6 mr-3 text-gray-500" />
+            <span>Quality Assessment</span>
+          </button>
+          <button
+            onClick={onShowExperienceLevelSelection}
+            className="w-full flex items-center px-6 py-3 text-left text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors duration-200"
+          >
+            <UserIcon className="h-6 w-6 mr-3 text-gray-500" />
+            <span>Experience Level</span>
           </button>
         </nav>
       </div>
