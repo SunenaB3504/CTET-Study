@@ -1,10 +1,10 @@
 # CTET Study App - Dec-24 Question Processing Prompt
 
 ## 🎯 **Objective**
-Process `SQP\Dec-24.txt` to create a new set of questions and answers following all project documentation standards and quality requirements.
+Process `SQP\Dec-24 - done.txt` to create a new set of questions and answers following all project documentation standards and quality requirements.
 
 ## 📋 **Input File Details**
-- **File**: `SQP\Dec-24.txt`
+- **File**: `SQP\Dec-24 - done.txt`
 - **Format**: CTET DEC 2024 Question Paper with Answer Key (Set K)
 - **Structure**: Questions organized by parts (CDP, Mathematics, EVS, Languages)
 - **Expected Questions**: 150 total questions
@@ -14,7 +14,7 @@ Process `SQP\Dec-24.txt` to create a new set of questions and answers following 
 ## 🔄 **Execution Workflow**
 
 ### **Phase 1: Analysis and Planning**
-1. **File Analysis**: Examine `SQP\Dec-24.txt` structure and content
+1. **File Analysis**: Examine `SQP\Dec-24 - done.txt` structure and content
 2. **Format Assessment**: Determine question format and parsing requirements
 3. **Documentation Review**: Verify all docs/ folder requirements
 4. **Planning**: Create detailed implementation plan
@@ -146,7 +146,7 @@ interface MCQ {
 ## 🚀 **Execution Instructions**
 
 ### **Pre-Execution Requirements**
-1. Verify `SQP\Dec-24.txt` exists and is accessible
+1. Verify `SQP\Dec-24 - done.txt` exists and is accessible
 2. Confirm all docs/ folder documentation is current
 3. Ensure PROJECT_PLAN.md is properly initialized
 4. Validate development environment setup
