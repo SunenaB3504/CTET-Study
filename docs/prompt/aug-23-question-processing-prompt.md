@@ -1,0 +1,211 @@
+# CTET Study App - Aug-23 Question Processing Prompt
+
+## 🎯 **Objective**
+Process `SQP\Aug-23.txt` to create a new set of questions and answers following all project documentation standards and quality requirements.
+
+## 📋 **Input File Details**
+- **File**: `SQP\Aug-23.txt`
+- **Format**: CTET AUG 2023 Question Paper with Answer Key
+- **Structure**: Questions organized by parts (CDP, Mathematics, EVS, Languages)
+- **Expected Questions**: 150 total questions
+
+## 🔄 **Execution Workflow**
+
+### **Phase 1: Analysis and Planning**
+1. **File Analysis**: Examine `SQP\Aug-23.txt` structure and content
+2. **Format Assessment**: Determine question format and parsing requirements
+3. **Documentation Review**: Verify all docs/ folder requirements
+4. **Planning**: Create detailed implementation plan
+5. **PROJECT_PLAN.md Update**: Initialize tracking for Aug-23 processing
+
+### **Phase 2: Question Processing**
+1. **Parse Questions**: Extract all 150 questions from Aug-23.txt
+2. **Data Extraction**: Capture question text, options (A/B/C/D), and correct answers
+3. **Subject Classification**: Map questions to CDP, MATH, EVS, LANG1, LANG2
+4. **Topic Mapping**: Assign appropriate topics and subtopics based on content
+5. **Data Validation**: Ensure data integrity throughout processing
+
+### **Phase 3: Code Generation**
+1. **TypeScript File Creation**: Generate `constants/questionPapers/aug-23-i.ts`
+2. **Interface Compliance**: Ensure full adherence to QuestionPaper and MCQ interfaces
+3. **Import/Export Setup**: Properly integrate with existing questionPapers/index.ts
+4. **Type Safety**: Verify all TypeScript requirements are met
+
+### **Phase 4: Quality Assurance**
+1. **Documentation Adherence Check**: Verify compliance with all docs/ standards
+2. **DOM Purify Processing**: Sanitize all content for security
+3. **JSON Format Validation**: Ensure strict adherence to JSON standards
+4. **TypeScript Compilation**: Confirm zero compilation errors
+5. **Integration Testing**: Verify seamless integration with existing codebase
+
+## 📚 **Documentation Requirements**
+
+### **Core Documentation References**
+- `docs/CODING_STANDARDS.md` - Code formatting and structure guidelines
+- `docs/IMPLEMENTATION_GUIDE.md` - Implementation patterns and best practices
+- `docs/QUALITY_ASSURANCE.md` - Quality standards and testing procedures
+- `docs/PDF_PROCESSING_GUIDE.md` - Data processing guidelines
+- `docs/TYPES.md` - TypeScript interface definitions
+
+### **Key Standards to Follow**
+1. **TypeScript Standards**: Strict typing, interface compliance, proper imports
+2. **Code Organization**: Modular structure, clear separation of concerns
+3. **Error Handling**: Comprehensive error management and validation
+4. **Performance**: Efficient processing and memory management
+5. **Security**: Content sanitization and validation
+
+## 🛠️ **Technical Specifications**
+
+### **Question Paper Structure**
+```typescript
+interface QuestionPaper {
+  id: string;              // 'aug-23-i'
+  name: string;            // 'CTET Paper - Aug 2023'
+  description: string;     // Descriptive text
+  questions: MCQ[];        // Array of 150 questions
+}
+```
+
+### **MCQ Structure**
+```typescript
+interface MCQ {
+  question: string;           // Question text
+  options: string[];          // 4 options as array
+  correctAnswerIndex: number; // 0-based index (0-3)
+  explanation: string;        // Answer explanation
+  subjectName: SubjectName;   // CDP, MATH, EVS, LANG1, LANG2
+  topicId: string;           // Topic identifier
+  subTopicId: string;        // Subtopic identifier
+}
+```
+
+### **Subject Classification**
+- **CDP**: Child Development & Pedagogy (Questions 1-30)
+- **MATH**: Mathematics (Questions 31-60)
+- **EVS**: Environmental Studies (Questions 61-90)
+- **LANG1**: Language I (English) (Questions 91-120)
+- **LANG2**: Language II (Hindi) (Questions 121-150)
+
+## 🔍 **Quality Assurance Checklist**
+
+### **Phase 1 Checklist**
+- [ ] File structure analysis completed
+- [ ] Question format identified
+- [ ] Documentation requirements reviewed
+- [ ] PROJECT_PLAN.md initialized
+
+### **Phase 2 Checklist**
+- [ ] All 150 questions parsed successfully
+- [ ] Question text, options, and answers extracted
+- [ ] Subject classification completed
+- [ ] Topic and subtopic mapping verified
+- [ ] Data integrity validated
+
+### **Phase 3 Checklist**
+- [ ] TypeScript file created: `constants/questionPapers/aug-23-i.ts`
+- [ ] Interface compliance verified
+- [ ] Import/export structure correct
+- [ ] Type safety confirmed
+
+### **Phase 4 Checklist**
+- [ ] Documentation adherence verified
+- [ ] DOM Purify processing completed
+- [ ] JSON format validation passed
+- [ ] TypeScript compilation successful
+- [ ] Integration testing completed
+
+## 📊 **Success Criteria**
+
+### **Functional Requirements**
+- [ ] 150 questions successfully processed from Aug-23.txt
+- [ ] All questions properly classified by subject
+- [ ] TypeScript interfaces fully implemented
+- [ ] No compilation errors
+- [ ] Seamless integration with existing codebase
+
+### **Quality Requirements**
+- [ ] 100% documentation compliance
+- [ ] All content properly sanitized
+- [ ] Strict JSON format adherence
+- [ ] Type safety maintained
+- [ ] Performance standards met
+
+### **Integration Requirements**
+- [ ] Question paper appears in MockTestSelection
+- [ ] SampleQuestions component includes Aug-23 paper
+- [ ] ReadinessTracker includes Aug-23 coverage
+- [ ] All navigation and filtering works correctly
+
+## 🚀 **Execution Instructions**
+
+### **Pre-Execution Requirements**
+1. Verify `SQP\Aug-23.txt` exists and is accessible
+2. Confirm all docs/ folder documentation is current
+3. Ensure PROJECT_PLAN.md is properly initialized
+4. Validate development environment setup
+
+### **Execution Steps**
+1. **Phase 1**: File analysis and planning
+2. **Phase 2**: Question parsing and classification
+3. **Phase 3**: TypeScript code generation
+4. **Phase 4**: Quality assurance and validation
+
+### **Post-Execution Requirements**
+1. Update PROJECT_PLAN.md with completion status
+2. Run final documentation adherence check
+3. Execute DOM Purify processing
+4. Perform JSON format validation
+5. Confirm TypeScript compilation success
+
+## ⚠️ **Error Handling**
+
+### **Common Issues**
+- **File Format Issues**: Verify Aug-23.txt structure matches expected format
+- **Encoding Problems**: Ensure UTF-8 compatibility
+- **Parsing Errors**: Check for inconsistent question formatting
+- **Type Errors**: Validate interface compliance
+- **Integration Issues**: Test component interactions
+
+### **Recovery Procedures**
+- **Data Corruption**: Re-parse from original file
+- **Type Errors**: Review interface definitions and fix compliance
+- **Integration Failures**: Verify import/export structure
+- **Documentation Issues**: Cross-reference with docs/ folder
+
+## 📈 **Progress Tracking**
+
+### **PROJECT_PLAN.md Updates**
+- Update after each phase completion
+- Mark checklist items as completed
+- Record any issues encountered
+- Document resolution steps
+- Final status update upon completion
+
+### **Metrics to Track**
+- Questions processed: 0/150 → 150/150
+- Documentation compliance: Target 100%
+- Type safety: Target 100%
+- Quality checks: Target 100%
+
+## 🎯 **Final Deliverables**
+
+1. **TypeScript File**: `constants/questionPapers/aug-23-i.ts`
+2. **Updated Index**: `constants/questionPapers/index.ts`
+3. **Updated PROJECT_PLAN.md**: Complete progress tracking
+4. **Quality Assurance Report**: All checks passed
+5. **Integration Verification**: All components working
+
+## 🔒 **Security and Compliance**
+
+- **Content Sanitization**: All text content processed through DOM Purify
+- **Data Validation**: Strict JSON format adherence
+- **Type Safety**: Full TypeScript compliance
+- **Documentation Compliance**: All standards followed
+- **Integration Security**: Safe component interactions
+
+---
+
+**Created**: September 17, 2025
+**Status**: Ready for Execution
+**Awaiting**: User Confirmation to Proceed</content>
+<parameter name="filePath">c:\Users\Admin\Summs\CTET-Study\docs\prompt\aug-23-question-processing-prompt.md

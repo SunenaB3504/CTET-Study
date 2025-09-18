@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { QuestionPaper, MCQ, SubjectName } from '../types';
-import { QUESTION_PAPER_SED_24_I } from '../constants/questionPapers/sed-24-i';
+import { QUESTION_PAPERS_DATA } from '../constants/questionPapers';
 
 interface SampleQuestionsProps {
   onBack: () => void;
@@ -8,13 +8,17 @@ interface SampleQuestionsProps {
 
 const SampleQuestions: React.FC<SampleQuestionsProps> = ({ onBack }) => {
   const [selectedSubject, setSelectedSubject] = useState<SubjectName | 'ALL'>('ALL');
+  const [selectedPaper, setSelectedPaper] = useState<string>(QUESTION_PAPERS_DATA[0].id);
   const [currentPage, setCurrentPage] = useState(1);
   const questionsPerPage = 10;
 
+  // Get the selected question paper
+  const currentPaper = QUESTION_PAPERS_DATA.find(paper => paper.id === selectedPaper) || QUESTION_PAPERS_DATA[0];
+
   // Filter questions by subject
   const filteredQuestions = selectedSubject === 'ALL'
-    ? QUESTION_PAPER_SED_24_I.questions
-    : QUESTION_PAPER_SED_24_I.questions.filter(q => q.subjectName === selectedSubject);
+    ? currentPaper.questions
+    : currentPaper.questions.filter(q => q.subjectName === selectedSubject);
 
   // Paginate questions
   const totalPages = Math.ceil(filteredQuestions.length / questionsPerPage);
@@ -46,8 +50,29 @@ const SampleQuestions: React.FC<SampleQuestionsProps> = ({ onBack }) => {
 
         <h1 className="text-3xl font-bold text-gray-900 mb-2">Sample Questions</h1>
         <p className="text-gray-600 mb-6">
-          Review questions with answers visible for manual verification against the official key.
+          Review questions with answers visible for manual verification against the official key. Currently viewing: <strong>{currentPaper.name}</strong>
         </p>
+
+        {/* Paper Selection */}
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-2">Select Question Paper:</label>
+          <select
+            value={selectedPaper}
+            onChange={(e) => {
+              setSelectedPaper(e.target.value);
+              setCurrentPage(1);
+              setSelectedSubject('ALL'); // Reset subject filter when changing paper
+            }}
+            title="Select question paper"
+            className="block w-full max-w-xs px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+          >
+            {QUESTION_PAPERS_DATA.map(paper => (
+              <option key={paper.id} value={paper.id}>
+                {paper.name}
+              </option>
+            ))}
+          </select>
+        </div>
 
         {/* Subject Filter */}
         <div className="mb-6">
