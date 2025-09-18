@@ -449,8 +449,8 @@ export const QUESTION_PAPER_DEC_22_I: QuestionPaper = {
         "28 cm",
         "32 cm"
       ],
-      correctAnswerIndex: 2,
-      explanation: "Correct answer is option C",
+      correctAnswerIndex: 0,
+      explanation: "Correct answer is option A",
       subjectName: SubjectName.MATH,
       topicId: "math1",
       subTopicId: "math1-numbers",
@@ -1206,8 +1206,8 @@ export const QUESTION_PAPER_DEC_22_I: QuestionPaper = {
         "To prevent floods",
         "All of the above"
       ],
-      correctAnswerIndex: 1,
-      explanation: "Correct answer is option B",
+      correctAnswerIndex: 3,
+      explanation: "Correct answer is option D",
       subjectName: SubjectName.EVS,
       topicId: "evs1",
       subTopicId: "evs1-environment",
@@ -1248,8 +1248,8 @@ export const QUESTION_PAPER_DEC_22_I: QuestionPaper = {
         "Noise pollution",
         "Land pollution"
       ],
-      correctAnswerIndex: 1,
-      explanation: "Correct answer is option B",
+      correctAnswerIndex: 0,
+      explanation: "Correct answer is option A",
       subjectName: SubjectName.EVS,
       topicId: "evs1",
       subTopicId: "evs1-environment",
