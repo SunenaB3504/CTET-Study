@@ -39,6 +39,9 @@ export enum View {
   GAP_ANALYSIS_DASHBOARD,
   QUALITY_ASSESSMENT_DASHBOARD,
   EXPERIENCE_LEVEL_SELECTION,
+  PROGRESS_DASHBOARD,
+  RECOMMENDATION_DASHBOARD,
+  LEARNING_INSIGHTS,
 }
 
 export interface QuestionPaper {
@@ -211,4 +214,41 @@ export interface AdaptiveContentFilter {
     hard: boolean;
   };
   topicPriorities: Record<string, number>; // topicId -> priority score
+}
+
+export interface QuestionAttempt {
+  questionId: string;
+  selectedAnswer: number;
+  isCorrect: boolean;
+  timeSpent: number; // in seconds
+  topicId: string;
+  subjectName: SubjectName;
+  timestamp: Date;
+  difficulty?: 'easy' | 'medium' | 'hard';
+}
+
+export interface UserProgress {
+  experienceLevel: ExperienceLevel;
+  completedTopics: string[];
+  questionAttempts: QuestionAttempt[];
+  sessionStartTime: Date;
+  currentStreak: number;
+  weakAreas: string[];
+  studyTime: number; // minutes
+  totalQuestionsAnswered: number;
+  totalCorrectAnswers: number;
+  averageAccuracy: number;
+  lastUpdated: Date;
+}
+
+export interface StudySession {
+  id: string;
+  startTime: Date;
+  endTime?: Date;
+  duration: number; // minutes
+  topicsCovered: string[];
+  questionsAttempted: number;
+  correctAnswers: number;
+  experienceLevel: ExperienceLevel;
+  sessionType: 'practice' | 'mock_test' | 'review';
 }

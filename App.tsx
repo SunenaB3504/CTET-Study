@@ -11,6 +11,10 @@ import SampleQuestions from './components/SampleQuestions';
 import GapAnalysisDashboard from './components/GapAnalysisDashboard';
 import QualityAssessmentDashboard from './components/QualityAssessmentDashboard';
 import ExperienceLevelSelection from './components/ExperienceLevelSelection';
+import ProgressDashboard from './components/ProgressDashboard';
+import SessionAnalytics from './components/SessionAnalytics';
+import RecommendationDashboard from './components/RecommendationDashboard';
+import { LearningInsightsDashboard } from './components/LearningInsightsDashboard';
 import { SUBJECT_DATA } from './constants/data';
 import { QUESTION_PAPERS_DATA } from './constants/questionPapers';
 import { SYLLABUS_DATA } from './constants/syllabus';
@@ -137,6 +141,27 @@ const App: React.FC = () => {
     setCurrentContextualTopic(null);
   };
 
+  const handleShowProgressDashboard = () => {
+    setCurrentView(View.PROGRESS_DASHBOARD);
+    setSelectedSubject(null);
+    setSelectedTopic(null);
+    setCurrentContextualTopic(null);
+  };
+
+  const handleShowRecommendationDashboard = () => {
+    setCurrentView(View.RECOMMENDATION_DASHBOARD);
+    setSelectedSubject(null);
+    setSelectedTopic(null);
+    setCurrentContextualTopic(null);
+  };
+
+  const handleShowLearningInsights = () => {
+    setCurrentView(View.LEARNING_INSIGHTS);
+    setSelectedSubject(null);
+    setSelectedTopic(null);
+    setCurrentContextualTopic(null);
+  };
+
   const renderContent = () => {
     switch (currentView) {
       case View.DASHBOARD:
@@ -237,6 +262,49 @@ const App: React.FC = () => {
             }}
           />
         );
+      case View.PROGRESS_DASHBOARD:
+        return (
+          <ProgressDashboard
+            experienceLevel={selectedSubject ? 'intermediate' : 'beginner'} // Default fallback
+            onClose={() => setCurrentView(View.DASHBOARD)}
+          />
+        );
+      case View.RECOMMENDATION_DASHBOARD:
+        return (
+          <RecommendationDashboard
+            experienceLevel={selectedSubject ? 'intermediate' : 'beginner'} // Default fallback
+            onClose={() => setCurrentView(View.DASHBOARD)}
+            onSelectTopic={(subjectName, topicId) => {
+              // Find the subject and topic, then navigate to study module
+              const subject = SUBJECT_DATA.find(s => s.name === subjectName);
+              if (subject) {
+                const topic = subject.topics.find(t => t.id === topicId);
+                if (topic) {
+                  setSelectedSubject(subject);
+                  setSelectedTopic(topic);
+                  setCurrentView(View.STUDY_MODULE);
+                }
+              }
+            }}
+          />
+        );
+      case View.LEARNING_INSIGHTS:
+        return (
+          <LearningInsightsDashboard
+            onNavigateToTopic={(topicId) => {
+              // Find the subject and topic, then navigate to study module
+              for (const subject of SUBJECT_DATA) {
+                const topic = subject.topics.find(t => t.id === topicId);
+                if (topic) {
+                  setSelectedSubject(subject);
+                  setSelectedTopic(topic);
+                  setCurrentView(View.STUDY_MODULE);
+                  break;
+                }
+              }
+            }}
+          />
+        );
       default:
         return selectedSubject ? (
           <Dashboard
@@ -260,6 +328,9 @@ const App: React.FC = () => {
         onShowGapAnalysis={handleShowGapAnalysis}
         onShowQualityAssessment={handleShowQualityAssessment}
         onShowExperienceLevelSelection={handleShowExperienceLevelSelection}
+        onShowProgressDashboard={handleShowProgressDashboard}
+        onShowRecommendationDashboard={handleShowRecommendationDashboard}
+        onShowLearningInsights={handleShowLearningInsights}
         selectedSubjectName={selectedSubject?.name}
         contextualTopic={currentContextualTopic}
         onSelectTopicById={handleSelectTopicById}

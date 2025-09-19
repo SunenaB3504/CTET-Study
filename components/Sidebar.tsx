@@ -1,7 +1,7 @@
 import React from 'react';
 import { Subject, SubjectName, ContextualTopic } from '../types';
 import { SUBJECT_DATA } from '../constants/data';
-import { PencilSquareIcon, BookOpenIcon, ChartBarIcon, MagnifyingGlassIcon, CheckCircleIcon, UserIcon } from '@heroicons/react/24/solid';
+import { PencilSquareIcon, BookOpenIcon, ChartBarIcon, MagnifyingGlassIcon, CheckCircleIcon, UserIcon, TrophyIcon, LightBulbIcon, CpuChipIcon } from '@heroicons/react/24/solid';
 
 interface SidebarProps {
   onSelectSubject: (subject: Subject) => void;
@@ -11,6 +11,9 @@ interface SidebarProps {
   onShowGapAnalysis: () => void;
   onShowQualityAssessment: () => void;
   onShowExperienceLevelSelection: () => void;
+  onShowProgressDashboard: () => void;
+  onShowRecommendationDashboard: () => void;
+  onShowLearningInsights: () => void;
   selectedSubjectName?: SubjectName;
   contextualTopic: ContextualTopic | null;
   onSelectTopicById: (subjectName: SubjectName, topicId: string) => void;
@@ -24,6 +27,9 @@ const Sidebar: React.FC<SidebarProps> = ({
   onShowGapAnalysis,
   onShowQualityAssessment,
   onShowExperienceLevelSelection,
+  onShowProgressDashboard,
+  onShowRecommendationDashboard,
+  onShowLearningInsights,
   selectedSubjectName,
   contextualTopic,
   onSelectTopicById,
@@ -120,6 +126,27 @@ const Sidebar: React.FC<SidebarProps> = ({
           >
             <UserIcon className="h-6 w-6 mr-3 text-gray-500" />
             <span>Experience Level</span>
+          </button>
+          <button
+            onClick={onShowProgressDashboard}
+            className="w-full flex items-center px-6 py-3 text-left text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors duration-200"
+          >
+            <TrophyIcon className="h-6 w-6 mr-3 text-gray-500" />
+            <span>Progress Dashboard</span>
+          </button>
+          <button
+            onClick={onShowRecommendationDashboard}
+            className="w-full flex items-center px-6 py-3 text-left text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors duration-200"
+          >
+            <LightBulbIcon className="h-6 w-6 mr-3 text-gray-500" />
+            <span>Study Recommendations</span>
+          </button>
+          <button
+            onClick={onShowLearningInsights}
+            className="w-full flex items-center px-6 py-3 text-left text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors duration-200"
+          >
+            <CpuChipIcon className="h-6 w-6 mr-3 text-gray-500" />
+            <span>Learning Insights</span>
           </button>
         </nav>
       </div>
