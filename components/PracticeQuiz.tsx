@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MCQ, SubjectName } from '../types';
+import { MCQ, SubjectName, EnhancedExplanation } from '../types';
 import { CheckCircleIcon, XCircleIcon, BookOpenIcon } from '@heroicons/react/24/solid';
 
 interface PracticeQuizProps {
@@ -11,6 +11,38 @@ const PracticeQuiz: React.FC<PracticeQuizProps> = ({ questions, onSelectTopicByI
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
+
+  // Helper function to render explanation
+  const renderExplanation = (explanation: string | EnhancedExplanation): React.ReactNode => {
+    if (typeof explanation === 'string') {
+      return explanation;
+    }
+
+    // Handle EnhancedExplanation object
+    return (
+      <div className="space-y-3">
+        <p className="font-medium text-gray-800">{explanation.basic}</p>
+        {explanation.theory && (
+          <div className="bg-blue-50 p-3 rounded-lg">
+            <h5 className="font-semibold text-blue-800 mb-1">Theory:</h5>
+            <p className="text-blue-700 text-sm">{explanation.theory}</p>
+          </div>
+        )}
+        {explanation.realLifeExample && (
+          <div className="bg-green-50 p-3 rounded-lg">
+            <h5 className="font-semibold text-green-800 mb-1">Real-life Example:</h5>
+            <p className="text-green-700 text-sm">{explanation.realLifeExample}</p>
+          </div>
+        )}
+        {explanation.teachingTip && (
+          <div className="bg-purple-50 p-3 rounded-lg">
+            <h5 className="font-semibold text-purple-800 mb-1">Teaching Tip:</h5>
+            <p className="text-purple-700 text-sm">{explanation.teachingTip}</p>
+          </div>
+        )}
+      </div>
+    );
+  };
 
   const handleOptionSelect = (index: number) => {
     if (isAnswered) return;
@@ -77,7 +109,7 @@ const PracticeQuiz: React.FC<PracticeQuizProps> = ({ questions, onSelectTopicByI
               <h4 className={`text-lg font-semibold ${isCorrect ? 'text-green-800' : 'text-red-800'}`}>
                 {isCorrect ? 'Correct!' : 'Incorrect'}
               </h4>
-              <p className="mt-1 text-gray-700">{currentQuestion.explanation}</p>
+              <div className="mt-1 text-gray-700">{renderExplanation(currentQuestion.explanation)}</div>
               <button
                 onClick={() => onSelectTopicById(currentQuestion.subjectName, currentQuestion.topicId)}
                 className="mt-4 flex items-center text-sm text-secondary hover:text-primary font-semibold"

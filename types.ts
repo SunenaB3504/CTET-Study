@@ -10,10 +10,21 @@ export interface MCQ {
   question: string;
   options: string[];
   correctAnswerIndex: number;
-  explanation: string;
+  explanation: string | EnhancedExplanation;
   subjectName: SubjectName;
   topicId: string;
   subTopicId: string;
+  difficulty?: 'easy' | 'medium' | 'hard';
+  ncfReference?: string;
+  keywords?: string[];
+}
+
+export interface EnhancedExplanation {
+  basic: string;           // Core concept explanation
+  theory?: string;         // Theoretical foundation with NCF 2005 alignment
+  realLifeExample?: string; // Practical classroom scenario
+  detailed?: string;       // Comprehensive breakdown with teaching implications
+  teachingTip?: string;    // Practical teaching strategy
 }
 
 export interface Topic {
@@ -34,6 +45,7 @@ export enum View {
   STUDY_MODULE,
   MOCK_TEST_SELECTION,
   MOCK_TEST,
+  ENHANCED_MOCK_TEST,
   READINESS_TRACKER,
   SAMPLE_QUESTIONS,
   GAP_ANALYSIS_DASHBOARD,

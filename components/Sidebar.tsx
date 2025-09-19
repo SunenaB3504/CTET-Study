@@ -6,6 +6,7 @@ import { PencilSquareIcon, BookOpenIcon, ChartBarIcon, MagnifyingGlassIcon, Chec
 interface SidebarProps {
   onSelectSubject: (subject: Subject) => void;
   onStartMockTest: () => void;
+  onStartEnhancedMockTest: () => void;
   onShowReadinessTracker: () => void;
   onShowSampleQuestions: () => void;
   onShowGapAnalysis: () => void;
@@ -22,6 +23,7 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({
   onSelectSubject,
   onStartMockTest,
+  onStartEnhancedMockTest,
   onShowReadinessTracker,
   onShowSampleQuestions,
   onShowGapAnalysis,
@@ -87,6 +89,13 @@ const Sidebar: React.FC<SidebarProps> = ({
           >
             <PencilSquareIcon className="h-6 w-6 mr-3 text-gray-500" />
             <span>Full Mock Test</span>
+          </button>
+          <button
+            onClick={onStartEnhancedMockTest}
+            className="w-full flex items-center px-6 py-3 text-left text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors duration-200"
+          >
+            <TrophyIcon className="h-6 w-6 mr-3 text-gray-500" />
+            <span>Enhanced Mock Test</span>
           </button>
           <button
             onClick={onShowSampleQuestions}

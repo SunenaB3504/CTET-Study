@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MockTestResult, SubjectName } from '../types';
+import { MockTestResult, SubjectName, EnhancedExplanation } from '../types';
 import {
   CheckIcon,
   XMarkIcon,
@@ -17,6 +17,38 @@ interface TestResultProps {
 
 const TestResult: React.FC<TestResultProps> = ({ result, onRestart, onSelectTopicById }) => {
   const [showReview, setShowReview] = useState(false);
+
+  // Helper function to render explanation
+  const renderExplanation = (explanation: string | EnhancedExplanation): React.ReactNode => {
+    if (typeof explanation === 'string') {
+      return explanation;
+    }
+
+    // Handle EnhancedExplanation object
+    return (
+      <div className="space-y-3">
+        <p className="font-medium text-gray-800">{explanation.basic}</p>
+        {explanation.theory && (
+          <div className="bg-blue-50 p-3 rounded-lg">
+            <h5 className="font-semibold text-blue-800 mb-1">Theory:</h5>
+            <p className="text-blue-700 text-sm">{explanation.theory}</p>
+          </div>
+        )}
+        {explanation.realLifeExample && (
+          <div className="bg-green-50 p-3 rounded-lg">
+            <h5 className="font-semibold text-green-800 mb-1">Real-life Example:</h5>
+            <p className="text-green-700 text-sm">{explanation.realLifeExample}</p>
+          </div>
+        )}
+        {explanation.teachingTip && (
+          <div className="bg-purple-50 p-3 rounded-lg">
+            <h5 className="font-semibold text-purple-800 mb-1">Teaching Tip:</h5>
+            <p className="text-purple-700 text-sm">{explanation.teachingTip}</p>
+          </div>
+        )}
+      </div>
+    );
+  };
 
   const formatTime = (seconds: number) => {
     const minutes = Math.floor(seconds / 60);
@@ -117,7 +149,7 @@ const TestResult: React.FC<TestResultProps> = ({ result, onRestart, onSelectTopi
                   </div>
                   <div className="mt-4 p-4 rounded-lg bg-gray-50">
                     <p className="text-sm font-semibold text-gray-700">Explanation:</p>
-                    <p className="text-sm text-gray-600 mt-1">{q.explanation}</p>
+                    <div className="text-sm text-gray-600 mt-1">{renderExplanation(q.explanation)}</div>
                     <button
                       onClick={() => onSelectTopicById(q.subjectName, q.topicId)}
                       className="mt-3 flex items-center text-sm text-secondary hover:text-primary font-semibold"

@@ -1,6 +1,37 @@
-import { MCQ, EnhancedSyllabusTopic, ContentGap, SubjectName } from '../types';
+import { MCQ, SubjectName, EnhancedExplanation } from '../types';
 import DOMPurify from 'dompurify';
 import { JSDOM } from 'jsdom';
+
+// Missing type declarations
+export interface EnhancedSyllabusTopic {
+  id: string;
+  name: string;
+  subject: SubjectName;
+  subtopics: EnhancedSubtopic[];
+  priority: 'high' | 'medium' | 'low';
+  coverage: number;
+  questionCount: number;
+  requiredQuestions: number;
+  gapStatus: 'covered' | 'partial' | 'missing';
+}
+
+export interface EnhancedSubtopic {
+  id: string;
+  name: string;
+  questionCount: number;
+  coverage: number;
+  priority: 'high' | 'medium' | 'low';
+  lastUpdated?: Date;
+}
+
+export interface ContentGap {
+  topicId: string;
+  subtopicId: string;
+  gapType: 'missing' | 'insufficient';
+  requiredQuestions: number;
+  currentQuestions: number;
+  priority: number;
+}
 
 // Quality assessment interfaces
 export interface QualityMetrics {
@@ -48,6 +79,23 @@ export class QualityAssessmentService {
     ALLOWED_ATTR: [],
     ALLOW_DATA_ATTR: false
   };
+
+  /**
+   * Helper function to extract text from explanation (handles both string and EnhancedExplanation)
+   */
+  private static getExplanationText(explanation: string | EnhancedExplanation): string {
+    if (typeof explanation === 'string') {
+      return explanation;
+    }
+    // For EnhancedExplanation, combine all text fields
+    return [
+      explanation.basic,
+      explanation.theory,
+      explanation.realLifeExample,
+      explanation.detailed,
+      explanation.teachingTip
+    ].filter(Boolean).join(' ');
+  }
 
   /**
    * Assess the quality of a single MCQ question
@@ -208,7 +256,8 @@ export class QualityAssessmentService {
     }
 
     // Check explanation quality
-    if (!question.explanation || question.explanation.trim().length < 20) {
+    const explanationText = this.getExplanationText(question.explanation);
+    if (!question.explanation || explanationText.trim().length < 20) {
       score -= 25;
       issues.push({
         type: 'warning',
@@ -216,7 +265,7 @@ export class QualityAssessmentService {
         message: 'Explanation is too short or missing',
         suggestion: 'Provide a detailed explanation for the correct answer'
       });
-    } else if (question.explanation.length > 500) {
+    } else if (explanationText.length > 500) {
       score -= 10;
       issues.push({
         type: 'info',
@@ -228,7 +277,7 @@ export class QualityAssessmentService {
 
     // Check if explanation mentions the correct answer
     const correctOption = question.options[question.correctAnswerIndex];
-    if (question.explanation && !question.explanation.toLowerCase().includes(correctOption.toLowerCase().substring(0, 10))) {
+    if (question.explanation && !explanationText.toLowerCase().includes(correctOption.toLowerCase().substring(0, 10))) {
       score -= 15;
       issues.push({
         type: 'warning',

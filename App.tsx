@@ -6,6 +6,7 @@ import Dashboard from './components/Dashboard';
 import StudyModule from './components/StudyModule';
 import MockTest from './components/MockTest';
 import MockTestSelection from './components/MockTestSelection';
+import EnhancedMockTestFlow from './components/EnhancedMockTestFlow';
 import ReadinessTracker from './components/ReadinessTracker';
 import SampleQuestions from './components/SampleQuestions';
 import GapAnalysisDashboard from './components/GapAnalysisDashboard';
@@ -74,6 +75,13 @@ const App: React.FC = () => {
 
   const handleStartMockTest = () => {
     setCurrentView(View.MOCK_TEST_SELECTION);
+    setSelectedSubject(null);
+    setSelectedTopic(null);
+    setCurrentContextualTopic(null);
+  };
+
+  const handleStartEnhancedMockTest = () => {
+    setCurrentView(View.ENHANCED_MOCK_TEST);
     setSelectedSubject(null);
     setSelectedTopic(null);
     setCurrentContextualTopic(null);
@@ -207,6 +215,14 @@ const App: React.FC = () => {
         ) : (
           <div className="text-center p-8">Error: No test paper selected.</div>
         );
+      case View.ENHANCED_MOCK_TEST:
+        return (
+          <EnhancedMockTestFlow
+            onBackToDashboard={handleBackToDashboard}
+            onSelectTopicById={handleSelectTopicById}
+            setContextualTopic={setCurrentContextualTopic}
+          />
+        );
       case View.READINESS_TRACKER:
         return (
           <ReadinessTracker
@@ -323,6 +339,7 @@ const App: React.FC = () => {
       <Sidebar
         onSelectSubject={handleSelectSubject}
         onStartMockTest={handleStartMockTest}
+        onStartEnhancedMockTest={handleStartEnhancedMockTest}
         onShowReadinessTracker={handleShowReadinessTracker}
         onShowSampleQuestions={handleShowSampleQuestions}
         onShowGapAnalysis={handleShowGapAnalysis}

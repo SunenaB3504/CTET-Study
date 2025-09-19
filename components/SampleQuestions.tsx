@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { QuestionPaper, MCQ, SubjectName } from '../types';
+import { QuestionPaper, MCQ, SubjectName, EnhancedExplanation } from '../types';
 import { QUESTION_PAPERS_DATA } from '../constants/questionPapers';
 
 interface SampleQuestionsProps {
@@ -11,6 +11,38 @@ const SampleQuestions: React.FC<SampleQuestionsProps> = ({ onBack }) => {
   const [selectedPaper, setSelectedPaper] = useState<string>(QUESTION_PAPERS_DATA[0].id);
   const [currentPage, setCurrentPage] = useState(1);
   const questionsPerPage = 10;
+
+  // Helper function to render explanation
+  const renderExplanation = (explanation: string | EnhancedExplanation): React.ReactNode => {
+    if (typeof explanation === 'string') {
+      return explanation;
+    }
+
+    // Handle EnhancedExplanation object
+    return (
+      <div className="space-y-3">
+        <p className="font-medium text-gray-800">{explanation.basic}</p>
+        {explanation.theory && (
+          <div className="bg-blue-50 p-3 rounded-lg">
+            <h5 className="font-semibold text-blue-800 mb-1">Theory:</h5>
+            <p className="text-blue-700 text-sm">{explanation.theory}</p>
+          </div>
+        )}
+        {explanation.realLifeExample && (
+          <div className="bg-green-50 p-3 rounded-lg">
+            <h5 className="font-semibold text-green-800 mb-1">Real-life Example:</h5>
+            <p className="text-green-700 text-sm">{explanation.realLifeExample}</p>
+          </div>
+        )}
+        {explanation.teachingTip && (
+          <div className="bg-purple-50 p-3 rounded-lg">
+            <h5 className="font-semibold text-purple-800 mb-1">Teaching Tip:</h5>
+            <p className="text-purple-700 text-sm">{explanation.teachingTip}</p>
+          </div>
+        )}
+      </div>
+    );
+  };
 
   // Get the selected question paper
   const currentPaper = QUESTION_PAPERS_DATA.find(paper => paper.id === selectedPaper) || QUESTION_PAPERS_DATA[0];
@@ -159,7 +191,7 @@ const SampleQuestions: React.FC<SampleQuestionsProps> = ({ onBack }) => {
 
             <div className="bg-blue-50 border-l-4 border-blue-400 p-4">
               <h4 className="text-sm font-semibold text-blue-800 mb-2">Explanation:</h4>
-              <p className="text-blue-700 text-sm leading-relaxed">{question.explanation}</p>
+              <div className="text-blue-700 text-sm leading-relaxed">{renderExplanation(question.explanation)}</div>
             </div>
           </div>
         ))}
