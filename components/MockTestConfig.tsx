@@ -138,7 +138,11 @@ const MockTestConfig: React.FC<MockTestConfigProps> = ({ onStartTest, onBack }) 
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h3 className="text-lg font-semibold text-gray-800 mb-4">Number of Questions</h3>
             <div className="space-y-3">
+              <label htmlFor="questionCount" className="block text-sm font-medium text-gray-700">
+                Select number of questions
+              </label>
               <input
+                id="questionCount"
                 type="range"
                 min="5"
                 max={maxQuestions || 50}
@@ -266,7 +270,7 @@ const MockTestConfig: React.FC<MockTestConfigProps> = ({ onStartTest, onBack }) 
           <button
             onClick={handleStartTest}
             disabled={!isValidConfig}
-            className={`flex items-center px-8 py-4 rounded-lg font-bold text-white transition-all duration-200 ${
+            className={`flex items-center px-8 py-4 rounded-lg font-bold text-black transition-all duration-200 ${
               isValidConfig
                 ? 'bg-primary hover:bg-primary-dark shadow-lg hover:shadow-xl'
                 : 'bg-gray-300 cursor-not-allowed'
