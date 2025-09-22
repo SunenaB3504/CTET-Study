@@ -1,9 +1,9 @@
-import '@testing-library/jest-dom';
+require('@testing-library/jest-dom');
 
 // Mock window.matchMedia
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
-  value: (query: string) => ({
+  value: (query: string): MediaQueryList => ({
     matches: false,
     media: query,
     onchange: null,
@@ -11,13 +11,16 @@ Object.defineProperty(window, 'matchMedia', {
     removeListener: () => {}, // deprecated
     addEventListener: () => {},
     removeEventListener: () => {},
-    dispatchEvent: () => {},
+    dispatchEvent: () => false,
   }),
 });
 
 // Mock IntersectionObserver
-(global as any).IntersectionObserver = class IntersectionObserver {
-  constructor() {}
+global.IntersectionObserver = class IntersectionObserver {
+  root: Element | null = null;
+  rootMargin: string = '';
+  thresholds: ReadonlyArray<number> = [];
+
   observe() {
     return null;
   }
@@ -27,11 +30,13 @@ Object.defineProperty(window, 'matchMedia', {
   unobserve() {
     return null;
   }
+  takeRecords(): IntersectionObserverEntry[] {
+    return [];
+  }
 };
 
 // Mock ResizeObserver
-(global as any).ResizeObserver = class ResizeObserver {
-  constructor() {}
+global.ResizeObserver = class ResizeObserver {
   observe() {
     return null;
   }

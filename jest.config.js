@@ -26,6 +26,6 @@ export default {
     '<rootDir>/tests/**/*.{ts,tsx}', // Added tests directory
   ],
   transform: {
-    '^.+\\.(ts|tsx)$': 'ts-jest',
+    '^.+\\.m?[tj]sx?$': 'ts-jest',
   },
 };

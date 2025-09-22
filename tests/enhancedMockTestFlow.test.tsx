@@ -1,5 +1,6 @@
 import { render, fireEvent } from '@testing-library/react';
-import EnhancedMockTestFlow from '../components/EnhancedMockTestFlow';
+import '@testing-library/jest-dom';
+import EnhancedMockTestFlow from '../components/EnhancedMockTestFlow.js';
 
 describe('EnhancedMockTestFlow End-to-End Flow', () => {
   it('should transition between configuration, testing, and analytics phases', () => {

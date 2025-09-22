@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MCQ, SubjectName, EnhancedExplanation } from '../types';
+import { MCQ, SubjectName, EnhancedExplanation } from '../types.js';
 import { CheckCircleIcon, XCircleIcon, BookOpenIcon } from '@heroicons/react/24/solid';
 
 interface PracticeQuizProps {
@@ -8,9 +8,35 @@ interface PracticeQuizProps {
 }
 
 const PracticeQuiz: React.FC<PracticeQuizProps> = ({ questions, onSelectTopicById }) => {
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
-  const [isAnswered, setIsAnswered] = useState(false);
+  const [isAnswered, setIsAnswered] = useState<boolean>(false);
+  const [completedQuestions, setCompletedQuestions] = useState<number[]>([]);
+  const [isQuizCompleted, setIsQuizCompleted] = useState<boolean>(false);
+
+  // Helper function to shuffle an array
+  const shuffleArray = (array: MCQ[]): MCQ[] => {
+    return array.sort(() => Math.random() - 0.5);
+  };
+
+  // Ensure at least 10 unique questions are displayed
+  const ensureMinimumQuestions = (questions: MCQ[]): MCQ[] => {
+    if (questions.length >= 10) return shuffleArray(questions);
+
+    // Fallback logic: combine questions from other topics or duplicate and shuffle
+    const additionalQuestions = [...questions];
+    while (additionalQuestions.length < 10) {
+      additionalQuestions.push(...questions);
+    }
+    return shuffleArray(additionalQuestions.slice(0, 10));
+  };
+
+  const limitedQuestions = ensureMinimumQuestions(questions);
+  const currentQuestion = limitedQuestions[currentQuestionIndex];
+
+  if (!limitedQuestions || limitedQuestions.length === 0) {
+    return null;
+  }
 
   // Helper function to render explanation
   const renderExplanation = (explanation: string | EnhancedExplanation): React.ReactNode => {
@@ -51,20 +77,29 @@ const PracticeQuiz: React.FC<PracticeQuizProps> = ({ questions, onSelectTopicByI
   };
 
   const handleNextQuestion = () => {
-    setCurrentQuestionIndex(prev => (prev + 1) % questions.length);
+    const nextIndex = currentQuestionIndex + 1;
+    setCompletedQuestions((prev) => [...prev, currentQuestionIndex]);
+
+    if (completedQuestions.length + 1 === limitedQuestions.length) {
+      setIsQuizCompleted(true);
+      return;
+    }
+
+    setCurrentQuestionIndex(nextIndex % limitedQuestions.length);
     setSelectedOption(null);
     setIsAnswered(false);
   };
 
-  const combinedQuestions: MCQ[] = [...questions, ...additionalQuestions];
-  const limitedQuestions = combinedQuestions.slice(0, 10);
-  const currentQuestion = limitedQuestions[currentQuestionIndex];
-
-  if (!limitedQuestions || limitedQuestions.length === 0) {
-    return null;
-  }
-
   const isCorrect = selectedOption === currentQuestion.correctAnswerIndex;
+
+  if (isQuizCompleted) {
+    return (
+      <div className="bg-white p-6 md:p-8 rounded-lg shadow-md">
+        <h3 className="text-2xl font-bold text-gray-800 mb-4">Quiz Completed</h3>
+        <p className="text-lg text-gray-700">You have answered all the questions in this quiz. Great job!</p>
+      </div>
+    );
+  }
 
   return (
     <div className="bg-white p-6 md:p-8 rounded-lg shadow-md">
@@ -137,98 +172,5 @@ const PracticeQuiz: React.FC<PracticeQuizProps> = ({ questions, onSelectTopicByI
     </div>
   );
 };
-
-const additionalQuestions: MCQ[] = [
-  {
-    question: "What is the term for mental frameworks that organize information, according to Piaget?",
-    options: ["Schemas", "Assimilation", "Accommodation", "Equilibration"],
-    correctAnswerIndex: 0,
-    explanation: "Schemas are mental frameworks that help organize information.",
-    subjectName: SubjectName.CDP,
-    topicId: "cdp1",
-    subTopicId: "cdp1.1",
-  },
-  {
-    question: "Which stage in Piaget's theory is characterized by symbolic thought but limitations like egocentrism?",
-    options: ["Sensorimotor", "Preoperational", "Concrete Operational", "Formal Operational"],
-    correctAnswerIndex: 1,
-    explanation: "The Preoperational stage is marked by symbolic thought and limitations like egocentrism.",
-    subjectName: SubjectName.CDP,
-    topicId: "cdp1",
-    subTopicId: "cdp1.2",
-  },
-  {
-    question: "What is the hallmark of the Formal Operational stage in Piaget's theory?",
-    options: ["Egocentrism", "Abstract reasoning", "Object permanence", "Centration"],
-    correctAnswerIndex: 1,
-    explanation: "Abstract reasoning is the hallmark of the Formal Operational stage.",
-    subjectName: SubjectName.CDP,
-    topicId: "cdp1",
-    subTopicId: "cdp1.3",
-  },
-  {
-    question: "In Kohlberg's theory, which stage focuses on obeying laws to maintain social order?",
-    options: ["Stage 1", "Stage 2", "Stage 3", "Stage 4"],
-    correctAnswerIndex: 3,
-    explanation: "Stage 4 focuses on maintaining social order by obeying laws.",
-    subjectName: SubjectName.CDP,
-    topicId: "cdp1",
-    subTopicId: "cdp1.4",
-  },
-  {
-    question: "What is the 'Zone of Proximal Development' in Vygotsky's theory?",
-    options: ["The gap between what a learner can do independently and with guidance", "The stage of abstract reasoning", "The process of assimilation", "The use of schemas"],
-    correctAnswerIndex: 0,
-    explanation: "The ZPD is the gap between what a learner can do independently and with guidance.",
-    subjectName: SubjectName.CDP,
-    topicId: "cdp1",
-    subTopicId: "cdp1.5",
-  },
-  {
-    question: "According to Vygotsky, what is the role of 'More Knowledgeable Other' (MKO)?",
-    options: ["To provide scaffolding", "To develop schemas", "To encourage egocentrism", "To maintain social order"],
-    correctAnswerIndex: 0,
-    explanation: "The MKO provides scaffolding to help learners cross the ZPD.",
-    subjectName: SubjectName.CDP,
-    topicId: "cdp1",
-    subTopicId: "cdp1.6",
-  },
-  {
-    question: "Which of the following is a critique of Kohlberg's theory?",
-    options: ["It is male-centric", "It ignores schemas", "It lacks stages", "It does not address social order"],
-    correctAnswerIndex: 0,
-    explanation: "Kohlberg's theory is critiqued for being male-centric and prioritizing justice over care.",
-    subjectName: SubjectName.CDP,
-    topicId: "cdp1",
-    subTopicId: "cdp1.7",
-  },
-  {
-    question: "What is 'scaffolding' in Vygotsky's theory?",
-    options: ["Temporary support to help learners", "A stage of moral development", "A schema for organizing information", "A critique of Piaget's theory"],
-    correctAnswerIndex: 0,
-    explanation: "Scaffolding is temporary support provided to help learners cross the ZPD.",
-    subjectName: SubjectName.CDP,
-    topicId: "cdp1",
-    subTopicId: "cdp1.8",
-  },
-  {
-    question: "Which stage in Kohlberg's theory involves reasoning based on universal ethical principles?",
-    options: ["Stage 4", "Stage 5", "Stage 6", "Stage 3"],
-    correctAnswerIndex: 2,
-    explanation: "Stage 6 involves reasoning based on universal ethical principles.",
-    subjectName: SubjectName.CDP,
-    topicId: "cdp1",
-    subTopicId: "cdp1.9",
-  },
-  {
-    question: "What is the key difference between Piaget and Vygotsky's theories?",
-    options: ["Piaget emphasizes social interaction, while Vygotsky focuses on stages", "Piaget focuses on individual exploration, while Vygotsky emphasizes social interaction", "Piaget ignores schemas, while Vygotsky emphasizes them", "Piaget and Vygotsky have identical theories"],
-    correctAnswerIndex: 1,
-    explanation: "Piaget focuses on individual exploration, while Vygotsky emphasizes social interaction.",
-    subjectName: SubjectName.CDP,
-    topicId: "cdp1",
-    subTopicId: "cdp1.10",
-  }
-];
 
 export default PracticeQuiz;

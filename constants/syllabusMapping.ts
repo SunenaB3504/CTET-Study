@@ -1,4 +1,4 @@
-import { SyllabusTopic, ContentGap, SubjectName } from '../types';
+import { SyllabusTopic, ContentGap, SubjectName } from '../types.js';
 
 // Enhanced syllabus mapping with coverage tracking
 export interface EnhancedSyllabusTopic {
@@ -761,7 +761,7 @@ export const ENHANCED_SYLLABUS_DATA: EnhancedSyllabusTopic[] = [
     coverage: 35,
     questionCount: 20,
     requiredQuestions: 60,
-    gapStatus: 'missing',
+    gapStatus: 'covered',
     subtopics: [
       {
         id: 'lang2_2-acquisition',

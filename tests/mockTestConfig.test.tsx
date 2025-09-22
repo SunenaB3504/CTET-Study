@@ -1,6 +1,7 @@
 import { render, fireEvent } from '@testing-library/react';
-import MockTestConfig from '../components/MockTestConfig';
-import { SUBJECT_DATA } from '../constants/data';
+import '@testing-library/jest-dom';
+import MockTestConfig from '../components/MockTestConfig.js';
+import { SUBJECT_DATA } from '../constants/data.js';
 
 describe('MockTestConfig Filtering Logic', () => {
   it('should update maxQuestions based on selected subject and topics', () => {
@@ -17,6 +18,6 @@ describe('MockTestConfig Filtering Logic', () => {
 
     // Verify maxQuestions updates
     const questionRange = getByLabelText('Select number of questions');
-    expect(questionRange).toHaveAttribute('max', SUBJECT_DATA[0].topics.reduce((sum, topic) => sum + topic.practiceQuestions.length, 0).toString());
+    expect(questionRange).toHaveAttribute('max', SUBJECT_DATA[0].topics.reduce((sum: number, topic: { practiceQuestions: any[] }) => sum + topic.practiceQuestions.length, 0).toString());
   });
 });

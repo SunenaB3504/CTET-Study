@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { SubjectName, MCQ } from '../types';
-import { SUBJECT_DATA } from '../constants/data';
+import { SubjectName, MCQ } from '../types.js';
+import { SUBJECT_DATA } from '../constants/data.js';
 import { PlayIcon, Cog6ToothIcon, ClockIcon, QuestionMarkCircleIcon } from '@heroicons/react/24/solid';
 
 interface MockTestConfigProps {
@@ -29,7 +29,7 @@ const MockTestConfig: React.FC<MockTestConfigProps> = ({ onStartTest, onBack }) 
     if (selectedSubject) {
       const subjectData = SUBJECT_DATA.find(s => s.name === selectedSubject);
       if (subjectData) {
-        const allQuestions = subjectData.topics.flatMap(topic => topic.practiceQuestions);
+        const allQuestions = subjectData.topics.flatMap((topic: { practiceQuestions: MCQ[] }) => topic.practiceQuestions);
         setAvailableQuestions(allQuestions);
         setSelectedTopics([]); // Reset topic selection
       }
@@ -47,8 +47,8 @@ const MockTestConfig: React.FC<MockTestConfigProps> = ({ onStartTest, onBack }) 
 
   const getMaxQuestions = () => {
     if (selectedTopics.length > 0) {
-      return selectedTopics.reduce((total, topicId) => {
-        const topic = getSubjectTopics().find(t => t.id === topicId);
+      return selectedTopics.reduce((total: number, topicId: string) => {
+        const topic = getSubjectTopics().find((t: { id: string; practiceQuestions: MCQ[] }) => t.id === topicId);
         return total + (topic?.practiceQuestions.length || 0);
       }, 0);
     }
@@ -226,7 +226,7 @@ const MockTestConfig: React.FC<MockTestConfigProps> = ({ onStartTest, onBack }) 
             Choose specific topics to focus on, or leave unselected to include all topics.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
-            {getSubjectTopics().map(topic => (
+            {getSubjectTopics().map((topic: { id: string; name: string; practiceQuestions: MCQ[] }) => (
               <button
                 key={topic.id}
                 onClick={() => handleTopicToggle(topic.id)}
