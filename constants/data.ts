@@ -1,4 +1,4 @@
-import { Subject, SubjectName, MCQ } from '../types';
+import { Subject, SubjectName, MCQ } from '../types.js';
 import {
   BookOpenIcon,
   CalculatorIcon,
@@ -8328,7 +8328,147 @@ export const SUBJECT_DATA: Subject[] = [
             topicId: 'evs1',
             subTopicId: 'evs1-themes',
           },
-        ],
+          {
+            question: "Environment in EVS means : (a) Man-made environment (b) Natural environment (c) Social environment (d) Cultural environment",
+            options: [
+              "(a) and (b)",
+              "(b) and (c)",
+              "(a) and (c)",
+              "(a), (b), (c) and (d)"
+            ],
+            correctAnswerIndex: 3,
+            explanation: "Environment in EVS includes all these aspects: man-made, natural, social, and cultural.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs1',
+            subTopicId: 'evs1-conservation',
+          },
+          {
+            question: "Select incorrect statement about elephant herds from the following:",
+            options: [
+              "Female elephants live in herds.",
+              "A herd has 20 to 25 female elephants and their young ones.",
+              "Male elephants live in the herd till they are 14 - 15 years old.",
+              "Male elephants of more than 15 years of age leave the herd and move around alone."
+            ],
+            correctAnswerIndex: 1,
+            explanation: "A herd has 20 to 25 female elephants and their young ones is incorrect; actual numbers may vary and males leave the herd after a certain age.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs1',
+            subTopicId: 'evs1-animals',
+          },
+          {
+            question: "Which of the following is a sub-theme under 'Family and Friends'?",
+            options: [
+              "Work and Play",
+              "Plants",
+              "Animals",
+              "All of the above"
+            ],
+            correctAnswerIndex: 3,
+            explanation: "All of these are sub-themes under 'Family and Friends' in the EVS syllabus.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs1',
+            subTopicId: 'evs1-themes',
+          },
+          {
+            question: "Saleem and Raju are young school goers. Saleem likes to eat lot of fried food and ‘maida' products. Raju on the other hand eats home made healthy food but he never eats spinach and other green leafy vegetables. Which of the following disorders they are likely to suffer from, respectively?",
+            options: [
+              "Scurvy and Anaemia",
+              "Kwashiorkar and Anaemia",
+              "Obesity and Anaemia",
+              "Pellagra and Anaemia"
+            ],
+            correctAnswerIndex: 2,
+            explanation: "Saleem is likely to suffer from obesity, Raju from anaemia due to lack of leafy vegetables.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs1',
+            subTopicId: 'evs1-health',
+          },
+          {
+            question: "Select the group of poor conductors of heat from the following:",
+            options: [
+              "Wool, Wood, Iron",
+              "Air, Water, Copper",
+              "Air, Wool, Aluminium",
+              "Wool, Plastic, Wood"
+            ],
+            correctAnswerIndex: 3,
+            explanation: "Wool, plastic, and wood are poor conductors of heat.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs1',
+            subTopicId: 'evs1-general',
+          },
+          {
+            question: "Mountaineers suffer nose bleeding at higher altitudes because:",
+            options: [
+              "The pressure in blood vessels exceeds outside pressure.",
+              "The pressure in blood vessels decreases than outside pressure.",
+              "The pressure in blood vessels equals the outside pressure.",
+              "Blood becomes thick at higher altitudes."
+            ],
+            correctAnswerIndex: 0,
+            explanation: "At high altitudes, the pressure in blood vessels exceeds the outside pressure, causing nosebleeds.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs1',
+            subTopicId: 'evs1-health',
+          },
+          {
+            question: "Which step is most appropriate for teaching students about safety from sexual harassment?",
+            options: [
+              "Teach them about POCSO Act, 2012",
+              "Teach them to avoid strangers",
+              "Hold workshops about ‘Good Touch' and 'Bad Touch'",
+              "Hold self-defence workshops for girl students"
+            ],
+            correctAnswerIndex: 2,
+            explanation: "Workshops about ‘Good Touch' and 'Bad Touch' are most effective for primary students.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs1',
+            subTopicId: 'evs1-general',
+          },
+          {
+            question: "Map Reading activity in EVS classes develops which abilities in primary students?",
+            options: [
+              "Understanding relative positions of places, directions, symbols and scale",
+              "Only drawing maps",
+              "Only reading symbols",
+              "Only understanding directions"
+            ],
+            correctAnswerIndex: 0,
+            explanation: "Map reading develops understanding of positions, directions, symbols, and scale.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs1',
+            subTopicId: 'evs1-general',
+          },
+          {
+            question: "Which of the following is NOT a sub-theme under 'Family and Friends'?",
+            options: [
+              "Relationships",
+              "Work and Play",
+              "Plants",
+              "Water"
+            ],
+            correctAnswerIndex: 3,
+            explanation: "Water is a separate theme, not a sub-theme under 'Family and Friends'.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs1',
+            subTopicId: 'evs1-themes',
+          },
+          {
+            question: "Which type of species is found only in a specific part of India?",
+            options: [
+              "Abundant",
+              "Exotic",
+              "Endemic",
+              "Endangered"
+            ],
+            correctAnswerIndex: 2,
+            explanation: "Endemic species are found only in a specific region.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs1',
+            subTopicId: 'evs1-plants'
+          }
+  ],
       },
       {
         id: 'evs2',
@@ -8357,6 +8497,132 @@ export const SUBJECT_DATA: Subject[] = [
             topicId: 'evs2',
             subTopicId: 'evs2-water',
           },
+          {
+            question: "Which of the following is a way to conserve water?",
+            options: [
+              "Leaving the tap open",
+              "Taking a long shower",
+              "Using a bucket for bathing",
+              "Washing clothes in running water"
+            ],
+            correctAnswerIndex: 2,
+            explanation: "Using a bucket for bathing conserves water compared to running water continuously.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs2',
+            subTopicId: 'evs2-water',
+          },
+          {
+            question: "The most common form of pollution is:",
+            options: [
+              "Water pollution",
+              "Air pollution",
+              "Noise pollution",
+              "Land pollution"
+            ],
+            correctAnswerIndex: 0,
+            explanation: "Water pollution is the most common and affects more people globally.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs2',
+            subTopicId: 'evs2-water',
+          },
+          {
+            question: "Which of the following is a source of protein?",
+            options: [
+              "Rice",
+              "Eggs",
+              "Sugar",
+              "Salt"
+            ],
+            correctAnswerIndex: 1,
+            explanation: "Eggs are a rich source of protein.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs2',
+            subTopicId: 'evs2-food',
+          },
+          {
+            question: "The primary function of a dam is:",
+            options: [
+              "To generate electricity",
+              "To store water",
+              "To prevent floods",
+              "All of the above"
+            ],
+            correctAnswerIndex: 3,
+            explanation: "Dams serve multiple purposes including water storage, electricity generation, and flood prevention.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs2',
+            subTopicId: 'evs2-water',
+          },
+          {
+            question: "Which of the following is NOT a type of shelter?",
+            options: [
+              "Igloo",
+              "Bungalow",
+              "Tent",
+              "River"
+            ],
+            correctAnswerIndex: 3,
+            explanation: "River is not a type of shelter; the others are.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs2',
+            subTopicId: 'evs2-shelter',
+          },
+          {
+            question: "Which mode of transport is most suitable for long-distance travel across continents?",
+            options: [
+              "Bicycle",
+              "Aeroplane",
+              "Rickshaw",
+              "Scooter"
+            ],
+            correctAnswerIndex: 1,
+            explanation: "Aeroplanes are most suitable for long-distance travel across continents.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs2',
+            subTopicId: 'evs2-travel',
+          },
+          {
+            question: "Which of the following is a healthy eating habit?",
+            options: [
+              "Skipping breakfast",
+              "Eating lots of junk food",
+              "Eating balanced meals",
+              "Eating only sweets"
+            ],
+            correctAnswerIndex: 2,
+            explanation: "Eating balanced meals is a healthy habit.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs2',
+            subTopicId: 'evs2-food',
+          },
+          {
+            question: "Which of the following is a traditional Indian house type found in rural areas?",
+            options: [
+              "Apartment",
+              "Mud house",
+              "Villa",
+              "Skyscraper"
+            ],
+            correctAnswerIndex: 1,
+            explanation: "Mud houses are traditional in rural India.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs2',
+            subTopicId: 'evs2-shelter',
+          },
+          {
+            question: "Which of the following is a human activity included in 'Things We Make and Do'?",
+            options: [
+              "Cooking",
+              "Sleeping",
+              "Breathing",
+              "Dreaming"
+            ],
+            correctAnswerIndex: 0,
+            explanation: "Cooking is a human activity and part of 'Things We Make and Do'.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs2',
+            subTopicId: 'evs2-things-we-do',
+          }
         ],
       },
       {
@@ -8412,6 +8678,146 @@ export const SUBJECT_DATA: Subject[] = [
             topicId: 'evs3',
             subTopicId: 'evs3-pedagogy',
           },
+          {
+            question: "Which of the following is NOT a feature of a constructivist EVS classroom?",
+            options: [
+              "Children use their experiences to make new connections",
+              "Children learn by doing activities with concrete objects",
+              "Children's experiences are respected",
+              "Children only solve familiar problems"
+            ],
+            correctAnswerIndex: 3,
+            explanation: "Constructivist classrooms encourage exploration of new concepts, not just familiar problems.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs3',
+            subTopicId: 'evs3-principles',
+          },
+          {
+            question: "Which of the following is the most appropriate tool for assessment in EVS?",
+            options: [
+              "Anecdotal records",
+              "Rating scale",
+              "Portfolio",
+              "Observation list"
+            ],
+            correctAnswerIndex: 0,
+            explanation: "Anecdotal records are descriptive notes of observed incidents and behaviors.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs3',
+            subTopicId: 'evs3-cce',
+          },
+          {
+            question: "Which strategy best promotes inquiry in EVS?",
+            options: [
+              "Lecture method",
+              "Asking students to narrate their experiences",
+              "Showing pictures only",
+              "Reading textbook aloud"
+            ],
+            correctAnswerIndex: 1,
+            explanation: "Inquiry is best promoted by encouraging students to share and reflect on their own experiences.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs3',
+            subTopicId: 'evs3-discussion',
+          },
+          {
+            question: "Which of the following is an example of a hands-on activity in EVS?",
+            options: [
+              "Reading about plants",
+              "Growing a plant and observing it",
+              "Listening to a lecture",
+              "Copying notes from the board"
+            ],
+            correctAnswerIndex: 1,
+            explanation: "Hands-on activities involve direct experience, such as growing and observing a plant.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs3',
+            subTopicId: 'evs3-activities',
+          },
+          {
+            question: "Which of the following is NOT a recommended teaching-learning material (TLM) in EVS?",
+            options: [
+              "Child's immediate environment",
+              "Textbooks as the only resource",
+              "Maps and real objects",
+              "Community resources"
+            ],
+            correctAnswerIndex: 1,
+            explanation: "Textbooks should be one of many resources, not the only resource in EVS.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs3',
+            subTopicId: 'evs3-tlm',
+          },
+          {
+            question: "Continuous and Comprehensive Evaluation (CCE) in EVS involves:",
+            options: [
+              "Only written tests",
+              "Assessing curiosity, participation, and observation skills",
+              "Grading homework only",
+              "Testing memory recall"
+            ],
+            correctAnswerIndex: 1,
+            explanation: "CCE in EVS assesses a child's curiosity, participation, and skills of observation and experimentation.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs3',
+            subTopicId: 'evs3-cce',
+          },
+          {
+            question: "Which principle is emphasized in EVS pedagogy?",
+            options: [
+              "Moving from unknown to known",
+              "Moving from abstract to concrete",
+              "Moving from local to global",
+              "Moving from global to local"
+            ],
+            correctAnswerIndex: 2,
+            explanation: "EVS pedagogy emphasizes moving from local to global, starting from the child's own experiences.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs3',
+            subTopicId: 'evs3-principles',
+          },
+          {
+            question: "Which of the following is a problem in teaching EVS?",
+            options: [
+              "Lack of connection to real-life experiences",
+              "Active learning",
+              "Use of community resources",
+              "Hands-on activities"
+            ],
+            correctAnswerIndex: 0,
+            explanation: "A major problem is when teaching is not connected to real-life experiences.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs3',
+            subTopicId: 'evs3-problems',
+          },
+          {
+            question: "Which of the following is a recommended method for teaching EVS?",
+            options: [
+              "Discussion and inquiry",
+              "Rote memorization",
+              "Copying notes",
+              "Teacher-led lectures only"
+            ],
+            correctAnswerIndex: 0,
+            explanation: "Discussion and inquiry are recommended methods for teaching EVS.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs3',
+            subTopicId: 'evs3-discussion',
+          },
+          {
+            question: "Which of the following is a communication skill important for EVS teachers?",
+            options: [
+              "Listening to students",
+              "Ignoring student questions",
+              "Speaking only",
+              "Writing only"
+            ],
+            correctAnswerIndex: 0,
+            explanation: "Listening to students is a key communication skill for EVS teachers.",
+            subjectName: SubjectName.EVS,
+            topicId: 'evs3',
+            subTopicId: 'evs3-communication',
+          }
         ],
       },
     ],
@@ -8444,6 +8850,132 @@ export const SUBJECT_DATA: Subject[] = [
             topicId: 'lang1_1',
             subTopicId: 'lang1_1-inference',
           },
+          {
+            question: "Which of the following is a compound word?",
+            options: [
+              "happiness",
+              "friendship",
+              "playground",
+              "running"
+            ],
+            correctAnswerIndex: 2,
+            explanation: "'Playground' is a compound word formed by joining 'play' and 'ground'.",
+            subjectName: SubjectName.LANG1,
+            topicId: 'lang1_1',
+            subTopicId: 'lang1_1-grammar',
+          },
+          {
+            question: "The antonym of 'hard' is:",
+            options: [
+              "difficult",
+              "soft",
+              "strong",
+              "easy"
+            ],
+            correctAnswerIndex: 1,
+            explanation: "'Soft' is the opposite of 'hard'.",
+            subjectName: SubjectName.LANG1,
+            topicId: 'lang1_1',
+            subTopicId: 'lang1_1-grammar',
+          },
+          {
+            question: "A 'synonym' for the word 'happy' is:",
+            options: [
+              "Sad",
+              "Joyful",
+              "Angry",
+              "Tired"
+            ],
+            correctAnswerIndex: 1,
+            explanation: "'Joyful' is a synonym for 'happy'.",
+            subjectName: SubjectName.LANG1,
+            topicId: 'lang1_1',
+            subTopicId: 'lang1_1-grammar',
+          },
+          {
+            question: "The opposite of 'tall' is:",
+            options: [
+              "Short",
+              "Long",
+              "Big",
+              "Wide"
+            ],
+            correctAnswerIndex: 0,
+            explanation: "'Short' is the opposite of 'tall'.",
+            subjectName: SubjectName.LANG1,
+            topicId: 'lang1_1',
+            subTopicId: 'lang1_1-grammar',
+          },
+          {
+            question: "___________ comprehension is the skill of reading a piece of text closely or intensely for the purpose of extracting specific information from the text.",
+            options: [
+              "Global",
+              "Local",
+              "Inferential",
+              "Evaluative"
+            ],
+            correctAnswerIndex: 1,
+            explanation: "Local comprehension is the skill of extracting specific information from a text.",
+            subjectName: SubjectName.LANG1,
+            topicId: 'lang1_1',
+            subTopicId: 'lang1_1-comprehension',
+          },
+          {
+            question: "The word 'with' is a:",
+            options: [
+              "Preposition",
+              "Adverb",
+              "Adjective",
+              "Noun"
+            ],
+            correctAnswerIndex: 0,
+            explanation: "'With' is a preposition.",
+            subjectName: SubjectName.LANG1,
+            topicId: 'lang1_1',
+            subTopicId: 'lang1_1-grammar',
+          },
+          {
+            question: "The word 'or' is a:",
+            options: [
+              "Conjunction",
+              "Preposition",
+              "Adverb",
+              "Adjective"
+            ],
+            correctAnswerIndex: 0,
+            explanation: "'Or' is a conjunction.",
+            subjectName: SubjectName.LANG1,
+            topicId: 'lang1_1',
+            subTopicId: 'lang1_1-grammar',
+          },
+          {
+            question: "The word 'she' is a:",
+            options: [
+              "Pronoun",
+              "Conjunction",
+              "Preposition",
+              "Adverb"
+            ],
+            correctAnswerIndex: 0,
+            explanation: "'She' is a pronoun.",
+            subjectName: SubjectName.LANG1,
+            topicId: 'lang1_1',
+            subTopicId: 'lang1_1-grammar',
+          },
+          {
+            question: "The word 'sad' is an:",
+            options: [
+              "Adverb",
+              "Adjective",
+              "Noun",
+              "Verb"
+            ],
+            correctAnswerIndex: 1,
+            explanation: "'Sad' is an adjective.",
+            subjectName: SubjectName.LANG1,
+            topicId: 'lang1_1',
+            subTopicId: 'lang1_1-grammar',
+          }
         ],
       },
       {

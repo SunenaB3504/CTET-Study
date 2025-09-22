@@ -71,10 +71,22 @@ Each topic provides:
 
 ### 3. Practice Quizzes
 
+
 - **Question Format**: Multiple choice questions (MCQs)
 - **Immediate Feedback**: See correct answers and explanations instantly
 - **Progress Tracking**: Know how many questions you've answered
 - **Skip Option**: Move to next question without answering
+
+#### Enrichment of 'Family and Friends (Theme)' Practice Quiz
+
+The 'Family and Friends (Theme)' section in Environmental Studies (EVS) now features an enriched Practice Quiz:
+
+- 10 unique, high-quality questions have been added, covering all sub-themes: Relationships, Work and Play, Animals, and Plants.
+- Questions were sourced from previous question papers and mapped to relevant sub-topics for comprehensive coverage.
+- Each question includes answer options, correct answer index, and detailed explanations for effective learning.
+- The quiz logic ensures only unique questions are shown, with proper answer validation and feedback.
+
+This update provides a robust practice experience for the 'Family and Friends (Theme)' section, supporting deeper understanding and exam readiness.
 
 ## Assessment Features
 

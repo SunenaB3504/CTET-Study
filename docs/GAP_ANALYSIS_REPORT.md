@@ -107,7 +107,15 @@ Missing: 80/150 questions
 - **No answer options structure** for extracted questions
 
 ## 📋 Recommended Actions
+### Practice Quiz Enrichment: Family and Friends (Theme)
 
+The 'Family and Friends (Theme)' section in EVS has been enriched with:
+- 10 unique, high-quality questions covering all sub-themes (Relationships, Work and Play, Animals, Plants)
+- Sourced from previous question papers and mapped to relevant sub-topics
+- Each question includes answer options, correct answer index, and detailed explanations
+- Quiz logic ensures unique questions, proper answer validation, and instant feedback
+
+This update ensures robust practice and comprehensive coverage for this key EVS theme.
 ### Immediate Priority (High Impact)
 
 #### 1. **Complete Language Sections** 🔴

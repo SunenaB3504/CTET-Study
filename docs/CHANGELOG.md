@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-
+  - Enriched 'Family and Friends (Theme)' Practice Quiz in EVS with 10 unique, high-quality questions covering all sub-themes, sourced from question papers, with answer options, explanations, and improved quiz logic.
 - Comprehensive documentation suite in `/docs` folder
 - API documentation with interface definitions
 - Architecture documentation with system design

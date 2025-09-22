@@ -127,7 +127,15 @@ global.IntersectionObserver = class IntersectionObserver {
 ```
 
 ## 🧩 Component Development Workflow
+### Practice Quiz Enrichment: Family and Friends (Theme)
 
+The 'Family and Friends (Theme)' section in EVS now features:
+- 10 unique, high-quality questions covering all sub-themes
+- Sourced from previous question papers and mapped to sub-topics
+- Each question includes options, correct answer index, and explanations
+- Quiz logic ensures unique questions and proper answer validation
+
+This logic is implemented in the main data file and reflected in the PracticeQuiz component.
 ### Step 1: Plan Your Component
 
 ```typescript
