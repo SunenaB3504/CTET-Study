@@ -1,24 +1,24 @@
 import React, { useState } from 'react';
-import { Subject, Topic, View, QuestionPaper, SubjectName, ContextualTopic, CoverageData } from './types';
-import Sidebar from './components/Sidebar';
-import Header from './components/Header';
-import Dashboard from './components/Dashboard';
-import StudyModule from './components/StudyModule';
-import MockTest from './components/MockTest';
-import MockTestSelection from './components/MockTestSelection';
-import EnhancedMockTestFlow from './components/EnhancedMockTestFlow';
-import ReadinessTracker from './components/ReadinessTracker';
-import SampleQuestions from './components/SampleQuestions';
-import GapAnalysisDashboard from './components/GapAnalysisDashboard';
-import QualityAssessmentDashboard from './components/QualityAssessmentDashboard';
-import ExperienceLevelSelection from './components/ExperienceLevelSelection';
-import ProgressDashboard from './components/ProgressDashboard';
-import SessionAnalytics from './components/SessionAnalytics';
-import RecommendationDashboard from './components/RecommendationDashboard';
-import { LearningInsightsDashboard } from './components/LearningInsightsDashboard';
-import { SUBJECT_DATA } from './constants/data';
-import { QUESTION_PAPERS_DATA } from './constants/questionPapers';
-import { SYLLABUS_DATA } from './constants/syllabus';
+import { Subject, Topic, View, QuestionPaper, SubjectName, ContextualTopic, CoverageData, SyllabusSubject, SyllabusTopic, SyllabusSubTopic } from './types.js';
+import Sidebar from './components/Sidebar.js';
+import Header from './components/Header.js';
+import Dashboard from './components/Dashboard.js';
+import StudyModule from './components/StudyModule.js';
+import MockTest from './components/MockTest.js';
+import MockTestSelection from './components/MockTestSelection.js';
+import EnhancedMockTestFlow from './components/EnhancedMockTestFlow.js';
+import ReadinessTracker from './components/ReadinessTracker.js';
+import SampleQuestions from './components/SampleQuestions.js';
+import GapAnalysisDashboard from './components/GapAnalysisDashboard.js';
+import QualityAssessmentDashboard from './components/QualityAssessmentDashboard.js';
+import ExperienceLevelSelection from './components/ExperienceLevelSelection.js';
+import ProgressDashboard from './components/ProgressDashboard.js';
+import SessionAnalytics from './components/SessionAnalytics.js';
+import RecommendationDashboard from './components/RecommendationDashboard.js';
+import { LearningInsightsDashboard } from './components/LearningInsightsDashboard.js';
+import { SUBJECT_DATA } from './constants/data.js';
+import { QUESTION_PAPERS_DATA } from './constants/questionPapers.js';
+import { SYLLABUS_DATA } from './constants/syllabus.js';
 
 const generateCoverageData = (subjects: Subject[], papers: QuestionPaper[]): CoverageData[] => {
   const allQuestions = [
@@ -27,9 +27,9 @@ const generateCoverageData = (subjects: Subject[], papers: QuestionPaper[]): Cov
   ];
   const coverage: CoverageData[] = [];
 
-  SYLLABUS_DATA.forEach(syllabusSubject => {
-    syllabusSubject.topics.forEach(syllabusTopic => {
-      syllabusTopic.subTopics.forEach(syllabusSubTopic => {
+  SYLLABUS_DATA.forEach((syllabusSubject: SyllabusSubject) => {
+    syllabusSubject.topics.forEach((syllabusTopic: SyllabusTopic) => {
+      syllabusTopic.subTopics.forEach((syllabusSubTopic: SyllabusSubTopic) => {
         const questionCount = allQuestions.filter(q => q.subTopicId === syllabusSubTopic.id).length;
 
         const contentTopic = subjects
@@ -240,8 +240,8 @@ const App: React.FC = () => {
         return (
           <GapAnalysisDashboard
             existingQuestions={[
-              ...QUESTION_PAPERS_DATA.flatMap(p => p.questions),
-              ...SUBJECT_DATA.flatMap(s => s.topics.flatMap(t => t.practiceQuestions)),
+              ...QUESTION_PAPERS_DATA.flatMap((p: QuestionPaper) => p.questions),
+              ...SUBJECT_DATA.flatMap((s: Subject) => s.topics.flatMap((t: Topic) => t.practiceQuestions)),
             ]}
             onGapSelected={(gap) => {
               // Handle gap selection - could navigate to content creation
@@ -253,8 +253,8 @@ const App: React.FC = () => {
         return (
           <QualityAssessmentDashboard
             questions={[
-              ...QUESTION_PAPERS_DATA.flatMap(p => p.questions),
-              ...SUBJECT_DATA.flatMap(s => s.topics.flatMap(t => t.practiceQuestions)),
+              ...QUESTION_PAPERS_DATA.flatMap((p: QuestionPaper) => p.questions),
+              ...SUBJECT_DATA.flatMap((s: Subject) => s.topics.flatMap((t: Topic) => t.practiceQuestions)),
             ]}
             onQualityIssueClick={(issue) => {
               // Handle quality issue selection

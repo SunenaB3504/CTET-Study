@@ -1,6 +1,6 @@
 import React from 'react';
-import { Subject, SubjectName, ContextualTopic } from '../types';
-import { SUBJECT_DATA } from '../constants/data';
+import { Subject, SubjectName, ContextualTopic } from '../types.js';
+import { SUBJECT_DATA } from '../constants/data.js';
 import { PencilSquareIcon, BookOpenIcon, ChartBarIcon, MagnifyingGlassIcon, CheckCircleIcon, UserIcon, TrophyIcon, LightBulbIcon, CpuChipIcon } from '@heroicons/react/24/solid';
 
 interface SidebarProps {
