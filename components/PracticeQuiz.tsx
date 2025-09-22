@@ -16,22 +16,29 @@ const PracticeQuiz: React.FC<PracticeQuizProps> = ({ questions, onSelectTopicByI
 
   // Helper function to shuffle an array
   const shuffleArray = (array: MCQ[]): MCQ[] => {
-    return array.sort(() => Math.random() - 0.5);
+    return [...array].sort(() => Math.random() - 0.5);
   };
 
-  // Ensure at least 10 unique questions are displayed
-  const ensureMinimumQuestions = (questions: MCQ[]): MCQ[] => {
-    if (questions.length >= 10) return shuffleArray(questions);
+  // Store shuffled questions in state so shuffling only happens once
+  const [limitedQuestions, setLimitedQuestions] = useState<MCQ[]>([]);
 
-    // Fallback logic: combine questions from other topics or duplicate and shuffle
-    const additionalQuestions = [...questions];
-    while (additionalQuestions.length < 10) {
-      additionalQuestions.push(...questions);
-    }
-    return shuffleArray(additionalQuestions.slice(0, 10));
-  };
+  React.useEffect(() => {
+    const ensureMinimumQuestions = (questions: MCQ[]): MCQ[] => {
+      if (questions.length >= 10) return shuffleArray(questions);
+      const additionalQuestions = [...questions];
+      while (additionalQuestions.length < 10) {
+        additionalQuestions.push(...questions);
+      }
+      return shuffleArray(additionalQuestions.slice(0, 10));
+    };
+    setLimitedQuestions(ensureMinimumQuestions(questions));
+    setCurrentQuestionIndex(0);
+    setIsQuizCompleted(false);
+    setCompletedQuestions([]);
+    setSelectedOption(null);
+    setIsAnswered(false);
+  }, [questions]);
 
-  const limitedQuestions = ensureMinimumQuestions(questions);
   const currentQuestion = limitedQuestions[currentQuestionIndex];
 
   if (!limitedQuestions || limitedQuestions.length === 0) {
