@@ -27,7 +27,8 @@
     "build:analyze": "npm run build && npm run analyze-bundle",
     "validate:context": "node scripts/validate-context.js",
     "context:report": "node scripts/validate-context.js --report",
-    "build:perf": "vite build --config vite.config.perf.ts"
+  "build:perf": "vite build --config vite.config.perf.ts",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
