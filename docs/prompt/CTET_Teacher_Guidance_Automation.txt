@@ -1,0 +1,11 @@
+Prompt for CTET Teacher Guidance Content Automation
+
+1. Review the curriculum documentation in docs/NCFSE-2023-August_2023.md and docs/NCF-2023_carriculam str.txt.
+2. Create detailed, actionable content for teachers appearing in the CTET exam, ensuring complete adherence to the official documentation in the docs folder.
+3. After each execution, update the implementation plan in docs/PHASE1_FOUNDATION_ENHANCEMENT_IMPLEMENTATION_PLAN.md with progress and changes.
+4. Integrate the new content into the UI as a new sidebar item for easy teacher access.
+5. Include relevant video resources from the constants/media folder to enhance learning.
+6. Run a final recheck to ensure all content strictly follows the documentation in the docs folder.
+7. Sanitize all generated HTML using DOM Purify for security.
+8. Run tests to ensure all output strictly adheres to JSON format requirements.
+9. Save this prompt in the docs/prompt folder and wait for user confirmation before execution.
