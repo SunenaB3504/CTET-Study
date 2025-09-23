@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { MCQ, SubjectName, ContextualTopic } from '../types';
-import { SUBJECT_DATA } from '../constants/data';
+import { MCQ, SubjectName, ContextualTopic } from '../types.js';
+import { SUBJECT_DATA } from '../constants/data.js';
 import { ChevronLeftIcon, ChevronRightIcon, ClockIcon, QuestionMarkCircleIcon } from '@heroicons/react/24/solid';
-import EnhancedTestResult from './EnhancedTestResult';
-import { TestConfiguration } from './MockTestConfig';
+import EnhancedTestResult from './EnhancedTestResult.js';
+import { TestConfiguration } from './MockTestConfig.js';
 
 interface EnhancedMockTestProps {
   config: TestConfiguration;
@@ -79,8 +79,8 @@ const EnhancedMockTest: React.FC<EnhancedMockTestProps> = ({
 
   useEffect(() => {
     const currentQuestion = questions[currentQuestionIndex];
-    const subject = SUBJECT_DATA.find(s => s.name === currentQuestion.subjectName);
-    const topic = subject?.topics.find(t => t.id === currentQuestion.topicId);
+    const subject = SUBJECT_DATA.find((s: any) => s.name === currentQuestion.subjectName);
+    const topic = subject?.topics.find((t: any) => t.id === currentQuestion.topicId);
     if (topic) {
       setContextualTopic({
         subjectName: currentQuestion.subjectName,
@@ -190,7 +190,7 @@ const EnhancedMockTest: React.FC<EnhancedMockTestProps> = ({
         </div>
 
         <div className="space-y-3">
-          {currentQuestion.options.map((option, index) => (
+          {currentQuestion.options.map((option: string, index: number) => (
             <button
               key={index}
               onClick={() => handleSelectOption(index)}
@@ -212,7 +212,7 @@ const EnhancedMockTest: React.FC<EnhancedMockTestProps> = ({
 
         {/* Question Navigation Dots */}
         <div className="mt-8 flex flex-wrap gap-2 justify-center">
-          {questions.map((_, index) => (
+          {questions.map((_: any, index: number) => (
             <button
               key={index}
               onClick={() => setCurrentQuestionIndex(index)}
@@ -254,7 +254,7 @@ const EnhancedMockTest: React.FC<EnhancedMockTestProps> = ({
 
           <button
             onClick={finishTest}
-            className="bg-danger text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition-all duration-200"
+            className="bg-danger text-gray-900 font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition-all duration-200"
           >
             Submit Test
           </button>
