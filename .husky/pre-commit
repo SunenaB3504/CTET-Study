@@ -1,0 +1,15 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "🔍 Running Context Validation..."
+npm run validate:context
+
+if [ $? -ne 0 ]; then
+  echo "❌ Context validation failed. Please fix the issues before committing."
+  echo "💡 Run 'npm run validate:context' to see detailed issues."
+  echo "📖 See docs/CONTEXT_PRESERVATION_GUIDE.md for guidance."
+  exit 1
+fi
+
+echo "✅ Context validation passed!"
+npx lint-staged
