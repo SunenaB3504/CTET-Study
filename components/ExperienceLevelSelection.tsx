@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { ExperienceLevel, UserPreferences } from '../types';
-import { EXPERIENCE_LEVELS, UserPreferencesStorage, AdaptiveContentService } from '../utils/experienceLevel';
+import { ExperienceLevel, UserPreferences } from '../types.js';
+import { EXPERIENCE_LEVELS, UserPreferencesStorage, AdaptiveContentService } from '../utils/experienceLevel.js';
 import { CheckCircleIcon, ClockIcon, AcademicCapIcon, TagIcon } from '@heroicons/react/24/solid';
 
 interface ExperienceLevelSelectionProps {
@@ -175,7 +175,7 @@ const ExperienceLevelSelection: React.FC<ExperienceLevelSelectionProps> = ({
         <div className="bg-green-50 rounded-xl p-6 mb-8">
           <h2 className="text-xl font-semibold text-gray-900 mb-4">What You'll Get</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            {levelConfig.features.map((feature, index) => (
+            {levelConfig.features.map((feature: string, index: number) => (
               <div key={index} className="flex items-center text-sm text-gray-700">
                 <CheckCircleIcon className="h-4 w-4 text-green-500 mr-2 flex-shrink-0" />
                 {feature}

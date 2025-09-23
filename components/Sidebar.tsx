@@ -18,6 +18,7 @@ interface SidebarProps {
   selectedSubjectName?: SubjectName;
   contextualTopic: ContextualTopic | null;
   onSelectTopicById: (subjectName: SubjectName, topicId: string) => void;
+  style?: React.CSSProperties;
 }
 
 const Sidebar: React.FC<SidebarProps> = ({
@@ -35,6 +36,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   selectedSubjectName,
   contextualTopic,
   onSelectTopicById,
+  style,
 }) => {
   const handleLearnMoreClick = () => {
     if (contextualTopic) {
@@ -49,7 +51,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   };
 
   return (
-    <aside className="w-64 bg-white shadow-md flex-shrink-0 hidden md:flex flex-col">
+    <aside className="w-64 bg-white shadow-md flex-shrink-0 hidden md:flex flex-col" style={style}>
       <div className="flex-1">
         <div className="p-6">
           <h2 className="text-2xl font-bold text-primary">CTET Prep Pal</h2>

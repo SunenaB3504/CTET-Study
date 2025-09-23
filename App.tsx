@@ -60,6 +60,10 @@ const App: React.FC = () => {
   const [selectedTopic, setSelectedTopic] = useState<Topic | null>(null);
   const [selectedPaper, setSelectedPaper] = useState<QuestionPaper | null>(null);
   const [currentContextualTopic, setCurrentContextualTopic] = useState<ContextualTopic | null>(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => setSidebarOpen(prev => !prev);
+  const closeSidebar = () => setSidebarOpen(false);
 
   const handleSelectSubject = (subject: Subject) => {
     setSelectedSubject(subject);
@@ -336,24 +340,33 @@ const App: React.FC = () => {
 
   return (
     <div className="flex h-screen bg-gray-100 font-sans">
+      {/* Sidebar for desktop, and overlay for mobile when sidebarOpen */}
       <Sidebar
-        onSelectSubject={handleSelectSubject}
-        onStartMockTest={handleStartMockTest}
-        onStartEnhancedMockTest={handleStartEnhancedMockTest}
-        onShowReadinessTracker={handleShowReadinessTracker}
-        onShowSampleQuestions={handleShowSampleQuestions}
-        onShowGapAnalysis={handleShowGapAnalysis}
-        onShowQualityAssessment={handleShowQualityAssessment}
-        onShowExperienceLevelSelection={handleShowExperienceLevelSelection}
-        onShowProgressDashboard={handleShowProgressDashboard}
-        onShowRecommendationDashboard={handleShowRecommendationDashboard}
-        onShowLearningInsights={handleShowLearningInsights}
+        onSelectSubject={subject => { handleSelectSubject(subject); closeSidebar(); }}
+        onStartMockTest={() => { handleStartMockTest(); closeSidebar(); }}
+        onStartEnhancedMockTest={() => { handleStartEnhancedMockTest(); closeSidebar(); }}
+        onShowReadinessTracker={() => { handleShowReadinessTracker(); closeSidebar(); }}
+        onShowSampleQuestions={() => { handleShowSampleQuestions(); closeSidebar(); }}
+        onShowGapAnalysis={() => { handleShowGapAnalysis(); closeSidebar(); }}
+        onShowQualityAssessment={() => { handleShowQualityAssessment(); closeSidebar(); }}
+        onShowExperienceLevelSelection={() => { handleShowExperienceLevelSelection(); closeSidebar(); }}
+        onShowProgressDashboard={() => { handleShowProgressDashboard(); closeSidebar(); }}
+        onShowRecommendationDashboard={() => { handleShowRecommendationDashboard(); closeSidebar(); }}
+        onShowLearningInsights={() => { handleShowLearningInsights(); closeSidebar(); }}
         selectedSubjectName={selectedSubject?.name}
         contextualTopic={currentContextualTopic}
-        onSelectTopicById={handleSelectTopicById}
+        onSelectTopicById={(subjectName, topicId) => { handleSelectTopicById(subjectName, topicId); closeSidebar(); }}
+        style={sidebarOpen ? { display: 'flex', zIndex: 50, position: 'fixed', left: 0, top: 0, height: '100vh', background: 'white' } : undefined}
       />
+      {/* Overlay for mobile sidebar */}
+      {sidebarOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-40 z-40 md:hidden"
+          onClick={closeSidebar}
+        />
+      )}
       <div className="flex-1 flex flex-col overflow-hidden">
-        <Header />
+        <Header onHomeClick={toggleSidebar} />
         <main className="flex-1 overflow-x-hidden overflow-y-auto bg-gray-100 p-4 md:p-8">{renderContent()}</main>
       </div>
     </div>
