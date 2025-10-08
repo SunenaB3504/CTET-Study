@@ -76,18 +76,18 @@ const TTSControls: React.FC<TTSControlsProps> = ({ textToSpeak }) => {
       <h4 className="font-semibold text-gray-900 mb-2">Listen to this section</h4>
       <button
         onClick={handleToggleSpeech}
-        className="flex items-center bg-primary text-white font-bold py-2 px-4 rounded-lg hover:bg-primary-dark transition-colors duration-200"
+        className="flex items-center bg-white border-2 border-primary text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors duration-200 shadow-sm"
         aria-label={isSpeaking ? 'Stop text-to-speech' : 'Play text-to-speech'}
         aria-live="polite"
       >
         {isSpeaking ? (
           <>
-            <StopIcon className="h-5 w-5 mr-2" />
+            <StopIcon className="h-5 w-5 mr-2 text-primary" />
             Stop Listening
           </>
         ) : (
           <>
-            <SpeakerWaveIcon className="h-5 w-5 mr-2" />
+            <SpeakerWaveIcon className="h-5 w-5 mr-2 text-primary" />
             Listen to Notes
           </>
         )}
