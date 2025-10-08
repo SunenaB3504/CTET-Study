@@ -73,7 +73,7 @@ const TTSControls: React.FC<TTSControlsProps> = ({ textToSpeak }) => {
 
   return (
     <div>
-      <h4 className="font-semibold text-gray-700 mb-2">Listen to this section</h4>
+      <h4 className="font-semibold text-gray-900 mb-2">Listen to this section</h4>
       <button
         onClick={handleToggleSpeech}
         className="flex items-center bg-primary text-white font-bold py-2 px-4 rounded-lg hover:bg-primary-dark transition-colors duration-200"
