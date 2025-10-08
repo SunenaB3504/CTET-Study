@@ -1,5 +1,5 @@
-import { ExperienceLevel, ExperienceLevelConfig, UserPreferences, AdaptiveContentFilter, SubjectName } from '../types';
-import { logger } from './logger';
+import { ExperienceLevel, ExperienceLevelConfig, UserPreferences, AdaptiveContentFilter, SubjectName } from '../types.js';
+import { logger } from './logger.js';
 
 // Experience level configurations
 export const EXPERIENCE_LEVELS: Record<ExperienceLevel, ExperienceLevelConfig> = {
@@ -233,6 +233,13 @@ export class AdaptiveContentService {
             'Performance optimization',
             'Competitive exam strategies'
           ]
+        };
+      default:
+        return {
+          ...basePlan,
+          dailySessions: 2,
+          weeklyGoals: ['Complete 1 full mock test', 'Review basic concepts'],
+          focusAreas: ['Basic teaching concepts']
         };
     }
   }

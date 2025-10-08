@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo } from 'react';
-import { Subject, Topic, MCQ, SubjectName, ContextualTopic } from '../types';
+import { Subject, Topic, MCQ, SubjectName, ContextualTopic } from '../types.js';
 import { ArrowLeftIcon } from '@heroicons/react/24/solid';
-import PracticeQuiz from './PracticeQuiz';
-import TTSControls from './TTSControls';
+import PracticeQuiz from './PracticeQuiz.js';
+import TTSControls from './TTSControls.js';
 import DOMPurify from 'dompurify';
 
 interface StudyModuleProps {

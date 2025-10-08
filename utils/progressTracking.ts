@@ -1,5 +1,5 @@
-import { ExperienceLevel } from '../types';
-import { logger } from './logger';
+import { ExperienceLevel } from '../types.js';
+import { logger } from './logger.js';
 
 /**
  * Progress Tracking Service

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Subject, ExperienceLevel } from '../types';
-import { RecommendationService, RecommendationResult, RecommendationScore } from '../utils/recommendationService';
-import { ProgressTrackingService } from '../utils/progressTracking';
-import { SUBJECT_DATA } from '../constants/data';
+import { Subject, ExperienceLevel } from '../types.js';
+import { RecommendationService, RecommendationResult, RecommendationScore } from '../utils/recommendationService.js';
+import { ProgressTrackingService } from '../utils/progressTracking.js';
+import { SUBJECT_DATA } from '../constants/data.js';
 import { LightBulbIcon, ChartBarIcon, ClockIcon, TagIcon, ArrowRightIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
 import { TrophyIcon, ExclamationTriangleIcon, SparklesIcon } from '@heroicons/react/24/solid';
-import { logger } from '../utils/logger';
+import { logger } from '../utils/logger.js';
 
 interface RecommendationDashboardProps {
   experienceLevel: ExperienceLevel;

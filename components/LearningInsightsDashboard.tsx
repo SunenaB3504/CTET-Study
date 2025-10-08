@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { LearningInsightsService, LearningInsights, TopicMastery, ImprovementSuggestion, SessionSummary } from '../utils/learningInsightsService.js';
 import { ChartBarIcon, ArrowTrendingUpIcon, BookOpenIcon, LightBulbIcon, ClockIcon, TagIcon, AcademicCapIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline';
-import { logger } from '../utils/logger';
+import { logger } from '../utils/logger.js';
 
 interface LearningInsightsDashboardProps {
   onNavigateToTopic?: (topicId: string) => void;

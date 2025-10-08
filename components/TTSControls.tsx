@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { SpeakerWaveIcon, StopIcon } from '@heroicons/react/24/solid';
-import { logger } from '../utils/logger';
+import { logger } from '../utils/logger.js';
 
 interface TTSControlsProps {
   textToSpeak: string;
