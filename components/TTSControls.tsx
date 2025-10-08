@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { SpeakerWaveIcon, StopIcon } from '@heroicons/react/24/solid';
+import { logger } from '../utils/logger';
 
 interface TTSControlsProps {
   textToSpeak: string;
@@ -45,7 +46,7 @@ const TTSControls: React.FC<TTSControlsProps> = ({ textToSpeak }) => {
           intervalRef.current = null;
         }
         setIsSpeaking(false);
-        console.error('Speech synthesis error:', event.error);
+        logger.error('Speech synthesis error:', event.error);
       };
 
       synth.speak(utterance);

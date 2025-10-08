@@ -1,4 +1,5 @@
 import { ExperienceLevel, ExperienceLevelConfig, UserPreferences, AdaptiveContentFilter, SubjectName } from '../types';
+import { logger } from './logger';
 
 // Experience level configurations
 export const EXPERIENCE_LEVELS: Record<ExperienceLevel, ExperienceLevelConfig> = {
@@ -77,7 +78,7 @@ export class UserPreferencesStorage {
       };
       localStorage.setItem(this.STORAGE_KEY, JSON.stringify(dataToStore));
     } catch (error) {
-      console.error('Failed to save user preferences:', error);
+      logger.error('Failed to save user preferences:', error);
     }
   }
 
@@ -93,7 +94,7 @@ export class UserPreferencesStorage {
       }
       return parsed as UserPreferences;
     } catch (error) {
-      console.error('Failed to load user preferences:', error);
+      logger.error('Failed to load user preferences:', error);
       return null;
     }
   }
@@ -112,7 +113,7 @@ export class UserPreferencesStorage {
     try {
       localStorage.removeItem(this.STORAGE_KEY);
     } catch (error) {
-      console.error('Failed to clear user preferences:', error);
+      logger.error('Failed to clear user preferences:', error);
     }
   }
 }
@@ -296,7 +297,7 @@ export class ProgressTracker {
       };
       localStorage.setItem(this.PROGRESS_KEY, JSON.stringify(dataToStore));
     } catch (error) {
-      console.error('Failed to save progress:', error);
+      logger.error('Failed to save progress:', error);
     }
   }
 
@@ -311,7 +312,7 @@ export class ProgressTracker {
       }
       return parsed;
     } catch (error) {
-      console.error('Failed to load progress:', error);
+      logger.error('Failed to load progress:', error);
       return null;
     }
   }

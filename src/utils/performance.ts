@@ -1,14 +1,16 @@
+import { logger } from '../../utils/logger';
+
 // Performance monitoring utilities
 export const performanceMonitor = {
   // Measure component render time
   measureRenderTime: (componentName: string, startTime: number) => {
     const endTime = performance.now();
     const renderTime = endTime - startTime;
-    console.log(`${componentName} render time: ${renderTime.toFixed(2)}ms`);
+    logger.performance(`${componentName} render time`, renderTime);
 
     // Log warning for slow renders
     if (renderTime > 16.67) { // More than one frame at 60fps
-      console.warn(`⚠️ Slow render detected for ${componentName}: ${renderTime.toFixed(2)}ms`);
+      logger.warn(`⚠️ Slow render detected for ${componentName}: ${renderTime.toFixed(2)}ms`);
     }
 
     return renderTime;
@@ -21,13 +23,13 @@ export const performanceMonitor = {
       const resources = performance.getEntriesByType('resource');
       const jsResources = resources.filter(r => r.name.includes('.js'));
 
-      console.group('📦 Bundle Analysis');
+      logger.group('📦 Bundle Analysis');
       jsResources.forEach(resource => {
         const perfResource = resource as PerformanceResourceTiming;
         const sizeKB = (perfResource.transferSize / 1024).toFixed(2);
-        console.log(`${resource.name}: ${sizeKB}KB`);
+        logger.debug(`${resource.name}: ${sizeKB}KB`);
       });
-      console.groupEnd();
+      logger.groupEnd();
     }
   },
 
@@ -35,11 +37,11 @@ export const performanceMonitor = {
   logMemoryUsage: () => {
     if (typeof window !== 'undefined' && 'memory' in performance) {
       const memory = (performance as any).memory;
-      console.group('🧠 Memory Usage');
-      console.log(`Used: ${(memory.usedJSHeapSize / 1024 / 1024).toFixed(2)}MB`);
-      console.log(`Total: ${(memory.totalJSHeapSize / 1024 / 1024).toFixed(2)}MB`);
-      console.log(`Limit: ${(memory.jsHeapSizeLimit / 1024 / 1024).toFixed(2)}MB`);
-      console.groupEnd();
+      logger.group('🧠 Memory Usage');
+      logger.debug(`Used: ${(memory.usedJSHeapSize / 1024 / 1024).toFixed(2)}MB`);
+      logger.debug(`Total: ${(memory.totalJSHeapSize / 1024 / 1024).toFixed(2)}MB`);
+      logger.debug(`Limit: ${(memory.jsHeapSizeLimit / 1024 / 1024).toFixed(2)}MB`);
+      logger.groupEnd();
     }
   },
 
@@ -54,20 +56,20 @@ export const performanceMonitor = {
             clsValue += (entry as any).value;
           }
         }
-        console.log(`📊 CLS: ${clsValue.toFixed(4)}`);
+        logger.debug(`📊 CLS: ${clsValue.toFixed(4)}`);
       }).observe({ entryTypes: ['layout-shift'] });
 
       // LCP - Largest Contentful Paint
       new PerformanceObserver((list) => {
         const entries = list.getEntries();
         const lastEntry = entries[entries.length - 1];
-        console.log(`🎨 LCP: ${(lastEntry as any).renderTime || lastEntry.startTime}ms`);
+        logger.debug(`🎨 LCP: ${(lastEntry as any).renderTime || lastEntry.startTime}ms`);
       }).observe({ entryTypes: ['largest-contentful-paint'] });
 
       // FID - First Input Delay
       new PerformanceObserver((list) => {
         for (const entry of list.getEntries()) {
-          console.log(`👆 FID: ${(entry as any).processingStart - entry.startTime}ms`);
+          logger.debug(`👆 FID: ${(entry as any).processingStart - entry.startTime}ms`);
         }
       }).observe({ entryTypes: ['first-input'] });
     }
@@ -86,12 +88,12 @@ export const bundleMonitor = {
         const src = script.getAttribute('src');
         if (src && src.includes('.js')) {
           // This is a simplified check - in a real app you'd need to track actual sizes
-          console.log(`Script loaded: ${src}`);
+          logger.debug(`Script loaded: ${src}`);
         }
       });
 
       if (totalSize > maxSizeKB * 1024) {
-        console.warn(`⚠️ Bundle size exceeds ${maxSizeKB}KB: ${(totalSize / 1024).toFixed(2)}KB`);
+        logger.warn(`⚠️ Bundle size exceeds ${maxSizeKB}KB: ${(totalSize / 1024).toFixed(2)}KB`);
       }
     }
   }

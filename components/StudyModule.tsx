@@ -1,8 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import { Subject, Topic, MCQ, SubjectName, ContextualTopic } from '../types';
 import { ArrowLeftIcon } from '@heroicons/react/24/solid';
 import PracticeQuiz from './PracticeQuiz';
 import TTSControls from './TTSControls';
+import DOMPurify from 'dompurify';
 
 interface StudyModuleProps {
   subject: Subject;
@@ -13,6 +14,15 @@ interface StudyModuleProps {
 }
 
 const StudyModule: React.FC<StudyModuleProps> = ({ subject, topic, onBack, onSelectTopicById, setContextualTopic }) => {
+  // Sanitize HTML content to prevent XSS attacks
+  const sanitizedNotes = useMemo(() => {
+    return DOMPurify.sanitize(topic.notes, {
+      ALLOWED_TAGS: ['p', 'strong', 'em', 'ul', 'ol', 'li', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'br', 'hr', 'blockquote', 'code', 'pre', 'span', 'div', 'a'],
+      ALLOWED_ATTR: ['class', 'id', 'href', 'target', 'rel'],
+      ALLOW_DATA_ATTR: false,
+    });
+  }, [topic.notes]);
+
   useEffect(() => {
     setContextualTopic({
       subjectName: subject.name,
@@ -33,7 +43,7 @@ const StudyModule: React.FC<StudyModuleProps> = ({ subject, topic, onBack, onSel
         <h2 className="text-3xl font-bold text-gray-800 mb-2">{topic.name}</h2>
         <p className="text-gray-500 mb-6">Subject: {subject.name}</p>
 
-        <div className="prose max-w-none text-gray-700" dangerouslySetInnerHTML={{ __html: topic.notes }} />
+        <div className="prose max-w-none text-gray-700" dangerouslySetInnerHTML={{ __html: sanitizedNotes }} />
 
         <div className="mt-8 p-4 bg-blue-50 border-l-4 border-primary rounded-r-lg">
           <TTSControls textToSpeak={topic.notes.replace(/<[^>]*>?/gm, '')} />

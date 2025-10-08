@@ -5,6 +5,7 @@ import { ProgressTrackingService } from '../utils/progressTracking';
 import { SUBJECT_DATA } from '../constants/data';
 import { LightBulbIcon, ChartBarIcon, ClockIcon, TagIcon, ArrowRightIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
 import { TrophyIcon, ExclamationTriangleIcon, SparklesIcon } from '@heroicons/react/24/solid';
+import { logger } from '../utils/logger';
 
 interface RecommendationDashboardProps {
   experienceLevel: ExperienceLevel;
@@ -60,7 +61,7 @@ const RecommendationDashboard: React.FC<RecommendationDashboardProps> = ({
 
       setRecommendations(result);
     } catch (error) {
-      console.error('Error loading recommendations:', error);
+      logger.error('Error loading recommendations:', error);
     } finally {
       setLoading(false);
     }

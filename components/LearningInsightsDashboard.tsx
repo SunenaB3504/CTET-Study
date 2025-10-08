@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { LearningInsightsService, LearningInsights, TopicMastery, ImprovementSuggestion, SessionSummary } from '../utils/learningInsightsService.js';
 import { ChartBarIcon, ArrowTrendingUpIcon, BookOpenIcon, LightBulbIcon, ClockIcon, TagIcon, AcademicCapIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline';
+import { logger } from '../utils/logger';
 
 interface LearningInsightsDashboardProps {
   onNavigateToTopic?: (topicId: string) => void;
@@ -22,7 +23,7 @@ export const LearningInsightsDashboard: React.FC<LearningInsightsDashboardProps>
       const insightsData = LearningInsightsService.generateInsights();
       setInsights(insightsData);
     } catch (error) {
-      console.error('Error loading insights:', error);
+      logger.error('Error loading insights:', error);
     } finally {
       setLoading(false);
     }

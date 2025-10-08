@@ -1,4 +1,5 @@
 import { ExperienceLevel } from '../types';
+import { logger } from './logger';
 
 /**
  * Progress Tracking Service
@@ -155,7 +156,7 @@ export class ProgressTrackingService {
 
       return progress;
     } catch (error) {
-      console.error('Error loading progress data:', error);
+      logger.error('Error loading progress data:', error);
       return null;
     }
   }
@@ -167,7 +168,7 @@ export class ProgressTrackingService {
     try {
       localStorage.setItem(this.STORAGE_KEY, JSON.stringify(progress));
     } catch (error) {
-      console.error('Error saving progress data:', error);
+      logger.error('Error saving progress data:', error);
     }
   }
 
@@ -313,7 +314,7 @@ export class ProgressTrackingService {
 
       this.saveProgress(progress);
     } catch (error) {
-      console.error('Error ending study session:', error);
+      logger.error('Error ending study session:', error);
     }
   }
 
@@ -325,7 +326,7 @@ export class ProgressTrackingService {
       const sessionData = localStorage.getItem(this.SESSION_KEY);
       return sessionData ? JSON.parse(sessionData) : null;
     } catch (error) {
-      console.error('Error getting current session:', error);
+      logger.error('Error getting current session:', error);
       return null;
     }
   }
