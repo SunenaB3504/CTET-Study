@@ -15,9 +15,17 @@ class Logger {
   private config: LoggerConfig;
 
   constructor() {
+    // Check if we're in development mode
+    // In Vite, import.meta.env.DEV is available at build time
+    // For runtime, check hostname as fallback
+    const isDev = typeof window !== 'undefined' && 
+                  (window.location.hostname === 'localhost' || 
+                   window.location.hostname === '127.0.0.1' ||
+                   window.location.hostname.includes('local'));
+    
     this.config = {
-      isDevelopment: process.env.NODE_ENV === 'development',
-      enableDebug: process.env.NODE_ENV === 'development',
+      isDevelopment: isDev,
+      enableDebug: isDev,
       enableInfo: true,
     };
   }
