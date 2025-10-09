@@ -1,9 +1,10 @@
-import { QuestionPaper, SubjectName } from '../../types';
+import { QuestionPaper, SubjectName, PaperType } from '../../types.js';
 
 export const QUESTION_PAPER_AUG_23_I: QuestionPaper = {
   id: 'aug-23-i',
   name: 'CTET Paper - Aug 2023',
   description: 'Official past paper with 150 questions covering all subjects.',
+  paperType: PaperType.PAPER_I,
   questions: [
     {
       question: "Which of the following is not a principle of child development?",

@@ -1,4 +1,4 @@
-import { ExperienceLevel, ExperienceLevelConfig, UserPreferences, AdaptiveContentFilter, SubjectName } from '../types.js';
+import { ExperienceLevel, ExperienceLevelConfig, UserPreferences, AdaptiveContentFilter, SubjectName, PaperType } from '../types.js';
 import { logger } from './logger.js';
 
 // Experience level configurations
@@ -59,6 +59,7 @@ export const EXPERIENCE_LEVELS: Record<ExperienceLevel, ExperienceLevelConfig> =
 // Default user preferences
 export const DEFAULT_USER_PREFERENCES: UserPreferences = {
   experienceLevel: 'beginner',
+  selectedPaperType: null, // User must select Paper I or Paper II
   studyGoals: ['Pass CTET exam', 'Improve teaching skills'],
   preferredSubjects: [],
   dailyStudyTime: 60,
@@ -109,6 +110,16 @@ export class UserPreferencesStorage {
     this.savePreferences(updatedPrefs);
   }
 
+  static updatePaperType(paperType: PaperType): void {
+    const currentPrefs = this.loadPreferences() || DEFAULT_USER_PREFERENCES;
+    const updatedPrefs: UserPreferences = {
+      ...currentPrefs,
+      selectedPaperType: paperType,
+      lastUpdated: new Date()
+    };
+    this.savePreferences(updatedPrefs);
+  }
+
   static clearPreferences(): void {
     try {
       localStorage.removeItem(this.STORAGE_KEY);
@@ -131,7 +142,9 @@ export class AdaptiveContentService {
         [SubjectName.MATH]: true,
         [SubjectName.EVS]: true,
         [SubjectName.LANG1]: true,
-        [SubjectName.LANG2]: true
+        [SubjectName.LANG2]: true,
+        [SubjectName.SCIENCE]: true,
+        [SubjectName.SOCIAL_STUDIES]: true
       },
       difficultyFilters: {
         easy: true,

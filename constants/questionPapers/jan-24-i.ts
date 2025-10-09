@@ -1,9 +1,10 @@
-import { QuestionPaper, SubjectName } from '../../types';
+import { QuestionPaper, SubjectName, PaperType } from '../../types.js';
 
 export const QUESTION_PAPER_JAN_24_I: QuestionPaper = {
   id: 'jan-24-i',
   name: 'CTET Paper - Jan 2024',
   description: 'Official past paper with 150 questions covering all subjects including Hindi Language II.',
+  paperType: PaperType.PAPER_I,
   questions: [
     {
       question: "The statement, “The stage in which a child’s thinking lacks the ability of reversibility and conservation” is related to which stage of cognitive development given by Jean Piaget?",

@@ -4,6 +4,13 @@ export enum SubjectName {
   EVS = 'Environmental Studies',
   LANG1 = 'Language I (English)',
   LANG2 = 'Language II (Hindi)',
+  SCIENCE = 'Science',
+  SOCIAL_STUDIES = 'Social Studies',
+}
+
+export enum PaperType {
+  PAPER_I = 'Paper I (Classes 1-5)',
+  PAPER_II = 'Paper II (Classes 6-8)',
 }
 
 export interface MCQ {
@@ -60,6 +67,7 @@ export interface QuestionPaper {
   id: string;
   name: string;
   description: string;
+  paperType: PaperType;
   questions: MCQ[];
 }
 
@@ -210,6 +218,7 @@ export interface ExperienceLevelConfig {
 
 export interface UserPreferences {
   experienceLevel: ExperienceLevel;
+  selectedPaperType: PaperType | null; // Which paper the user is preparing for
   studyGoals: string[];
   preferredSubjects: SubjectName[];
   dailyStudyTime: number; // minutes

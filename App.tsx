@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Subject, Topic, View, QuestionPaper, SubjectName, ContextualTopic, CoverageData, SyllabusSubject, SyllabusTopic, SyllabusSubTopic } from './types.js';
+import React, { useState, useEffect } from 'react';
+import { Subject, Topic, View, QuestionPaper, SubjectName, ContextualTopic, CoverageData, SyllabusSubject, SyllabusTopic, SyllabusSubTopic, PaperType } from './types.js';
 import Sidebar from './components/Sidebar.js';
 import Header from './components/Header.js';
 import Dashboard from './components/Dashboard.js';
@@ -16,10 +16,12 @@ import ProgressDashboard from './components/ProgressDashboard.js';
 import SessionAnalytics from './components/SessionAnalytics.js';
 import RecommendationDashboard from './components/RecommendationDashboard.js';
 import { LearningInsightsDashboard } from './components/LearningInsightsDashboard.js';
+import PaperTypeSelection from './components/PaperTypeSelection.js';
 import ErrorBoundary from './components/ErrorBoundary.js';
 import { SUBJECT_DATA } from './constants/data.js';
 import { QUESTION_PAPERS_DATA } from './constants/questionPapers.js';
 import { SYLLABUS_DATA } from './constants/syllabus.js';
+import { UserPreferencesStorage } from './utils/experienceLevel.js';
 
 
 const generateCoverageData = (subjects: Subject[], papers: QuestionPaper[]): CoverageData[] => {
@@ -63,6 +65,35 @@ const App: React.FC = () => {
   const [selectedPaper, setSelectedPaper] = useState<QuestionPaper | null>(null);
   const [currentContextualTopic, setCurrentContextualTopic] = useState<ContextualTopic | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [selectedPaperType, setSelectedPaperType] = useState<PaperType | null>(null);
+  const [showPaperTypeSelection, setShowPaperTypeSelection] = useState(false);
+
+  // Check if user has selected a paper type on mount
+  useEffect(() => {
+    const userPrefs = UserPreferencesStorage.loadPreferences();
+    if (userPrefs?.selectedPaperType) {
+      setSelectedPaperType(userPrefs.selectedPaperType);
+      setShowPaperTypeSelection(false);
+    } else {
+      setShowPaperTypeSelection(true);
+    }
+  }, []);
+
+  const handleSelectPaperType = (paperType: PaperType) => {
+    setSelectedPaperType(paperType);
+    UserPreferencesStorage.updatePaperType(paperType);
+    setShowPaperTypeSelection(false);
+  };
+
+  // Show paper type selection if not yet selected
+  if (showPaperTypeSelection || !selectedPaperType) {
+    return (
+      <PaperTypeSelection
+        selectedPaperType={selectedPaperType}
+        onSelectPaperType={handleSelectPaperType}
+      />
+    );
+  }
 
   const toggleSidebar = () => setSidebarOpen(prev => !prev);
   const closeSidebar = () => setSidebarOpen(false);
@@ -174,6 +205,24 @@ const App: React.FC = () => {
     setSelectedSubject(null);
     setSelectedTopic(null);
     setCurrentContextualTopic(null);
+  };
+
+  const handleChangePaperType = () => {
+    const confirmChange = window.confirm(
+      'Are you sure you want to change your paper type? This will reset your current session and take you back to the paper selection screen.'
+    );
+    
+    if (confirmChange) {
+      // Reset the paper type selection
+      setSelectedPaperType(null);
+      setShowPaperTypeSelection(true);
+      // Reset other states
+      setCurrentView(View.DASHBOARD);
+      setSelectedSubject(SUBJECT_DATA[0]);
+      setSelectedTopic(null);
+      setSelectedPaper(null);
+      setCurrentContextualTopic(null);
+    }
   };
 
   const renderContent = () => {
@@ -356,6 +405,7 @@ const App: React.FC = () => {
           onShowProgressDashboard={() => { handleShowProgressDashboard(); closeSidebar(); }}
           onShowRecommendationDashboard={() => { handleShowRecommendationDashboard(); closeSidebar(); }}
           onShowLearningInsights={() => { handleShowLearningInsights(); closeSidebar(); }}
+          onChangePaperType={() => { handleChangePaperType(); closeSidebar(); }}
           selectedSubjectName={selectedSubject?.name}
           contextualTopic={currentContextualTopic}
           onSelectTopicById={(subjectName, topicId) => { handleSelectTopicById(subjectName, topicId); closeSidebar(); }}
@@ -369,7 +419,10 @@ const App: React.FC = () => {
           />
         )}
         <div className="flex-1 flex flex-col overflow-hidden">
-          <Header onHomeClick={toggleSidebar} />
+          <Header 
+            onHomeClick={toggleSidebar} 
+            onChangePaperType={handleChangePaperType}
+          />
           <main className="flex-1 overflow-x-hidden overflow-y-auto bg-gray-100 p-4 md:p-8">
             <ErrorBoundary fallback={<div className="text-center p-8 text-gray-600">Error loading content. Please try again.</div>}>
               {renderContent()}

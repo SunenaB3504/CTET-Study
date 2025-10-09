@@ -1,7 +1,8 @@
 import React from 'react';
-import { Subject, SubjectName, ContextualTopic } from '../types.js';
+import { Subject, SubjectName, ContextualTopic, PaperType } from '../types.js';
 import { SUBJECT_DATA } from '../constants/data.js';
-import { PencilSquareIcon, BookOpenIcon, ChartBarIcon, MagnifyingGlassIcon, CheckCircleIcon, UserIcon, TrophyIcon, LightBulbIcon, CpuChipIcon } from '@heroicons/react/24/solid';
+import { PencilSquareIcon, BookOpenIcon, ChartBarIcon, MagnifyingGlassIcon, CheckCircleIcon, UserIcon, TrophyIcon, LightBulbIcon, CpuChipIcon, ArrowPathIcon } from '@heroicons/react/24/solid';
+import { UserPreferencesStorage } from '../utils/experienceLevel.js';
 
 interface SidebarProps {
   onSelectSubject: (subject: Subject) => void;
@@ -15,6 +16,7 @@ interface SidebarProps {
   onShowProgressDashboard: () => void;
   onShowRecommendationDashboard: () => void;
   onShowLearningInsights: () => void;
+  onChangePaperType?: () => void;
   selectedSubjectName?: SubjectName;
   contextualTopic: ContextualTopic | null;
   onSelectTopicById: (subjectName: SubjectName, topicId: string) => void;
@@ -33,6 +35,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   onShowProgressDashboard,
   onShowRecommendationDashboard,
   onShowLearningInsights,
+  onChangePaperType,
   selectedSubjectName,
   contextualTopic,
   onSelectTopicById,
@@ -50,11 +53,25 @@ const Sidebar: React.FC<SidebarProps> = ({
     }
   };
 
+  // Get current paper type
+  const userPrefs = UserPreferencesStorage.loadPreferences();
+  const currentPaperType = userPrefs?.selectedPaperType;
+  const paperTypeLabel = currentPaperType === PaperType.PAPER_I 
+    ? 'Paper I (Classes 1-5)' 
+    : currentPaperType === PaperType.PAPER_II 
+    ? 'Paper II (Classes 6-8)' 
+    : 'Not Selected';
+
   return (
     <aside className="w-64 bg-white shadow-md flex-shrink-0 hidden md:flex flex-col" style={style}>
       <div className="flex-1">
         <div className="p-6">
           <h2 className="text-2xl font-bold text-primary">CTET Prep Pal</h2>
+          {currentPaperType && (
+            <div className="mt-2 text-xs text-gray-600 bg-blue-50 px-2 py-1 rounded">
+              📚 {paperTypeLabel}
+            </div>
+          )}
         </div>
         <nav className="mt-6">
           <div className="px-6 mb-4">
@@ -159,6 +176,21 @@ const Sidebar: React.FC<SidebarProps> = ({
             <CpuChipIcon className="h-6 w-6 mr-3 text-gray-500" />
             <span>Learning Insights</span>
           </button>
+
+          {onChangePaperType && (
+            <>
+              <div className="px-6 mt-8 mb-4">
+                <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Settings</h3>
+              </div>
+              <button
+                onClick={onChangePaperType}
+                className="w-full flex items-center px-6 py-3 text-left text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors duration-200"
+              >
+                <ArrowPathIcon className="h-6 w-6 mr-3 text-gray-500" />
+                <span>Change Paper Type</span>
+              </button>
+            </>
+          )}
         </nav>
       </div>
 

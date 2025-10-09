@@ -1,9 +1,10 @@
-import { QuestionPaper, SubjectName } from '../../types';
+import { QuestionPaper, SubjectName, PaperType } from '../../types.js';
 
 export const QUESTION_PAPER_MVD_18_I: QuestionPaper = {
   id: 'mvd18-i',
   name: 'CTET Practice Paper - MVD18-I',
   description: 'A sample test with 15 questions.',
+  paperType: PaperType.PAPER_I,
   questions: [
     // CDP
     {

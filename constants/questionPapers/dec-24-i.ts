@@ -1,10 +1,11 @@
-import { QuestionPaper } from '../../types';
-import { SubjectName } from '../../types';
+import { QuestionPaper, PaperType } from '../../types.js';
+import { SubjectName } from '../../types.js';
 
 export const QUESTION_PAPER_DEC_24_I: QuestionPaper = {
   id: 'dec-24-i',
   name: 'CTET December 2024 Paper I (Set K)',
   description: 'Official CTET December 2024 Paper I questions for primary teacher eligibility test',
+  paperType: PaperType.PAPER_I,
   questions: [
     // CDP Questions (Q1-30)
     {

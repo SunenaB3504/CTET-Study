@@ -1,9 +1,10 @@
-import { QuestionPaper, SubjectName } from '../../types';
+import { QuestionPaper, SubjectName, PaperType } from '../../types.js';
 
 export const QUESTION_PAPER_DEC_22_I: QuestionPaper = {
   id: 'dec-22-i',
   name: 'CTET December 2022 - Paper I',
   description: 'Complete question paper for CTET December 2022 Paper I with 150 questions across 5 subjects',
+  paperType: PaperType.PAPER_I,
   questions: [
     // CDP Questions 1-30
     {

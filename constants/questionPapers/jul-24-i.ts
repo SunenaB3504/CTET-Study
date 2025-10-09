@@ -1,9 +1,10 @@
-import { QuestionPaper, SubjectName } from '../../types';
+import { QuestionPaper, SubjectName, PaperType } from '../../types.js';
 
 export const QUESTION_PAPER_JUL_24_I: QuestionPaper = {
   id: 'jul-24-i',
   name: 'CTET Paper - Jul 2024',
   description: 'Official past paper with 150 questions covering all subjects.',
+  paperType: PaperType.PAPER_I,
   questions: [
     {
       question: "Which of the following would support continuous and comprehensive evaluation ?",
