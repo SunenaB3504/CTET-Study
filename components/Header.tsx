@@ -21,13 +21,13 @@ const Header: React.FC<HeaderProps> = ({ onHomeClick, onChangePaperType }) => {
     : '';
 
   return (
-    <header className="bg-gradient-to-r from-white to-blue-50 shadow-md border-b-2 border-blue-100 p-4 flex flex-col sm:flex-row sm:justify-between sm:items-center">
+    <header className="bg-gradient-to-r from-blue-600 to-blue-700 shadow-md border-b-2 border-blue-800 p-4 flex flex-col sm:flex-row sm:justify-between sm:items-center">
       <div className="flex items-center gap-3 text-center sm:text-left mb-2 sm:mb-0">
-        <div className="hidden sm:flex w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg items-center justify-center shadow-md">
+        <div className="hidden sm:flex w-10 h-10 bg-white bg-opacity-20 rounded-lg items-center justify-center shadow-md backdrop-blur-sm">
           <span className="text-xl">🎓</span>
         </div>
-        <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-800">
-          Welcome to your CTET Prep Pal, <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-700">Sumi!</span>
+        <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-white drop-shadow-md">
+          Welcome to your CTET Prep Pal, <span className="text-blue-100 font-extrabold">Sumi!</span>
         </h1>
       </div>
       <div className="flex items-center gap-3 justify-center sm:justify-end">
@@ -36,7 +36,7 @@ const Header: React.FC<HeaderProps> = ({ onHomeClick, onChangePaperType }) => {
           <button
             aria-label="Change Paper Type"
             onClick={onChangePaperType}
-            className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-50 to-blue-100 hover:from-blue-100 hover:to-blue-200 text-blue-700 rounded-lg transition-all duration-200 border-2 border-blue-200 shadow-sm hover:shadow-md transform hover:-translate-y-0.5"
+            className="flex items-center gap-2 px-4 py-2 bg-white bg-opacity-20 hover:bg-opacity-30 text-white rounded-lg transition-all duration-200 border-2 border-white border-opacity-30 shadow-sm hover:shadow-md transform hover:-translate-y-0.5 backdrop-blur-sm"
             title={`Currently on ${currentPaperType}. Click to change.`}
           >
             <ArrowPathRoundedSquareIcon className="h-5 w-5" />
@@ -47,12 +47,12 @@ const Header: React.FC<HeaderProps> = ({ onHomeClick, onChangePaperType }) => {
         <button
           aria-label="Open Sidebar"
           onClick={onHomeClick}
-          className="p-2 rounded-lg bg-blue-50 hover:bg-blue-100 transition-all duration-200 shadow-sm hover:shadow-md transform hover:-translate-y-0.5"
+          className="p-2 rounded-lg bg-white bg-opacity-20 hover:bg-opacity-30 transition-all duration-200 shadow-sm hover:shadow-md transform hover:-translate-y-0.5 backdrop-blur-sm"
         >
-          <HomeIcon className="h-7 w-7 sm:h-6 sm:w-6 text-blue-600 hover:text-blue-700 transition-colors duration-200" />
+          <HomeIcon className="h-7 w-7 sm:h-6 sm:w-6 text-white hover:text-blue-100 transition-colors duration-200" />
         </button>
-        <div className="p-2 rounded-lg bg-amber-50">
-          <SunIcon className="h-7 w-7 sm:h-6 sm:w-6 text-amber-500" />
+        <div className="p-2 rounded-lg bg-amber-400 bg-opacity-90 shadow-sm">
+          <SunIcon className="h-7 w-7 sm:h-6 sm:w-6 text-white" />
         </div>
       </div>
     </header>
