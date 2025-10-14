@@ -70,10 +70,10 @@ const Sidebar: React.FC<SidebarProps> = ({
             <div className="w-10 h-10 bg-white bg-opacity-25 rounded-lg flex items-center justify-center shadow-sm">
               <span className="text-2xl">🎓</span>
             </div>
-            <h2 className="text-xl font-bold text-white drop-shadow-md">CTET Prep Pal</h2>
+            <h2 className="text-xl font-bold text-slate-800 drop-shadow-md">CTET Prep Pal</h2>
           </div>
           {currentPaperType && (
-            <div className="mt-3 text-sm text-white bg-white bg-opacity-25 px-3 py-2 rounded-lg backdrop-blur-sm border border-white border-opacity-40 shadow-sm">
+            <div className="mt-3 text-sm text-slate-700 bg-white bg-opacity-25 px-3 py-2 rounded-lg backdrop-blur-sm border border-white border-opacity-40 shadow-sm">
               <div className="flex items-center gap-2">
                 <span className="text-base">📚</span>
                 <span className="font-semibold drop-shadow">{paperTypeLabel}</span>
@@ -224,7 +224,7 @@ const Sidebar: React.FC<SidebarProps> = ({
           </div>
           <button
             onClick={handleLearnMoreClick}
-            className="w-full flex items-center text-left p-3 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 rounded-lg text-white transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+            className="w-full flex items-center text-left p-3 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 rounded-lg text-slate-800 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
           >
             <BookOpenIcon className="h-5 w-5 mr-3 flex-shrink-0" />
             <span className="text-sm font-semibold">
