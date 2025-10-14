@@ -27,16 +27,41 @@ This comprehensive guide will help you make the most of your CTET preparation ex
 
 #### Sidebar Navigation
 
-- **Subject Selection**: Choose from CDP, Mathematics, EVS, Language I, Language II
-- **Quick Actions**:
-  - Full Mock Test: Take complete timed assessments
-  - Content Readiness: View your syllabus coverage progress
+- **Header Section**: 
+  - Blue gradient background matching main header
+  - Displays current paper type (Paper I or Paper II)
+  - CTET Prep Pal branding with graduation cap icon
+
+- **Subject Selection** (Blue Section): 
+  - Choose from CDP, Mathematics, EVS, Language I, Language II
+  - Selected subject highlighted with blue background and border
+
+- **Assessment Tools** (Emerald/Green Section):
+  - Full Mock Test: Complete timed assessments
+  - Enhanced Mock Test: Advanced testing features
+  - Sample Questions: Browse previous exam questions
+
+- **Planning & Analysis** (Amber/Yellow Section):
+  - Content Readiness: View syllabus coverage progress
+  - Gap Analysis: Identify missing content areas
+  - Quality Assessment: Review content quality metrics
+
+- **Dashboard & Insights** (Multi-colored Section):
+  - Experience Level: Set your teaching background
+  - Progress Dashboard: Track overall performance
+  - Study Recommendations: Get personalized study tips
+  - Learning Insights: Analyze learning patterns
+
+- **Settings** (Purple Section):
+  - Change Paper Type: Switch between Paper I and Paper II
 
 #### Header
 
-- Welcome message and app information
-- Theme toggle (light/dark mode)
-- Experience level selector
+- **Visual Design**: Professional blue gradient background (blue-600 to blue-700)
+- **Welcome Message**: Personalized greeting with graduation cap icon
+- **Paper Type Switcher**: Quick access button to change between Paper I and Paper II
+- **Home Button**: Navigate to main dashboard
+- **Theme Toggle**: Sun icon for visual preference
 
 #### Main Content Area
 
@@ -56,18 +81,21 @@ The sidebar shows contextual help based on your current activity:
 
 When you select a subject, you'll see:
 
-- **Subject Overview**: Brief description and icon
-- **Available Topics**: Clickable cards for each study topic
-- **Progress Indicators**: Visual cues for completed content
+- **Subject Header**: Gray background (gray-300) with subject icon, name, and "Select a topic to start learning" subtitle
+- **Available Topics**: Clickable white cards for each study topic with hover effects
+- **Topic Information**: Each card shows the topic name and availability of notes and practice questions
+- **Navigation**: Click any topic card to open the detailed study module
 
 ### 2. Study Modules
 
 Each topic provides:
 
-- **Detailed Notes**: Comprehensive study material with examples
-- **Interactive Elements**: Highlighted text and explanations
-- **Text-to-Speech**: Listen to content using the audio controls
-- **Practice Questions**: Test your understanding with MCQs
+- **Topic Header**: Gray background (gray-300) displaying topic name and subject
+- **Detailed Notes**: Comprehensive study material with formatted HTML content
+- **Interactive Elements**: Highlighted text, lists, and explanations
+- **Text-to-Speech**: Blue-highlighted box with audio controls to listen to the content
+- **Practice Questions**: Test your understanding with MCQs in an integrated quiz section
+- **Navigation**: Back button to return to subject dashboard
 
 ### 3. Practice Quizzes
 

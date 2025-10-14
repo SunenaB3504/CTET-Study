@@ -9,12 +9,23 @@ This document defines the design system, component patterns, and UI/UX guideline
 ### Color Palette
 
 ```css
-/* Primary Colors */
+/* Primary Colors - Professional Blue Theme */
 --primary-50: #eff6ff;
 --primary-100: #dbeafe;
 --primary-500: #3b82f6; /* Main blue */
---primary-600: #2563eb;
---primary-700: #1d4ed8;
+--primary-600: #2563eb; /* Header/Sidebar gradient start */
+--primary-700: #1d4ed8; /* Header/Sidebar gradient end */
+--primary-800: #1e40af; /* Header border */
+
+/* Accent Colors - Section Coding */
+--emerald-500: #10b981; /* Assessment section */
+--emerald-600: #059669;
+--amber-500: #f59e0b; /* Planning section */
+--amber-600: #d97706;
+--purple-500: #a855f7; /* Settings section */
+--purple-600: #9333ea;
+--indigo-500: #6366f1; /* Dashboard items */
+--cyan-500: #06b6d4; /* Dashboard items */
 
 /* Success Colors */
 --success-500: #10b981;
@@ -28,16 +39,28 @@ This document defines the design system, component patterns, and UI/UX guideline
 --warning-500: #f59e0b;
 --warning-600: #d97706;
 
-/* Neutral Colors */
+/* Neutral Colors - Slate Grays */
+--slate-50: #f8fafc;
+--slate-100: #f1f5f9;
+--slate-200: #e2e8f0;
+--slate-300: #cbd5e1;
+--slate-400: #94a3b8;
+--slate-500: #64748b;
+--slate-600: #475569;
+--slate-700: #334155; /* Primary text on blue backgrounds */
+--slate-800: #1e293b; /* Headers on blue backgrounds */
+--slate-900: #0f172a;
+
+/* Legacy Gray Scale */
 --gray-50: #f9fafb;
---gray-100: #f3f4f6;
+--gray-100: #f3f4f6; /* Light backgrounds */
 --gray-200: #e5e7eb;
---gray-300: #d1d5db;
+--gray-300: #d1d5db; /* Section heading backgrounds */
 --gray-400: #9ca3af;
 --gray-500: #6b7280;
 --gray-600: #4b5563;
---gray-700: #374151;
---gray-800: #1f2937;
+--gray-700: #374151; /* Navigation text */
+--gray-800: #1f2937; /* Main headings */
 --gray-900: #111827;
 ```
 
@@ -77,6 +100,44 @@ This document defines the design system, component patterns, and UI/UX guideline
 --space-12: 3rem; /* 48px */
 --space-16: 4rem; /* 64px */
 ```
+
+### UI Theme - Professional Educational Design
+
+#### Header Styling
+- **Background**: Blue gradient (`bg-gradient-to-r from-blue-600 to-blue-700`)
+- **Border**: 2px bottom border in `border-blue-800`
+- **Title Text**: Dark gray (`text-slate-800`) with drop shadow
+- **Name Highlight**: Very dark gray (`text-slate-900`)
+- **Icons**: Semi-transparent white backgrounds with backdrop blur
+- **Buttons**: White with 20% opacity, hover to 30% opacity
+- **Icon Colors**: Dark gray (`text-slate-700`)
+
+#### Sidebar Styling
+- **Header Section**: 
+  - Gradient background (`bg-gradient-to-br from-blue-600 via-blue-600 to-blue-700`)
+  - White graduation cap icon with semi-transparent background
+  - Title in dark gray (`text-slate-800`) with drop shadow
+  - Paper type badge with white background at 25% opacity
+
+- **Navigation Sections** (Color-Coded):
+  - **Subjects**: Blue accent bar and selected state (`bg-blue-50`, `border-blue-600`)
+  - **Assessment**: Emerald accent and icons (`text-emerald-500`, hover `bg-emerald-50`)
+  - **Planning**: Amber accent and icons (`text-amber-500`, hover `bg-amber-50`)
+  - **Dashboard Items**: Multiple colors (indigo, purple, yellow, cyan)
+  - **Settings**: Purple accent and icons (`text-purple-500`, hover `bg-purple-50`)
+
+- **Contextual Help**: Blue gradient button at sidebar bottom
+
+#### Section Headings
+- **Background**: Medium gray (`bg-gray-300`) for clear visual separation
+- **Used In**: Dashboard subject headers, Study Module topic headers
+- **Purpose**: Distinguish section titles from main content areas
+
+#### Text Hierarchy
+- **Primary Headings**: `text-gray-800` (dark, high contrast)
+- **Secondary Text**: `text-gray-600` or `text-gray-700`
+- **On Blue Backgrounds**: `text-slate-700` or `text-slate-800` for readability
+- **Subtle Text**: `text-gray-500` for less important information
 
 ## 🧩 Component Patterns
 
