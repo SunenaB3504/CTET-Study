@@ -391,7 +391,7 @@ const App: React.FC = () => {
 
   return (
     <ErrorBoundary>
-      <div className="flex h-screen bg-gray-100 font-sans">
+      <div className="flex h-screen bg-slate-50 font-sans">
         {/* Sidebar for desktop, and overlay for mobile when sidebarOpen */}
         <Sidebar
           onSelectSubject={subject => { handleSelectSubject(subject); closeSidebar(); }}
@@ -423,8 +423,8 @@ const App: React.FC = () => {
             onHomeClick={toggleSidebar} 
             onChangePaperType={handleChangePaperType}
           />
-          <main className="flex-1 overflow-x-hidden overflow-y-auto bg-gray-100 p-4 md:p-8">
-            <ErrorBoundary fallback={<div className="text-center p-8 text-gray-600">Error loading content. Please try again.</div>}>
+          <main className="flex-1 overflow-x-hidden overflow-y-auto bg-slate-50 p-4 md:p-8">
+            <ErrorBoundary fallback={<div className="text-center p-8 text-slate-600">Error loading content. Please try again.</div>}>
               {renderContent()}
             </ErrorBoundary>
           </main>
