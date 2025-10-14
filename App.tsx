@@ -17,6 +17,7 @@ import SessionAnalytics from './components/SessionAnalytics.js';
 import RecommendationDashboard from './components/RecommendationDashboard.js';
 import { LearningInsightsDashboard } from './components/LearningInsightsDashboard.js';
 import PaperTypeSelection from './components/PaperTypeSelection.js';
+import SplashScreen from './components/SplashScreen.js';
 import ErrorBoundary from './components/ErrorBoundary.js';
 import { SUBJECT_DATA } from './constants/data.js';
 import { QUESTION_PAPERS_DATA } from './constants/questionPapers.js';
@@ -67,6 +68,7 @@ const App: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [selectedPaperType, setSelectedPaperType] = useState<PaperType | null>(null);
   const [showPaperTypeSelection, setShowPaperTypeSelection] = useState(false);
+  const [showSplash, setShowSplash] = useState(true);
 
   // Check if user has selected a paper type on mount
   useEffect(() => {
@@ -78,6 +80,10 @@ const App: React.FC = () => {
       setShowPaperTypeSelection(true);
     }
   }, []);
+
+  const handleSplashComplete = () => {
+    setShowSplash(false);
+  };
 
   const handleSelectPaperType = (paperType: PaperType) => {
     setSelectedPaperType(paperType);
@@ -391,6 +397,7 @@ const App: React.FC = () => {
 
   return (
     <ErrorBoundary>
+      {showSplash && <SplashScreen onComplete={handleSplashComplete} />}
       <div className="flex h-screen bg-slate-50 font-sans">
         {/* Sidebar for desktop, and overlay for mobile when sidebarOpen */}
         <Sidebar
