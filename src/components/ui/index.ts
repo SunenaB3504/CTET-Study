@@ -1,11 +1,11 @@
-export { Button } from './Button';
-export type { ButtonProps } from './Button';
+export { Button } from './Button.js';
+export type { ButtonProps } from './Button.js';
 
-export { Input } from './Input';
-export type { InputProps } from './Input';
+export { Input } from './Input.js';
+export type { InputProps } from './Input.js';
 
-export { Card } from './Card';
-export type { CardProps } from './Card';
+export { Card } from './Card.js';
+export type { CardProps } from './Card.js';
 
-export { Modal } from './Modal';
-export type { ModalProps } from './Modal';
+export { Modal } from './Modal.js';
+export type { ModalProps } from './Modal.js';

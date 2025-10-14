@@ -13,7 +13,7 @@
  */
 
 import React from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '../../lib/utils.js';
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'danger';
