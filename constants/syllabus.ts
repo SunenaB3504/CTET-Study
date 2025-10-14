@@ -1,4 +1,4 @@
-import { SyllabusSubject, SubjectName } from '../types';
+import { SyllabusSubject, SubjectName } from '../types.js';
 
 export const SYLLABUS_DATA: SyllabusSubject[] = [
   {

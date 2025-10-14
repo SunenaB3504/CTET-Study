@@ -39,6 +39,7 @@ const ExperienceLevelSelection: React.FC<ExperienceLevelSelectionProps> = ({
     // Update user preferences
     const updatedPrefs: UserPreferences = {
       experienceLevel: selectedLevel,
+      selectedPaperType: userPreferences?.selectedPaperType || null,
       studyGoals: userPreferences?.studyGoals || ['Pass CTET exam'],
       preferredSubjects: userPreferences?.preferredSubjects || [],
       dailyStudyTime: userPreferences?.dailyStudyTime || EXPERIENCE_LEVELS[selectedLevel].recommendedStudyTime,

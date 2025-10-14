@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { QuestionPaper, MCQ, SubjectName, EnhancedExplanation } from '../types';
-import { QUESTION_PAPERS_DATA } from '../constants/questionPapers';
+import { QuestionPaper, MCQ, SubjectName, EnhancedExplanation } from '../types.js';
+import { QUESTION_PAPERS_DATA } from '../constants/questionPapers.js';
 
 interface SampleQuestionsProps {
   onBack: () => void;
@@ -45,12 +45,12 @@ const SampleQuestions: React.FC<SampleQuestionsProps> = ({ onBack }) => {
   };
 
   // Get the selected question paper
-  const currentPaper = QUESTION_PAPERS_DATA.find(paper => paper.id === selectedPaper) || QUESTION_PAPERS_DATA[0];
+  const currentPaper = QUESTION_PAPERS_DATA.find((paper: QuestionPaper) => paper.id === selectedPaper) || QUESTION_PAPERS_DATA[0];
 
   // Filter questions by subject
   const filteredQuestions = selectedSubject === 'ALL'
     ? currentPaper.questions
-    : currentPaper.questions.filter(q => q.subjectName === selectedSubject);
+    : currentPaper.questions.filter((q: MCQ) => q.subjectName === selectedSubject);
 
   // Paginate questions
   const totalPages = Math.ceil(filteredQuestions.length / questionsPerPage);
@@ -98,7 +98,7 @@ const SampleQuestions: React.FC<SampleQuestionsProps> = ({ onBack }) => {
             title="Select question paper"
             className="block w-full max-w-xs px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
           >
-            {QUESTION_PAPERS_DATA.map(paper => (
+            {QUESTION_PAPERS_DATA.map((paper: QuestionPaper) => (
               <option key={paper.id} value={paper.id}>
                 {paper.name}
               </option>
@@ -155,7 +155,7 @@ const SampleQuestions: React.FC<SampleQuestionsProps> = ({ onBack }) => {
 
       {/* Questions List */}
       <div className="space-y-6">
-        {currentQuestions.map((question, index) => (
+        {currentQuestions.map((question: MCQ, index: number) => (
           <div key={startIndex + index} className="bg-white rounded-lg shadow-md p-6">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-lg font-semibold text-gray-900">
@@ -169,7 +169,7 @@ const SampleQuestions: React.FC<SampleQuestionsProps> = ({ onBack }) => {
             <p className="text-gray-800 mb-4 leading-relaxed">{question.question}</p>
 
             <div className="space-y-2 mb-4">
-              {question.options.map((option, optionIndex) => (
+              {question.options.map((option: string, optionIndex: number) => (
                 <div
                   key={optionIndex}
                   className={`p-3 rounded-md border ${

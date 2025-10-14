@@ -1,4 +1,4 @@
-import { Subject, Topic, QuestionAttempt, ExperienceLevel } from '../types';
+import { Subject, Topic, QuestionAttempt, ExperienceLevel } from '../types.js';
 
 export interface RecommendationScore {
   topicId: string;
@@ -134,7 +134,7 @@ export class RecommendationService {
     const recommendations: RecommendationScore[] = [];
 
     subjects.forEach(subject => {
-      subject.topics.forEach(topic => {
+      subject.topics.forEach((topic: Topic) => {
         const stats = topicPerformance.get(topic.id);
         let score = 0;
         let reason = '';

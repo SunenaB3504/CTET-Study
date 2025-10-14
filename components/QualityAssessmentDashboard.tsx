@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { MCQ, SubjectName, QualityMetrics, ContentValidationReport } from '../types';
-import { QualityAssessmentService, GapValidationService } from '../utils/qualityAssessment';
-import { ENHANCED_SYLLABUS_DATA } from '../constants/syllabusMapping';
+import { MCQ, SubjectName, QualityMetrics, ContentValidationReport, QualityIssue } from '../types.js';
+import { QualityAssessmentService, GapValidationService } from '../utils/qualityAssessment.js';
+import { ENHANCED_SYLLABUS_DATA } from '../constants/syllabusMapping.js';
 
 interface QualityAssessmentDashboardProps {
   questions: MCQ[];
-  onQualityIssueClick?: (issue: any) => void;
+  onQualityIssueClick?: (issue: QualityIssue) => void;
 }
 
 const QualityAssessmentDashboard: React.FC<QualityAssessmentDashboardProps> = ({
@@ -187,7 +187,7 @@ const QualityAssessmentDashboard: React.FC<QualityAssessmentDashboardProps> = ({
       <div className="bg-white rounded-lg shadow-lg p-6">
         <h2 className="text-xl font-semibold text-gray-900 mb-4">Subject Quality Breakdown</h2>
         <div className="space-y-4">
-          {Object.entries(validationReport.subjectBreakdown).map(([subject, metrics]) => (
+          {(Object.entries(validationReport.subjectBreakdown) as [string, QualityMetrics][]).map(([subject, metrics]) => (
             <div key={subject} className="border border-gray-200 rounded-lg p-4">
               <div className="flex justify-between items-start mb-3">
                 <h3 className="font-medium text-gray-900">{subject}</h3>

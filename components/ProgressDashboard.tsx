@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { ProgressTrackingService, UserProgress, StudySession } from '../utils/progressTracking';
-import { ExperienceLevel } from '../types';
+import { ProgressTrackingService, UserProgress, StudySession } from '../utils/progressTracking.js';
+import { ExperienceLevel } from '../types.js';
 import {
   ChartBarIcon,
   ClockIcon,
@@ -237,7 +237,7 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({
       <div className="bg-white rounded-lg shadow-lg p-6">
         <h2 className="text-xl font-semibold text-gray-900 mb-4">Topic Performance</h2>
         <div className="space-y-4">
-          {Object.entries(progress.topicProgress)
+          {(Object.entries(progress.topicProgress) as [string, { questionsAttempted: number; correctAnswers: number; averageTime: number; lastAttempted: Date; masteryLevel: number; }][])
             .filter(([, stats]) => stats.questionsAttempted >= 3)
             .sort(([, a], [, b]) => b.masteryLevel - a.masteryLevel)
             .slice(0, 8)

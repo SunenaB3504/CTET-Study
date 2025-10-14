@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { MCQ, MockTestResult, QuestionPaper, SubjectName, ContextualTopic } from '../types';
+import { MCQ, MockTestResult, QuestionPaper, SubjectName, ContextualTopic } from '../types.js';
 import { ChevronLeftIcon, ChevronRightIcon, ClockIcon } from '@heroicons/react/24/solid';
-import TestResult from './TestResult';
-import { SUBJECT_DATA } from '../constants/data';
+import TestResult from './TestResult.js';
+import { SUBJECT_DATA } from '../constants/data.js';
 
 interface MockTestProps {
   paper: QuestionPaper;
@@ -26,7 +26,7 @@ const MockTest: React.FC<MockTestProps> = ({ paper, onBackToDashboard, onSelectT
     let incorrectAnswers = 0;
     let unattempted = 0;
 
-    questions.forEach((q, i) => {
+    questions.forEach((q: MCQ, i: number) => {
       if (answers[i] === null) {
         unattempted++;
       } else if (answers[i] === q.correctAnswerIndex) {
@@ -68,8 +68,8 @@ const MockTest: React.FC<MockTestProps> = ({ paper, onBackToDashboard, onSelectT
 
   useEffect(() => {
     const currentQuestion = questions[currentQuestionIndex];
-    const subject = SUBJECT_DATA.find(s => s.name === currentQuestion.subjectName);
-    const topic = subject?.topics.find(t => t.id === currentQuestion.topicId);
+    const subject = SUBJECT_DATA.find((s: any) => s.name === currentQuestion.subjectName);
+    const topic = subject?.topics.find((t: any) => t.id === currentQuestion.topicId);
     if (topic) {
       setContextualTopic({
         subjectName: currentQuestion.subjectName,
@@ -130,7 +130,7 @@ const MockTest: React.FC<MockTestProps> = ({ paper, onBackToDashboard, onSelectT
         </p>
         <p className="text-xl text-gray-800 mb-6">{currentQuestion.question}</p>
         <div className="space-y-3">
-          {currentQuestion.options.map((option, index) => (
+          {currentQuestion.options.map((option: string, index: number) => (
             <button
               key={index}
               onClick={() => handleSelectOption(index)}

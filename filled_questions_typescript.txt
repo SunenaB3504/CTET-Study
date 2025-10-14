@@ -1,0 +1,1006 @@
+// Dec-24 Paper II - Filled Questions
+// These are the 59 questions successfully extracted from PDF
+
+// Question 1
+  {
+    question: "Which of these statements would advocates of progressive education a gree with ?",
+    options: [
+      "Children are a distinct life-stage that hold importance because of ‘w hat they would become as adults’ rather than ‘what they are as children’.",
+      "Children are naturally ‘good’ and society corrupts them.",
+      "Children are naturally ‘uncivilized’ and socialization is necess ary to make them moral human beings.",
+      "Children are born in a social, cultural, economic context and this ba ckground influences their development. ¬˝ª"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "The correct answer emphasizes children are born in a social, cultural, economic ... This aligns with modern educational psychology principles and child development theories as outlined in NCF 2005, which advocates for holistic child development.",
+    subjectName: SubjectName.CDP,
+    topicId: "child-development",
+    subTopicId: "pedagogy",
+    difficulty: "medium",
+  },
+
+// Question 2
+  {
+    question: "Changes in emotion, self-perception and interpersonal relationships with families, peers and friends are studied under __________ domain of development.",
+    options: [
+      "Psycho-social",
+      "Physical",
+      "Cognitive",
+      "Linguistic"
+    ],
+    correctAnswerIndex: 1,
+    explanation: "The correct answer emphasizes physical... This aligns with modern educational psychology principles and child development theories as outlined in NCF 2005, which advocates for holistic child development.",
+    subjectName: SubjectName.CDP,
+    topicId: "child-development",
+    subTopicId: "pedagogy",
+    difficulty: "medium",
+  },
+
+// Question 3
+  {
+    question: "The behaviours, interests, attitudes, skills and personality traits that a culture considers appropriate for specific gender are referred to as __________ and are __________.",
+    options: [
+      "Gender identity; genetically determined",
+      "Gender roles; culturally defined",
+      "Gender roles; genetically determined",
+      "Gender identity; culturally defined"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "The correct answer emphasizes gender identity; culturally defined... This aligns with modern educational psychology principles and child development theories as outlined in NCF 2005, which advocates for holistic child development.",
+    subjectName: SubjectName.CDP,
+    topicId: "child-development",
+    subTopicId: "pedagogy",
+    difficulty: "medium",
+  },
+
+// Question 8
+  {
+    question: "Which of the following is an example of a performance goal orientati on ?",
+    options: [
+      "A student studies hard to further her own growth.",
+      "A student studies hard to achieve a deep understanding of a topic.",
+      "A student studies hard to get a good grade and be better than others.",
+      "A student studies hard to learn as much as possible from the teacher."
+    ],
+    correctAnswerIndex: 2,
+    explanation: "The correct answer emphasizes a student studies hard to get a good grade and be ... This aligns with modern educational psychology principles and child development theories as outlined in NCF 2005, which advocates for holistic child development.",
+    subjectName: SubjectName.CDP,
+    topicId: "child-development",
+    subTopicId: "pedagogy",
+    difficulty: "medium",
+  },
+
+// Question 9
+  {
+    question: "Following Lev Vygotsky’s ideas, a teacher should :",
+    options: [
+      "practice reciprocal teaching with her students.",
+      "discourage the use of cultural tools by students.",
+      "disseminate the knowledge to be memorized by the students.",
+      "encourage students to compete with each other. ‹ﬂ ﬂ"
+    ],
+    correctAnswerIndex: 0,
+    explanation: "The correct answer emphasizes practice reciprocal teaching with her students.... This aligns with modern educational psychology principles and child development theories as outlined in NCF 2005, which advocates for holistic child development.",
+    subjectName: SubjectName.CDP,
+    topicId: "child-development",
+    subTopicId: "pedagogy",
+    difficulty: "medium",
+  },
+
+// Question 19
+  {
+    question: "Jean Piaget perceives __________ to be __________. Lev-Vygotsky believes __________ to be __________.",
+    options: [
+      "Private speech, effective in self-regulation; egocentric speech, a sign of c ognitive immaturity",
+      "Egocentric speech, a sign of cognitive immaturity; private speech, effec tive in self-regulation",
+      "Egocentric speech, effective in self-regulation; private speech, a sign of cognitive immaturity",
+      "Private speech, a sign of cognitive immaturity; egocentric speech, effect ive in self-regulation"
+    ],
+    correctAnswerIndex: 1,
+    explanation: "The correct answer emphasizes egocentric speech, a sign of cognitive immaturity;... This aligns with modern educational psychology principles and child development theories as outlined in NCF 2005, which advocates for holistic child development.",
+    subjectName: SubjectName.CDP,
+    topicId: "child-development",
+    subTopicId: "pedagogy",
+    difficulty: "medium",
+  },
+
+// Question 25
+  {
+    question: "You are a teacher who wants to encourage your students to think criti cally and creatively. Which of the following strategies is most likely to foster this type of thi nking ?",
+    options: [
+      "Lecturing on the topic and providing students with detailed notes.",
+      "Assigning a project in which students must memorize and present inf ormation on a topic.",
+      "Providing students with open-ended questions to come up with their o wn solutions.",
+      "Giving students multiple-choice tests to assess their knowledge. •"
+    ],
+    correctAnswerIndex: 2,
+    explanation: "The correct answer emphasizes providing students with open-ended questions to co... This aligns with modern educational psychology principles and child development theories as outlined in NCF 2005, which advocates for holistic child development.",
+    subjectName: SubjectName.CDP,
+    topicId: "child-development",
+    subTopicId: "pedagogy",
+    difficulty: "medium",
+  },
+
+// Question 26
+  {
+    question: "Which of the following is an example of assessment for student’s learn ing ?",
+    options: [
+      "A rubric given to students at the beginning of a project, outlining w hat they need to do to achieve a certain grade.",
+      "A final exam that covers all the material learned throughout the term.",
+      "A quiz and brainstorming at the beginning of class to check for pr ior knowledge.",
+      "A standardized test used to compare students across the country."
+    ],
+    correctAnswerIndex: 0,
+    explanation: "The correct answer emphasizes a rubric given to students at the beginning of a p... This aligns with modern educational psychology principles and child development theories as outlined in NCF 2005, which advocates for holistic child development.",
+    subjectName: SubjectName.CDP,
+    topicId: "child-development",
+    subTopicId: "pedagogy",
+    difficulty: "medium",
+  },
+
+// Question 28
+  {
+    question: "Assertion (A) : 12-year Amana gets scared every time the teacher asks her to answer or solve t he maths problem on the blackboard because she fears that the teacher will scold her and she would be embarrassed. Reason (R) : When students feel unsafe and anxious their learning is adversely affec ted. Choose the correct option.",
+    options: [
+      "Providing students with a step-by-step guide on how to complete a task related to the new material.",
+      "Lecturing on new material and providing students with a list of key terms to memorize.",
+      "Assign students to read the textbook chapter and answer questions at t he end.",
+      "Ask students to share their own experiences related to the new material and then connect them to the topic. ∞∑§"
+    ],
+    correctAnswerIndex: 1,
+    explanation: "The correct answer emphasizes lecturing on new material and providing students w... This aligns with modern educational psychology principles and child development theories as outlined in NCF 2005, which advocates for holistic child development.",
+    subjectName: SubjectName.CDP,
+    topicId: "child-development",
+    subTopicId: "pedagogy",
+    difficulty: "medium",
+  },
+
+// Question 30
+  {
+    question: "In an inclusive classroom the teacher :",
+    options: [
+      "Tries to encourage children to do better by promoting competitive spi rit.",
+      "Identifies ‘deficits’ in children and correctly labels them.",
+      "Segregates children based on differing academic capabilities.",
+      "Modifies the curriculum and pedagogical strategies to suit varied needs of children. ∞∑§ ‚◊"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "The correct answer emphasizes modifies the curriculum and pedagogical strategies... This aligns with modern educational psychology principles and child development theories as outlined in NCF 2005, which advocates for holistic child development.",
+    subjectName: SubjectName.CDP,
+    topicId: "child-development",
+    subTopicId: "pedagogy",
+    difficulty: "medium",
+  },
+
+// Question 31
+  {
+    question: "Which of the following numbers is written in the standard form ?",
+    options: [
+      "83.7",
+      "45",
+      "8.5",
+      "0.6"
+    ],
+    correctAnswerIndex: 2,
+    explanation: "This question tests comprehension and language skills. The correct answer '8.5...' demonstrates understanding of the passage context and language usage.",
+    subjectName: SubjectName.LANG1,
+    topicId: "english-language",
+    subTopicId: "comprehension",
+    difficulty: "easy",
+  },
+
+// Question 32
+  {
+    question: "In a pentagon ABCDE, ∠A=(2x+9/c=−",
+    options: [
+      "124/c=−",
+      "114/c=−",
+      "116/c=−",
+      "118/c=−"
+    ],
+    correctAnswerIndex: 0,
+    explanation: "This question tests comprehension and language skills. The correct answer '124/c=−...' demonstrates understanding of the passage context and language usage.",
+    subjectName: SubjectName.LANG1,
+    topicId: "english-language",
+    subTopicId: "comprehension",
+    difficulty: "easy",
+  },
+
+// Question 35
+  {
+    question: "The two corresponding angles formed by the intersection of two paral lel lines by a transversal are (3x−20/c=−",
+    options: [
+      "150/c=−",
+      "90/c=−",
+      "110/c=−",
+      "130/c=−"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This question tests comprehension and language skills. The correct answer '130/c=−...' demonstrates understanding of the passage context and language usage.",
+    subjectName: SubjectName.LANG1,
+    topicId: "english-language",
+    subTopicId: "comprehension",
+    difficulty: "easy",
+  },
+
+// Question 37
+  {
+    question: "The distance between the parallel sides AB and CD of a trapezium ABCD is 12 c m. If AB<CD, CD=24 cm and AD =BC=13 cm, then area of the trapezium (in cm2) is :",
+    options: [
+      "228",
+      "123.5",
+      "114",
+      "247P-II !SED-24-II! D 15SPACE FOR ROUGH WORK / ⁄U»§ ∑§"
+    ],
+    correctAnswerIndex: 1,
+    explanation: "This question tests comprehension and language skills. The correct answer '123.5...' demonstrates understanding of the passage context and language usage.",
+    subjectName: SubjectName.LANG1,
+    topicId: "english-language",
+    subTopicId: "comprehension",
+    difficulty: "easy",
+  },
+
+// Question 39
+  {
+    question: "A nine-digit number 565 x9274 y is divisible by number 88. Then, the value of (2 x+3y) is : ∞∑§",
+    options: [
+      "22",
+      "26",
+      "25",
+      "24"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This question tests comprehension and language skills. The correct answer '24...' demonstrates understanding of the passage context and language usage.",
+    subjectName: SubjectName.LANG1,
+    topicId: "english-language",
+    subTopicId: "comprehension",
+    difficulty: "easy",
+  },
+
+// Question 42
+  {
+    question: "Consider the following statements about grasslands and choose the c orrect option. (A) Climate plays an important role in the formation of grasslands. (B) Annual rainfall is moderate in Prairies while velds could face drou ght in winter months. (C) The vegetation cover is sparse in Velds. (D) Velds lie in the Northern Hemisphere while Prairies in the Southern Hemisp here. Options :",
+    options: [
+      "Dispossession",
+      "Hierarchy",
+      "Diversification",
+      "Inequality _______ ∞∑§"
+    ],
+    correctAnswerIndex: 2,
+    explanation: "This question tests comprehension and language skills. The correct answer 'Diversification...' demonstrates understanding of the passage context and language usage.",
+    subjectName: SubjectName.LANG1,
+    topicId: "english-language",
+    subTopicId: "comprehension",
+    difficulty: "easy",
+  },
+
+// Question 56
+  {
+    question: "If x is the smallest number which is to be subtracted from 2605 to make it a perfect square, then the value of (4 x+7) is :",
+    options: [
+      "31",
+      "11",
+      "23",
+      "27"
+    ],
+    correctAnswerIndex: 0,
+    explanation: "This question tests comprehension and language skills. The correct answer '31...' demonstrates understanding of the passage context and language usage.",
+    subjectName: SubjectName.LANG1,
+    topicId: "english-language",
+    subTopicId: "comprehension",
+    difficulty: "easy",
+  },
+
+// Question 62
+  {
+    question: "(A) is a technique of vegetative propagation in which a part of the stem or a young branch of a plant is pulled and buried in moist soil, such that the branch i s still attached to the Parent Plant. After some time, roots develop in the buried part and it grows int o a new plant. (B) is an example of plant usually grown through this technique. (A) and (B) respectively are :",
+    options: [
+      "Layering, Jasmine",
+      "Cutting, Potato",
+      "Grafting, Rose",
+      "∑§"
+    ],
+    correctAnswerIndex: 2,
+    explanation: "This question tests comprehension and language skills. The correct answer 'Grafting, Rose...' demonstrates understanding of the passage context and language usage.",
+    subjectName: SubjectName.LANG2,
+    topicId: "hindi-language",
+    subTopicId: "comprehension",
+    difficulty: "easy",
+  },
+
+// Question 71
+  {
+    question: "Indian Constitution lays down _________.",
+    options: [
+      "norms for participation of people into social movements that seek t o challenge the Government",
+      "the national curriculum framework",
+      "the basic laws or rules that have to be followed by everyone",
+      "the structure of religious institutions"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This question tests comprehension and language skills. The correct answer 'the structure of religious institutions...' demonstrates understanding of the passage context and language usage.",
+    subjectName: SubjectName.LANG2,
+    topicId: "hindi-language",
+    subTopicId: "comprehension",
+    difficulty: "easy",
+  },
+
+// Question 76
+  {
+    question: "Which of the following statements are true in the context of respirati on in whales and dolphins ? (A) They cannot use dissolved Oxygen. (B) They have gills. (C) They have large nostrils. (D) They often come up to the water surface to breathe.",
+    options: [
+      "Journal writing, Field trips",
+      "Portfolios, Anecdotal records",
+      "Projects, Portfolios",
+      "Anecdotal records, Journal writing"
+    ],
+    correctAnswerIndex: 0,
+    explanation: "This question tests comprehension and language skills. The correct answer 'Journal writing, Field trips...' demonstrates understanding of the passage context and language usage.",
+    subjectName: SubjectName.LANG2,
+    topicId: "hindi-language",
+    subTopicId: "comprehension",
+    difficulty: "easy",
+  },
+
+// Question 95
+  {
+    question: "According to the writer, it is important to pay attention to the col our scheme of your home because :",
+    options: [
+      "the monotonous shades add life to the rooms",
+      "the ambience created makes it look boring",
+      "it reflects the personality of the owner",
+      "the walls reveal the secrets of your life"
+    ],
+    correctAnswerIndex: 1,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves the ambience created makes it look boring..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 97
+  {
+    question: "Complete the given word analogy : monotonous : dull :: ambience : ? .",
+    options: [
+      "weather",
+      "room",
+      "temperature",
+      "aura"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves aura..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 98
+  {
+    question: "Some people draw colourful sceneries on their home walls to :",
+    options: [
+      "blend dark and light colours",
+      "give a deeper significance to their home",
+      "bring nature into their homes",
+      "create a sense of space"
+    ],
+    correctAnswerIndex: 0,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves blend dark and light colours..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 100
+  {
+    question: "The poetic devices in line 2 and line 4 are :",
+    options: [
+      "metaphor and simile",
+      "metaphor and personification",
+      "hyperbole and metaphor",
+      "simile and alliteration"
+    ],
+    correctAnswerIndex: 2,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves hyperbole and metaphor..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 101
+  {
+    question: "What is the overall tone of the poem ?",
+    options: [
+      "nostalgic and admiration",
+      "annoyance and anger",
+      "pitiful and sympathetic",
+      "disgust and animosity"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves disgust and animosity..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 102
+  {
+    question: "Complete the word analogy : coarse : rough :: snug : ? .",
+    options: [
+      "comfortable",
+      "lazy",
+      "perfect",
+      "lethal"
+    ],
+    correctAnswerIndex: 0,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves comfortable..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 103
+  {
+    question: "How does the speaker’s father feel about his son’s choice of career ?",
+    options: [
+      "He is ambivalent towards the choice.",
+      "The poem doesn’t make it clear.",
+      "He wishes, his son choose a more practical path.",
+      "He is glad his son is not a farmer."
+    ],
+    correctAnswerIndex: 1,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves The poem doesn’t make it clear...., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 104
+  {
+    question: "In the second stanza, the poet is observing :",
+    options: [
+      "potato growers in the countryside",
+      "a gardener tending flower beds",
+      "his father digging potatoes",
+      "farmers in the fields"
+    ],
+    correctAnswerIndex: 2,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves his father digging potatoes..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 107
+  {
+    question: "Aparna, a learner of class V understands that listening involves li stening to each sound, words, then sentences to get the meaning of the speech or an audio. Which approach /strategy she believes in for learning to listen ?",
+    options: [
+      "It is neither top-down nor bottom-up approach",
+      "Top-down approach",
+      "Bottom-up approach",
+      "Both top-down and bottom-up approach"
+    ],
+    correctAnswerIndex: 1,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves Top-down approach..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 108
+  {
+    question: "What is ‘systemic competence’ in language learning ?",
+    options: [
+      "Understanding that all human have a systems of many languages.",
+      "Understanding and applying that language works as a system.",
+      "Understanding and applying that languages have a grammatical sy stem.",
+      "Understanding that all languages have a common structural syst em."
+    ],
+    correctAnswerIndex: 2,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves Understanding and applying that languages have a g..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 109
+  {
+    question: "Here is text or some statements. Find out which language register does thi s text represent ? The Indian Constitution recognises every person as equal. This means th at every individual in the country, including male and female, person from all castes, relig ions, tribes, educational and economic background are recognised as equal. This is not to say that inequity ceases to exist. It doesn’t. But at least, in democratic India, the principle of the equalit y of all persons is recognised.",
+    options: [
+      "Scientific register",
+      "Politic register",
+      "Social Science register",
+      "Legal register"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves Legal register..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 110
+  {
+    question: "A teacher of class VI does a warm up activity to connect their previou s knowledge and experience with the text they would read. She asks her learners to look at the illustr ations of the reading text (the story) before she begin to teach the text. What does she want her learners t o do ?",
+    options: [
+      "Make them understand the illustrations.",
+      "Visualize the story through the illustrations.",
+      "Appreciate the illustrations.",
+      "Make prediction about the reading text."
+    ],
+    correctAnswerIndex: 0,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves Make them understand the illustrations...., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 111
+  {
+    question: "A continuous record of instances of learning by the learners is know n as :",
+    options: [
+      "Diagnostic test",
+      "Portfolio",
+      "Continuous Comprehensive Assessment",
+      "Proficiency assessment"
+    ],
+    correctAnswerIndex: 1,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves Portfolio..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 114
+  {
+    question: "Which of the following language is NOT a classical language ?",
+    options: [
+      "Hindi",
+      "Tamil",
+      "Sanskrit",
+      "Telugu"
+    ],
+    correctAnswerIndex: 0,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves Hindi..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 115
+  {
+    question: "Which of the following is NOT true of the National Education Poli cy (NEP) 2020 on the study of foreign languages ?",
+    options: [
+      "French is one of the language recommended to be studied as an additional o ption.",
+      "Study of foreign languages as an additional option during the sec ondary stage.",
+      "Study of foreign languages included as one of the languages under the t hree language formula.",
+      "Foreign language does not include in the three languages studied under t hree language formula."
+    ],
+    correctAnswerIndex: 1,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves Study of foreign languages as an additional option..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 116
+  {
+    question: "Which of the following refers to ‘Knowing about language’?",
+    options: [
+      "Strategic competence",
+      "Declarative knowledge",
+      "Procedural knowledge",
+      "Grammatical knowledge"
+    ],
+    correctAnswerIndex: 2,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves Procedural knowledge..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 117
+  {
+    question: "A teacher of class VI develops the following task for a speaking acti vity. Speak five sentences about desert and its climatic condition s. Is it a good task or not a good task ? Select from option your respon se and reason for the same.",
+    options: [
+      "It is not a good task because it lacks context as there is no input for speaking about desert and its conditions.",
+      "It is a good task because the learners may have studied about desert in th eir geography class and will have inputs to speak.",
+      "It is a good task because it makes the learner to talk about something i .e the desert.",
+      "It is not a good task because some of the learners may not know about des ert."
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves It is not a good task because some of the learners..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 118
+  {
+    question: "Which of the following statements is true of a dialect of a language ?",
+    options: [
+      "Sometime different social group may speak different dialects of the sa me language.",
+      "Dialects of language vary from region to region.",
+      "Speakers of different dialects of one language can understand the other dialect speaker.",
+      "A dialect is a bigger category and language is a smaller category."
+    ],
+    correctAnswerIndex: 0,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves Sometime different social group may speak differen..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 119
+  {
+    question: "Which of the following tasks promotes integrated learning skills ?",
+    options: [
+      "Writing an article",
+      "Role play",
+      "Assignment",
+      "Project work"
+    ],
+    correctAnswerIndex: 1,
+    explanation: "This mathematics question requires understanding of fundamental concepts. The solution involves Role play..., which demonstrates proper mathematical reasoning.",
+    subjectName: SubjectName.MATH,
+    topicId: "mathematics",
+    subTopicId: "problem-solving",
+    difficulty: "easy",
+  },
+
+// Question 121
+  {
+    question: "Read the following statements : (A) Netarhat is located at a height of 3696 feet. (B) It is referred to as the ‘Queen of Chota Nagpur’. (C) Netarhat is blessed with verdant banyan forests.",
+    options: [
+      "it brings peace and comfort",
+      "it makes you breathless",
+      "it makes you visit the place year after year",
+      "it evokes curiosity"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This social studies question examines it evokes curiosity... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 123
+  {
+    question: "As mentioned in para 1, the quaint hill station, Netarhat gives peace and calm to visitors b ecause :",
+    options: [
+      "they can go paragliding from hill tops",
+      "they can be away from hectic city life",
+      "they can go fishing in the lake waters",
+      "they can enjoy train rides"
+    ],
+    correctAnswerIndex: 1,
+    explanation: "This social studies question examines they can be away from hectic city life... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 124
+  {
+    question: "Complete the given word analogy : gorgeous : beautiful :: tranquil : ? .",
+    options: [
+      "blue-green",
+      "misty",
+      "peaceful",
+      "choppy"
+    ],
+    correctAnswerIndex: 2,
+    explanation: "This social studies question examines peaceful... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 127
+  {
+    question: "Which one of the following scenic views is not found in Netarhat ?",
+    options: [
+      "scintillating views of sunrises",
+      "refugee camps",
+      "beautiful sunrises and sunsets",
+      "clusters of tall pine trees"
+    ],
+    correctAnswerIndex: 1,
+    explanation: "This social studies question examines refugee camps... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 130
+  {
+    question: "Who among the three friends proposed the idea of meeting at the pool ten year s hence ?",
+    options: [
+      "Somi and Rusty",
+      "Anil",
+      "Somi",
+      "Rusty"
+    ],
+    correctAnswerIndex: 0,
+    explanation: "This social studies question examines Somi and Rusty... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 131
+  {
+    question: "Which one of the following options does not describe the pool in the stream ?",
+    options: [
+      "water trickling among fern and grasses",
+      "rough rocks on the bed",
+      "trickling waterfall down the rocks",
+      "apple-green colour of the water"
+    ],
+    correctAnswerIndex: 1,
+    explanation: "This social studies question examines rough rocks on the bed... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 132
+  {
+    question: "Which word can be the nearest synonym for the word ‘instinct’ ?",
+    options: [
+      "hatred",
+      "affinity",
+      "premonition",
+      "inclination"
+    ],
+    correctAnswerIndex: 2,
+    explanation: "This social studies question examines premonition... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 133
+  {
+    question: "What brought the three boys together ?",
+    options: [
+      "their spirit of adventure",
+      "their swimming talents",
+      "their earnest attitudes",
+      "their childhood mischiefs"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This social studies question examines their childhood mischiefs... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 136
+  {
+    question: "Ashwin knows Odia from his birth and he studies English and Hind i. Based on this statement, find which of the following statement is NOT true ?",
+    options: [
+      "His English learning is language acquisition.",
+      "His Odia learning is language acquisition.",
+      "His Hindi learning is language learning.",
+      "His English learning is language learning."
+    ],
+    correctAnswerIndex: 2,
+    explanation: "This social studies question examines His Hindi learning is language learning.... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 137
+  {
+    question: "Instrumental motivation is when :",
+    options: [
+      "a person learns the language for writing a book.",
+      "a person learns the language for utilitarian reason like employment.",
+      "a person learns the language for being closer to the native speakers of th e language.",
+      "a person learns the language for their communities religious and soc ial functions."
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This social studies question examines a person learns the language for their communities... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 138
+  {
+    question: "Kripa and Karan are twins and speak a particular dialect of Manipur i. However they differ in their speech. What is their individual special way of speaking the dia lect known as ?",
+    options: [
+      "Manipuri",
+      "Idiolect",
+      "Dialect",
+      "Speech act"
+    ],
+    correctAnswerIndex: 0,
+    explanation: "This social studies question examines Manipuri... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 139
+  {
+    question: "What is the status given to the English language in the Indian Consti tution ?",
+    options: [
+      "Language of statutory bodies",
+      "Official language",
+      "Associate Official language",
+      "Foreign language"
+    ],
+    correctAnswerIndex: 1,
+    explanation: "This social studies question examines Official language... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 140
+  {
+    question: "A test which aims to identify an individual student’s specific ar eas of weakness and strength is known as :",
+    options: [
+      "Formative test",
+      "Objective test",
+      "Validity test",
+      "Diagnostic test"
+    ],
+    correctAnswerIndex: 2,
+    explanation: "This social studies question examines Validity test... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 141
+  {
+    question: "Aditi knows the rules of past perfect tense. But can’t use in a context. Wh at knowledge does she possess ?",
+    options: [
+      "Application of knowledge",
+      "Language acquisition device",
+      "Procedural knowledge",
+      "Declarative knowledge"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This social studies question examines Declarative knowledge... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 142
+  {
+    question: "Which of the following is NOT true of language ?",
+    options: [
+      "Some languages can only convey science and engineering better",
+      "Language expresses identity",
+      "Language is a repository of history",
+      "Language contributes to the sum of human knowledge"
+    ],
+    correctAnswerIndex: 0,
+    explanation: "This social studies question examines Some languages can only convey science and enginee... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 145
+  {
+    question: "A teacher of Class VII wanted to give a writing task of writing a descr iption of a person. She went out of the classroom and brought a Hawker to her classroom with hi s basket. She requested him to be there for about seven minutes and then asked her learners to work in pair an d write a description of the person. What do you think the hawker in this activity known as ?",
+    options: [
+      "Materials",
+      "Teaching Assistant",
+      "A Hawker",
+      "A participant in the activity"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This social studies question examines A participant in the activity... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 146
+  {
+    question: "A teacher of class VII wants her learners to read the short text with an u nderstanding of power and identity of the people and community presented in the text. What does t he teacher aim to promote among learners ?",
+    options: [
+      "Literary skills",
+      "Language literacy",
+      "Critical literacy",
+      "Analytical reading"
+    ],
+    correctAnswerIndex: 0,
+    explanation: "This social studies question examines Literary skills... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 147
+  {
+    question: "Which of the following is TRUE of the study of classical languag e as advocated by National Education Policy (NEP) 2020 ?",
+    options: [
+      "Study of classical language as a core language at the secondary sta ge.",
+      "Study of classical language as an additional option during seco ndary stage.",
+      "Study of classical language as an option under three language form ula.",
+      "Study of classical language during the preparatory stage."
+    ],
+    correctAnswerIndex: 1,
+    explanation: "This social studies question examines Study of classical language as an additional optio... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 148
+  {
+    question: "Here is a text. Read and find out which language register does the text belon g to ? Suddenly, after the revolution, it seemed possible to change this. In many parts of the world including Europe and Asia, new ideas about individual rights and who controlled social power began to be discussed. In India, Raja Rammohan Roy and Derozio talked of the significance of the French Revolution. The developments in the colonies, in turn, reshaped thes e ideas of societal change.",
+    options: [
+      "Revolution register",
+      "Science register",
+      "Political register",
+      "Social Science register"
+    ],
+    correctAnswerIndex: 2,
+    explanation: "This social studies question examines Political register... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+
+// Question 149
+  {
+    question: "Subash, a teacher of class VIII regrets, “Language assessment generally does n ot give importance to receptive skills.” What does he mean by ‘receptive skills’?",
+    options: [
+      "Speaking and writing",
+      "Listening and writing",
+      "Speaking and reading",
+      "Listening and reading"
+    ],
+    correctAnswerIndex: 3,
+    explanation: "This social studies question examines Listening and reading... Understanding these concepts is essential for Classes 6-8 curriculum as per NCF 2005.",
+    subjectName: SubjectName.SOCIAL_STUDIES,
+    topicId: "social-studies",
+    subTopicId: "concepts",
+    difficulty: "easy",
+  },
+

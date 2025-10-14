@@ -1,5 +1,5 @@
-import { SubjectName, MCQ } from '../types';
-import { TestConfiguration } from '../components/MockTestConfig';
+import { SubjectName, MCQ } from '../types.js';
+import { TestConfiguration } from '../components/MockTestConfig.js';
 
 export interface StoredTestResult {
   id: string;

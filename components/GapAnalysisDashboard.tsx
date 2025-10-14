@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { EnhancedSyllabusTopic, ContentGap, GapAnalysisReport, SubjectName } from '../types';
-import { ENHANCED_SYLLABUS_DATA, SyllabusGapAnalyzer, ContentPriorityScorer } from '../constants/syllabusMapping';
+import { EnhancedSyllabusTopic, ContentGap, GapAnalysisReport, SubjectName } from '../types.js';
+import { ENHANCED_SYLLABUS_DATA, SyllabusGapAnalyzer, ContentPriorityScorer } from '../constants/syllabusMapping.js';
 
 /**
  * Gap Analysis Dashboard Component
@@ -145,7 +145,7 @@ const GapAnalysisDashboard: React.FC<GapAnalysisDashboardProps> = ({
           </div>
           <div className="bg-green-50 p-4 rounded-lg">
             <div className="text-2xl font-bold text-green-600">
-              {Math.round(gapAnalysis.subjectBreakdown.reduce((sum, s) => sum + s.coverage, 0) / gapAnalysis.subjectBreakdown.length)}%
+              {Math.round(gapAnalysis.subjectBreakdown.reduce((sum: number, s: any) => sum + s.coverage, 0) / gapAnalysis.subjectBreakdown.length)}%
             </div>
             <div className="text-sm text-green-800">Avg Coverage</div>
           </div>
@@ -169,7 +169,7 @@ const GapAnalysisDashboard: React.FC<GapAnalysisDashboardProps> = ({
               aria-label="Select subject to filter topics"
             >
               <option value="all">All Subjects</option>
-              {Object.values(SubjectName).map(subject => (
+              {Object.values(SubjectName).map((subject: SubjectName) => (
                 <option key={subject} value={subject}>{subject}</option>
               ))}
             </select>
@@ -195,7 +195,7 @@ const GapAnalysisDashboard: React.FC<GapAnalysisDashboardProps> = ({
       <div className="bg-white rounded-lg shadow-lg p-6">
         <h2 className="text-xl font-semibold text-gray-900 mb-4">Subject Overview</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {gapAnalysis.subjectBreakdown.map(subject => (
+          {gapAnalysis.subjectBreakdown.map((subject: any) => (
             <div key={subject.subject} className="border border-gray-200 rounded-lg p-4">
               <div className="flex justify-between items-start mb-2">
                 <h3 className="font-medium text-gray-900">{subject.subject}</h3>
@@ -280,7 +280,7 @@ const GapAnalysisDashboard: React.FC<GapAnalysisDashboardProps> = ({
                 </div>
 
                 <div className="space-y-2">
-                  {topic.subtopics.map(subtopic => (
+                  {topic.subtopics.map((subtopic: any) => (
                     <div key={subtopic.id} className="flex justify-between items-center text-sm">
                       <span className="text-gray-700">{subtopic.name}</span>
                       <div className="flex items-center space-x-2">
@@ -304,7 +304,7 @@ const GapAnalysisDashboard: React.FC<GapAnalysisDashboardProps> = ({
       <div className="bg-white rounded-lg shadow-lg p-6">
         <h2 className="text-xl font-semibold text-gray-900 mb-4">Recommendations</h2>
         <div className="space-y-3">
-          {gapAnalysis.recommendations.map((recommendation, index) => (
+          {gapAnalysis.recommendations.map((recommendation: string, index: number) => (
             <div key={index} className="flex items-start space-x-3">
               <div className="flex-shrink-0 w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
                 <span className="text-sm font-medium text-blue-600">{index + 1}</span>

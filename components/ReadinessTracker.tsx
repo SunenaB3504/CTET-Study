@@ -1,5 +1,5 @@
 import React from 'react';
-import { CoverageData } from '../types';
+import { CoverageData } from '../types.js';
 import { ArrowLeftIcon } from '@heroicons/react/24/solid';
 
 interface ReadinessTrackerProps {
@@ -22,13 +22,13 @@ const ReadinessTracker: React.FC<ReadinessTrackerProps> = ({ data, onBack }) => 
   // Helper to structure data for rowspan
   const processedData = data.reduce(
     (acc, current) => {
-      let subject = acc.find(s => s.name === current.subjectName);
+      let subject = acc.find((s: any) => s.name === current.subjectName);
       if (!subject) {
         subject = { name: current.subjectName, topics: [], rowSpan: 0 };
         acc.push(subject);
       }
 
-      let topic = subject.topics.find(t => t.name === current.topicName);
+      let topic = subject.topics.find((t: any) => t.name === current.topicName);
       if (!topic) {
         topic = { name: current.topicName, subTopics: [], rowSpan: 0 };
         subject.topics.push(topic);
@@ -80,9 +80,9 @@ const ReadinessTracker: React.FC<ReadinessTrackerProps> = ({ data, onBack }) => 
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
-              {processedData.map((subject, subjectIndex) =>
-                subject.topics.map((topic, topicIndex) =>
-                  topic.subTopics.map((subTopic, subTopicIndex) => (
+              {processedData.map((subject: any, subjectIndex: number) =>
+                subject.topics.map((topic: any, topicIndex: number) =>
+                  topic.subTopics.map((subTopic: any, subTopicIndex: number) => (
                     <tr key={`${subject.name}-${topic.name}-${subTopic.name}`} className="hover:bg-gray-50">
                       {topicIndex === 0 && subTopicIndex === 0 && (
                         <td

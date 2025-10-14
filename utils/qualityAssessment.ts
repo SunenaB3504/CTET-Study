@@ -1,4 +1,4 @@
-import { MCQ, SubjectName, EnhancedExplanation } from '../types';
+import { MCQ, SubjectName, EnhancedExplanation } from '../types.js';
 import DOMPurify from 'dompurify';
 import { JSDOM } from 'jsdom';
 
@@ -201,7 +201,7 @@ export class QualityAssessmentService {
     }
 
     // Check for duplicate options
-    const uniqueOptions = new Set(question.options.map(opt => opt.toLowerCase().trim()));
+    const uniqueOptions = new Set(question.options.map((opt: string) => opt.toLowerCase().trim()));
     if (uniqueOptions.size !== question.options.length) {
       score -= 25;
       issues.push({
@@ -213,7 +213,7 @@ export class QualityAssessmentService {
     }
 
     // Check option lengths
-    const shortOptions = question.options.filter(opt => opt.trim().length < 5);
+    const shortOptions = question.options.filter((opt: string) => opt.trim().length < 5);
     if (shortOptions.length > 0) {
       score -= 10;
       issues.push({
@@ -366,7 +366,7 @@ export class QualityAssessmentService {
     }
 
     // Check option complexity balance
-    const optionLengths = question.options.map(opt => opt.length);
+    const optionLengths = question.options.map((opt: string) => opt.length);
     const lengthVariance = this.calculateVariance(optionLengths);
     if (lengthVariance > 1000) {
       score -= 5;
@@ -440,10 +440,10 @@ export class QualityAssessmentService {
     const allIssues = validationResults.flatMap(r => r.metrics.issues);
     const commonIssues = this.getMostCommonIssues(allIssues);
 
-    const subjectBreakdown = Object.values(SubjectName).reduce((acc, subject) => {
+    const subjectBreakdown = Object.values(SubjectName).reduce((acc: Record<SubjectName, QualityMetrics>, subject) => {
       const subjectQuestions = validationResults.filter(r => r.question.subjectName === subject);
       if (subjectQuestions.length > 0) {
-        acc[subject] = {
+        acc[subject as SubjectName] = {
           overallScore: Math.round(subjectQuestions.reduce((sum, r) => sum + r.metrics.overallScore, 0) / subjectQuestions.length),
           contentQuality: Math.round(subjectQuestions.reduce((sum, r) => sum + r.metrics.contentQuality, 0) / subjectQuestions.length),
           questionStructure: Math.round(subjectQuestions.reduce((sum, r) => sum + r.metrics.questionStructure, 0) / subjectQuestions.length),

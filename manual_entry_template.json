@@ -1,0 +1,590 @@
+{
+  "4": {
+    "number": 4,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 1,
+    "note": "Answer is option 1 - Verify this when typing from PDF"
+  },
+  "7": {
+    "number": 7,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 2,
+    "note": "Answer is option 2 - Verify this when typing from PDF"
+  },
+  "10": {
+    "number": 10,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "12": {
+    "number": 12,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 2,
+    "note": "Answer is option 2 - Verify this when typing from PDF"
+  },
+  "14": {
+    "number": 14,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "16": {
+    "number": 16,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "18": {
+    "number": 18,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "21": {
+    "number": 21,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "24": {
+    "number": 24,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 2,
+    "note": "Answer is option 2 - Verify this when typing from PDF"
+  },
+  "27": {
+    "number": 27,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 1,
+    "note": "Answer is option 1 - Verify this when typing from PDF"
+  },
+  "29": {
+    "number": 29,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "34": {
+    "number": 34,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 3,
+    "note": "Answer is option 3 - Verify this when typing from PDF"
+  },
+  "36": {
+    "number": 36,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 1,
+    "note": "Answer is option 1 - Verify this when typing from PDF"
+  },
+  "41": {
+    "number": 41,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 2,
+    "note": "Answer is option 2 - Verify this when typing from PDF"
+  },
+  "43": {
+    "number": 43,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "44": {
+    "number": 44,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 1,
+    "note": "Answer is option 1 - Verify this when typing from PDF"
+  },
+  "45": {
+    "number": 45,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 2,
+    "note": "Answer is option 2 - Verify this when typing from PDF"
+  },
+  "47": {
+    "number": 47,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "48": {
+    "number": 48,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 1,
+    "note": "Answer is option 1 - Verify this when typing from PDF"
+  },
+  "50": {
+    "number": 50,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 3,
+    "note": "Answer is option 3 - Verify this when typing from PDF"
+  },
+  "54": {
+    "number": 54,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 3,
+    "note": "Answer is option 3 - Verify this when typing from PDF"
+  },
+  "58": {
+    "number": 58,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 3,
+    "note": "Answer is option 3 - Verify this when typing from PDF"
+  },
+  "63": {
+    "number": 63,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "66": {
+    "number": 66,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 3,
+    "note": "Answer is option 3 - Verify this when typing from PDF"
+  },
+  "68": {
+    "number": 68,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "74": {
+    "number": 74,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 3,
+    "note": "Answer is option 3 - Verify this when typing from PDF"
+  },
+  "80": {
+    "number": 80,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 1,
+    "note": "Answer is option 1 - Verify this when typing from PDF"
+  },
+  "81": {
+    "number": 81,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 2,
+    "note": "Answer is option 2 - Verify this when typing from PDF"
+  },
+  "83": {
+    "number": 83,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "88": {
+    "number": 88,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 1,
+    "note": "Answer is option 1 - Verify this when typing from PDF"
+  },
+  "89": {
+    "number": 89,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 2,
+    "note": "Answer is option 2 - Verify this when typing from PDF"
+  },
+  "90": {
+    "number": 90,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 3,
+    "note": "Answer is option 3 - Verify this when typing from PDF"
+  },
+  "91": {
+    "number": 91,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 3,
+    "note": "Answer is option 3 - Verify this when typing from PDF"
+  },
+  "92": {
+    "number": 92,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 2,
+    "note": "Answer is option 2 - Verify this when typing from PDF"
+  },
+  "93": {
+    "number": 93,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "94": {
+    "number": 94,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 1,
+    "note": "Answer is option 1 - Verify this when typing from PDF"
+  },
+  "96": {
+    "number": 96,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 3,
+    "note": "Answer is option 3 - Verify this when typing from PDF"
+  },
+  "99": {
+    "number": 99,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 2,
+    "note": "Answer is option 2 - Verify this when typing from PDF"
+  },
+  "106": {
+    "number": 106,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 1,
+    "note": "Answer is option 1 - Verify this when typing from PDF"
+  },
+  "113": {
+    "number": 113,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "120": {
+    "number": 120,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 3,
+    "note": "Answer is option 3 - Verify this when typing from PDF"
+  },
+  "122": {
+    "number": 122,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 1,
+    "note": "Answer is option 1 - Verify this when typing from PDF"
+  },
+  "125": {
+    "number": 125,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 4,
+    "note": "Answer is option 4 - Verify this when typing from PDF"
+  },
+  "126": {
+    "number": 126,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 1,
+    "note": "Answer is option 1 - Verify this when typing from PDF"
+  },
+  "129": {
+    "number": 129,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 3,
+    "note": "Answer is option 3 - Verify this when typing from PDF"
+  },
+  "134": {
+    "number": 134,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 1,
+    "note": "Answer is option 1 - Verify this when typing from PDF"
+  },
+  "135": {
+    "number": 135,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 2,
+    "note": "Answer is option 2 - Verify this when typing from PDF"
+  },
+  "144": {
+    "number": 144,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 3,
+    "note": "Answer is option 3 - Verify this when typing from PDF"
+  },
+  "150": {
+    "number": 150,
+    "question": "[MANUAL ENTRY NEEDED - Open PDF and type question here]",
+    "options": [
+      "[Option 1 - Type from PDF]",
+      "[Option 2 - Type from PDF]",
+      "[Option 3 - Type from PDF]",
+      "[Option 4 - Type from PDF]"
+    ],
+    "answer": 2,
+    "note": "Answer is option 2 - Verify this when typing from PDF"
+  }
+}

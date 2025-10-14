@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import { MCQ, SubjectName } from '../types';
-import { TestConfiguration } from './MockTestConfig';
+import { MCQ, SubjectName } from '../types.js';
+import { TestConfiguration } from './MockTestConfig.js';
 import {
   CheckIcon,
   XMarkIcon,
@@ -124,8 +124,8 @@ const EnhancedTestResult: React.FC<EnhancedTestResultProps> = ({
     }
 
     const weakTopics = Object.entries(analytics.topicStats)
-      .filter(([, stats]) => (stats.correct / stats.total) < 0.6)
-      .map(([topicId, stats]) => stats.name);
+      .filter(([, stats]: [string, any]) => (stats.correct / stats.total) < 0.6)
+      .map(([topicId, stats]: [string, any]) => stats.name);
 
     if (weakTopics.length > 0) {
       suggestions.push(`Focus on these topics: ${weakTopics.join(', ')}`);
@@ -204,7 +204,7 @@ const EnhancedTestResult: React.FC<EnhancedTestResultProps> = ({
             <div>
               <h4 className="text-lg font-semibold text-gray-800 mb-4">Topic-wise Performance</h4>
               <div className="space-y-3">
-                {Object.entries(analytics.topicStats).map(([topicId, stats]) => {
+                {Object.entries(analytics.topicStats).map(([topicId, stats]: [string, any]) => {
                   const rate = (stats.correct / stats.total) * 100;
                   return (
                     <div key={topicId} className="flex items-center justify-between">
@@ -233,7 +233,7 @@ const EnhancedTestResult: React.FC<EnhancedTestResultProps> = ({
             <div>
               <h4 className="text-lg font-semibold text-gray-800 mb-4">Difficulty Analysis</h4>
               <div className="space-y-3">
-                {Object.entries(analytics.difficultyStats).map(([difficulty, stats]) => {
+                {Object.entries(analytics.difficultyStats).map(([difficulty, stats]: [string, any]) => {
                   const rate = (stats.correct / stats.total) * 100;
                   return (
                     <div key={difficulty} className="flex items-center justify-between">
@@ -320,7 +320,7 @@ const EnhancedTestResult: React.FC<EnhancedTestResultProps> = ({
                   </div>
 
                   <div className="space-y-2 mb-4">
-                    {q.options.map((option, optIndex) => {
+                    {q.options.map((option: string, optIndex: number) => {
                       const isSelected = userAnswer === optIndex;
                       const isCorrectAnswer = q.correctAnswerIndex === optIndex;
 

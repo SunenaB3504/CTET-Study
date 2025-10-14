@@ -1,5 +1,5 @@
-import { ProgressTrackingService } from './progressTracking';
-import { SUBJECT_DATA } from '../constants/data';
+import { ProgressTrackingService } from './progressTracking.js';
+import { SUBJECT_DATA } from '../constants/data.js';
 
 export interface PerformanceTrend {
   period: string;
@@ -372,7 +372,7 @@ export class LearningInsightsService {
   private static getTopicName(topicId: string): string {
     // Search through SUBJECT_DATA to find topic name
     for (const subject of SUBJECT_DATA) {
-      const topic = subject.topics.find(t => t.id === topicId);
+      const topic = subject.topics.find((t: any) => t.id === topicId);
       if (topic) return topic.name;
     }
     return topicId;

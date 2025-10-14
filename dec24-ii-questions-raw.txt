@@ -1,0 +1,31 @@
+Extracting Questions from: SQP\Paper2\Qus-Dec-24.pdf
+============================================================
+Extracting text from PDF...
+Extracted text from 80 pages
+Extracting Questions 1-120 (English only):
+--------------------------------------------------
+Q1: 1. Which of these statements would advocates of progressive education agree with ?
+Q2: 2. Changes in emotion, self-perception and interpersonal relationships with families, peers and friends
+Q3: 3. The behaviours, interests, attitudes, skills and personality traits that a culture considers appropriate
+Q4: 4. Assertion (A) : In an inclusive classroom, all curriculum adaptations should be directed to lower
+Q5: 5. As per Jean PiagetÆs theory of Cognitive Development :
+Q6: 6. Lev Vygotsky views cognitive development as :
+Q7: 7. While proposing the relationship between language and thinking process, Lev Vygotsky
+Q8: 8. Which of the following is an example of a performance goal orientation ?
+Q9: 9. Following Lev VygotskyÆs ideas, a teacher should :
+Q10: 10. Which of the following are effective strategies to teach new concepts ?
+... and 169 more English questions
+Total English questions (1-120): 179
+Extracting Questions 121-150 (Hindi only):
+--------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Admin\Summs\CTET-Study\extract_questions.py", line 267, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Admin\Summs\CTET-Study\extract_questions.py", line 249, in main
+    print(f"Q{q['number']}: {q['text']}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2032.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2211' in position 19: character maps to <undefined>

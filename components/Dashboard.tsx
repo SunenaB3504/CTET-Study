@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Subject, Topic, ContextualTopic } from '../types';
+import { Subject, Topic, ContextualTopic } from '../types.js';
 import { ChevronRightIcon } from '@heroicons/react/24/solid';
 
 interface DashboardProps {
@@ -24,7 +24,7 @@ const Dashboard: React.FC<DashboardProps> = ({ subject, onSelectTopic, setContex
       </div>
 
       <div className="space-y-4">
-        {subject.topics.map(topic => (
+        {subject.topics.map((topic: Topic) => (
           <div
             key={topic.id}
             onClick={() => onSelectTopic(topic)}

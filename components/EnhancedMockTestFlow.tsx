@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { SubjectName, ContextualTopic, MCQ } from '../types';
-import { SUBJECT_DATA } from '../constants/data';
-import MockTestConfig, { TestConfiguration } from './MockTestConfig';
-import EnhancedMockTest from './EnhancedMockTest';
-import PerformanceAnalytics from './PerformanceAnalytics';
-import { testResultsStorage, StoredTestResult } from '../constants/testResults';
+import { SubjectName, ContextualTopic, MCQ } from '../types.js';
+import { SUBJECT_DATA } from '../constants/data.js';
+import MockTestConfig, { TestConfiguration } from './MockTestConfig.js';
+import EnhancedMockTest from './EnhancedMockTest.js';
+import PerformanceAnalytics from './PerformanceAnalytics.js';
+import { testResultsStorage, StoredTestResult } from '../constants/testResults.js';
 
 interface EnhancedMockTestFlowProps {
   onBackToDashboard: () => void;
@@ -25,20 +25,20 @@ const EnhancedMockTestFlow: React.FC<EnhancedMockTestFlowProps> = ({
 
   // Generate questions based on configuration
   const generateQuestions = (config: TestConfiguration): MCQ[] => {
-    const subjectData = SUBJECT_DATA.find(s => s.name === config.subject);
+    const subjectData = SUBJECT_DATA.find((s: any) => s.name === config.subject);
     if (!subjectData) return [];
 
     let availableQuestions: MCQ[] = [];
 
     if (config.topics && config.topics.length > 0) {
       // Filter by specific topics
-      availableQuestions = config.topics.flatMap(topicId => {
-        const topic = subjectData.topics.find(t => t.id === topicId);
+      availableQuestions = config.topics.flatMap((topicId: string) => {
+        const topic = subjectData.topics.find((t: any) => t.id === topicId);
         return topic?.practiceQuestions || [];
       });
     } else {
       // Use all topics
-      availableQuestions = subjectData.topics.flatMap(topic => topic.practiceQuestions);
+      availableQuestions = subjectData.topics.flatMap((topic: any) => topic.practiceQuestions);
     }
 
     // Filter by difficulty if specified

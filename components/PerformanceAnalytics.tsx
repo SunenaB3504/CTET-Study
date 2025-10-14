@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { SubjectName } from '../types';
-import { testResultsStorage, TestAnalytics, StoredTestResult } from '../constants/testResults';
+import { SubjectName } from '../types.js';
+import { testResultsStorage, TestAnalytics, StoredTestResult } from '../constants/testResults.js';
 import {
   ChartBarIcon,
   ClockIcon,
@@ -121,7 +121,7 @@ const PerformanceAnalytics: React.FC<PerformanceAnalyticsProps> = ({ onBack }) =
         </h3>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {Object.entries(analytics.subjectBreakdown).map(([subject, data]) => (
+          {Object.entries(analytics.subjectBreakdown).map(([subject, data]: [string, any]) => (
             <div key={subject} className="border border-gray-200 rounded-lg p-4">
               <div className="flex items-center justify-between mb-2">
                 <h4 className="font-semibold text-gray-800">{subject}</h4>
@@ -168,7 +168,7 @@ const PerformanceAnalytics: React.FC<PerformanceAnalyticsProps> = ({ onBack }) =
           </div>
         ) : (
           <div className="space-y-4">
-            {analytics.recentTests.map((test, index) => (
+            {analytics.recentTests.map((test: StoredTestResult, index: number) => (
               <div key={test.id} className="border border-gray-200 rounded-lg p-4">
                 <div className="flex items-center justify-between mb-3">
                   <div className="flex items-center space-x-4">
@@ -215,8 +215,8 @@ const PerformanceAnalytics: React.FC<PerformanceAnalyticsProps> = ({ onBack }) =
         <div className="flex flex-wrap gap-4">
           <button
             onClick={() => {
-              const data = testResultsStorage.exportData();
-              const blob = new Blob([data], { type: 'application/json' });
+              const exportData = testResultsStorage.exportData();
+              const blob = new Blob([exportData], { type: 'application/json' });
               const url = URL.createObjectURL(blob);
               const a = document.createElement('a');
               a.href = url;

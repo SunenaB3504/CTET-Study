@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { ProgressTrackingService, StudySession, UserProgress } from '../utils/progressTracking';
-import { ExperienceLevel } from '../types';
+import { ProgressTrackingService, StudySession, UserProgress } from '../utils/progressTracking.js';
+import { ExperienceLevel } from '../types.js';
 import {
   ClockIcon,
   ChartBarIcon,

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MockTestResult, SubjectName, EnhancedExplanation } from '../types';
+import { MockTestResult, SubjectName, EnhancedExplanation } from '../types.js';
 import {
   CheckIcon,
   XMarkIcon,
