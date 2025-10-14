@@ -1,5 +1,13 @@
 /* Splash Screen Animations and Styles */
 
+/* Background image */
+.splash-background {
+  background-image: url('/images/flash-image.013Z.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;

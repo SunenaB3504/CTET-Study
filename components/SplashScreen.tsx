@@ -36,16 +36,12 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
 
   return (
     <div 
-      className={`fixed inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 transition-opacity duration-500 ${
+      className={`fixed inset-0 z-50 flex items-center justify-center splash-background transition-opacity duration-500 ${
         fadeOut ? 'opacity-0' : 'opacity-100'
       }`}
     >
-      {/* Animated background pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-20 w-64 h-64 bg-white rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-cyan-300 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-purple-300 rounded-full blur-3xl animate-pulse delay-500"></div>
-      </div>
+      {/* Dark overlay for better text readability */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-blue-800/30 to-indigo-900/40"></div>
 
       <div className="relative z-10 text-center px-6 max-w-4xl">
         {/* Main Logo/Icon */}
