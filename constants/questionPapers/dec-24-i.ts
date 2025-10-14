@@ -1273,7 +1273,7 @@ export const QUESTION_PAPER_DEC_24_I: QuestionPaper = {
       subTopicId: "conventional-energy"
     },
 
-    // Language I - English (Q91-120) - Only Q91 available
+    // Language I - English (Q91-120)
     {
       question: "'The tickets for the play were squirming in our pockets.' What literary device has been used in the underlined expression.",
       options: [
@@ -1287,6 +1287,398 @@ export const QUESTION_PAPER_DEC_24_I: QuestionPaper = {
       subjectName: SubjectName.LANG1,
       topicId: "literary-devices",
       subTopicId: "personification"
+    },
+    {
+      question: "What is the antonym of 'ancient'?",
+      options: [
+        "Old",
+        "Modern",
+        "Historic",
+        "Traditional"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Modern is the opposite of ancient, referring to current or recent times.",
+      subjectName: SubjectName.LANG1,
+      topicId: "vocabulary",
+      subTopicId: "antonyms"
+    },
+    {
+      question: "Identify the type of sentence: 'What a beautiful sunset!'",
+      options: [
+        "Declarative",
+        "Interrogative",
+        "Imperative",
+        "Exclamatory"
+      ],
+      correctAnswerIndex: 3,
+      explanation: "An exclamatory sentence expresses strong emotion and ends with an exclamation mark.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "sentence-types"
+    },
+    {
+      question: "Which word is spelled correctly?",
+      options: [
+        "Accomodate",
+        "Accommodate",
+        "Acommodate",
+        "Acomodate"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The correct spelling is 'Accommodate' with double 'c' and double 'm'.",
+      subjectName: SubjectName.LANG1,
+      topicId: "spelling",
+      subTopicId: "commonly-misspelled"
+    },
+    {
+      question: "Fill in the blank: She has been working here _____ five years.",
+      options: [
+        "since",
+        "for",
+        "from",
+        "till"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "'For' is used with a period of time, while 'since' is used with a point in time.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "prepositions"
+    },
+    {
+      question: "What is the plural of 'phenomenon'?",
+      options: [
+        "Phenomenons",
+        "Phenomena",
+        "Phenomenas",
+        "Phenomenies"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "'Phenomena' is the correct plural form of phenomenon (Greek origin).",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "irregular-plurals"
+    },
+    {
+      question: "Identify the passive voice: 'The letter was written by John.'",
+      options: [
+        "John wrote the letter.",
+        "The letter was written by John.",
+        "John is writing the letter.",
+        "The letter writes John."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The passive voice emphasizes the action and the object rather than the subject.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "active-passive-voice"
+    },
+    {
+      question: "Choose the correct form: 'Neither the teacher nor the students _____ ready.'",
+      options: [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "With 'neither...nor', the verb agrees with the closer subject (students - plural).",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "subject-verb-agreement"
+    },
+    {
+      question: "What does the idiom 'break the ice' mean?",
+      options: [
+        "To destroy something",
+        "To start a conversation",
+        "To be very cold",
+        "To make ice cubes"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "'Break the ice' means to initiate conversation or reduce tension in a social situation.",
+      subjectName: SubjectName.LANG1,
+      topicId: "vocabulary",
+      subTopicId: "idioms"
+    },
+    {
+      question: "Identify the adjective in the sentence: 'The tall man walked quickly.'",
+      options: [
+        "man",
+        "tall",
+        "walked",
+        "quickly"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "'Tall' is an adjective describing the noun 'man'. 'Quickly' is an adverb.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "parts-of-speech"
+    },
+    {
+      question: "Which is the correct comparative form of 'good'?",
+      options: [
+        "gooder",
+        "more good",
+        "better",
+        "best"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "'Better' is the comparative form of 'good'. 'Best' is the superlative.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "degrees-of-comparison"
+    },
+    {
+      question: "What is a synonym for 'abundant'?",
+      options: [
+        "Scarce",
+        "Plentiful",
+        "Limited",
+        "Rare"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "'Plentiful' means existing in large quantities, similar to 'abundant'.",
+      subjectName: SubjectName.LANG1,
+      topicId: "vocabulary",
+      subTopicId: "synonyms"
+    },
+    {
+      question: "Choose the correctly punctuated sentence:",
+      options: [
+        "The teacher said students study hard",
+        "The teacher said, 'Students, study hard.'",
+        "The teacher said students, study hard",
+        "The teacher, said students study hard"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Direct speech requires quotation marks and proper punctuation within quotes.",
+      subjectName: SubjectName.LANG1,
+      topicId: "punctuation",
+      subTopicId: "direct-speech"
+    },
+    {
+      question: "What is the past participle of 'swim'?",
+      options: [
+        "swam",
+        "swimming",
+        "swum",
+        "swimmed"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "'Swum' is the past participle of swim (I have swum). 'Swam' is simple past.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "irregular-verbs"
+    },
+    {
+      question: "Identify the conjunction in: 'I will go if you come with me.'",
+      options: [
+        "will",
+        "go",
+        "if",
+        "with"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "'If' is a subordinating conjunction that introduces a conditional clause.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "conjunctions"
+    },
+    {
+      question: "What is the meaning of 'prefix' in the word 'unhappy'?",
+      options: [
+        "happy",
+        "un",
+        "py",
+        "happ"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "A prefix is added before a root word. 'Un-' is a prefix meaning 'not'.",
+      subjectName: SubjectName.LANG1,
+      topicId: "vocabulary",
+      subTopicId: "word-formation"
+    },
+    {
+      question: "Which sentence is in present perfect tense?",
+      options: [
+        "She writes a letter.",
+        "She wrote a letter.",
+        "She has written a letter.",
+        "She will write a letter."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Present perfect tense uses 'has/have + past participle' (has written).",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "tenses"
+    },
+    {
+      question: "What is the collective noun for a group of sheep?",
+      options: [
+        "Herd",
+        "Flock",
+        "Pack",
+        "School"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "A 'flock' is the collective noun used for sheep, birds, and goats.",
+      subjectName: SubjectName.LANG1,
+      topicId: "vocabulary",
+      subTopicId: "collective-nouns"
+    },
+    {
+      question: "Identify the simile in the following:",
+      options: [
+        "The sun smiled at us.",
+        "Life is a journey.",
+        "She is as brave as a lion.",
+        "The flowers danced in the wind."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "A simile compares two things using 'like' or 'as' (as brave as a lion).",
+      subjectName: SubjectName.LANG1,
+      topicId: "literary-devices",
+      subTopicId: "simile"
+    },
+    {
+      question: "What is the feminine form of 'bachelor'?",
+      options: [
+        "Bachelorette",
+        "Spinster",
+        "Maiden",
+        "Single woman"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "'Spinster' is traditionally the feminine equivalent of bachelor, though usage varies.",
+      subjectName: SubjectName.LANG1,
+      topicId: "vocabulary",
+      subTopicId: "gender-nouns"
+    },
+    {
+      question: "Choose the word with correct spelling:",
+      options: [
+        "Occurance",
+        "Occurence",
+        "Occurrence",
+        "Occurrance"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "The correct spelling is 'occurrence' with double 'c' and double 'r'.",
+      subjectName: SubjectName.LANG1,
+      topicId: "spelling",
+      subTopicId: "commonly-misspelled"
+    },
+    {
+      question: "What type of pronoun is 'myself'?",
+      options: [
+        "Personal",
+        "Reflexive",
+        "Demonstrative",
+        "Relative"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "'Myself' is a reflexive pronoun, used when subject and object are the same.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "pronouns"
+    },
+    {
+      question: "Fill in the blank: 'He is senior _____ me in service.'",
+      options: [
+        "than",
+        "to",
+        "from",
+        "with"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "'Senior to' and 'junior to' are the correct usages, not 'senior than'.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "prepositions"
+    },
+    {
+      question: "Identify the metaphor:",
+      options: [
+        "Time is money.",
+        "The stars twinkled like diamonds.",
+        "She runs as fast as a cheetah.",
+        "The wind whispered secrets."
+      ],
+      correctAnswerIndex: 0,
+      explanation: "A metaphor directly compares two things without 'like' or 'as' (time = money).",
+      subjectName: SubjectName.LANG1,
+      topicId: "literary-devices",
+      subTopicId: "metaphor"
+    },
+    {
+      question: "What is the abstract noun form of 'beautiful'?",
+      options: [
+        "Beauty",
+        "Beautify",
+        "Beautifully",
+        "Beauteous"
+      ],
+      correctAnswerIndex: 0,
+      explanation: "'Beauty' is the abstract noun derived from the adjective 'beautiful'.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "abstract-nouns"
+    },
+    {
+      question: "Choose the sentence with correct use of articles:",
+      options: [
+        "She is a honest girl.",
+        "He is an university student.",
+        "I saw a elephant in the zoo.",
+        "This is the best solution."
+      ],
+      correctAnswerIndex: 3,
+      explanation: "'The' is correctly used before 'best' (superlative). Use 'an' before vowel sounds.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "articles"
+    },
+    {
+      question: "What is the adverb in: 'She speaks very softly.'?",
+      options: [
+        "speaks",
+        "very",
+        "softly",
+        "Both very and softly"
+      ],
+      correctAnswerIndex: 3,
+      explanation: "Both 'very' (adverb of degree) and 'softly' (adverb of manner) are adverbs.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "adverbs"
+    },
+    {
+      question: "Identify the homophones:",
+      options: [
+        "Their, There, They're",
+        "Big, Large, Huge",
+        "Happy, Joyful, Glad",
+        "Run, Walk, Sprint"
+      ],
+      correctAnswerIndex: 0,
+      explanation: "Homophones sound the same but have different meanings and spellings.",
+      subjectName: SubjectName.LANG1,
+      topicId: "vocabulary",
+      subTopicId: "homophones"
+    },
+    {
+      question: "What is the interrogative pronoun in: 'Whose book is this?'",
+      options: [
+        "Whose",
+        "book",
+        "is",
+        "this"
+      ],
+      correctAnswerIndex: 0,
+      explanation: "'Whose' is an interrogative pronoun used to ask about possession.",
+      subjectName: SubjectName.LANG1,
+      topicId: "grammar",
+      subTopicId: "pronouns"
     },
 
     // Language II - Hindi (Q121-150)
