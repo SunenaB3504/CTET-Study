@@ -65,17 +65,28 @@ const Sidebar: React.FC<SidebarProps> = ({
   return (
     <aside className="w-64 bg-white shadow-lg border-r border-slate-200 flex-shrink-0 hidden md:flex flex-col" style={style}>
       <div className="flex-1">
-        <div className="p-6 bg-gradient-to-br from-blue-600 to-blue-700">
-          <h2 className="text-2xl font-bold text-white">CTET Prep Pal</h2>
+        <div className="p-6 bg-gradient-to-br from-blue-600 via-blue-600 to-blue-700 shadow-inner">
+          <div className="flex items-center gap-2 mb-2">
+            <div className="w-10 h-10 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
+              <span className="text-2xl">🎓</span>
+            </div>
+            <h2 className="text-xl font-bold text-white">CTET Prep Pal</h2>
+          </div>
           {currentPaperType && (
-            <div className="mt-2 text-xs text-blue-100 bg-blue-500 bg-opacity-30 px-2 py-1 rounded">
-              📚 {paperTypeLabel}
+            <div className="mt-3 text-xs text-white bg-white bg-opacity-20 px-3 py-2 rounded-lg backdrop-blur-sm border border-white border-opacity-30">
+              <div className="flex items-center gap-2">
+                <span className="text-base">📚</span>
+                <span className="font-medium">{paperTypeLabel}</span>
+              </div>
             </div>
           )}
         </div>
         <nav className="mt-6">
           <div className="px-6 mb-4">
-            <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Subjects</h3>
+            <div className="flex items-center gap-2">
+              <div className="w-1 h-4 bg-blue-500 rounded"></div>
+              <h3 className="text-xs font-semibold text-slate-600 uppercase tracking-wider">Subjects</h3>
+            </div>
           </div>
           <ul>
             {SUBJECT_DATA.map(subject => {
@@ -100,93 +111,102 @@ const Sidebar: React.FC<SidebarProps> = ({
             })}
           </ul>
           <div className="px-6 mt-8 mb-4">
-            <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Assessment</h3>
+            <div className="flex items-center gap-2">
+              <div className="w-1 h-4 bg-emerald-500 rounded"></div>
+              <h3 className="text-xs font-semibold text-slate-600 uppercase tracking-wider">Assessment</h3>
+            </div>
           </div>
           <button
             onClick={onStartMockTest}
-            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200"
+            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-all duration-200 group"
           >
-            <PencilSquareIcon className="h-6 w-6 mr-3 text-slate-400" />
+            <PencilSquareIcon className="h-6 w-6 mr-3 text-emerald-500 group-hover:text-emerald-600" />
             <span>Full Mock Test</span>
           </button>
           <button
             onClick={onStartEnhancedMockTest}
-            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200"
+            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-all duration-200 group"
           >
-            <TrophyIcon className="h-6 w-6 mr-3 text-slate-400" />
+            <TrophyIcon className="h-6 w-6 mr-3 text-emerald-500 group-hover:text-emerald-600" />
             <span>Enhanced Mock Test</span>
           </button>
           <button
             onClick={onShowSampleQuestions}
-            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200"
+            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-all duration-200 group"
           >
-            <BookOpenIcon className="h-6 w-6 mr-3 text-slate-400" />
+            <BookOpenIcon className="h-6 w-6 mr-3 text-emerald-500 group-hover:text-emerald-600" />
             <span>Sample Questions</span>
           </button>
 
           <div className="px-6 mt-8 mb-4">
-            <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Planning</h3>
+            <div className="flex items-center gap-2">
+              <div className="w-1 h-4 bg-amber-500 rounded"></div>
+              <h3 className="text-xs font-semibold text-slate-600 uppercase tracking-wider">Planning</h3>
+            </div>
           </div>
           <button
             onClick={onShowReadinessTracker}
-            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200"
+            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-amber-50 hover:text-amber-700 transition-all duration-200 group"
           >
-            <ChartBarIcon className="h-6 w-6 mr-3 text-slate-400" />
+            <ChartBarIcon className="h-6 w-6 mr-3 text-amber-500 group-hover:text-amber-600" />
             <span>Content Readiness</span>
           </button>
           <button
             onClick={onShowGapAnalysis}
-            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200"
+            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-amber-50 hover:text-amber-700 transition-all duration-200 group"
           >
-            <MagnifyingGlassIcon className="h-6 w-6 mr-3 text-slate-400" />
+            <MagnifyingGlassIcon className="h-6 w-6 mr-3 text-amber-500 group-hover:text-amber-600" />
             <span>Gap Analysis</span>
           </button>
           <button
             onClick={onShowQualityAssessment}
-            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200"
+            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-amber-50 hover:text-amber-700 transition-all duration-200 group"
           >
-            <CheckCircleIcon className="h-6 w-6 mr-3 text-slate-400" />
+            <CheckCircleIcon className="h-6 w-6 mr-3 text-amber-500 group-hover:text-amber-600" />
             <span>Quality Assessment</span>
           </button>
           <button
             onClick={onShowExperienceLevelSelection}
-            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200"
+            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 group"
           >
-            <UserIcon className="h-6 w-6 mr-3 text-slate-400" />
+            <UserIcon className="h-6 w-6 mr-3 text-indigo-500 group-hover:text-indigo-600" />
             <span>Experience Level</span>
           </button>
           <button
             onClick={onShowProgressDashboard}
-            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200"
+            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-purple-50 hover:text-purple-700 transition-all duration-200 group"
           >
-            <TrophyIcon className="h-6 w-6 mr-3 text-slate-400" />
+            <TrophyIcon className="h-6 w-6 mr-3 text-purple-500 group-hover:text-purple-600" />
             <span>Progress Dashboard</span>
           </button>
           <button
             onClick={onShowRecommendationDashboard}
-            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200"
+            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-yellow-50 hover:text-yellow-700 transition-all duration-200 group"
           >
-            <LightBulbIcon className="h-6 w-6 mr-3 text-slate-400" />
+            <LightBulbIcon className="h-6 w-6 mr-3 text-yellow-500 group-hover:text-yellow-600" />
             <span>Study Recommendations</span>
           </button>
           <button
             onClick={onShowLearningInsights}
-            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200"
+            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-cyan-50 hover:text-cyan-700 transition-all duration-200 group"
           >
-            <CpuChipIcon className="h-6 w-6 mr-3 text-slate-400" />
+            <CpuChipIcon className="h-6 w-6 mr-3 text-cyan-500 group-hover:text-cyan-600" />
             <span>Learning Insights</span>
           </button>
 
           {onChangePaperType && (
             <>
               <div className="px-6 mt-8 mb-4">
-                <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Settings</h3>
+                <div className="flex items-center gap-2">
+                  <div className="w-1 h-4 bg-purple-500 rounded"></div>
+                  <h3 className="text-xs font-semibold text-slate-600 uppercase tracking-wider">Settings</h3>
+                </div>
               </div>
               <button
                 onClick={onChangePaperType}
-                className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200"
+                className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-purple-50 hover:text-purple-700 transition-all duration-200 group"
               >
-                <ArrowPathIcon className="h-6 w-6 mr-3 text-slate-400" />
+                <ArrowPathIcon className="h-6 w-6 mr-3 text-purple-500 group-hover:text-purple-600" />
                 <span>Change Paper Type</span>
               </button>
             </>
@@ -195,13 +215,16 @@ const Sidebar: React.FC<SidebarProps> = ({
       </div>
 
       {contextualTopic && (
-        <div className="p-4 border-t border-slate-200 mt-auto bg-slate-50">
-          <div className="px-2 mb-4">
-            <h3 className="text-xs font-semibold text-slate-600 uppercase tracking-wider">Contextual Help</h3>
+        <div className="p-4 border-t-2 border-blue-200 mt-auto bg-gradient-to-br from-blue-50 to-indigo-50">
+          <div className="px-2 mb-3">
+            <div className="flex items-center gap-2">
+              <div className="w-1 h-4 bg-blue-500 rounded"></div>
+              <h3 className="text-xs font-semibold text-slate-700 uppercase tracking-wider">Contextual Help</h3>
+            </div>
           </div>
           <button
             onClick={handleLearnMoreClick}
-            className="w-full flex items-center text-left p-3 bg-blue-100 hover:bg-blue-200 rounded-lg text-blue-700 transition-colors duration-200 shadow-sm"
+            className="w-full flex items-center text-left p-3 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 rounded-lg text-white transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
           >
             <BookOpenIcon className="h-5 w-5 mr-3 flex-shrink-0" />
             <span className="text-sm font-semibold">
