@@ -67,16 +67,16 @@ const Sidebar: React.FC<SidebarProps> = ({
       <div className="flex-1">
         <div className="p-6 bg-gradient-to-br from-blue-600 via-blue-600 to-blue-700 shadow-inner">
           <div className="flex items-center gap-2 mb-2">
-            <div className="w-10 h-10 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-white bg-opacity-25 rounded-lg flex items-center justify-center shadow-sm">
               <span className="text-2xl">🎓</span>
             </div>
-            <h2 className="text-xl font-bold text-white">CTET Prep Pal</h2>
+            <h2 className="text-xl font-bold text-white drop-shadow-md">CTET Prep Pal</h2>
           </div>
           {currentPaperType && (
-            <div className="mt-3 text-xs text-white bg-white bg-opacity-20 px-3 py-2 rounded-lg backdrop-blur-sm border border-white border-opacity-30">
+            <div className="mt-3 text-sm text-white bg-white bg-opacity-25 px-3 py-2 rounded-lg backdrop-blur-sm border border-white border-opacity-40 shadow-sm">
               <div className="flex items-center gap-2">
                 <span className="text-base">📚</span>
-                <span className="font-medium">{paperTypeLabel}</span>
+                <span className="font-semibold drop-shadow">{paperTypeLabel}</span>
               </div>
             </div>
           )}
