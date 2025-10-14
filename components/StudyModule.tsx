@@ -39,7 +39,7 @@ const StudyModule: React.FC<StudyModuleProps> = ({ subject, topic, onBack, onSel
         Back to {subject.name}
       </button>
 
-      <div className="bg-white p-6 md:p-8 rounded-lg shadow-md">
+      <div className="bg-gray-100 p-6 md:p-8 rounded-lg shadow-md">
         <h2 className="text-3xl font-bold text-gray-800 mb-2">{topic.name}</h2>
         <p className="text-gray-500 mb-6">Subject: {subject.name}</p>
 

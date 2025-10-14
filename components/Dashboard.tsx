@@ -15,7 +15,7 @@ const Dashboard: React.FC<DashboardProps> = ({ subject, onSelectTopic, setContex
 
   return (
     <div className="animate-fade-in">
-      <div className="bg-white p-6 rounded-lg shadow-md mb-8 flex items-center">
+      <div className="bg-gray-100 p-6 rounded-lg shadow-md mb-8 flex items-center">
         <subject.icon className="h-12 w-12 text-primary mr-4" />
         <div>
           <h2 className="text-3xl font-bold text-gray-800">{subject.name}</h2>
