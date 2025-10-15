@@ -155,7 +155,7 @@ const MockTest: React.FC<MockTestProps> = ({ paper, onBackToDashboard, onSelectT
         >
           <ChevronLeftIcon className="h-5 w-5 mr-1" /> Previous
         </button>
-        <button onClick={finishTest} className="bg-danger text-white font-bold py-2 px-4 rounded-lg hover:bg-red-700">
+        <button onClick={finishTest} className="bg-white text-slate-700 font-bold py-2 px-4 rounded-lg border-2 border-slate-300 hover:bg-slate-50 hover:border-slate-400">
           Submit Test
         </button>
         <button

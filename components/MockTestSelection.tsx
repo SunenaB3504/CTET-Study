@@ -64,16 +64,16 @@ const MockTestSelection: React.FC<MockTestSelectionProps> = ({ papers, onSelectP
             >
               <div>
                 <div className="flex items-start justify-between mb-2">
-                  <h3 className="text-xl font-semibold text-gray-700">{paper.name}</h3>
+                  <h3 className="text-xl font-semibold text-slate-800">{paper.name}</h3>
                   <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded-full font-semibold">
                     {paper.questions.length} Qs
                   </span>
                 </div>
-                <p className="text-sm text-gray-500 mt-2">{paper.description}</p>
+                <p className="text-sm text-slate-600 mt-2">{paper.description}</p>
               </div>
               <button
                 onClick={() => onSelectPaper(paper)}
-                className="mt-6 w-full flex items-center justify-center bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-primary-dark transition-colors duration-200"
+                className="mt-6 w-full flex items-center justify-center bg-white text-slate-700 font-bold py-3 px-4 rounded-lg border-2 border-slate-300 hover:bg-slate-50 hover:border-slate-400 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
               >
                 <PencilSquareIcon className="h-5 w-5 mr-2" />
                 Start Test
