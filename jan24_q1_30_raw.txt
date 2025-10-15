@@ -1,0 +1,693 @@
+SAS-24-II
+This booklet contains 80 Printed pages. Main Test Booklet No. / ◊ÈÅÿ ¬⁄UËˇÊÊ ¬ÈÁSÃ∑§Ê ‚¥ÅÿÊ
+ß‚ ¬ÈÁSÃ∑§Ê ◊¥ 80 ◊ÈÁŒ˝Ã ¬Îc∆U „Ò¥–
+PAPER-II / ¬˝‡Ÿ-¬òÊ-II
+MAIN TEST BOOKLET/◊ÈÅÿ ¬⁄UËˇÊÊ ¬ÈÁSÃ∑§Ê
+Do not open this Test Booklet until you are asked to do so. Main Test BookletM Code / ◊ÈÅÿ ¬⁄UËˇÊÊ ¬ÈÁSÃ∑§Ê ∑§Ê«U
+ß‚ ¬⁄UËˇÊÊ ¬ÈÁSÃ∑§Ê ∑§Ê Ã’ Ã∑§ Ÿ πÊ‹¥ ¡’ Ã∑§ ∑§„Ê Ÿ ¡Ê∞–
+Read carefully the Instructions on the Back Cover of this Test Booklet.
+ß‚ ¬⁄UËˇÊÊ ¬ÈÁSÃ∑§Ê ∑§ Á¬¿U‹ •Êfl⁄UáÊ ¬⁄U ÁŒ∞ ª∞ ÁŸŒ¸‡ÊÊ¥ ∑§Ê äÿÊŸ ‚ ¬…∏¥–
+INSTRUCTIONS FOR CANDIDATES ¬⁄UËˇÊÊÁÕ¸ÿÊ¥ ∑§ Á‹∞ ÁŸŒ¸‡Ê
+1. The OMR Answer Sheet is inside this Test Booklet. When you are directed 1. OMR ©ûÊ⁄U ¬òÊ ß‚ ¬⁄UËˇÊÊ ¬ÈÁSÃ∑§Ê ∑§ •ãŒ⁄U ⁄UπÊ „Ò– ¡’ •Ê¬∑§Ê ¬⁄UËˇÊÊ
+to open the Test Booklet, take out the Answer Sheet and fill in the particulars ¬ÈÁSÃ∑§Ê πÊ‹Ÿ ∑§Ê ∑§„Ê ¡Ê∞, ÃÊ ©ûÊ⁄U ¬òÊ ÁŸ∑§Ê‹ ∑§⁄U ¬Îc∆U-1 ∞fl¥ ¬Îc∆-U2 ¬⁄U
+on Side-1 and Side-2 carefully with blue/black ball point pen only. äÿÊŸ ‚ ∑§fl‹ ŸË‹/∑§Ê‹ ’ÊÚ‹ ¬ÊÚß¥≈U ¬Ÿ ‚ Áflfl⁄UáÊ ÷⁄¥U–
+2. The test is of 2½ hours duration and consists of 150 questions. There is no 2. ¬⁄UËˇÊÊ ∑§Ë •flÁœ 2½ ÉÊ¥≈ „Ò¥ ∞fl¥ ¬⁄UËˇÊÊ ◊¥ 150 ¬˝‡Ÿ „Ò¥– ∑§Êß¸ ´§áÊÊà◊∑§
+negative marking. •¥∑§Ÿ Ÿ„Ë¥ „Ò–
+3. Use Blue/Black Ball Point Pen only for writing particulars on this page/ 3. ß‚ ¬Îc∆U ¬⁄U Áflfl⁄UáÊ •¥Á∑§Ã ∑§⁄UŸ ∞fl¥ ©ûÊ⁄U ¬òÊ ¬⁄U ÁŸ‡ÊÊŸ ‹ªÊŸ ∑§ Á‹∞
+marking responses in the Answ
+M
+er Sheet. ∑§fl‹ ŸË‹/∑§Ê‹ ’ÊÚ‹ ¬ÊÚß¥≈U ¬Ÿ ∑§Ê ¬˝ÿÊª ∑§⁄¥U–
+4. The CODE for this Booklet is . Make sure that the CODE printed on 4. ß‚ ¬ÈÁSÃ∑§Ê ∑§Ê ∑§Ê«U M „Ò– ÿ„ ‚ÈÁŸÁ‡øÃ ∑§⁄U ‹¥ Á∑§ ß‚ ¬ÈÁSÃ∑§Ê ∑§Ê
+Side-2 of the Answer Sheet is the same as that on this Booklet. Also ensure
+∑§Ê«U, ©ûÊ⁄U ¬òÊ ∑§ ¬Îc∆U-2 ¬⁄U ¿U¬ ∑§Ê«U ‚ Á◊‹ÃÊ „Ò– ÿ„ ÷Ë ‚ÈÁŸÁ‡øÃ ∑§⁄U
+that your Test Booklet No. and Answer Sheet No. are the same. In case of
+‹¥ Á∑§ ¬⁄UËˇÊÊ ¬ÈÁSÃ∑§Ê ‚¥ÅÿÊ •ÊÒ⁄U ©ûÊ⁄U ¬òÊ ‚¥ÅÿÊ Á◊‹Ã „Ò¥– •ª⁄U ÿ„ Á÷ÛÊ
+discrepancy, the candidate should immediately report the matter to the
+„Ê¥ ÃÊ ¬⁄UËˇÊÊÕË¸ ŒÍ‚⁄UË ¬⁄UËˇÊÊ ¬ÈÁSÃ∑§Ê •ÊÒ⁄U ©ûÊ⁄U ¬òÊ ‹Ÿ ∑§ Á‹∞ ÁŸ⁄UËˇÊ∑§
+Invigilator for replacement of both the Test Booklet and the Answer Sheet.
+∑§Ê ÃÈ⁄UãÃ •flªÃ ∑§⁄UÊ∞°–
+5. This Test Booklet has five Parts, I, II, III, IV and V, consisting of 150
+Objective Type Questions and each carries 1 mark : 5. ß‚ ¬⁄UËˇÊÊ ¬ÈÁSÃ∑§Ê ◊¥ ¬Ê°ø ÷Êª I, II, III, IV •ÊÒ⁄U V „Ò¥, Á¡Ÿ◊¥ 150 flSÃÈÁŸc∆U
+Part-I : Child Development and Pedagogy (Q.Nos. 1-30) ¬˝‡Ÿ „Ò¥, ÃÕÊ ¬˝àÿ∑§ 1 •¥∑§ ∑§Ê „Ò —
+Part-II : Mathematics and Science (Q.Nos. 31-90) ÷Êª-I : ’Ê‹ Áfl∑§Ê‚ fl Á‡ÊˇÊÊ‡ÊÊSòÊ (¬˝‡Ÿ ‚¥. 1-30)
+Part-III : Social Studies/Social Science (Q.Nos. 31-90) ÷Êª-II : ªÁáÊÃ fl ÁflôÊÊŸ (¬˝‡Ÿ ‚¥. 31-90)
+Part-IV : Language-I (English/Hindi) (Q.Nos. 91-120) ÷Êª-III : ‚Ê◊ÊÁ¡∑§ •äÿÿŸ/‚Ê◊ÊÁ¡∑§ ÁflôÊÊŸ (¬˝‡Ÿ ‚¥. 31-90)
+Part-V : Language-II (English/Hindi) (Q.Nos. 121-150) ÷Êª-IV : ÷Ê·Ê-I (•¥ª˝$¡Ë/Á„ãŒË) (¬˝‡Ÿ ‚¥. 91-120)
+6. Candidates have to do questions 31 to 90 EITHER from Part-II (Mathematics ÷Êª-V : ÷Ê·Ê-II (•¥ª˝$¡Ë/Á„ãŒË) (¬˝‡Ÿ ‚¥. 121-150)
+and Science) OR from Part-III (Social Studies/Social Science) as filled by 6. ¬⁄UËˇÊÊÁÕ¸ÿÊ¥ ∑§Ê ¬˝‡Ÿ 31 ‚ 90 ÿÊ ÃÊ ÷Êª-II (ªÁáÊÃ fl ÁflôÊÊŸ) ÿÊ ÷Êª-III
+the candidates in their online application form. (‚Ê◊ÊÁ¡∑§ •äÿÿŸ/‚Ê◊ÊÁ¡∑§ ÁflôÊÊŸ) ‚ ∑§⁄UŸ „Ò¥– ¡Ò‚Ê Á∑§ ¬⁄UËˇÊÊÕË¸ Ÿ
+7. Part-IV contains 30 questions for Language-I and Part-V contains 30 questions •¬Ÿ •ÊÚŸ‹ÊßŸ •ÊflŒŸ ¬òÊ ◊¥ ÷⁄UÊ „Ò¥–
+for Language-II. In this Test Booklet, only questions pertaining to English 7. ÷Êª-IV ◊¥ ÷Ê·Ê-I ∑§ Á‹∞ 30 ¬˝‡Ÿ •ÊÒ⁄U ÷Êª-V ◊¥ ÷Ê·Ê-II ∑§ Á‹∞ 30 ¬˝‡Ÿ
+and Hindi language have been given. In case the language/s you have ÁŒ∞ ª∞ „Ò¥– ß‚ ¬⁄UËˇÊÊ ¬ÈÁSÃ∑§Ê ◊¥ ∑§fl‹ •¥ª˝$¡Ë fl Á„ãŒË ÷Ê·Ê ‚ ‚¥’¥ÁœÃ
+opted for as Language-I and/or Language-II is a language other than ¬˝‡Ÿ ÁŒ∞ ª∞ „Ò¥– ÿÁŒ ÷Ê·Ê-I •ÊÒ⁄U/ÿÊ ÷Ê·Ê-II ◊¥ •Ê¬∑§ mÊ⁄UÊ øÈŸË ªß¸
+English or Hindi, please ask for a Supplement (Language) Test M
+M ÷Ê·Ê(∞°) •¥ª˝$¡Ë ÿÊ Á„ãŒË ∑§ •‹ÊflÊ „Ò/„Ò¥ ÃÊ ∑Î§¬ÿÊ ∑§Ê«U flÊ‹Ë ©‚ ÷Ê·Ê
+Booklet of Code that contains questions on that language. The
+flÊ‹Ë ¬Á⁄UÁ‡Êc≈U (÷Ê·Ê) ¬⁄UËˇÊÊ ¬ÈÁSÃ∑§Ê ◊Ê°ª ‹ËÁ¡∞– Á¡Ÿ ÷Ê·Ê•Ê¥ ∑§ ¬˝‡ŸÊ¥ ∑§
+languages being answered must tally with the languages opted for
+©ûÊ⁄U •Ê¬ Œ ⁄U„ „Ò¥ fl„ •ÊflŒŸ ¬òÊ ◊¥ øÈŸË ªß¸ ÷Ê·Ê•Ê¥ ‚ •fl‡ÿ ◊‹ πÊŸË
+in your Application Form. No change in languages is allowed.
+øÊÁ„∞– ÷Ê·Ê•Ê¥ ∑§Ê ¬Á⁄UflÃ¸Ÿ •ŸÈ◊ãÿ Ÿ„Ë¥ „Ò–
+8. Candidates are required to attempt questions in Language-II
+(Part-V) in a language other than the one chosen as Language-I 8. ¬⁄UËˇÊÊÕË¸ ÷Ê·Ê-II (÷Êª-V) ∑§ Á‹∞, ÷Ê·Ê ‚ÍøË ‚ ∞‚Ë ÷Ê·Ê øÈŸ¥ ¡Ê ©Ÿ∑§
+(Part-IV) from the list of languages.
+mÊ⁄UÊ ÷Ê·Ê-I (÷Êª-IV) ◊¥ øÈŸË ªß¸ ÷Ê·Ê ‚ Á÷ÛÊ „Ê–
+9. Rough work should be done only in the space provided in the Test Booklet 9. ⁄U»§ ∑§Êÿ¸ ¬⁄UËˇÊÊ ¬ÈÁSÃ∑§Ê ◊¥ ß‚ ¬˝ÿÊ¡Ÿ ∑§ Á‹∞ ŒË ªß¸ πÊ‹Ë ¡ª„ ¬⁄U „Ë
+for the same. ∑§⁄¥U–
+10. The answers are to be recorded on the OMR Answer Sheet only. Mark 10. ‚÷Ë ©ûÊ⁄U ∑§fl‹ OMR ©ûÊ⁄U ¬òÊ ¬⁄U „Ë •¥Á∑§Ã ∑§⁄¥U– •¬Ÿ ©ûÊ⁄U äÿÊŸ¬Ífl¸∑§
+your responses carefully. No whitener is allowed for changing answers. •¥Á∑§Ã ∑§⁄¥U– ©ûÊ⁄U ’Œ‹Ÿ „ÃÈ ‡flÃ ⁄¥U¡∑§ ∑§Ê ¬˝ÿÊª ÁŸÁ·h „Ò–
+11. In case of any discrepancy in the English and Hindi versions of questions/ 11. ÿÁŒ •¥ª˝$¡Ë •ÊÒ⁄U Á„ãŒË ‚¥S∑§⁄UáÊ ∑§ ¬˝‡ŸÊ¥/©ûÊ⁄UÊ¥ ◊¥ ∑§Êß¸ Áfl‚¥ªÁÃ „Ê ÃÊ
+answers, English version will be taken as final. •¥ª˝$¡Ë ‚¥S∑§⁄UáÊ •¥ÁÃ◊ ◊ÊŸÊ ¡ÊÿªÊ–
+Name of the Candidate (in Capital Letters) : ___________________________________________________________________________________________________
+¬⁄UËˇÊÊÕË¸ ∑§Ê ŸÊ◊ (’«∏ •ˇÊ⁄UÊ¥ ◊¥) —
+Roll Number (•ŸÈ∑˝§◊Ê¥∑§) — in figures (•∑¥ §Ê ¥◊)¥ ________________________________________________________________________________________________
+— in words (‡ÊéŒÊ ¥◊)¥ ________________________________________________________________________________________________
+Centre of Examination (in Capital Letters) : _____________________________________________________________________________________________________
+¬⁄UËˇÊÊ ∑§ãŒ˝ (’«∏ •ˇÊ⁄UÊ¥ ◊¥) —
+Candidate’s Signature : _______________________________________________ Invigilator’s Signature : _________________________________________________
+¬⁄UËˇÊÊÕË¸ ∑§ „SÃÊˇÊ⁄U — ÁŸ⁄UËˇÊ∑§ ∑§ „SÃÊˇÊ⁄U —
+Facsimile signature stamp of Centre Superintendent : ____________________________________________________________________________________________
+!SAS-24-II!
+
+===PAGE_BREAK===
+
+PART - I / ÷Êª - I
+CHILD DEVELOPMENT AND PEDAGOGY / ’Ê‹ Áfl∑§Ê‚ fl Á‡ÊˇÊÊ‡ÊÊSòÊ
+Direction : Answer the following questions (Q. Nos. 1 to 30) by selecting the correct/most appropriate options.
+ÁŸŒ¸‡Ê — ÁŸêŸÁ‹ÁπÃ ¬˝‡ŸÊ¥ (¬˝. ‚¥ÅÿÊ 1 ‚ 30) ∑§ ©ûÊ⁄U ŒŸ ∑§ Á‹∞ ‚„Ë/‚’‚ ©¬ÿÈÄÃ Áfl∑§À¬ øÈÁŸ∞–
+1. According to Vygotsky, what is the role of the teacher in facilitating cognitive development ?
+(1) To provide information and knowledge to the student.
+(2) To guide and support the student’s learning through scaffolding.
+(3) To allow the student to learn completely independently.
+(4) To give only those tasks that the student can currently do independently.
+flÿªÊàS∑§Ë ∑§ •ŸÈ‚Ê⁄U, ‚¥ôÊÊŸÊà◊∑§ Áfl∑§Ê‚ ∑§Ê ‚Èª◊ ’ŸÊŸ ◊¥ Á‡ÊˇÊ∑§ ∑§Ë ÄÿÊ ÷ÍÁ◊∑§Ê „Ò?
+¿UÊòÊ ∑§Ê ¡ÊŸ∑§Ê⁄UË •ÊÒ⁄U ôÊÊŸ ¬˝ŒÊŸ ∑§⁄UŸÊ–
+(1)
+•Ê‹ê’Ÿ ∑§ ◊Êäÿ◊ ‚ ¿UÊòÊ ∑§ ‚ËπŸ ∑§Ê ◊Êª¸Œ‡Ê¸Ÿ •ÊÒ⁄U ‚◊Õ¸Ÿ ∑§⁄UŸÊ–
+(2)
+¿UÊòÊ ∑§Ê ¬Í⁄UË Ã⁄U„ ‚ SflÃ¥òÊ M§¬ ‚ ‚ËπŸ ∑§Ë •ŸÈ◊ÁÃ ŒŸÊ–
+(3)
+∑§fl‹ ©ã„Ë¥ ∑§ÊÿÊZ ∑§Ê ŒŸÊ ¡Ê ÁfllÊÕË¸ flÃ¸◊ÊŸ ◊¥ SflÃ¥òÊ M§¬ ‚ ∑§⁄U ‚∑§ÃÊ „Ò–
+(4)
+2. Which of the following statements about adolescence is not correct ?
+(1) Adolescence is a social construction.
+(2) Adolescence is generally considered to begin with puberty - the process that leads to sexual
+maturity and the ability to reproduce.
+(3) Adolescence is developmental transition between childhood and adulthood entailing physical,
+cognitive and psychosocial changes.
+(4) Children across different cultures usher in and experience adolescence in a similar manner.
+Á∑§‡ÊÊ⁄UÊflSÕÊ ∑§ ’Ê⁄U ◊¥ ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ê ∑§ÕŸ ‚„Ë Ÿ„Ë¥ „Ò?
+Á∑§‡ÊÊ⁄UÊflSÕÊ ∞∑§ ‚Ê◊ÊÁ¡∑§ ⁄UøŸÊ „Ò–
+(1)
+Á∑§‡ÊÊ⁄UÊflSÕÊ ∑§Ê •Ê◊ÃÊÒ⁄U ¬⁄U ÿÊÒflŸ ∑§Ê ‡ÊÈM§ ∑§⁄UŸ ∑§ Á‹∞ ◊ÊŸÊ ¡ÊÃÊ „Ò - ÿ„ ∞∑§ ∞‚Ë ¬˝Á∑˝§ÿÊ „Ò ¡Ê ÿÊÒŸ ¬Á⁄U¬ÄflÃÊ
+(2)
+•ÊÒ⁄U ¬ÈŸL§à¬ÊŒŸ ∑§Ë ˇÊ◊ÃÊ ∑§Ë •Ê⁄U ‹ ¡ÊÃË „Ò–
+Á∑§‡ÊÊ⁄UÊflSÕÊ ’ø¬Ÿ •ÊÒ⁄U flÿS∑§ÃÊ ∑§ ’Ëø Áfl∑§Ê‚Êà◊∑§ ‚¥∑˝§◊áÊ „Ò Á¡‚◊¥ ‡ÊÊ⁄UËÁ⁄U∑§, ‚¥ôÊÊŸÊà◊∑§ •ÊÒ⁄U ◊ŸÊ‚Ê◊ÊÁ¡∑§
+(3)
+¬Á⁄UflÃ¸Ÿ „ÊÃ „Ò¥–
+ÁflÁ÷ÛÊ ‚¥S∑Î§ÁÃÿÊ¥ ∑§ ’ìÊ ∞∑§ ‚◊ÊŸ Ã⁄UË∑§ ‚ Á∑§‡ÊÊ⁄UÊflSÕÊ ◊¥ ¬˝fl‡Ê ∑§⁄UÃ „Ò¥ •ÊÒ⁄U ß‚ •ŸÈ÷fl ∑§⁄UÃ „Ò¥–
+(4)
+3. Sujata participates eagerly in the dance competition only because she is interested in winning the
+first prize of cash. Sujata is :
+(1) Intrinsically motivated (2) Extrinsically motivated
+(3) Mastery-Oriented learner (4) Failure-avoiding learner
+‚È¡ÊÃÊ ŸÎàÿ ¬˝ÁÃÿÊÁªÃÊ ◊¥ ∑§fl‹ ß‚Á‹∞ ©à‚È∑§ÃÊ ‚ ÷Êª ‹ÃË „Ò ÄÿÊ¥Á∑§ fl„ Ÿ∑§Œ ∑§Ê ¬˝Õ◊ ¬È⁄US∑§Ê⁄U ¡ËÃŸ ◊¥ L§Áø ⁄UπÃË
+„Ò– ‚È¡ÊÃÊ -
+•Ê¥ÃÁ⁄U∑§ M§¬ ‚ ¬˝Á⁄UÃ „Ò– ’Ê„⁄UË M§¬ ‚ ¬˝Á⁄UÃ „Ò–
+(1) (2)
+◊„Ê⁄UÃ ©ã◊Èπ Á‡ÊˇÊÊÕË¸ „Ò– •‚»§‹ÃÊ ¬Á⁄U„Ê⁄U Á‡ÊˇÊÊÕË¸ „Ò–
+(3) (4)
+P-II !SAS-24-II! 2 M
+
+===PAGE_BREAK===
+
+4. In order to address the individual differences among learners, a teacher should :
+(1) acknowledge differences as abnormal and kind of deficit
+(2) be indifferent towards individual differences
+(3) consider differences as obvious feature of human diversity
+(4) implement a rigid and uniform curriculum for all learners
+Á‡ÊˇÊÊÁÕ¸ÿÊ¥ ∑§ ’Ëø √ÿÁÄÃªÃ Á÷ÛÊÃÊ•Ê¥ ∑§Ê ‚¥’ÊÁœÃ ∑§⁄UŸ ∑§ Á‹∞ ∞∑§ Á‡ÊˇÊ∑§ ∑§Ê —
+◊Ã÷ŒÊ¥ ∑§Ê •‚Ê◊Êãÿ •ÊÒ⁄U ∞∑§ ¬˝∑§Ê⁄U ∑§Ë ∑§◊Ë ∑§ M§¬ ◊¥ SflË∑§Ê⁄U ∑§⁄UŸÊ øÊÁ„∞
+(1)
+√ÿÁÄÃªÃ Á÷ÛÊÃÊ•Ê¥ ∑§Ê Ÿ$¡⁄U-•¥ŒÊ$¡ ∑§⁄UŸÊ øÊÁ„∞
+(2)
+Á÷ÛÊÃÊ•Ê¥ ∑§Ê ◊ÊŸfl ÁflÁflœÃÊ ∑§Ë ¬˝àÿˇÊ Áfl‡Ê·ÃÊ ∑§ M§¬ ◊¥ ◊ÊŸŸÊ øÊÁ„∞
+(3)
+‚÷Ë Á‡ÊˇÊÊÁÕ¸ÿÊ¥ ∑§ Á‹∞ ∞∑§ •Ÿêÿ •ÊÒ⁄U ‚◊ÊŸ ¬Ê∆˜Uÿ∑˝§◊ ‹ÊªÍ ∑§⁄UŸÊ øÊÁ„∞
+(4)
+5. Jean Piaget believed that knowledge is :
+(1) constructed by the child rather than being passed passively from the environment.
+(2) innate and given rather than acquired through interactions.
+(3) co-constructed in interactions with more knowledgeable others.
+(4) a visible behavioural change that can be measured with reliability.
+¡ËŸ Á¬ÿÊ¡ ∑§Ê ◊ÊŸŸÊ ÕÊ Á∑§ ôÊÊŸ „Ò —
+¬ÿÊ¸fl⁄UáÊ ‚ ÁŸÁc∑˝§ÿ M§¬ ‚ ¬ÊÁ⁄UÃ „ÊŸ ∑§ ’¡Êÿ ’ìÊ mÊ⁄UÊ ÁŸÁ◊¸Ã Á∑§ÿÊ ¡ÊÃÊ „Ò–
+(1)
+•¥Ã—Á∑˝§ÿÊ•Ê¥ ∑§ ◊Êäÿ◊ ‚ ¬˝Ê# ∑§⁄UŸ ∑§ ’¡Êÿ ¡ã◊¡ÊÃ •ÊÒ⁄U ÁŒÿÊ „È•Ê „ÊÃÊ „Ò–
+(2)
+•Áœ∑§ ¡ÊŸ∑§Ê⁄U •ãÿ ‹ÊªÊ¥ ∑§ ‚ÊÕ ’ÊÃøËÃ ‚ ‚„-ÁŸÁ◊¸Ã „ÊÃÊ „Ò–
+(3)
+∞∑§ ŒÎ‡ÿ √ÿfl„Ê⁄U ¬Á⁄UflÃ¸Ÿ „Ò Á¡‚ Áfl‡fl‚ŸËÿÃÊ ∑§ ‚ÊÕ ◊Ê¬Ê ¡Ê ‚∑§ÃÊ „Ò–
+(4)
+6. In a progressive classroom assessment is :
+(1) Dynamic (2) Objective (3) Summative (4) Normative
+∞∑§ ¬˝ªÁÃ‡ÊË‹ ∑§ˇÊÊ ◊¥ •Ê∑§‹Ÿ
+_______
+ªÁÃ‡ÊË‹ „ÊÃÊ „Ò– flSÃÈÁŸc∆U „ÊÃÊ „Ò– ÿÊªÊà◊∑§ „ÊÃÊ „Ò– ◊ÊŸ∑§ ‚¥ŒÁ÷¸Ã „ÊÃÊ „Ò–
+(1) (2) (3) (4)
+7. Which of the following process is essential in meaning-making of the information received from
+environment and store it further in memory ?
+(1) Attention (2) Decay (3) Forgetting (4) Retrieval
+ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ë ¬˝Á∑˝§ÿÊ flÊÃÊfl⁄UáÊ ‚ ¬˝Ê# ¡ÊŸ∑§Ê⁄UË ∑§ •Õ¸-ÁŸ◊Ê¸áÊ •ÊÒ⁄U ß‚ S◊ÎÁÃ ◊¥ •Êª ‚¥ª˝„ËÃ ∑§⁄UŸ ∑§ Á‹∞
+•Êfl‡ÿ∑§ „Ò?
+äÿÊŸ ŒŸÊ ˇÊÿ „ÊŸÊ ÷Í‹ŸÊ ¬ÈŸ¬˝Ê¸Á#
+(1) (2) (3) (4)
+P-II !SAS-24-II! 3 M
+
+===PAGE_BREAK===
+
+8. Which of the following is an example of a question that requires students to analyze information ?
+(1) What is the plot of the novel “To Kill a Mockingbird” ?
+(2) What is the theme of the novel “To Kill a Mockingbird”?
+(3) How does the author use symbolism in “To Kill a Mockingbird”?
+(4) Who is the protagonist of “To Kill a Mockingbird”?
+ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ê ∞∑§ ∞‚ ¬˝‡Ÿ ∑§Ê ©ŒÊ„⁄UáÊ „Ò Á¡‚◊¥ ¿UÊòÊÊ¥ ∑§Ê ¡ÊŸ∑§Ê⁄UË ∑§Ê Áfl‡‹·áÊ ∑§⁄UŸ ∑§Ë •Êfl‡ÿ∑§ÃÊ „ÊÃË
+„Ò?
+““≈ÍU Á∑§‹ ∞ ◊ÊÚÁ∑¥§ª’«¸U”” ©¬ãÿÊ‚ ∑§Ê ∑§ÕÊŸ∑§ ÄÿÊ „Ò?
+(1)
+““≈ÍU Á∑§‹ ∞ ◊ÊÚÁ∑¥§ª’«¸U”” ©¬ãÿÊ‚ ∑§Ê Áfl·ÿ ÄÿÊ „Ò?
+(2)
+““≈ÍU Á∑§‹ ∞ ◊ÊÚÁ∑¥§ª’«¸U”” ◊¥ ‹π∑§ ¬˝ÃË∑§flÊŒ ∑§Ê ©¬ÿÊª ∑Ò§‚ ∑§⁄UÃ „Ò¥?
+(3)
+““≈ÍU Á∑§‹ ∞ ◊ÊÚÁ∑¥§ª’«¸U”” ∑§Ê ŸÊÿ∑§ ∑§ÊÒŸ „Ò?
+(4)
+9. Assertion (A) :
+Teachers should constantly reflect on their own stereotypes and bias.
+Reason (R) :
+Culturally responsive teaching means that teachers are reflective.
+Choose the correct option :
+(1) Both (A) and (R) are true and (R) is the correct explanation of (A).
+(2) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+(3) (A) is true but (R) is false.
+(4) Both (A) and (R) are false.
+•Á÷∑§ÕŸ (A) —
+Á‡ÊˇÊ∑§Ê¥ ∑§Ê ÁŸ⁄¥UÃ⁄U •¬Ÿ Sflÿ¥ ∑§ M§Á…∏flÊÁŒÃÊ •ÊÒ⁄U ¬ÍflÊ¸ª˝„Ê¥ ¬⁄U Áø¥ÃŸ ∑§⁄UŸÊ øÊÁ„∞–
+∑§Ê⁄UáÊ (R) —
+‚Ê¥S∑Î§ÁÃ∑§ M§¬ ‚ ©ûÊ⁄UŒÊÿË Á‡ÊˇÊáÊ ∑§Ê •Õ¸ „Ò Á∑§ Á‡ÊˇÊ∑§ Áø¥ÃŸ‡ÊË‹ „Ê–
+‚„Ë Áfl∑§À¬ øÈŸ¥–
+(1) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ •ÊÒ⁄U (A) ∑§Ë (R) ‚„Ë √ÿÊÅÿÊ ∑§⁄UÃÊ „Ò–
+(2) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ ‹Á∑§ŸU (A) ∑§Ë (R) ‚„Ë √ÿÊÅÿÊ Ÿ„Ë¥ ∑§⁄UÃÊ „Ò–
+(3) (A) ‚„Ë „Ò ‹Á∑§Ÿ (R) ª‹Ã „Ò–
+(4) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ª‹Ã „Ò–
+P-II !SAS-24-II! 4 M
+
+===PAGE_BREAK===
+
+10. The central argument of Carol Gilligan’s critique of Kohlberg’s theory of moral development is
+around :
+(1) Ethics of care and the feminist perspective.
+(2) Overestimation of children’s moral abilities.
+(3) Use of experimental design in studying children.
+(4) Educational implications of the study for school going children.
+∑§Ê„‹’ª¸ ∑§ ŸÒÁÃ∑§ Áfl∑§Ê‚ ∑§ Á‚hÊ¥Ã ∑§Ë ∑Ò§⁄UÊ‹ ÁªÁ‹ªŸ ∑§Ë •Ê‹ÊøŸÊ ∑§Ê ∑¥§Œ˝Ëÿ Ã∑¸§ „Ò —
+Œπ÷Ê‹ ∑§Ë ŸÒÁÃ∑§ÃÊ •ÊÒ⁄U ŸÊ⁄UËflÊŒË ŒÎÁC∑§ÊáÊ–
+(1)
+’ìÊÊ¥ ∑§Ë ŸÒÁÃ∑§ ˇÊ◊ÃÊ•Ê¥ ∑§Ê •Áœ∑§ •Ê¥∑§ŸÊ–
+(2)
+’ìÊÊ¥ ∑§ •äÿÿŸ ◊¥ ¬˝ÊÿÊÁª∑§ ‡ÊÊœ ¬˝áÊÊ‹Ë ∑§Ê ©¬ÿÊª–
+(3)
+S∑Í§‹ ¡ÊŸ flÊ‹ ’ìÊÊ¥ ∑§ Á‹∞ •äÿÿŸ ∑§ ‡ÊÒÁˇÊ∑§ ÁŸÁ„ÃÊÕ¸–
+(4)
+11. Assertion (A) :
+Learning from real-life problems and concrete experiences gives the children multiple pathways
+for learning and retrieving information.
+Reason (R) :
+Development is relatively orderly and sequential.
+Choose the correct option :
+(1) Both (A) and (R) are true and (R) is the correct explanation of (A).
+(2) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+(3) (A) is true but (R) is false.
+(4) Both (A) and (R) are false.
+•Á÷∑§ÕŸ (A) —
+flÊSÃÁfl∑§ ¡ËflŸ ∑§Ë ‚◊SÿÊ•Ê¥ •ÊÒ⁄U ◊ÍÃ¸ •ŸÈ÷flÊ¥ ‚ ‚ËπŸ ‚ ’ìÊÊ¥ ∑§Ê •Áœª◊ •ÊÒ⁄U ¡ÊŸ∑§Ê⁄UË ¬˝Ê# ∑§⁄UŸ ∑§ Á‹∞ ∑§ß¸ ⁄UÊSÃ
+Á◊‹Ã „Ò¥–
+∑§Ê⁄UáÊ (R) —
+Áfl∑§Ê‚ •¬ˇÊÊ∑Î§Ã √ÿflÁSÕÃ •ÊÒ⁄U •ŸÈ∑˝§Á◊∑§ „Ò–
+‚„Ë Áfl∑§À¬ øÈŸ¥–
+(1) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ •ÊÒ⁄U (A) ∑§Ë (R) ‚„Ë √ÿÊÅÿÊ ∑§⁄UÃÊ „Ò–
+(2) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ ‹Á∑§ŸU (A) ∑§Ë (R) ‚„Ë √ÿÊÅÿÊ Ÿ„Ë¥ ∑§⁄UÃÊ „Ò–
+(3) (A) ‚„Ë „Ò ‹Á∑§Ÿ (R) ª‹Ã „Ò–
+(4) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ª‹Ã „Ò–
+P-II !SAS-24-II! 5 M
+
+===PAGE_BREAK===
+
+12. Dyslexia is a _________ condition which impacts learner’s ability to ________.
+(1) emotional, draw pictures
+(2) neurological, link sounds with symbols
+(3) physiological, socialize with peers
+(4) sensory, coordinate body movements
+•¬¬∆UŸ flÒ∑§Àÿ/Á«US‹ÁÄ‚ÿÊ ∞∑§ ÁSÕÁÃ „Ò ¡Ê Á‡ÊˇÊÊÕË¸ ∑§Ë ∑§Ë ˇÊ◊ÃÊ ∑§Ê ¬˝÷ÊÁflÃ ∑§⁄UÃË „Ò–
+_______ _______
+÷ÊflŸÊà◊∑§, ÁøòÊ ’ŸÊŸ
+(1)
+Ã¥ÁòÊ∑§Ëÿ ãÿÍ⁄UÊ‹ÊÚÁ¡∑§‹, äflÁŸÿÊ¥ ∑§Ê ¬˝ÃË∑§Ê¥ Áøã„Ê¥ ∑§ ‚ÊÕ ¡Ê«∏Ÿ
+(2) /
+‡ÊÊ⁄UËÁ⁄U∑§, ‚ÊÁÕÿÊ¥ ∑§ ‚ÊÕ ‚Ê◊Ê¡Ë∑§⁄UáÊ
+(3)
+‚¥flŒË, ‡ÊÊ⁄UËÁ⁄U∑§ ªÁÃÁflÁœÿÊ¥ ∑§ ‚◊ãflÿ
+(4)
+13. A middle school teacher wants to enable meaningful learning by helping students make connections
+between concepts and real-world applications. Which of the following activities would be an
+appropriate pedagogical strategy ?
+(1) Let the students memorize terms and definitions.
+(2) Let the students complete worksheets with multiple choice questions.
+(3) Let the students learn by the method of stimulus-response conditioning.
+(4) Let the students research on a current issue in small groups and present their findings to the
+class.
+∞∑§ ◊ÊäÿÁ◊∑§ S∑Í§‹ Á‡ÊˇÊ∑§ ¿UÊòÊÊ¥ ∑§Ê ‚¥∑§À¬ŸÊ•Ê¥ •ÊÒ⁄U flÊSÃÁfl∑§ ŒÈÁŸÿÊ ∑§ •ŸÈ¬˝ÿÊªÊ¥ ∑§ ’Ëø ‚¥’¥œ ’ŸÊŸ ◊¥ ◊ŒŒ ∑§⁄U∑§
+‚ÊÕ¸∑§ ‚ËπŸ ∑§Ê ‚ˇÊ◊ ’ŸÊŸÊ øÊ„ÃÊ „Ò– ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ë ªÁÃÁflÁœ ∞∑§ ©¬ÿÈÄÃ ‡ÊÒˇÊÁáÊ∑§ ⁄UáÊŸËÁÃ „ÊªË?
+¿UÊòÊÊ¥ ∑§Ê ÁŸÿ◊ •ÊÒ⁄U ¬Á⁄U÷Ê·Ê∞° ÿÊŒ ∑§⁄UŸ Œ¥–
+(1)
+ÁfllÊÁÕ¸ÿÊ¥ ‚ ’„ÈÁfl∑§À¬Ëÿ ¬˝‡ŸÊ¥ flÊ‹Ë ∑§Êÿ¸ ¬òÊ∑§ ¬Í⁄UË ∑§⁄UŸ ∑§Ê ∑§„¥–
+(2)
+ÁfllÊÁÕ¸ÿÊ¥ ∑§Ê ©gË¬∑§-¬˝ÁÃÁ∑˝§ÿÊ •ŸÈ’¥œŸ ∑§Ë ÁflÁœ mÊ⁄UÊ ‚ËπŸ ∑§Ê ∑§„¥–
+(3)
+¿UÊòÊÊ¥ ∑§Ê ¿UÊ≈U ‚◊Í„Ê¥ ◊¥ flÃ¸◊ÊŸ ◊Èg ¬⁄U ‡ÊÊœ ∑§⁄UŸ Œ¥ •ÊÒ⁄U •¬Ÿ ÁŸc∑§·¸ ∑§ˇÊÊ ◊¥ ¬˝SÃÈÃ ∑§⁄¥U–
+(4)
+14. In which stage of Kohlberg’s moral development do children’s reasoning revolve around ethics of
+law ?
+(1) Pre-conventional morality (2) Conventional morality
+(3) Heteronomous morality (4) Autonomous morality
+∑§Ê„‹’ª¸ ∑§ ŸÒÁÃ∑§ Áfl∑§Ê‚ ∑§Ë Á∑§‚ •flSÕÊ ◊¥ ’ìÊÊ¥ ∑§Ê Ã∑¸§ ∑§ÊŸÍŸ ∑§Ë ŸÒÁÃ∑§ÃÊ ∑§ ßŒ¸-ÁªŒ¸ ÉÊÍ◊ÃÊ „Ò?
+¬Ífl¸-¬Ê⁄¥U¬Á⁄U∑§ ŸÒÁÃ∑§ÃÊ ¬Ê⁄¥U¬Á⁄U∑§ ŸÒÁÃ∑§ÃÊ
+(1) (2)
+Áfl·◊ ŸÒÁÃ∑§ÃÊ SflÊÿûÊ ŸÒÁÃ∑§ÃÊ
+(3) (4)
+P-II !SAS-24-II! 6 M
+
+===PAGE_BREAK===
+
+15. Which of the following does not exemplify an inclusive classroom ?
+(1) Incorporation of diverse perspectives
+(2) Following reasonable accommodation
+(3) Offering differentiated instruction
+(4) Encouraging competitive ethos
+ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ∞∑§ ‚◊Êfl‡ÊË ∑§ˇÊÊ ∑§Ê ©ŒÊ„⁄UáÊ Ÿ„Ë¥ „Ò?
+ÁflÁflœ ŒÎÁC∑§ÊáÊÊ¥ ∑§Ê ‚◊Êfl‡Ê
+(1)
+©ÁøÃ ‚◊Êfl‡ÊŸ ∑§Ê ¬Ê‹Ÿ
+(2)
+Áfl÷ÁŒÃ ÁŸŒ¸‡Ê ŒŸÊ
+(3)
+¬˝ÁÃS¬œË¸ ‹Ê∑§ÊøÊ⁄U ∑§Ê ¬˝Êà‚ÊÁ„Ã ∑§⁄UŸÊ
+(4)
+16. Work in progress Portfolios are an effective tool for formative assessment because :
+(a) They involve students in the process of assessment.
+(b) They offer insights about the progress of individual students.
+(c) They focus mainly in the presentation of the final product.
+(d) They offer tangible evidence of student learning.
+(1) (b), (c) (2) (a), (d) (3) (a), (b), (c) (4) (a), (b), (d)
+⁄UøŸÊà◊∑§ ◊ÍÀÿÊ¥∑§Ÿ ∑§ Á‹∞ ∑§Êÿ¸ ∑§Ë ¬˝ªÁÃ ∑§Ê Œ‡ÊÊ¸Ã ¬Ê≈¸U»§ÊÁ‹ÿÊ ∞∑§ ¬˝÷ÊflË ¬˝áÊÊ‹Ë „Ò ÄÿÊ¥Á∑§ -
+fl ◊ÍÀÿÊ¥∑§Ÿ ∑§Ë ¬˝Á∑˝§ÿÊ ◊¥ ¿UÊòÊÊ¥ ∑§Ê ‡ÊÊÁ◊‹ ∑§⁄UÃ „Ò¥–
+(a)
+fl √ÿÁQ§ªÃ ¿UÊòÊÊ¥ ∑§Ë ¬˝ªÁÃ ∑§ ’Ê⁄U ◊¥ •¥ÃŒ¸ÎÁC ¬˝ŒÊŸ ∑§⁄UÃ „Ò¥–
+(b)
+fl ◊ÈÅÿ M§¬ ‚ •¥ÁÃ◊ ©à¬ÊŒ ∑§Ë ¬˝SÃÈÈÁÃ ¬⁄U äÿÊŸ ∑¥§ÁŒ˝Ã ∑§⁄UÃ „Ò¥–
+(c)
+fl ¿UÊòÊ •Áœª◊ ∑§ ∆UÊ‚ ‚’ÍÃ ¬‡Ê ∑§⁄UÃ „Ò¥–
+(d)
+(1) (b), (c) (2) (a), (d) (3) (a), (b), (c) (4) (a), (b), (d)
+17. Which of the following describes a mastery goal orientation ?
+(1) focus on achieving a certain level of performance for competing with others.
+(2) focus on improving ones’ skills and understanding of a task.
+(3) focus on achieving a high grade for receiving external rewards.
+(4) focus on avoiding failure or punishment for fear of humiliation.
+ÁŸêŸ ◊¥ ‚ ∑§ÊÒŸ ‚Ê ∞∑§ ◊„Ê⁄UÃ ‹ˇÿ •Á÷ÁflãÿÊ‚ ∑§Ê fláÊ¸Ÿ ∑§⁄UÃÊ „Ò?
+ŒÍ‚⁄UÊ¥ ∑§ ‚ÊÕ ¬˝ÁÃS¬œÊ¸ ∑§⁄UŸ ∑§ Á‹∞ ∞∑§ ÁŸÁ‡øÃ SÃ⁄U ∑§ ¬˝Œ‡Ê¸Ÿ ∑§Ê ¬˝Ê# ∑§⁄UŸ ¬⁄U äÿÊŸ ŒŸÊ–
+(1)
+Á∑§‚Ë ∑§Êÿ¸ ∑§ Á‹∞ •¬ŸË ∑§ÊÒ‡Ê‹ •ÊÒ⁄U ‚◊¤Ê ∑§Ê ‚ÈœÊ⁄UŸ ¬⁄U äÿÊŸ ŒŸÊ–
+(2)
+’Ê„⁄UË ¬È⁄US∑§Ê⁄U ¬˝Ê# ∑§⁄UŸ ∑§ Á‹∞ ©ìÊ ª˝«U ¬˝Ê# ∑§⁄UŸ ¬⁄U äÿÊŸ ŒŸÊ–
+(3)
+•¬◊ÊŸ ∑§ «U⁄U ‚ •‚»§‹ÃÊ ÿÊ ‚¡Ê ‚ ’øŸ ¬⁄U äÿÊŸ ŒŸÊ–
+(4)
+P-II !SAS-24-II! 7 M
+
+===PAGE_BREAK===
+
+18. Which of the following best describes the role of the teacher in progressive education ?
+(1) The teacher is the primary source of knowledge and authority in the classroom.
+(2) The teacher provides diverse materials for children to experiment and provides scaffolding
+as and when required.
+(3) The teacher is responsible for ensuring strict adherence to curriculum standards.
+(4) The teacher lets the children learn independently and does not interfere in their learning.
+ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ¬˝ªÁÃ‡ÊË‹ Á‡ÊˇÊÊ ◊¥ Á‡ÊˇÊ∑§ ∑§Ë ÷ÍÁ◊∑§Ê ∑§Ê ‚’‚ •ë¿UÊ fláÊ¸Ÿ ∑§⁄UÃÊ „Ò?
+Á‡ÊˇÊ∑§ ∑§ˇÊÊ ◊¥ ôÊÊŸ •ÊÒ⁄U ¬˝ÊÁœ∑§Ê⁄U ∑§Ê ¬˝ÊÕÁ◊∑§ dÊÃ „Ò–
+(1)
+Á‡ÊˇÊ∑§ ’ìÊÊ¥ ∑§Ê ¬˝ÿÊª ∑§⁄UŸ ∑§ Á‹∞ ÁflÁflœ ‚Ê◊ª˝Ë ¬˝ŒÊŸ ∑§⁄UÃÊ „Ò •ÊÒ⁄U •Êfl‡ÿ∑§ÃÊ ¬«∏Ÿ ¬⁄U •Ê‹ê’Ÿ ¬˝ŒÊŸ ∑§⁄UÃÊ
+(2)
+„–Ò
+Á‡ÊˇÊ∑§ ¬Ê∆KøÿÊ¸ ◊ÊŸ∑§Ê¥ ∑§Ê ∑§«∏Êß¸ ‚ ¬Ê‹Ÿ ‚ÈÁŸÁ‡øÃ ∑§⁄UŸ ∑§ Á‹∞ Á¡ê◊ŒÊ⁄U „Ò–
+(3)
+Á‡ÊˇÊ∑§ ’ìÊÊ¥ ∑§Ê SflÃ¥òÊ M§¬ ‚ ‚ËπŸ ŒÃÊ „Ò •ÊÒ⁄U ©Ÿ∑§ ‚ËπŸ ◊¥ „SÃˇÊ¬ Ÿ„Ë¥ ∑§⁄UÃÊ „Ò–
+(4)
+19. Asking Critical questions such as “how much and in what ways are various gender represented in
+textbooks and media” would encourage :
+(1) Questioning gender stereotypes (2) Strengthening gender constancy
+(3) Reinforcing gender identity (4) Discouraging gender role flexibility
+““¬Ê∆K¬ÈSÃ∑§Ê¥ •ÊÒ⁄U ◊ËÁ«UÿÊ ◊¥ ÁflÁ÷ÛÊ ¡¥«U⁄U ∑§Ê ¬˝ÁÃÁŸÁœàfl Á∑§ÃŸÊ •ÊÒ⁄U Á∑§‚ Ã⁄UË∑§ ‚ Á∑§ÿÊ ¡ÊÃÊ „Ò”” ¡Ò‚ ◊„àfl¬ÍáÊ¸ ¬˝‡Ÿ
+¬Í¿UŸ ‚ Á∑§‚∑§Ê ¬˝Êà‚Ê„Ÿ Á◊‹ªÊ?
+¡¥«U⁄U M§Á…∏ÿÊ¥ ¬⁄U ‚flÊ‹ ©∆UÊŸÊ ¡¥«U⁄U ÁSÕ⁄UÃÊ ∑§Ê ◊¡’ÍÃ ∑§⁄UŸÊ
+(1) (2)
+¡¥«U⁄U ¬„øÊŸ ∑§Ê ◊¡’ÍÃ ∑§⁄UŸÊ ¡¥«U⁄U ÷ÍÁ◊∑§Ê ∑§Ë ŸêÿÃÊ ∑§ „ÃÊà‚ÊÁ„Ã ∑§Ê
+(3) (4)
+20. According to Jean Piaget the ability to use symbols for symbols such as letting the letter X stand for
+an unknown numeral develops during __________ and enables the children to learn _________.
+(1) concrete operational stage; algebra and calculus
+(2) concrete operational stage; conservation and seriation
+(3) formal operational stage; algebra and calculus
+(4) formal operational stage; conservation and seriation
+¡ËŸ Á¬ÿÊ¡ ∑§ •ŸÈ‚Ê⁄U Áøã„Ê¥ ∑§ Á‹∞ Áøã„Ê¥ ∑§Ê ¬˝ÿÊª ∑§⁄UŸ ∑§Ë ˇÊ◊ÃÊ ¡Ò‚ Á∑§ •ˇÊ⁄U ∑§Ê •ôÊÊÃ •¥∑§ ∑§ Á‹∞ ◊ÊŸŸ ∑§Ë
+X
+ˇÊ◊ÃÊ ∑§ ŒÊÒ⁄UÊŸ Áfl∑§Á‚Ã „ÊÃË „Ò •ÊÒ⁄U ÁfllÊÁÕ¸ÿÊ¥ ∑§Ê ‚ËπŸ ◊¥ ‚ˇÊ◊ ’ŸÊÃË „Ò–
+__________ __________
+◊ÍÃ¸ ‚¥Á∑˝§ÿÊà◊∑§ •flSÕÊ; ’Ë¡ªÁáÊÃ •ÊÒ⁄U ªáÊŸÊ
+(1)
+◊ÍÃ¸ ‚¥Á∑˝§ÿÊà◊∑§ •flSÕÊ; ‚¥⁄UˇÊáÊ •ÊÒ⁄U ∑˝§◊’hÃÊ
+(2)
+•ÊÒ¬øÊÁ⁄U∑§ ‚¥Á∑˝§ÿÊà◊∑§ •flSÕÊ; ’Ë¡ªÁáÊÃ •ÊÒ⁄U ªáÊŸÊ
+(3)
+•ÊÒ¬øÊÁ⁄U∑§ ‚¥Á∑˝§ÿÊà◊∑§ •flSÕÊ; ‚¥⁄UˇÊáÊ •ÊÒ⁄U ∑˝§◊’hÃÊ
+(4)
+P-II !SAS-24-II! 8 M
+
+===PAGE_BREAK===
+
+21. Alok shows the following behaviours : Holds head in an awkward position when reading; squinting
+and rubbing the eye frequently; redness/swelling of eyes; confusing letters. These can be symptoms
+of potential :
+(1) Visual problems (2) Language comprehension problems
+(3) Autistic spectrum disorder (4) Communication disorder
+•Ê‹Ê∑§ ÁŸêŸÁ‹ÁπÃ √ÿfl„Ê⁄U ÁŒπÊÃÊ „Ò — ¬…∏Ã ‚◊ÿ Á‚⁄U ∑§Ê •¡Ë’ ÁSÕÁÃ ◊¥ ¬∑§«∏ŸÊ; •Ê°π ∑§Ê ’Ê⁄U-’Ê⁄U ◊Í¥ŒŸÊ •ÊÒ⁄U
+⁄Uª«∏ŸÊ; •Ê°πÊ¥ ∑§Ë ‹Ê‹Ë/‚Í¡Ÿ; •ˇÊ⁄ ¬„øÊŸ ◊¥ ÷˝Á◊Ã „ÊŸÊU– ÿ„ Á∑§‚∑§ ‚¥÷ÊÁflÃ ‹ˇÊáÊ „Ê ‚∑§Ã „Ò¥?
+ŒÎÁC ‚¥’¥œË ‚◊SÿÊ∞° ÷Ê·Ê ∑§Ë ‚◊¤Ê ∑§Ë ‚◊SÿÊ
+(1) (2)
+Sfl‹ËŸÃÊ Áfl∑§Ê⁄U ‚¥øÊ⁄U ‚¥’¥œË Áfl∑§Ê⁄U
+(3) (4)
+22. Assertion (A) :
+In an inclusive classroom, adaptations should be made in learning goals, pedagogical strategies as
+well as assessment.
+Reason (R) :
+The philosophy of inclusion advocates elimination of all individual differences through pedagogical
+approaches and assessment.
+Choose the correct option :
+(1) Both (A) and (R) are true and (R) is the correct explanation of (A).
+(2) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+(3) (A) is true but (R) is false.
+(4) Both (A) and (R) are false.
+•Á÷∑§ÕŸ (A) —
+∞∑§ ‚◊Êfl‡ÊË ∑§ˇÊÊ ◊¥, ‚ËπŸ ∑§ ‹ˇÿÊ¥, ‡ÊÒˇÊÁáÊ∑§ ⁄UáÊŸËÁÃÿÊ¥ ∑§ ‚ÊÕ-‚ÊÕ •Ê∑§‹Ÿ ◊¥ •ŸÈ∑Í§‹Ÿ Á∑§ÿÊ ¡ÊŸÊ øÊÁ„∞–
+∑§Ê⁄UáÊ (R) —
+‚◊Êfl‡ÊŸ ∑§Ê Œ‡Ê¸Ÿ ‡ÊÒˇÊÁáÊ∑§ ŒÎÁC∑§ÊáÊ •ÊÒ⁄U ◊ÍÀÿÊ¥∑§Ÿ ∑§ ◊Êäÿ◊ ‚ ‚÷Ë √ÿÁÄÃªÃ ◊Ã÷ŒÊ¥ ∑§Ê ‚◊Ê# ∑§⁄UŸ ∑§Ë fl∑§Ê‹Ã
+∑§⁄UÃÊ „Ò–
+‚„Ë Áfl∑§À¬ øÈŸ¥–
+(1) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ •ÊÒ⁄U (A) ∑§Ë (R) ‚„Ë √ÿÊÅÿÊ ∑§⁄UÃÊ „Ò–
+(2) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ ‹Á∑§ŸU (A) ∑§Ë (R) ‚„Ë √ÿÊÅÿÊ Ÿ„Ë¥ ∑§⁄UÃÊ „Ò–
+(3) (A) ‚„Ë „Ò ‹Á∑§Ÿ (R) ª‹Ã „Ò–
+(4) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ª‹Ã „Ò–
+23. According to Lev-Vygotsky children benefit from the experience of interacting with __________
+while working _______ their zone of proximal development.
+(1) more knowledgeable others; within
+(2) more knowledgeable others; just outside
+(3) the physical environment; within
+(4) the physical environment; just outside
+‹fl-flÊÿªÊàS∑§Ë ∑§ •ŸÈ‚Ê⁄U ’ìÊ ∑§ ‚ÊÕ •¥Ã—Á∑˝§ÿÊ ∑§ •ŸÈ÷fl ‚ ‹Ê÷ÊÁãflÃ „ÊÃ „Ò¥ •ÊÒ⁄U ©Ÿ ∑§ÊÿÊZ ∑§Ê ∑§⁄U ¬ÊÃ
+_______
+„Ò¥ ¡Ê ©Ÿ∑§ ‚◊Ë¬ŒÈ⁄UÊÁ÷◊Èπ Áfl∑§Ê‚ ∑§ ˇÊòÊ ∑§ „Ò¥–
+_______
+•Áœ∑§ ¡ÊŸ∑§Ê⁄U •ãÿ; •¥Œ⁄U
+(1)
+•Áœ∑§ ¡ÊŸ∑§Ê⁄U •ãÿ; ’‚ ’Ê„⁄U
+(2)
+÷ÊÒÁÃ∑§ flÊÃÊfl⁄UáÊ; •¥Œ⁄U
+(3)
+÷ÊÒÁÃ∑§ flÊÃÊfl⁄UáÊ; ’‚ ’Ê„⁄U
+(4)
+P-II !SAS-24-II! 9 M
+
+===PAGE_BREAK===
+
+24. A teacher notices that one of her students is highly distractible and has trouble paying attention
+during class. Which of the following strategies would is an effective strategy in helping the student
+stay focused ?
+(1) Giving the student repeated tasks to do during class.
+(2) Strictly telling the student to increase their attention span.
+(3) Giving a timer to student for self-regulation and time-management.
+(4) Calling the parents and taking strict disciplinary action against the student.
+∞∑§ Á‡ÊÁˇÊ∑§Ê Ÿ ŸÊÁ≈U‚ Á∑§ÿÊ Á∑§ ©‚∑§Ê ∞∑§ ¿UÊòÊ •àÿÁœ∑§ ÁfløÁ‹Ã „Ò •ÊÒ⁄U ©‚ ∑§ˇÊÊ ∑§ ŒÊÒ⁄UÊŸ äÿÊŸ ŒŸ ◊¥ ¬⁄U‡ÊÊŸË „ÊÃË
+„Ò– ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ë ⁄UáÊŸËÁÃ ¿UÊòÊ ∑§Ê ∑¥§ÁŒ˝Ã ⁄U„Ÿ ◊¥ ◊ŒŒ ∑§⁄UŸ ∑§ Á‹∞ ∞∑§ ¬˝÷ÊflË ⁄UáÊŸËÁÃ „ÊªË?
+¿UÊòÊ ∑§Ê ∑§ˇÊÊ ∑§ ŒÊÒ⁄UÊŸ ’Ê⁄U-’Ê⁄U ∑§⁄UŸ ∑§ Á‹∞ ∑§Êÿ¸ ŒŸÊ–
+(1)
+¿UÊòÊ ∑§Ê ‚ÅÃË ‚ •¬ŸÊ •flœÊŸ •flÁœ ’…∏ÊŸ ∑§ Á‹∞ ∑§„ŸÊ–
+(2)
+Sfl-ÁŸÿ◊Ÿ •ÊÒ⁄U ‚◊ÿ-¬˝’¥œŸ ∑§ Á‹∞ ¿UÊòÊ ∑§Ê ≈UÊß◊⁄U ŒŸÊ–
+(3)
+◊ÊÃÊ-Á¬ÃÊ ∑§Ê ’È‹Ê∑§⁄U ¿UÊòÊ ∑§ Áπ‹Ê»§ ‚ÅÃ •ŸÈ‡ÊÊ‚ŸÊà◊∑§ ∑§Ê⁄¸UflÊß¸ ∑§⁄UŸÊ–
+(4)
+25. Assertion (A) :
+Students are more likely to do well and stay in school if they have emotional attachment to their
+school and believe that they matter.
+Reason (R) :
+Emotions play a significant role in learning.
+Choose the correct option :
+(1) Both (A) and (R) are true and (R) is the correct explanation of (A).
+(2) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+(3) (A) is true but (R) is false.
+(4) Both (A) and (R) are false.
+•Á÷∑§ÕŸ (A) —
+¿UÊòÊÊ¥ ∑§ •ë¿UÊ ¬˝Œ‡Ê¸Ÿ ∑§⁄UŸ •ÊÒ⁄U S∑Í§‹ ◊¥ ’Ÿ ⁄U„Ÿ ∑§Ë •Áœ∑§ ‚¥÷ÊflŸÊ „Ò ÿÁŒ ©Ÿ∑§Ê •¬Ÿ S∑Í§‹ ‚ ÷ÊflŸÊà◊∑§ ‹ªÊfl „Ò
+•ÊÒ⁄U fl ◊ÊŸÃ „Ò¥ Á∑§ ©Ÿ∑§Ê „ÊŸÊ ◊ÊÿŸ ⁄UπÃÊ „Ò–
+∑§Ê⁄UáÊ (R) —
+÷ÊflŸÊ∞° ‚ËπŸ ◊¥ ◊„àfl¬ÍáÊ¸ ÷ÍÁ◊∑§Ê ÁŸ÷ÊÃË „Ò¥–
+‚„Ë Áfl∑§À¬ øÈŸ¥–
+(1) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ •ÊÒ⁄U (A) ∑§Ë (R) ‚„Ë √ÿÊÅÿÊ ∑§⁄UÃÊ „Ò–
+(2) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ ‹Á∑§ŸU (A) ∑§Ë (R) ‚„Ë √ÿÊÅÿÊ Ÿ„Ë¥ ∑§⁄UÃÊ „Ò–
+(3) (A) ‚„Ë „Ò ‹Á∑§Ÿ (R) ª‹Ã „Ò–
+(4) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ª‹Ã „Ò–
+P-II !SAS-24-II! 10 M
+
+===PAGE_BREAK===
+
+26. Which of the following is a core principle of constructivist learning theory ?
+(1) Teachers should provide direct instruction and explicit guidance to students.
+(2) Learning occurs when students receive correct answers and feedback from teachers.
+(3) Students construct their own knowledge through active engagement with their environment.
+(4) Learning is primarily a passive process that involves receiving and memorizing information.
+ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ê ‚¥⁄UøŸÊflÊŒË •Áœª◊ Á‚hÊ¥Ã ∑§Ê ◊Í‹ Á‚hÊ¥Ã „Ò?
+Á‡ÊˇÊ∑§Ê¥ ∑§ ¿UÊòÊÊ¥ ∑§Ê ¬˝àÿˇÊ ÁŸŒ¸‡Ê •ÊÒ⁄U S¬C ◊Êª¸Œ‡Ê¸Ÿ ¬˝ŒÊŸ ∑§⁄UŸÊ øÊÁ„∞–
+(1)
+•Áœª◊ Ã’ „ÊÃÊ „Ò ¡’ ¿UÊòÊÊ¥ ∑§Ê Á‡ÊˇÊ∑§Ê¥ ‚ ‚„Ë ©ûÊ⁄U •ÊÒ⁄U ¬˝ÁÃ¬ÈÁC Á◊‹ÃË „Ò–
+(2)
+¿UÊòÊ •¬Ÿ ¬ÿÊ¸fl⁄UáÊ ∑§ ‚ÊÕ ‚Á∑˝§ÿ ‚¥‹ÇŸÃÊ ∑§ ◊Êäÿ◊ ‚ •¬Ÿ ôÊÊŸ ∑§Ê ÁŸ◊Ê¸áÊ ∑§⁄UÃ „Ò¥–
+(3)
+•Áœª◊ ◊ÈÅÿ M§¬ ‚ ∞∑§ ÁŸÁc∑˝§ÿ ¬˝Á∑˝§ÿÊ „Ò Á¡‚◊¥ ‚ÍøŸÊ ¬˝Ê# ∑§⁄UŸÊ •ÊÒ⁄U ÿÊŒ ⁄UπŸÊ ‡ÊÊÁ◊‹ „Ò–
+(4)
+27. Assertion (A) :
+The less able a child is to do a task the more directions the teachers should give and as the child can
+do more and more the teacher should help less and less.
+Reason (R) :
+Intelligence cannot be accurately measured by calculating IQ.
+Choose the correct option.
+(1) Both (A) and (R) are true and (R) is the correct explanation of (A).
+(2) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+(3) (A) is true but (R) is false.
+(4) Both (A) and (R) are false.
+•Á÷∑§ÕŸ (A) —
+∞∑§ ’ìÊÊ Á∑§‚Ë ∑§Êÿ¸ ∑§Ê ∑§⁄UŸ ◊¥ Á¡ÃŸÊ ∑§◊ ‚ˇÊ◊ „ÊÃÊ „Ò, Á‡ÊˇÊ∑§Ê¥ ∑§Ê ©ÃŸ „Ë •Áœ∑§ ‚¥∑§Ã fl ß‡ÊÊ⁄U ŒŸË øÊÁ„∞ •ÊÒ⁄U
+¡Ò‚-¡Ò‚ ’ìÊÊ •Áœ∑§ ‚ •Áœ∑§ ∑§⁄U ‚∑§ÃÊ „Ò, Á‡ÊˇÊ∑§ ∑§Ê ∑§◊ ‚ ∑§◊ ◊ŒŒ ∑§⁄UŸË øÊÁ„∞–
+∑§Ê⁄UáÊ (R) —
+’ÈÁh ∑§Ê ’ÈÁh-‹Áéœ ∑§Ë ªáÊŸÊ ∑§⁄U∑§ ‚≈UË∑§ M§¬ ‚ Ÿ„Ë¥ ◊Ê¬Ê ¡Ê ‚∑§ÃÊ „Ò–
+‚„Ë Áfl∑§À¬ øÈŸ¥–
+(1) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ •ÊÒ⁄U (A) ∑§Ë (R) ‚„Ë √ÿÊÅÿÊ ∑§⁄UÃÊ „Ò–
+(2) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ ‹Á∑§ŸU (A) ∑§Ë (R) ‚„Ë √ÿÊÅÿÊ Ÿ„Ë¥ ∑§⁄UÃÊ „Ò–
+(3) (A) ‚„Ë „Ò ‹Á∑§Ÿ (R) ª‹Ã „Ò–
+(4) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ª‹Ã „Ò–
+28. Which of the following characterise the process of socialization ?
+(a) It is a linear process. (b) It is a complex process.
+(c) It is a multidimensional process. (d) It takes place uniquely in different cultures.
+(1) (a), (b) (2) (b), (c) (3) (b), (c), (d) (4) (a), (b), (c), (d)
+ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ê ‚◊Ê¡Ë∑§⁄UáÊ ∑§Ë ¬˝Á∑˝§ÿÊ ∑§Ë Áfl‡Ê·ÃÊ∞° „Ò¥?
+ÿ„ ∞∑§ ⁄UπËÿ ¬˝Á∑˝§ÿÊ „Ò– ÿ„ ∞∑§ ¡Á≈U‹ ¬˝Á∑˝§ÿÊ „Ò–
+(a) (b)
+ÿ„ ∞∑§ ’„È•ÊÿÊ◊Ë ¬˝Á∑˝§ÿÊ „Ò– ÿ„ ÁflÁ÷ÛÊ ‚¥S∑Î§ÁÃÿÊ¥ ◊¥ ÁflÁ‡ÊC M§¬ ‚ „ÊÃË „Ò–
+(c) (d)
+(1) (a), (b) (2) (b), (c) (3) (b), (c), (d) (4) (a), (b), (c), (d)
+P-II !SAS-24-II! 11 M
+
+===PAGE_BREAK===
+
+29. Assertion (A) :
+There is no objectively definable moment when a child enters middle childhood or adolescence.
+Reason (R) :
+Development is continuous in nature.
+Choose the correct option.
+(1) Both (A) and (R) are true and (R) is the correct explanation of (A).
+(2) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+(3) (A) is true but (R) is false.
+(4) Both (A) and (R) are false.
+•Á÷∑§ÕŸ (A) —
+fl„ ∑§Êß¸ ©g‡ÿÊà◊∑§U ÁŸÁ‡øÃ ˇÊáÊ Ÿ„Ë¥ „ÊÃÊ ¡’ ∑§Êß¸ ’ìÊÊ ◊äÿ ’ÊÀÿÊflSÕÊ ÿÊ Á∑§‡ÊÊ⁄UÊflSÕÊ ◊¥ ¬˝fl‡Ê ∑§⁄UÃÊ „Ò–
+∑§Ê⁄UáÊ (R) —
+Áfl∑§Ê‚, ¬˝∑Î§ÁÃ ◊¥ ÁŸ⁄¥UÃ⁄U „ÊÃÊ ⁄U„ÃÊ „Ò–
+‚„Ë Áfl∑§À¬ øÈŸ¥–
+(1) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ •ÊÒ⁄U (A) ∑§Ë (R) ‚„Ë √ÿÊÅÿÊ ∑§⁄UÃÊ „Ò–
+(2) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ ‹Á∑§ŸU (A) ∑§Ë (R) ‚„Ë √ÿÊÅÿÊ Ÿ„Ë¥ ∑§⁄UÃÊ „Ò–
+(3) (A) ‚„Ë „Ò ‹Á∑§Ÿ (R) ª‹Ã „Ò–
+(4) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ª‹Ã „Ò–
+30. An elementary school teacher can strongly influence students’ development of academic self-concept
+by :
+(1) Keeping very low expectations from all students
+(2) Punishing autonomy and initiative in students
+(3) Rewarding autonomy and initiative in students
+(4) Keeping very low expectations from special students
+∞∑§ ¬˝Ê⁄¥UÁ÷∑§ ÁfllÊ‹ÿ ∑§Ê Á‡ÊˇÊ∑§ ¿UÊòÊ ∑§ ‡ÊÒˇÊÁáÊ∑§ •Êà◊-‚¥¬˝àÿÿ ∑§ Áfl∑§Ê‚ ∑§Ê ŒÎ…∏ÃÊ ‚ ¬˝÷ÊÁflÃ ∑§⁄U ‚∑§ÃÊ „Ò —
+‚÷Ë ÁfllÊÁÕ¸ÿÊ¥ ‚ ’„ÈÃ ∑§◊ •¬ˇÊÊ∞° ⁄UπŸÊ
+(1)
+¿UÊòÊÊ¥ ◊¥ SflÊÿûÊÃÊ •ÊÒ⁄U ¬„‹ ∑§Ê Œ¥Á«UÃ ∑§⁄UŸÊ
+(2)
+¿UÊòÊÊ¥ ◊¥ SflÊÿûÊÃÊ •ÊÒ⁄U ¬„‹ ∑§Ê ¬È⁄US∑Î§Ã ∑§⁄UŸÊ
+(3)
+Áfl‡Ê· ¿UÊòÊÊ¥ ‚ ’„ÈÃ ∑§◊ ©ê◊ËŒ¥ ⁄UπŸÊ
+(4)
+P-II !SAS-24-II! 12 M
+
+===PAGE_BREAK===
+
+IMPORTANT / ◊„ûfl¬ÍáÊ¸
+Candidates have to do questions 31 to 90 EITHER from Part - II (Mathematics and Science) OR from
+Part - III (Social Studies / Social Science).
+¬⁄UËˇÊÊÁÕ¸ÿÊ¥ ∑§Ê ¬˝‡Ÿ 31 ‚  90 ÿÊ ÃÊ ÷Êª - II (ªÁáÊÃ fl ÁflôÊÊŸ) ÿÊ ÷Êª - III (‚Ê◊ÊÁ¡∑§ •äÿÿŸ / ‚Ê◊ÊÁ¡∑§
+ÁflôÊÊŸ) ‚ ∑§⁄UŸ „Ò¥–
+PART - II / ÷Êª - II
+MATHEMATICS AND SCIENCE / ªÁáÊÃ fl ÁflôÊÊŸ
+Direction : Answer the following questions by selecting the correct/most appropriate options.
+ÁŸŒ¸‡Ê — ÁŸêŸÁ‹ÁπÃ ¬˝‡ŸÊ¥ ∑§ ©ûÊ⁄U ŒŸ ∑§ Á‹∞ ‚„Ë/‚’‚ ©¬ÿÈÄÃ Áfl∑§À¬ øÈÁŸ∞–
+31. BD is the diagonal of parallelogram ABCD such that ∠CBD=12x, ∠ABD=7y, ∠ADB=608 and
+∠CDB=288. Then, the value of 2x+3y is :
+(1) 208 (2) 218 (3) 228 (4) 238
+Á∑§‚Ë ‚◊Ê¥Ã⁄U øÃÈ÷È¸¡ ABCD ∑§Ê Áfl∑§áÊ¸ BD ß‚ ¬˝∑§Ê⁄U „Ò Á∑§ ∠CBD=12x, ∠ABD=7y, ∠ADB=608 •ÊÒ⁄U
+∠CDB=288 „Ò– Ã’ 2x+3y ∑§Ê ◊ÊŸ „Ò —
+(1) 208 (2) 218 (3) 228 (4) 238
+32. A student listed the following properties of Rational Numbers. Which one/ones is/are correct ?
+(a) A rational number includes integers.
+(b) 0 (zero) is not a rational number.
+(c) All fractions are rational numbers.
+Choose the correct option :
+(1) (a) and (c) (2) Only (b) (3) Only (c) (4) (a) and (b)
+∞∑§ ÁfllÊÕË¸ Ÿ ¬Á⁄U◊ÿ ‚¥ÅÿÊ•Ê¥ ∑§ ÁŸêŸÁ‹ÁπÃ ªÈáÊœ◊ÊZ ∑§Ë ‚ÍøË ’ŸÊß¸– ßŸ◊¥ ‚ ∑§ÊÒŸ-‚Ê/‚ ‚„Ë „Ò/„Ò¥ ?
+∞∑§ ¬Á⁄U◊ÿ ‚¥ÅÿÊ ◊¥ ¬ÍáÊÊZ∑§ ‚Áê◊Á‹Ã „Ò–
+(a)
+‡ÊÍãÿ ¬Á⁄U◊ÿ ‚¥ÅÿÊ Ÿ„Ë¥ „Ò–
+(b) (0)
+‚÷Ë Á÷ãŸ ¬Á⁄U◊ÿ ‚¥ÅÿÊ∞° „ÊÃË „Ò¥–
+(c)
+‚„Ë Áfl∑§À¬ øÈŸ¥ —
+•ÊÒ⁄U ∑§fl‹ ∑§fl‹ •ÊÒ⁄U
+(1) (a) (c) (2) (b) (3) (c) (4) (a) (b)
+33. One of the factors of p 3 x+p 2 (x−y)−p(y+z)−z is :
+(1) p 2 x−py+z (2) p 2 x+py+z (3) p 2 x−py−z (4) p 2 x+py−z
+p 3 x+p 2 (x−y)−p(y+z)−z ∑§ ªÈáÊŸπ¥«Ê¥ ◊¥ ‚ ∞∑§ ªÈáÊŸπ¥«U „Ò —
+(1) p 2 x−py+z (2) p 2 x+py+z (3) p 2 x−py−z (4) p 2 x+py−z
+SPACE FOR ROUGH WORK / ⁄U»§ ∑§Êÿ¸ ∑§ Á‹∞ ¡ª„
+P-II !SAS-24-II! 13 M
+
+===PAGE_BREAK===
+
+34. If the median of the data 30, 8, 7, 3, 17, 15, 21, 24, 29, 23 is x and the median of the data obtained
+by replacing 3 by 33 and 8 by 18 in the above data is y, then what is the difference between
+y and x ?
+(1) 1 (2) 2 (3) 3 (4) 4
+ÿÁŒ •Ê¥∑§«∏Ê¥ ∑§Ê ◊Êäÿ∑§ „Ò •ÊÒ⁄U ßŸ •Ê¥∑§«∏Ê¥ ◊¥ ∑§Ê ‚ ÃÕÊ ∑§Ê ‚
+30, 8, 7, 3, 17, 15, 21, 24, 29, 23 x 3 33 8 18
+¬˝ÁÃSÕÊÁ¬Ã ∑§⁄UŸ ¬⁄U ¬˝ÊåÃ •Ê¥∑§«∏Ê¥ ∑§Ê ◊Êäÿ∑§ ÿÁŒ „Ò, ÃÊ •ÊÒ⁄U ∑§Ê •¥Ã⁄U ÄÿÊ „Ò?
+y y x
+(1) 1 (2) 2 (3) 3 (4) 4
+35. Three numbers are in the ratio 2 : 3 : 4 and the sum of their cubes is 33957. What is the sum of the
+three numbers ?
+(1) 54 (2) 63 (3) 72 (4) 81
+ÃËŸ ‚¥ÅÿÊ∞° ∑§ •ŸÈ¬ÊÃ ◊¥ „Ò¥ •ÊÒ⁄U ©Ÿ∑§ ÉÊŸÊ¥ ∑§Ê ÿÊª „Ò– ßŸ ÃËŸÊ¥ ‚¥ÅÿÊ•Ê¥ ∑§Ê ÿÊª ÄÿÊ „Ò?
+2 : 3 : 4 33957
+(1) 54 (2) 63 (3) 72 (4) 81
+36. The number of vertices (V), edges (E) and faces (F) of a polyhedron are respectively 10, 15 and x.
+Then, the value of (3x−12) is :
+(1) 7 (2) 9 (3) 14 (4) 18
+Á∑§‚Ë ’„È»§‹∑§Ë ∑§ ‡ÊË·ÊZ (V) , Á∑§ŸÊ⁄UÊ¥ (E) •ÊÒ⁄U »§‹∑§Ê¥ (F) ∑§Ë ‚¥ÅÿÊ∞° ∑˝§◊‡Ê— 10, 15 •ÊÒ⁄U x „Ò¥– Ã’ (3x−12) ∑§Ê ◊ÊŸ
+„Ò —
+(1) 7 (2) 9 (3) 14 (4) 18
+−1
+x
+−1 −3 2 −4 x
++
+y
+37. If =   ÷   , then what is the value of   ?
+y  3  3 y x
+3 19 38 48
+− −
+(1) (2) (3) (4)
+16 48 73 265
+−1
+ÿÁŒ x =   −1  −3 ÷   2  −4 „Ò, ÃÊ   x + y  ∑§Ê ◊ÊŸ ÄÿÊ „Ò?
+y  3  3 y x
+3 19 38 48
+− −
+(1) (2) (3) (4)
+16 48 73 265
+SPACE FOR ROUGH WORK / ⁄U»§ ∑§Êÿ¸ ∑§ Á‹∞ ¡ª„
+P-II !SAS-24-II! 14 M
+
+===PAGE_BREAK===
+
+38. Concept was labelled as ‘Schema’ by :
+(1) Vygotsky (2) Piaget (3) Bruner (4) Van Hieles
+Œ˜flÊ⁄UÊ •flœÊ⁄UáÊÊ ∑§Ê “S∑§Ë◊Ê” ∑§ M§¬ ◊¥ ŸÊ◊Ê¥Á∑§Ã Á∑§ÿÊ ªÿÊ ÕÊ–
+__________
+flÊß¸ªÊà‚∑§Ë Á¬ÿÊ¡ ’˝ÍŸ⁄U flÒŸ „Ò‹
+(1) (2) (3) (4)
+39. If x=1.011+10.11−12.101+0.1011, then what should be added to x to get the sum as 1.1 ?
+(1) 1.9789 (2) 0.3111 (3) 0.2211 (4) 1.1311
+ÿÁŒ x=1.011+10.11−12.101+0.1011 „Ò, ÃÊ x ◊¥ ÄÿÊ ¡Ê«∏Ê ¡Ê∞, Á¡‚‚ ÿÊª»§‹ 1.1 ¬˝ÊåÃ „Ê?
+(1) 1.9789 (2) 0.3111 (3) 0.2211 (4) 1.1311
+40. Teacher conducted an oral assessment in class and found that Ram can speak definition of all
+types of numbers - odd, even, prime and composite accurately, but not able to identify the numbers
+accurately when given a set of numbers.
+Which of the following is most appropriate for the above situation ?
+(1) Ram has good memory but lacks practice.
+(2) Ram has good memory but lacks concentration.
+(3) Ram has good memory but lacks conceptual understanding.
+(4) Ram has analytical ability.
+Á‡ÊˇÊ∑§ Ÿ ∑§ˇÊÊ ◊¥ ◊ÊÒÁπ∑§ •Ê∑§‹Ÿ ∑§Ê •ÊÿÊ¡Ÿ Á∑§ÿÊ Á¡‚‚ ÿ„ ¬ÃÊ ø‹Ê Á∑§ ⁄UÊ◊ Áfl·◊, ‚◊, •÷Êíÿ •ÊÒ⁄U ÷Êíÿ ¡Ò‚Ë
+‚÷Ë ¬˝∑§Ê⁄U ∑§Ë ‚¥ÅÿÊ•Ê¥ ∑§Ë ÿÕÊÕ¸ M§¬ ‚ ¬Á⁄U÷Ê·Ê ’ÃÊ ‚∑§ÃÊ „Ò, ¬⁄UãÃÈ ¡’ ‚¥ÅÿÊ•Ê¥ ∑§Ê ‚◊ÈìÊÿ ÁŒÿÊ ªÿÊ Ã’ fl„
+‚¥ÅÿÊ•Ê¥ ∑§Ê ‚„Ë M§¬ ‚ ¬„øÊŸ Ÿ„Ë¥ ¬ÊÿÊ–
+©¬⁄UÊÄÃ ¬Á⁄UÁSÕÁÃ ∑§ Á‹∞ ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ê •ÁÃ-©¬ÿÈÄÃ „Ò?
+⁄UÊ◊ ∑§Ë S◊⁄UáÊ ‡ÊÁÄÃ •ë¿UË „Ò ¬⁄UãÃÈ •èÿÊ‚ ∑§Ë ∑§◊Ë „Ò–
+(1)
+⁄UÊ◊ ∑§Ë S◊⁄UáÊ ‡ÊÁÄÃ •ë¿UË „Ò ¬⁄UãÃÈ ∞∑§Êª˝ÃÊ ∑§Ë ∑§◊Ë „Ò–
+(2)
+⁄UÊ◊ ∑§Ë S◊⁄UáÊ ‡ÊÁÄÃ •ë¿UË „Ò ¬⁄UãÃÈ •flœÊ⁄UáÊÊà◊∑§ ’Êœ ∑§Ë ∑§◊Ë „Ò–
+(3)
+⁄UÊ◊ ◊¥ Áfl‡‹·áÊÊà◊∑§ ÿÊÇÿÃÊ „Ò–
+(4)
+41. A shopkeeper sells an article for ` 324 after giving a discount of 28% on its marked price. The cost
+price of the article is ` 300. If he sells the article by giving 18% discount on its same marked price,
+then what will be his profit percent ?
+(1) 10% (2) 19% (3) 23% (4) 24%
+∑§Êß¸ ŒÈ∑§ÊŸŒÊ⁄U ∞∑§ flSÃÈ ∑§Ê ©‚∑§ •¥Á∑§Ã ◊ÍÀÿ ¬⁄U 28% ∑§Ë ¿ÍU≈U Œ∑§⁄U ` 324 ¬⁄U ’øÃÊ „Ò– flSÃÈ ∑§Ê ∑˝§ÿ ◊ÍÀÿ ` 300
+„Ò– ÿÁŒ fl„ ©‚ flSÃÈ ∑§Ê ©‚∑§ ©‚Ë •¥Á∑§Ã ◊ÍÀÿ ¬⁄U ∑§Ë ¿ÍU≈U Œ∑§⁄U ’ø, ÃÊ ©‚∑§Ê ‹Ê÷ ¬˝ÁÃ‡ÊÃ ÄÿÊ „ÊªÊ?
+18%
+(1) 10% (2) 19% (3) 23% (4) 24%
+SPACE FOR ROUGH WORK / ⁄U»§ ∑§Êÿ¸ ∑§ Á‹∞ ¡ª„
+P-II !SAS-24-II! 15 M
+
+===PAGE_BREAK===
+
