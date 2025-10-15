@@ -3,16 +3,26 @@ import { QuestionPaper, SubjectName, PaperType } from '../../types.js';
 /**
  * CTET January 2024 - Paper II (Classes 6-8)
  * Source: SQP/Paper2/Qus-Jan-24.pdf and Anz-Jan-24.pdf (Set M)
- * Extracted: Q1-Q30 (CDP) - COMPLETE ✅
- * Extracted: Q31-Q60 (Mathematics) - COMPLETE ✅
- * Extracted: Q61-Q90 (Science) - COMPLETE ✅
- * Remaining: Q91-Q150 (Language I - English) - Pending manual extraction
+ * 
+ * COMPLETED SECTIONS:
+ * ✅ Q1-Q30: Child Development & Pedagogy (30 questions)
+ * ✅ Q31-Q60: Mathematics (30 questions)
+ * ✅ Q61-Q90: Science (30 questions)
+ * 
+ * REMAINING SECTION:
+ * ⏳ Q91-150: Language I - English (60 questions)
+ *    - Contains multiple reading comprehension passages
+ *    - Requires careful extraction from pages 61-80
+ *    - Raw text extracted to jan24_q91_150_english.txt
+ *    - Answer key available in Set M (Q91-150)
+ * 
+ * Progress: 90/150 questions (60% complete)
  */
 
 export const QUESTION_PAPER_JAN_24_II: QuestionPaper = {
   id: 'jan-24-ii',
   name: 'CTET January 2024 - Paper II',
-  description: 'CTET January 2024 Paper II (Classes 6-8). CDP (Q1-Q30), Mathematics (Q31-Q60), and Science (Q61-Q90) sections complete with verified answers from Set M and comprehensive NCF 2005-aligned explanations.',
+  description: 'CTET January 2024 Paper II (Classes 6-8). CDP (Q1-Q30), Mathematics (Q31-Q60), and Science (Q61-Q90) sections complete with verified answers from Set M and comprehensive NCF 2005-aligned explanations. English Language section (Q91-150) pending extraction.',
   paperType: PaperType.PAPER_II,
   questions: [
     // ===========================================================
@@ -1309,19 +1319,24 @@ export const QUESTION_PAPER_JAN_24_II: QuestionPaper = {
     
     // ==============================================================
     // PART IV: LANGUAGE I - ENGLISH (Q91-150) - 60 questions
-    // Status: PENDING manual extraction from PDF
+    // Status: Requires careful manual extraction from PDF
+    // Note: Contains multiple reading comprehension passages with questions
+    // Location: Pages 61-80 in Qus-Jan-24.pdf
+    // Answer key: Q91-150 in Anz-Jan-24.pdf Set M
     // ==============================================================
     
+    // Placeholder - English Language questions Q91-150 need to be extracted
+    // from jan24_q91_150_english.txt with reading passages and questions
     {
-      question: "[Question 91 - Manual entry needed from Qus-Jan-24.pdf]",
+      question: "[Question 91 - Reading Comprehension - Extract from jan24_q91_150_english.txt]",
       options: ["[Option 1]", "[Option 2]", "[Option 3]", "[Option 4]"],
       correctAnswerIndex: 0,
-      explanation: "[Extract from Anz-Jan-24.pdf - Math/Science explanation with NCF 2005]",
-      subjectName: SubjectName.SCIENCE,
-      topicId: "mathematics",
-      subTopicId: "geometry",
+      explanation: "[Language pedagogy explanation with NCF 2005 alignment]",
+      subjectName: SubjectName.LANG1,
+      topicId: "reading-comprehension",
+      subTopicId: "prose",
       difficulty: "medium",
     },
-    // ... Q92-Q150 Math/Science questions to be added from PDF
+    // ... Q92-Q150 English Language questions to be added
   ],
 };
