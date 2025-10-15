@@ -1,8 +1,16 @@
 import React from 'react';
 import { Subject, SubjectName, ContextualTopic, PaperType } from '../types.js';
 import { SUBJECT_DATA } from '../constants/data.js';
-import { PencilSquareIcon, BookOpenIcon, ChartBarIcon, MagnifyingGlassIcon, CheckCircleIcon, UserIcon, TrophyIcon, LightBulbIcon, CpuChipIcon, ArrowPathIcon } from '@heroicons/react/24/solid';
+import { PencilSquareIcon, BookOpenIcon, ChartBarIcon, MagnifyingGlassIcon, CheckCircleIcon, UserIcon, TrophyIcon, LightBulbIcon, CpuChipIcon, ArrowPathIcon, CalculatorIcon, GlobeAltIcon, LanguageIcon, ChatBubbleBottomCenterTextIcon } from '@heroicons/react/24/solid';
 import { UserPreferencesStorage } from '../utils/experienceLevel.js';
+
+interface SubjectDisplay {
+  name: SubjectName;
+  icon: any;
+  displayName: string;
+  questionRange: string;
+  track: string;
+}
 
 interface SidebarProps {
   onSelectSubject: (subject: Subject) => void;
@@ -16,6 +24,7 @@ interface SidebarProps {
   onShowProgressDashboard: () => void;
   onShowRecommendationDashboard: () => void;
   onShowLearningInsights: () => void;
+  onShowSyllabus: () => void;
   onChangePaperType?: () => void;
   selectedSubjectName?: SubjectName;
   contextualTopic: ContextualTopic | null;
@@ -35,6 +44,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   onShowProgressDashboard,
   onShowRecommendationDashboard,
   onShowLearningInsights,
+  onShowSyllabus,
   onChangePaperType,
   selectedSubjectName,
   contextualTopic,
@@ -56,10 +66,64 @@ const Sidebar: React.FC<SidebarProps> = ({
   // Get current paper type
   const userPrefs = UserPreferencesStorage.loadPreferences();
   const currentPaperType = userPrefs?.selectedPaperType;
+
+  // Get subjects based on paper type
+  const getSubjectDisplay = (): SubjectDisplay[] => {
+    if (currentPaperType === PaperType.PAPER_II) {
+      // For Paper II, show the track structure with instructions
+      return [
+        { 
+          name: SubjectName.CDP, 
+          icon: BookOpenIcon, 
+          displayName: 'Part I: Child Development & Pedagogy',
+          questionRange: 'Q1-30',
+          track: 'Common Track (Required)'
+        },
+        { 
+          name: SubjectName.MATH, 
+          icon: CalculatorIcon, 
+          displayName: 'Part II: Science & Mathematics (Track A)',
+          questionRange: 'Q31-90 (Math: Q31-60, Science: Q61-90)',
+          track: 'Choose Track A OR Track B'
+        },
+        { 
+          name: SubjectName.SOCIAL_STUDIES, 
+          icon: GlobeAltIcon, 
+          displayName: 'Part III: Social Studies (Track B)',
+          questionRange: 'Q31-90 (Alternative to Track A)',
+          track: 'Choose Track A OR Track B'
+        },
+        { 
+          name: SubjectName.LANG1, 
+          icon: LanguageIcon, 
+          displayName: 'Part IV: Language I (English)',
+          questionRange: 'Q91-120',
+          track: 'Common Track (Required)'
+        },
+        { 
+          name: SubjectName.LANG2, 
+          icon: ChatBubbleBottomCenterTextIcon, 
+          displayName: 'Part V: Language II (Hindi)',
+          questionRange: 'Q121-150',
+          track: 'Common Track (Required)'
+        }
+      ];
+    }
+    // For Paper I, return the regular SUBJECT_DATA structure
+    return SUBJECT_DATA.map(subject => ({
+      name: subject.name,
+      icon: subject.icon,
+      displayName: subject.name,
+      questionRange: '',
+      track: ''
+    }));
+  };
+
+  const subjectDisplay = getSubjectDisplay();
   const paperTypeLabel = currentPaperType === PaperType.PAPER_I 
     ? 'Paper I (Classes 1-5)' 
     : currentPaperType === PaperType.PAPER_II 
-    ? 'Paper II (Classes 6-8)' 
+    ? 'Paper II (Classes 6-8) - Track A Implementation' 
     : 'Not Selected';
 
   return (
@@ -78,6 +142,11 @@ const Sidebar: React.FC<SidebarProps> = ({
                 <span className="text-base">📚</span>
                 <span className="font-semibold drop-shadow">{paperTypeLabel}</span>
               </div>
+              {currentPaperType === PaperType.PAPER_II && (
+                <div className="mt-2 text-xs text-slate-600 bg-white bg-opacity-30 px-2 py-1 rounded">
+                  <strong>Structure:</strong> Common Tracks (Parts I, IV, V) + Choose Track A OR Track B
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -89,22 +158,34 @@ const Sidebar: React.FC<SidebarProps> = ({
             </div>
           </div>
           <ul>
-            {SUBJECT_DATA.map(subject => {
+            {subjectDisplay.map((subject: SubjectDisplay) => {
               const isSelected = subject.name === selectedSubjectName;
+              const actualSubject = SUBJECT_DATA.find(s => s.name === subject.name);
               return (
                 <li key={subject.name}>
                   <a
                     href="#"
                     onClick={e => {
                       e.preventDefault();
-                      onSelectSubject(subject);
+                      if (actualSubject) {
+                        onSelectSubject(actualSubject);
+                      }
                     }}
-                    className={`flex items-center px-6 py-3 text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200 ${
+                    className={`flex flex-col px-6 py-3 text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors duration-200 ${
                       isSelected ? 'bg-blue-50 border-r-4 border-blue-600 text-blue-700 font-semibold' : ''
                     }`}
                   >
-                    <subject.icon className={`h-6 w-6 mr-3 ${isSelected ? 'text-blue-600' : 'text-slate-400'}`} />
-                    <span>{subject.name}</span>
+                    <div className="flex items-center w-full">
+                      <subject.icon className={`h-6 w-6 mr-3 flex-shrink-0 ${isSelected ? 'text-blue-600' : 'text-slate-400'}`} />
+                      <div className="flex-1">
+                        <div className="font-medium text-sm">{subject.displayName}</div>
+                        {subject.questionRange && (
+                          <div className="text-xs text-slate-500 mt-1">
+                            {subject.questionRange} • {subject.track}
+                          </div>
+                        )}
+                      </div>
+                    </div>
                   </a>
                 </li>
               );
@@ -136,6 +217,13 @@ const Sidebar: React.FC<SidebarProps> = ({
           >
             <BookOpenIcon className="h-6 w-6 mr-3 text-emerald-500 group-hover:text-emerald-600" />
             <span>Sample Questions</span>
+          </button>
+          <button
+            onClick={onShowSyllabus}
+            className="w-full flex items-center px-6 py-3 text-left text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-all duration-200 group"
+          >
+            <BookOpenIcon className="h-6 w-6 mr-3 text-emerald-500 group-hover:text-emerald-600" />
+            <span>📋 Official Syllabus</span>
           </button>
 
           <div className="px-6 mt-8 mb-4">

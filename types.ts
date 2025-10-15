@@ -61,6 +61,7 @@ export enum View {
   PROGRESS_DASHBOARD,
   RECOMMENDATION_DASHBOARD,
   LEARNING_INSIGHTS,
+  SYLLABUS_MENU,
 }
 
 export interface QuestionPaper {

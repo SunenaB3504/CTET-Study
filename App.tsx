@@ -16,6 +16,7 @@ import ProgressDashboard from './components/ProgressDashboard.js';
 import SessionAnalytics from './components/SessionAnalytics.js';
 import RecommendationDashboard from './components/RecommendationDashboard.js';
 import { LearningInsightsDashboard } from './components/LearningInsightsDashboard.js';
+import { SyllabusMenu } from './components/SyllabusMenu.js';
 import PaperTypeSelection from './components/PaperTypeSelection.js';
 import SplashScreen from './components/SplashScreen.js';
 import ErrorBoundary from './components/ErrorBoundary.js';
@@ -171,6 +172,13 @@ const App: React.FC = () => {
     setCurrentContextualTopic(null);
   };
 
+  const handleShowSyllabus = () => {
+    setCurrentView(View.SYLLABUS_MENU);
+    setSelectedSubject(null);
+    setSelectedTopic(null);
+    setCurrentContextualTopic(null);
+  };
+
   const handleShowGapAnalysis = () => {
     setCurrentView(View.GAP_ANALYSIS_DASHBOARD);
     setSelectedSubject(null);
@@ -297,6 +305,12 @@ const App: React.FC = () => {
             onBack={handleBackToDashboard}
           />
         );
+      case View.SYLLABUS_MENU:
+        return (
+          <SyllabusMenu
+            onClose={handleBackToDashboard}
+          />
+        );
       case View.GAP_ANALYSIS_DASHBOARD:
         return (
           <GapAnalysisDashboard
@@ -406,6 +420,7 @@ const App: React.FC = () => {
           onStartEnhancedMockTest={() => { handleStartEnhancedMockTest(); closeSidebar(); }}
           onShowReadinessTracker={() => { handleShowReadinessTracker(); closeSidebar(); }}
           onShowSampleQuestions={() => { handleShowSampleQuestions(); closeSidebar(); }}
+          onShowSyllabus={() => { handleShowSyllabus(); closeSidebar(); }}
           onShowGapAnalysis={() => { handleShowGapAnalysis(); closeSidebar(); }}
           onShowQualityAssessment={() => { handleShowQualityAssessment(); closeSidebar(); }}
           onShowExperienceLevelSelection={() => { handleShowExperienceLevelSelection(); closeSidebar(); }}

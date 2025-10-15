@@ -1,0 +1,588 @@
+
+===== PAGE 16 =====
+40 5
+42. The product of two rational numbers is − . If one of the two numbers is − , then the reciprocal
+3 2
+of the other number lies between :
+3 9 9 1 1 1 1 1
+(1) and (2) and (3) and (4) and
+20 50 50 5 5 4 4 3
+40 5
+ŒÊ ¬Á⁄U◊ÿ ‚¥ÅÿÊ•Ê¥ ∑§Ê ªÈáÊŸ»§‹ − „Ò– ÿÁŒ ©Ÿ ŒÊ ‚¥ÅÿÊ•Ê¥ ◊¥ ‚ ∞∑§ − „Ò, ÃÊ ŒÍ‚⁄UË ‚¥ÅÿÊ ∑§Ê √ÿÈà∑˝§◊ ÁŸêŸ ∑§
+3 2
+’Ëø ◊¥ ÁSÕÃ „Ò —
+3 9 9 1 1 1 1 1
+•ÊÒ⁄U •ÊÒ⁄U •ÊÒ⁄U •ÊÒ⁄U
+(1) (2) (3) (4)
+20 50 50 5 5 4 4 3
+43. A class VI mathematics teacher posed the following problem to her students :
+“In a morning walk, three persons started together. Their steps measure 70 cm, 85 cm and 95 cm
+respectively. What is the minimum distance each should walk so that all can cover the same
+distance in complete steps ?”
+Which of the following concepts would be required to solve the given problem ?
+(1) Concept of HCF
+(2) Concept of LCM
+(3) Concept of division
+(4) Concept of proportion
+∑§ˇÊÊ ∑§Ë ∞∑§ ªÁáÊÃ ∑§Ë Á‡ÊÁˇÊ∑§Ê Ÿ •¬Ÿ ÁfllÊÁÕ¸ÿÊ¥ ∑§ ‚◊ˇÊ ÁŸêŸÁ‹ÁπÃ ¬˝‡Ÿ ⁄UπÊ–
+VI
+““¬˝ÊÃ— ∑§Ê‹ËŸ ‚Ò⁄U ◊¥ ÃËŸ √ÿÁÄÃ ∞∑§ ‚ÊÕ ø‹ŸÊ ¬˝Ê⁄¥U÷ ∑§⁄UÃ „Ò¥– ©Ÿ∑§ ∑§Œ◊Ê¥ ∑§Ë ‹¥’Êß¸ ∑˝§◊‡Ê— ‚.◊Ë.,
+70
+‚.◊Ë. •ÊÒ⁄U ‚.◊Ë. „Ò¥– ßŸ◊¥ ‚ ¬˝àÿ∑§ ãÿÍŸÃ◊ Á∑§ÃŸË ŒÍ⁄UË ø‹ Á∑§ fl fl„Ë ŒÍ⁄UË ¬Í⁄U-¬Í⁄U ∑§Œ◊Ê¥ ◊¥ Ãÿ ∑§⁄U ‚∑§?””
+85 95
+ÁŸêŸÁ‹ÁπÃ ◊¥ ∑§ÊÒŸ-‚Ë •flœÊ⁄UáÊÊ∞° ÁŒ∞ ª∞ ¬˝‡Ÿ ∑§Ê „‹ ∑§⁄UŸ ∑§ Á‹∞ •Êfl‡ÿ∑§ „Ê¥ªË?
+◊„ûÊ◊ ‚◊Ê¬flÃ¸∑§ (◊.‚.) ∑§Ë •flœÊ⁄UáÊÊ
+(1)
+‹ÉÊÈûÊ◊ ‚◊Ê¬flÃ¸∑§ (‹.‚.) ∑§Ë •flœÊ⁄UáÊÊ
+(2)
+Áfl÷Ê¡Ÿ ∑§Ë •flœÊ⁄UáÊÊ
+(3)
+‚◊ÊŸÈ¬ÊÃ ∑§Ë •flœÊ⁄UáÊÊ
+(4)
+SPACE FOR ROUGH WORK / ⁄U»§ ∑§Êÿ¸ ∑§ Á‹∞ ¡ª„
+P-II !SAS-24-II! 16 M
+===== PAGE 17 =====
+44. A student was given the following problem on percentage to solve,
+“Find the percentage of decrease if the population of a city decreased from 28,000 to 26,500.”
+She wrote the following solution,
+Original population = 28,000; New population = 26,500
+26,500
+= × 100% = 94.6%
+% decrease
+28,000
+Which of the following is most appropriate with respect to the response of the student ?
+(1) Student is able to understand the concept of percentage but is not able to understand
+percentage of which quantity is to be found.
+(2) Student has solved the question correctly but has used wrong symbols in solution.
+(3) Student does not know the concept of percentage.
+(4) Student has made a careless mistake.
+∞∑§ ÁfllÊÕË¸ ∑§Ê ¬˝ÁÃ‡ÊÃÃÊ ¬⁄U ÁŸêŸÁ‹ÁπÃ ‚◊SÿÊ „‹ ∑§⁄UŸ ∑§Ê ŒË ªß¸,
+““•ª⁄U ∞∑§ ‡Ê„⁄U ∑§Ë ¡Ÿ‚¥ÅÿÊ ‚ ÉÊ≈U∑§⁄U „Ê ªß¸ „Ò ÃÊ ¡Ÿ‚¥ÅÿÊ ∑§ ÉÊ≈UŸ ∑§Ë ¬˝ÁÃ‡ÊÃÃÊ ôÊÊÃ ∑§ËÁ¡∞–””
+28,000 26,500
+©‚Ÿ ÁŸêŸÁ‹ÁπÃ „‹ Á‹πÊ,
+¬˝Ê⁄¥UÁ÷∑§ ¡Ÿ‚¥ÅÿÊ Ÿß¸ ¡Ÿ‚¥ÅÿÊ
+= 28,000; = 26,500
+26,500
+ÉÊ≈UŸ ∑§Ê = × 100% = 94.6%
+%
+28,000
+ÁfllÊÕË¸ ∑§ ©ûÊ⁄U ∑§ ‚¥Œ÷¸ ◊¥ ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ÄÿÊ ‚’‚ ©¬ÿÈÄÃ „Ò?
+ÁfllÊÕË¸ ¬˝ÁÃ‡ÊÃÃÊ ∑§Ë •flœÊ⁄UáÊÊ ∑§Ê ‚◊¤ÊŸ ◊¥ ‚ˇÊ◊ „Ò ¬⁄UãÃÈ fl„ ÿ„ ‚◊¤Ê ¬ÊŸ ◊¥ ‚◊Õ¸ Ÿ„Ë¥ „Ò Á∑§ Á∑§‚ ⁄UÊÁ‡Ê ∑§Ë
+(1)
+¬˝ÁÃ‡ÊÃÃÊ ôÊÊÃ ∑§⁄UŸË „Ò–
+ÁfllÊÕË¸ Ÿ ¬˝‡Ÿ ∑§Ê ‚„Ë Ã⁄UË∑§ ‚ „‹ Á∑§ÿÊ „Ò Á∑§ãÃÈ ©‚Ÿ ©ûÊ⁄U ◊¥ ª‹Ã Áøã„Ê¥ ∑§Ê ©¬ÿÊª Á∑§ÿÊ „Ò–
+(2)
+ÁfllÊÕË¸ ¬˝ÁÃ‡ÊÃÃÊ ∑§Ë •flœÊ⁄UáÊÊ ∑§Ê Ÿ„Ë¥ ¡ÊŸÃÊ–
+(3)
+ÁfllÊÕË¸ Ÿ •‚ÊflœÊŸËfl‡Ê ∞∑§ òÊÈ≈UË ∑§Ë „Ò–
+(4)
+SPACE FOR ROUGH WORK / ⁄U»§ ∑§Êÿ¸ ∑§ Á‹∞ ¡ª„
+P-II !SAS-24-II! 17 M
+===== PAGE 18 =====
+45. The difference between two supplementary angles is 208. If the smaller of these angles is p, then
+the value of 3p−508 is :
+(1) 3108 (2) 2708 (3) 2508 (4) 1908
+ŒÊ ‚¥¬Í⁄U∑§ ∑§ÊáÊÊ¥ ∑§Ê •¥Ã⁄U 208 „Ò– ÿÁŒ ßŸ◊¥ ‚ ¿UÊ≈UÊ ∑§ÊáÊ p „Ò, ÃÊ 3p−508 ∑§Ê ◊ÊŸ „Ò —
+(1) 3108 (2) 2708 (3) 2508 (4) 1908
+46. x varies inversely as y. When x=3.5, then y=2.4. What is the value of y when x=5.6 ?
+(1) 1.4 (2) 1.5 (3) 2.1 (4) 2.8
+x , y ∑§ ‚ÊÕ √ÿÈà∑˝§◊ÊŸÈ¬ÊÃË Áflø⁄UáÊ ∑§⁄UÃÊ „Ò– ¡’ x=3.5 „Ò , Ã’ y=2.4 „Ò– ¡’ x=5.6 „Ò, Ã’ y ∑§Ê ◊ÊŸ ÄÿÊ „ÊªÊ?
+(1) 1.4 (2) 1.5 (3) 2.1 (4) 2.8
+47. Which among the following Learning-Teaching Resources (LTRs) are most appropriate for visually
+challenged students in mathematics classroom ?
+(a) Geogebra (b) Taylor’s abacus (c) Computer (d) Spreadsheet
+Choose the correct option :
+(1) (a) and (b) (2) (c) and (d) (3) (b) and (c) (4) (b), (c) and (d)
+ªÁáÊÃ ∑§Ë ∑§ˇÊÊ ◊¥ ŒÎÁc≈U’ÊÁœÃ ÁfllÊÁÕ¸ÿÊ¥ ∑§ Á‹∞ ÁŸêŸÁ‹ÁπÃ •Áœª◊ Á‡ÊˇÊáÊ ‚¥‚ÊœŸÊ¥ (∞‹ ≈UË •Ê⁄U) ◊¥ ‚ ∑§ÊÒŸ ‚Ê ‚’‚
+©¬ÿÈÄÃ „Ò?
+Á¡ÿÊ¡’⁄UÊ ≈U‹⁄U ∑§Ê ÁªŸÃÊ⁄UÊ ∑¥§åÿÍ≈U⁄U S¬˝«U‡ÊË≈U
+(a) (b) (c) (d)
+‚„Ë Áfl∑§À¬ øÈŸ¥ —
+•ÊÒ⁄U •ÊÒ⁄U •ÊÒ⁄U •ÊÒ⁄U
+(1) (a) (b) (2) (c) (d) (3) (b) (c) (4) (b), (c) (d)
+SPACE FOR ROUGH WORK / ⁄U»§ ∑§Êÿ¸ ∑§ Á‹∞ ¡ª„
+P-II !SAS-24-II! 18 M
+===== PAGE 19 =====
+48. National Education Policy (NEP) 2020 recommends that Sports Integrated Pedagogy needs to be
+used in classroom teaching. Which among the following are correct in the context of using sports
+integrated pedagogy in mathematics classroom ?
+(a) Teaching-learning process shall become joyful.
+(b) It is not possible to use sports for teaching mathematics.
+(c) It will be time consuming and hence needs to be avoided.
+(d) Apart from popular sports, there are many indigenous sports which can be used in teaching
+mathematics.
+Choose the correct option :
+(1) (a) and (c) (2) (b) and (c) (3) (a) and (d) (4) (b), (c) and (d)
+⁄UÊc≈˛UËÿ Á‡ÊˇÊÊ ŸËÁÃ, Á‚»§ÊÁ⁄‡Ê ∑§⁄UÃË „Ò Á∑§ π‹ ∞∑§Ë∑Î§Ã Á‡ÊˇÊÊ‡ÊÊSòÊ ∑§Ê ∑§ˇÊÊ ◊¥ ©¬ÿÊª ∑§⁄UŸ ∑§Ë •Êfl‡ÿ∑§ÃÊ „Ò–
+2020
+π‹ ∞∑§Ë∑Î§Ã Á‡ÊˇÊÊ‡ÊÊSòÊ ∑§ ‚¥Œ÷¸ ◊¥ ªÁáÊÃ ∑§Ë ∑§ˇÊÊ ∑§ Á‹∞ ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ê ∑§ÕŸ ‚„Ë „Ò?
+Á‡ÊˇÊáÊ-•Áœª◊ ¬˝Á∑˝§ÿÊ •ÊŸãŒŒÊÿ∑§ „Ê ¡Ê∞ªË–
+(a)
+π‹ ∑§Ê ©¬ÿÊª ªÁáÊÃ ¬…∏ÊŸ ◊¥ ‚ê÷fl Ÿ„Ë¥ „Ò–
+(b)
+ß‚◊¥ ’„ÈÃ ‚◊ÿ πø¸ „Ê ¡Ê∞ªÊ ÃÊ ß‚ ≈UÊ‹ŸÊ øÊÁ„∞–
+(c)
+¬˝Á‚h π‹Ê¥ ∑§ •‹ÊflÊ ∑§ß¸ SflŒ‡ÊË π‹ „Ò¥ Á¡Ÿ∑§Ê ©¬ÿÊª ªÁáÊÃ ¬…∏ÊŸ ◊¥ Á∑§ÿÊ ¡Ê ‚∑§ÃÊ „Ò–
+(d)
+‚„Ë Áfl∑§À¬ øÈŸ¥ —
+•ÊÒ⁄U •ÊÒ⁄U •ÊÒ⁄U •ÊÒ⁄U
+(1) (a) (c) (2) (b) (c) (3) (a) (d) (4) (b), (c) (d)
+2
+49. The area of the curved surface of a right circular cylinder is 4400 cm and the circumference of its
+ 22
+base is 110 cm. Its volume (in m 3 ) is : Use π= 
+ 7 
+(1) 0.0284 (2) 0.0385 (3) 0.0285 (4) 0.0382
+Á∑§‚Ë ‹¥’ flÎûÊËÿ ’‹Ÿ ∑§Ê fl∑˝§ ¬Îc∆UËÿ ˇÊòÊ»§‹ 2 „Ò •ÊÒ⁄U ©‚∑§ •ÊœÊ⁄U ∑§Ë ¬Á⁄UÁœ „Ò– ’‹Ÿ ∑§Ê
+4400 cm 110 cm
+•ÊÿÃŸ (m 3 ◊¥ ) „Ò :  π = 22 ∑§Ê ¬˝ÿÊª ∑§ËÁ¡∞  
+ 7 
+(1) 0.0284 (2) 0.0385 (3) 0.0285 (4) 0.0382
+SPACE FOR ROUGH WORK / ⁄U»§ ∑§Êÿ¸ ∑§ Á‹∞ ¡ª„
+P-II !SAS-24-II! 19 M
+===== PAGE 20 =====
+50. A box opened at the top is made of wood of thickness 3 cm. Its external length, breadth and height
+are respectively 1.48 m, 1.16 m and 83 cm (base=length×breadth). What will be the cost of
+painting its inner surface at ` 150 per m 2 ?
+(1) ` 838.20 (2) ` 839.10 (3) ` 841.40 (4) ` 842.50
+™§¬⁄U ‚ πÈ‹Ê „È•Ê ∞∑§ ’Ä‚Ê
+3 cm
+◊Ê≈UË ‹∑§«∏Ë ∑§Ê ’ŸÊ „Ò– ß‚∑§Ë ’Ês ‹¥’Êß¸, øÊÒ«∏Êß¸ ÃÕÊ ™°§øÊß¸ ∑˝§◊‡Ê—
+1.48 m,
+1.16 m •ÊÒ⁄U 83 cm „Ò ( •ÊœÊ⁄U=‹¥’Êß¸×øÊÒ«∏Êß¸ ) – ß‚∑§Ë •Ê¥ÃÁ⁄U∑§ ‚Ã„Ê¥ ¬⁄U ` 150 ¬˝ÁÃ m 2 ∑§Ë Œ⁄U ‚ ¬¥≈U ∑§⁄UÊŸ ∑§Ë
+‹ÊªÃ ÄÿÊ „ÊªË?
+(1) ` 838.20 (2) ` 839.10 (3) ` 841.40 (4) ` 842.50
+51. In triangles ABC and DEF; ∠B=908, BC=8 cm, ∠A=408, DE=8 cm, ∠F=408 and ∠E=908. Then,
+which of the following statements is true ?
+(1) ∆ABC ≅ ∆DEF, by RHS (2) ∆ABC ≅ ∆FED, by RHS
+(3) ∆ABC ≅ ∆DFE, by AAS (4) ∆ABC ≅ ∆FED, by AAS
+ÁòÊ÷È¡Ê¥ ABC •ÊÒ⁄U DEF ◊¥ ; ∠B=908, BC=8 cm, ∠A=408, DE=8 cm, ∠F=408 •ÊÒ⁄U ∠E=908 „Ò– Ã’, ÁŸêŸ
+∑§ÕŸÊ¥ ◊¥ ‚ ∑§ÊÒŸ-‚Ê ∑§ÕŸ ‚àÿ „Ò?
+(1) ∆ABC ≅ ∆DEF, RHS mÊ⁄UÊ (2) ∆ABC ≅ ∆FED, RHS mÊ⁄UÊ
+(3) ∆ABC ≅ ∆DFE, AAS mÊ⁄UÊ (4) ∆ABC ≅ ∆FED, AAS mÊ⁄UÊ
+52. Three consecutive integers are such that when they are taken in increasing order and multiplied
+by 3, 5 and 2, respectively, they add up to 99. What is the sum of the original first and third
+integers ?
+(1) 16 (2) 18 (3) 20 (4) 24
+ÃËŸ ∑˝§◊ÊªÃ ¬ÍáÊÊZ∑§ ß‚ ¬˝∑§Ê⁄U „Ò¥ Á∑§ ¡’ ©ã„¥ ’…∏Ã „È∞ ∑˝§◊ ◊¥ Á‹ÿÊ ¡ÊÃÊ „Ò •ÊÒ⁄U ∑˝§◊‡Ê— ÃÕÊ ‚ ªÈáÊÊ ∑§⁄U∑§ ¡Ê«∏Ê
+3, 5 2
+¡ÊÃÊ „Ò, ÃÊ ÿÊª»§‹ ¬˝ÊåÃ „ÊÃÊ „Ò– •Ê⁄¥UÁ÷∑§ ¬„‹ ÃÕÊ ÃË‚⁄U ¬ÍáÊÊZ∑§Ê¥ ∑§Ê ÿÊª ÄÿÊ „Ò?
+99
+(1) 16 (2) 18 (3) 20 (4) 24
+SPACE FOR ROUGH WORK / ⁄U»§ ∑§Êÿ¸ ∑§ Á‹∞ ¡ª„
+P-II !SAS-24-II! 20 M
+===== PAGE 21 =====
+53. A middle school mathematics teacher poses the following question to her class.
+“Which type of graph would you use to show the following data ?
+(a) The heights of participants in an athletics meet
+(b) The number of passengers boarding trains from 9:00 am to 9:00 pm at a station.”
+The intention of the teacher is to -
+(1) Help learners understand the difference between bar graph and line graph.
+(2) Introduce the concept of pie charts.
+(3) Teach line graph through contextual situations.
+(4) Teach the use of histograms for data representation.
+Á◊«U‹ S∑Í§‹ ∑§Ë ªÁáÊÃ ∑§Ë ∞∑§ Á‡ÊÁˇÊ∑§Ê •¬ŸË ∑§ˇÊÊ ∑§ ‚◊ˇÊ ÁŸêŸÁ‹ÁπÃ ¬˝‡Ÿ ⁄UπÃË „Ò–
+““ÁŸêŸÁ‹ÁπÃ •Ê°∑§«∏Ê¥ ∑§Ê Œ‡ÊÊ¸Ÿ ∑§ Á‹∞ •Ê¬ Á∑§‚ ¬˝∑§Ê⁄U ∑§ •Ê‹π ∑§Ê ©¬ÿÊª ∑§⁄U¥ª?
+Á∑§‚Ë π‹∑Í§Œ ¬˝ÁÃÿÊÁªÃÊ ◊¥ ¬˝ÁÃ÷ÊÁªÿÊ¥ ∑§ ∑§Œ
+(a)
+Á∑§‚Ë S≈U‡ÊŸ ¬⁄U ¬˝ÊÃ— ’¡ ‚ ‚Êÿ¥ ’¡ Ã∑§ ⁄U‹ªÊÁ«∏ÿÊ¥ ‚ ¡ÊŸ flÊ‹ ÿÊÁòÊÿÊ¥ ∑§Ë ‚¥ÅÿÊ–””
+(b) 9:00 9:00
+•äÿÊÁ¬∑§Ê ∑§Ê •Ê‡Êÿ „Ò -
+Œá«U-•Ê‹π •ÊÒ⁄U ⁄UπÊ-•Ê‹π ∑§ ’Ëø ∑§ •¥Ã⁄U ∑§Ê ‚◊¤ÊŸ ◊¥ Á‡ÊˇÊÊÁÕ¸ÿÊ¥ ∑§Ë ‚„ÊÿÃÊ ∑§⁄UŸÊ–
+(1)
+¬Êß¸-øÊ≈¸U ∑§Ë •flœÊ⁄UáÊÊ ∑§Ê ¬Á⁄Uøÿ ŒŸÊ–
+(2)
+⁄UπÊ-•Ê‹π ∑§Ê ‚¥Œ÷Ê¸à◊∑§ ¬Á⁄UÁSÕÃËÿÊ¥ Œ˜flÊ⁄UÊ Á‡ÊˇÊáÊ ∑§⁄UŸÊ–
+(3)
+•Ê°∑§«∏Ê¥ ∑§ ÁŸM§¬áÊ ∑§ Á‹∞ •ÊÿÃÁøòÊ ∑§ ©¬ÿÊª ∑§Ê Á‡ÊˇÊáÊ ∑§⁄UŸÊ–
+(4)
+54. If a 8 - digit number 9 4 7 1 x 9 y 2 is divisible by 72, then which of the following statements is not
+true ?
+(1) x=8 and y=5 (2) x=4 and y=9 (3) x=9 and y=5 (4) x=3 and y=1
+ÿÁŒ
+8
+- •¥∑§Ëÿ ‚¥ÅÿÊ
+9 4 7 1 x 9 y 2
+,
+72
+‚ Áfl÷Êíÿ „Ò, ÃÊ ÁŸêŸ ◊¥ ‚ ∑§ÊÒŸ‚Ê ∑§ÕŸ ‚àÿ Ÿ„Ë¥ „Ò?
+(1) x=8 •ÊÒ⁄U y=5 (2) x=4 •ÊÒ⁄U y=9 (3) x=9 •ÊÒ⁄U y=5 (4) x=3 •ÊÒ⁄U y=1
+SPACE FOR ROUGH WORK / ⁄U»§ ∑§Êÿ¸ ∑§ Á‹∞ ¡ª„
+P-II !SAS-24-II! 21 M
+===== PAGE 22 =====
+55. Mathematics is a way of thinking since :
+(a) It provides an opportunity for students to engage in proofs and examining patterns.
+(b) Students reproduce formulae and symbols during problem solving.
+(c) Students use appropriate strategies for solving various new problems.
+Choose the correct option :
+(1) (a) and (b) (2) (b) and (c) (3) (a) and (c) (4) Only (b)
+ªÁáÊÃ ∞∑§ ‚ÊøŸ ∑§Ê Ã⁄UË∑§Ê „Ò ÄÿÊ¥Á∑§ —
+ÿ„ ÁfllÊÁÕ¸ÿÊ¥ ∑§Ê ‚ÊˇÿÊ¥ ∞fl¥ ¬˝ÁÃ◊ÊŸÊ¥ ∑§ ÁŸ⁄UËˇÊáÊ ◊¥ √ÿSÃ (‚¥‹ÇŸ) ⁄UπŸ ∑§ Á‹∞ •fl‚⁄U ¬˝ŒÊŸ ∑§⁄UÃÊ „Ò–
+(a)
+‚◊SÿÊ ‚◊ÊœÊŸ ∑§ ŒÊÒ⁄UÊŸ ÁfllÊÕË¸ ‚ÍòÊÊ¥ ∞fl¥ Áøã„Ê¥ ∑§Ê ŒÊ„⁄UÊÃ „¥Ò–
+(b)
+ÁfllÊÕË¸ ÁflÁ÷ãŸ Ÿß¸ ‚◊SÿÊ•Ê¥ ∑§Ê ‚◊ÊœÊŸ ∑§⁄UŸ ∑§ Á‹∞ ©¬ÿÈÄÃ ÿÈÁÄÃÿÊ¥ ∑§Ê ©¬ÿÊª ∑§⁄UÃ „Ò¥–
+(c)
+‚„Ë Áfl∑§À¬ ∑§Ê øÿŸ ∑§ËÁ¡∞ —
+•ÊÒ⁄U •ÊÒ⁄U •ÊÒ⁄U ∑§fl‹
+(1) (a) (b) (2) (b) (c) (3) (a) (c) (4) (b)
+56. The following table shows the number of different fruits kept in a carton :
+Type of Pome-
+Mangoes Apples Oranges Guavas
+fruits granates
+Number 44 56 42 30 38
+If a pie chart is constructed for the above data, what will be the angle of the sector representing
+apples ?
+(1) 79.28 (2) 728 (3) 968 (4) 100.88
+ÁŸêŸ ‚Ê⁄UáÊË ◊¥ Á∑§‚Ë Á«Ué’ ◊¥ ⁄Uπ ª∞ ÁflÁ÷ãŸ »§‹Ê¥ ∑§Ë ‚¥ÅÿÊ•Ê¥ ∑§Ê Œ‡ÊÊ¸ÿÊ ªÿÊ „Ò —
+»§‹Ê¥ ∑§
+•Ê◊ ‚’ ‚¥Ã⁄U •◊M§Œ •ŸÊ⁄U
+¬˝∑§Ê⁄U
+‚‚¥¥ïÅÿÿÊÊ 44 56 42 30 38
+ÿÁŒ ©¬⁄UÊÄÃ •Ê¥∑§«∏Ê¥ ∑§Ê ∞∑§ ¬Êß¸ øÊ≈¸U ’ŸÊÿÊ ¡ÊÃÊ „Ò, ÃÊ ©‚ ÁòÊíÿπ¥«U ∑§Ê ∑§ÊáÊ ÄÿÊ „ÊªÊ ¡Ê ‚’Ê¥ ∑§Ê Œ‡ÊÊ¸ÃÊ „Ò?
+(1) 79.28 (2) 728 (3) 968 (4) 100.88
+SPACE FOR ROUGH WORK / ⁄U»§ ∑§Êÿ¸ ∑§ Á‹∞ ¡ª„
+P-II !SAS-24-II! 22 M
+===== PAGE 23 =====
+57. The lengths of the parallel sides of a trapezium are 11 cm and 25 cm and the distance between
+them is 12 cm. Its area is equal to the area of a rectangle whose sides are in the ratio 3 : 2. What is
+the perimeter (in cm) of the rectangle ?
+(1) 40 (2) 50 (3) 60 (4) 70
+Á∑§‚Ë ‚◊‹¥’ øÃÈ÷È¸¡ ∑§Ë ‚◊Ê¥Ã⁄U ÷È¡Ê∞° •ÊÒ⁄U „Ò¥ •ÊÒ⁄U ©Ÿ∑§ ’Ëø ∑§Ë ŒÍ⁄UË „Ò– ß‚∑§Ê ˇÊòÊ»§‹ ©‚
+11 cm 25 cm 12 cm
+•ÊÿÃ ∑§ ˇÊòÊ»§‹ ∑§ ’⁄UÊ’⁄U „Ò Á¡‚∑§Ë ÷È¡Ê∞° ∑§ •ŸÈ¬ÊÃ ◊¥ „Ò¥– ©‚ •ÊÿÃ ∑§Ê ¬Á⁄U◊Ê¬ ◊¥ ÄÿÊ „Ò?
+3 : 2 (cm )
+(1) 40 (2) 50 (3) 60 (4) 70
+58. If A=−2x 2+12x, B=11−8x+3x 2 , C=17−4x 2 and D=x 2−x−3, then what is the sum of the
+co-efficients of x 2 and x in (A+B+C−D) ?
+(1) 0 (2) −1 (3) 1 (4) 3
+ÿÁŒ A=−2x 2+12x, B=11−8x+3x 2 , C=17−4x 2 •ÊÒ⁄U D=x 2−x−3 „Ò¥, ÃÊ (A+B+C−D) ◊¥ x 2 •ÊÒ⁄U x
+∑§ ªÈáÊÊ¥∑§Ê¥ ∑§Ê ÿÊª „Ò —
+(1) 0 (2) −1 (3) 1 (4) 3
+59. Which of the following is not a dimension of assessment of mathematics learning ?
+(1) Communication
+(2) Patterns and procedures
+(3) Disposition towards mathematics
+(4) Mathematical reasoning
+ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ-‚Ê ªÁáÊÃ •Áœª◊ ∑§ •Ê∑§‹Ÿ ∑§Ê •ÊÿÊ◊ Ÿ„Ë¥ „Ò?
+‚ê¬˝·áÊ
+(1)
+¬˝ÁÃ◊ÊŸ (¬Ò≈UŸ¸) •ÊÒ⁄U ¬˝Á∑˝§ÿÊ (∑§Êÿ¸-ÁflÁœ)
+(2)
+ªÁáÊÃ ∑§ ¬˝ÁÃ M§¤ÊÊŸ
+(3)
+ªÁáÊÃËÿ Ã∑¸§
+(4)
+60. In triangle PQR, ∠P=558 and QR=18 cm. In which of the following cases, ∆PQR can be an
+obtuse scalene triangle ?
+(1) ∠R=258 and PQ=18 cm (2) ∠R=158 and PR > 18 cm
+(3) ∠R=658 and PQ > 18 cm (4) ∠R=358 and PR=18 cm
+ÁòÊ÷È¡ PQR ◊¥, ∠P=558 •ÊÒ⁄U QR=18 cm „Ò– ÁŸêŸ ÁSÕÁÃÿÊ¥ ◊¥ ‚ Á∑§‚◊¥ ∆PQR ∞∑§ •Áœ∑§ ∑§ÊáÊ Áfl·◊’Ê„È ÁòÊ÷È¡
+„Ê ‚∑§ÃÊ „Ò?
+(1) ∠R=258 •ÊÒ⁄U PQ=18 cm (2) ∠R=158 •ÊÒ⁄U PR > 18 cm
+(3) ∠R=658 •ÊÒ⁄U PQ > 18 cm (4) ∠R=358 •ÊÒ⁄U PR=18 cm
+SPACE FOR ROUGH WORK / ⁄U»§ ∑§Êÿ¸ ∑§ Á‹∞ ¡ª„
+P-II !SAS-24-II! 23 M
+===== PAGE 24 =====
+Direction : Answer the following questions by selecting the correct/most appropriate options.
+ÁŸŒ¸‡Ê — ÁŸêŸÁ‹ÁπÃ ¬˝‡ŸÊ¥ ∑§ ©ûÊ⁄U ŒŸ ∑§ Á‹∞ ‚„Ë/‚’‚ ©¬ÿÈÄÃ Áfl∑§À¬ øÈÁŸ∞–
+61. Read the following paragraph carefully and select the option which would correctly fill the blanks
+in the given order.
+Sound is produced by vibration and different musical instruments have specific vibrating parts. In
+a X the sound is produced by stretched strings, in a Y it is the stretched membrane that
+vibrates and in a Z the vibrating part that produces sound is the air column.
+X, Y and Z can respectively be :
+(1) sitar, harmonium, dholak (2) dholak, ektara, mouth organ
+(3) guitar, tabla, shehnai (4) ektara, violin, piano
+ÁŸêŸÁ‹ÁπÃ •ŸÈë¿UŒ ∑§Ê äÿÊŸ¬Ífl¸∑§ ¬Á…∏∞ ÃÕÊ ©‚ Áfl∑§À¬ ∑§Ê øÿŸ ∑§ËÁ¡∞ ¡ÊÁ∑§ ‚„Ë ¬˝∑§Ê⁄U ‚ ÁŒ∞ ª∞ ∑˝§◊ ◊¥ Á⁄UÄÃ
+SÕÊŸÊ¥ ∑§Ê ÷⁄¥U–
+äflÁŸ ∑¥§¬Ÿ mÊ⁄UÊ ©à¬ÛÊ „ÊÃË „Ò ÃÕÊ Á÷ÛÊ-Á÷ÛÊ flÊl ÿ¥òÊÊ¥ ∑§ ÁflÁ‡Êc≈U ∑¥§¬◊ÊŸ ÷Êª „ÊÃ „Ò¥– ◊¥ äflÁŸ ÃÊÁŸÃ ÃÊ⁄UÊ¥ mÊ⁄UÊ
+X
+©à¬ÛÊ „ÊÃË „Ò, ◊¥ ÃÊÁŸÃ Á¤ÊÀ‹Ë „Ò ¡Ê ∑¥§¬Ÿ ∑§⁄UÃË „Ò ÃÕÊ ◊¥ äflÁŸ ©à¬ÛÊ ∑§⁄UŸ flÊ‹Ê ∑¥§¬◊ÊŸ ÷Êª, flÊÿÈ-SÃ¥÷
+Y Z
+(∑§ÊÚ‹◊) „Ò–
+•ÊÒ⁄U ∑˝§◊‡Ê— „Ê ‚∑§Ã „Ò¥ —
+X, Y Z
+Á‚ÃÊ⁄U, „Ê◊Ê¸ÁŸÿ◊, …UÊ‹∑§ …UÊ‹∑§, ß∑§ÃÊ⁄UÊ, ◊Èπ-•Êª¸Ÿ
+(1) (2)
+Áª≈UÊ⁄U, Ã’‹Ê, ‡Ê„ŸÊß¸ ß∑§ÃÊ⁄UÊ, flÊÿÁ‹Ÿ, Á¬ÿÊŸÊ
+(3) (4)
+62. Identify the set of micronutrients (nutrients required by plants in small quantities) :
+(1) Potassium, Magnesium, Copper (2) Copper, Phosphorous, Calcium
+(3) Sulphur, Aluminium, Chlorine (4) Zinc, Iron, Manganese
+ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ¬ÊŒ¬ (¬ÊÒœ) ‚Íˇ◊ ¬Ê·∑§Ê¥ ∑§ ‚◊ÈìÊÿ (‹ÉÊÈ ◊ÊòÊÊ•Ê¥ ◊¥ ¬ÊŒ¬Ê¥ mÊ⁄UÊ •Ê¬ÁˇÊÃ ¬Ê·∑§) ∑§Ë ¬„øÊŸ
+∑§ËÁ¡∞ —
+¬Ê≈ÒUÁ‡Êÿ◊, ◊ÒÇŸËÁ‡Êÿ◊, ÃÊ°’Ê ÃÊ°’Ê, »§ÊÚS»§Ê⁄U‚, ∑Ò§ÁÀ‚ÿ◊
+(1) (2)
+‚À$»§⁄U, ∞‹ÈÁ◊ÁŸÿ◊, Ä‹Ê⁄UËŸ Á¡¥∑§ (¡SÃÊ), ‹ÊÒ„, ◊Ò¥ªŸË$¡
+(3) (4)
+63. Read the following statements carefully and select the correct option.
+Assertion (A) : The stars in the night sky appear to move from east to west.
+Reason (R) : The earth rotates from west to east.
+(1) (A) and (R) are both correct and (R) is the correct explanation for (A).
+(2) (A) and (R) are both correct but (R) is not the correct explanation for (A).
+(3) (A) is correct but (R) is incorrect.
+(4) (A) and (R) are both incorrect.
+ÁŸêŸÁ‹ÁπÃ ∑§ÕŸÊ¥ ∑§Ê äÿÊŸ¬Ífl¸∑§ ¬Á…∏∞ ÃÕÊ ‚„Ë Áfl∑§À¬ ∑§Ê øÿŸ ∑§ËÁ¡∞–
+•Á÷∑§ÕŸ (A) : ⁄UÊÁòÊ •Ê∑§Ê‡Ê ◊¥ ÃÊ⁄U ¬Ífl¸ ‚ ¬Á‡ø◊ ∑§Ë •Ê⁄U ªÁÃ ∑§⁄UÃ ¬˝ÃËÃ „ÊÃ „Ò¥–
+Ã∑¸§ (R) : ¬ÎâflË ¬Á‡ø◊ ‚ ¬Ífl¸ ÁŒ‡ÊÊ ◊¥ ÉÊÍáÊ¸Ÿ ∑§⁄UÃË „Ò–
+(1) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ ÃÕÊ (R), (A) ∑§Ë ‚„Ë √ÿÊÅÿÊ „Ò–
+(2) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ ¬⁄UãÃÈ (R), (A) ∑§Ë ‚„Ë √ÿÊÅÿÊ Ÿ„Ë¥ „Ò–
+(3) (A) ‚„Ë „Ò ¬⁄UãÃÈ (R) ª‹Ã „Ò–
+(4) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ª‹Ã „Ò¥–
+P-II !SAS-24-II! 24 M
+===== PAGE 25 =====
+64. Which of the following statements regarding rusting of iron are true ?
+(a) It involves a chemical reaction between iron and oxygen.
+(b) It is an exothermic reaction.
+(c) It can take place at room temperature.
+(d) It is reversible reaction.
+(1) (a), (b), (d) (2) (b) and (c) (3) (a) and (d) (4) (a), (b) and (c)
+ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚ ∑§ÕŸ ‹Ê„ ◊¥ ¡¥ª ‹ªŸ ∑§ ‚¥’¥œ ◊¥ ‚„Ë „Ò¥?
+ÿ„ ‹ÊÒ„ (‹Ê„) •ÊÒ⁄U •ÊÚÄ‚Ë¡Ÿ ∑§ ’Ëø ⁄UÊ‚ÊÿÁŸ∑§ •Á÷Á∑˝§ÿÊ ∑§Ê ‡ÊÊÁ◊‹ ∑§⁄UÃÊ „Ò–
+(a)
+ÿ„ ∞∑§ ™§c◊ÊˇÊ¬Ë •Á÷Á∑˝§ÿÊ „Ò–
+(b)
+ÿ„ ‚Ê◊Êãÿ ÃÊ¬ (∑§Êc∆U-ÃÊ¬) ¬⁄U „Ê ‚∑§ÃÊ „Ò–
+(c)
+ÿ„ ©à∑˝§◊áÊËÿ •Á÷Á∑˝§ÿÊ „Ò–
+(d)
+•ÊÒ⁄U •ÊÒ⁄U •ÊÒ⁄U
+(1) (a), (b), (d) (2) (b) (c) (3) (a) (d) (4) (a), (b) (c)
+65. Match the substances in column A with their chemical names in column B.
+(A) (B)
+(a) Slaked lime (i) Calcium oxide
+(b) Table salt (ii) Sodium bicarbonate
+(c) Limestone (iii) Calcium carbonate
+(d) Caustic soda (iv) Calcium hydroxide
+(e) Quick lime (v) Sodium hydroxide
+(f) Baking soda (vi) Sodium chloride
+(1) (a)-(iv), (b)-(vi), (c)-(iii), (d)-(v), (e)-(i), (f)-(ii)
+(2) (a)-(vi), (b)-(ii), (c)-(v), (d)-(i), (e)-(iii), (f)-(iv)
+(3) (a)-(i), (b)-(vi), (c)-(iii), (d)-(v), (e)-(ii), (f)-(iv)
+(4) (a)-(iv), (b)-(v), (c)-(iii), (d)-(ii), (e)-(i), (f)-(vi)
+∑§ÊÚ‹◊ A ◊¥ ÁŒ∞ ª∞ ¬ŒÊÕÊZ ∑§Ê ∑§ÊÚ‹◊ B ◊¥ ÁŒ∞ ª∞ ©Ÿ∑§ ⁄UÊ‚ÊÿÁŸ∑§ ŸÊ◊Ê¥ ∑§ ‚ÊÕ ‚È◊‹ ∑§ËÁ¡∞ —
+(A) (B)
+’È¤ÊÊ øÍŸÊ ∑Ò§ÁÀ‚ÿ◊ •ÊÚÄ‚Êß«U
+(a) (i)
+‚ÊŒÊ Ÿ◊∑§ ‚ÊÁ«Uÿ◊ ’Êß∑§Ê’Ê¸Ÿ≈U
+(b) (ii)
+øÍŸÊ ¬àÕ⁄U ∑Ò§ÁÀ‚ÿ◊ ∑§Ê’Ê¸Ÿ≈U
+(c) (iii)
+∑§ÊÚÁS≈U∑§ ‚Ê«UÊ ∑Ò§ÁÀ‚ÿ◊ „Êß«˛UÊÄ‚Êß«U
+(d) (iv)
+Á’ŸÊ’È¤ÊÊ øÍŸÊ ‚ÊÁ«Uÿ◊ „Êß«˛UÊÄ‚Êß«U
+(e) (v)
+’Á∑¥§ª ‚Ê«UÊ (πÊŸÊ) ‚ÊÁ«Uÿ◊ Ä‹Ê⁄UÊß«U
+(f) (vi)
+(1) (a)-(iv), (b)-(vi), (c)-(iii), (d)-(v), (e)-(i), (f)-(ii)
+(2) (a)-(vi), (b)-(ii), (c)-(v), (d)-(i), (e)-(iii), (f)-(iv)
+(3) (a)-(i), (b)-(vi), (c)-(iii), (d)-(v), (e)-(ii), (f)-(iv)
+(4) (a)-(iv), (b)-(v), (c)-(iii), (d)-(ii), (e)-(i), (f)-(vi)
+P-II !SAS-24-II! 25 M
+===== PAGE 26 =====
+66. Identify the correct statement(s) :
+(a) : A fact is an observation that has repeatedly been found to be true over the time.
+(b) : A law is a theory that has repeatedly been found to be true over the time.
+(1) Only (a) (2) (a) and (b) (3) Only (b) (4) Neither (a) nor (b)
+‚„Ë ∑§ÕŸ / ∑§ÕŸÊ¥ ∑§Ë ¬„øÊŸ ∑§ËÁ¡∞ —
+Ãâÿ ∞∑§ •fl‹Ê∑§Ÿ „Ò Á¡‚ ‚◊ÿÊ¬Á⁄U ’Ê⁄¥U’Ê⁄U ‚„Ë ¬ÊÿÊ ªÿÊ „Ò–
+(a) :
+ÁŸÿ◊ ∞∑§ Á‚hÊ¥Ã „Ò Á¡‚ ‚◊ÿÊ¬Á⁄U ’Ê⁄¥U’Ê⁄U ‚„Ë ¬ÊÿÊ ªÿÊ „Ò–
+(b) :
+∑§fl‹ •ÊÒ⁄U ∑§fl‹ •ÊÒ⁄U ◊¥ ∑§Êß¸ ÷Ë Ÿ„Ë¥
+(1) (a) (2) (a) (b) (3) (b) (4) (a) (b)
+67. Read the following text :
+When a negatively charged rod is brought near an uncharged electroscope,
+(a) the electroscope leaves move further apart
+(b) both the electroscope leaves acquire similar charge
+(c) the negative charges pass on to the electroscope causing its leaves to move further apart
+Of the above three statements :
+(1) (a) is an observation while (b) and (c) are inferences
+(2) (a) and (b) are observations and (c) is an inference
+(3) (a), (b) and (c) are observations
+(4) (a), (b) and (c) are inferences
+ÁŸêŸÁ‹ÁπÃ ‹π ∑§Ê ¬Á…∏∞ —
+¡’ ´§áÊÊà◊∑§ M§¬ ‚ •ÊflÁ‡ÊÃ ¿U«∏ (⁄UÊÚ«U) ∑§Ê •ŸÊflÁ‡ÊÃ ÁfllÈÃŒ‡ÊË¸ ∑§ ÁŸ∑§≈U ‹ÊÿÊ ¡ÊÃÊ „Ò,
+ÁfllÈÃŒ‡ÊË¸ ¬ÁûÊÿÊ° ∞∑§ ŒÍ‚⁄U ‚ •ÊÒ⁄U ŒÍ⁄U ¡Ê∞°ªË
+(a)
+ŒÊŸÊ¥ ÁfllÈÃŒ‡ÊË¸ ¬ÁûÊÿÊ° ‚◊ÊŸ •Êfl‡Ê •Á¡¸Ã ∑§⁄¥UªË
+(b)
+´§áÊÊà◊∑§ •Êfl‡ÊÊ¥ ∑§Ê ÁfllÈÃŒ‡ÊË¸ ¬⁄U „SÃÊ¥ÃÁ⁄UÃ Á∑§ÿÊ ¡ÊÃÊ „Ò Á¡‚∑§ ¬Á⁄UáÊÊ◊SflM§¬ ß‚∑§Ë ¬ÁûÊÿÊ° ∞∑§-ŒÍ‚⁄U ‚ •ÊÒ⁄U
+(c)
+ŒÍ⁄U ø‹Ë ¡ÊÃË „Ò¥
+©¬⁄UÊÄÃ ÃËŸ ∑§ÕŸÊ¥ ∑§ —
+•fl‹Ê∑§Ÿ „Ò ¡’Á∑§ •ÊÒ⁄U •ŸÈ◊ÊŸ „Ò
+(1) (a) (b) (c)
+•ÊÒ⁄U •fl‹Ê∑§Ÿ „Ò •ÊÒ⁄U •ŸÈ◊ÊŸ „Ò
+(2) (a) (b) (c)
+•ÊÒ⁄U •fl‹Ê∑§Ÿ „Ò¥
+(3) (a), (b) (c)
+•ÊÒ⁄U •ŸÈ◊ÊŸ „Ò¥
+(4) (a), (b) (c)
+P-II !SAS-24-II! 26 M
+===== PAGE 27 =====
+68. Which of the following gases are responsible for acid rain ?
+(a) Nitrogen (b) Oxygen (c) Ozone
+(d) Sulphur dioxide (e) Nitric oxide
+(1) (a) and (b) (2) (b) and (c) (3) (c) and (d) (4) (d) and (e)
+ÁŸêŸÁ‹ÁπÃ ◊¥ ∑§ÊÒŸ ‚Ë ªÒ‚¥ •ê‹Ëÿ fl·Ê¸ ∑§ Á‹∞ ©ûÊ⁄UŒÊÿË „Ò¥?
+ŸÊß≈˛UÊ¡Ÿ •ÊÚÄ‚Ë¡Ÿ •Ê$¡ÊŸ
+(a) (b) (c)
+‚À»§⁄U «UÊß•ÊÚÄ‚Êß«U ŸÊßÁ≈˛U∑§ •ÊÚÄ‚Êß«U
+(d) (e)
+•ÊÒ⁄U •ÊÒ⁄U •ÊÒ⁄U •ÊÒ⁄U
+(1) (a) (b) (2) (b) (c) (3) (c) (d) (4) (d) (e)
+69. Which of the following is NOT indicative of the hypothesising skill ?
+(1) Formulating questions which lead to inquiry
+(2) Attempting to explain observations or relationships in terms of some principle
+(3) Using the senses to gather information
+(4) Identifying variables for an experiment
+ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ê ¬Á⁄U∑§À¬ŸÊ ∑§⁄UŸ ∑§ ∑§ÊÒ‡Ê‹ ∑§Ê ÁŸŒ¸‡Ê∑§ Ÿ„Ë¥ „Ò?
+πÊ¡’ËŸ Ã∑§ ‹ ¡ÊŸ flÊ‹ ¬˝‡Ÿ ’ŸÊŸÊ
+(1)
+∑È§¿U Á‚hÊ¥ÃÊ¥ ∑§ Áfl·ÿ ◊¥ •fl‹Ê∑§ŸÊ¥ •ÕflÊ ‚¥’¥œÊ¥ ∑§Ë √ÿÊÅÿÊ ∑§⁄UŸ ∑§Ê ¬˝ÿÊ‚ ∑§⁄UŸÊ
+(2)
+‚ÍøŸÊ ∞∑§òÊ ∑§⁄UŸ ∑§ Á‹∞ ôÊÊŸ¥ÁŒ˝ÿÊ¥ ∑§Ê ©¬ÿÊª ∑§⁄UŸÊ
+(3)
+Á∑§‚Ë ¬˝ÿÊª ∑§ Á‹∞ ø⁄UÊ¥ ∑§Ë ¬„øÊŸ ∑§⁄UŸÊ
+(4)
+70. Identify the correct statements from the following :
+(a) Generally non-metals do not react with water.
+(b) Generally non-metals do not react with acids.
+(1) Only (a) (2) Only (b) (3) Both (a) and (b) (4) Neither (a) nor (b)
+ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ‚„Ë ∑§ÕŸÊ¥ ∑§Ë ¬„øÊŸ ∑§ËÁ¡∞ —
+‚Ê◊ÊãÿÃ— •œÊÃÈ ¡‹ ∑§ ‚ÊÕ •Á÷Á∑˝§ÿÊ Ÿ„Ë¥ ∑§⁄UÃ–
+(a)
+‚Ê◊ÊãÿÃ— •œÊÃÈ •ê‹Ê¥ ∑§ ‚ÊÕ •Á÷Á∑˝§ÿÊ Ÿ„Ë¥ ∑§⁄UÃ–
+(b)
+∑§fl‹ ∑§fl‹ •ÊÒ⁄U ŒÊŸÊ¥ Ÿ ÃÊ Ÿ „Ë
+(1) (a) (2) (b) (3) (a) (b) (4) (a) (b)
+71. A ball is thrown up in the air. It reaches a maximum height and then returns to the thrower.
+Which of the following quantities have the same values during the upward and downward motion
+of the ball ?
+(1) Acceleration (2) Force of gravity (3) Displacement (4) Work done by gravity
+∞∑§ ª¥Œ ∑§Ê „flÊ ◊¥ ™§¬⁄U ∑§Ë •Ê⁄U »¥§∑§Ê ªÿÊ– fl„ •Áœ∑§Ã◊ ™°§øÊß¸ Ã∑§ ¬„°ÈøŸ ∑§ ÃÃ˜¬‡øÊÃ »¥§∑§Ÿ flÊ‹ ∑§ ¬Ê‚ flÊ¬‚ •Ê
+ªß¸–
+ª¥Œ ∑§Ë ©¬Á⁄U◊ÈπË •ÊÒ⁄U •œÊ◊ÈπË ªÁÃ øÊ‹ ∑§ ‚◊ÿ ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ë ⁄UÊÁ‡ÊÿÊ¥ ∑§Ê ‚◊ÊŸ ◊ÊŸ „Ò?
+/
+àfl⁄UáÊ ªÈL§àfl ∑§Ê ’‹ ÁflSÕÊ¬Ÿ ªÈL§àfl mÊ⁄UÊ Á∑§ÿÊ ªÿÊ ∑§Êÿ¸
+(1) (2) (3) (4)
+P-II !SAS-24-II! 27 M
+===== PAGE 28 =====
+72. A body has a linear momentum of p and a mass of m. The kinetic energy of the body
+is :
+2
+p
+2 2
+(1) p m (2) 2p m (3) (4) pm
+2m
+∞∑§ Á¬¥«U ∑§Ê ⁄ÒUÁπ∑§ ‚¥flª ÃÕÊ Œ˝√ÿ◊ÊŸ (‚¥„ÁÃ) „Ò– ªÁÃ¡ ™§¡Ê¸ ÄÿÊ „Ò?
+p m
+2
+p
+2 2
+(1) p m (2) 2p m (3) (4) pm
+2m
+73. Which of the following is the most suitable strategy for introducing the students to the concept of
+‘chemical reactions’ at upper primary level ?
+(1) Explain the concept of valence electrons and electronic configuration
+(2) Write the chemical equations in symbolic form and ask students to observe
+(3) Define a chemical reaction and give examples
+(4) Hold a discussion on chemical reactions which students are likely to have observed in their
+lives
+©ìÊ ¬˝ÊÕÁ◊∑§ SÃ⁄U ¬⁄U “⁄UÊ‚ÊÿÁŸ∑§ •Á÷Á∑˝§ÿÊ” ∑§Ë •flœÊ⁄UáÊÊ ‚ ÁfllÊÁÕ¸ÿÊ¥ ∑§Ê ¬Á⁄UÁøÃ ∑§⁄UÊŸ ∑§ Á‹∞ ÁŸêŸÁ‹ÁπÃ ◊¥ ‚
+∑§ÊÒŸ ‚Ë •ÁÃ ©¬ÿÈÄÃ ⁄UáÊŸËÁÃ „Ò?
+‚¥ÿÊ¡∑§ÃÊ ß‹Ä≈˛UÊÚŸ •ÊÒ⁄U ß‹Ä≈˛UÊÚÁŸ∑§ ÁflãÿÊ‚ ∑§Ë •flœÊ⁄UáÊÊ ∑§Ë √ÿÊÅÿÊ ∑§⁄UŸÊ
+(1)
+⁄UÊ‚ÊÿÁŸ∑§ ‚◊Ë∑§⁄UáÊÊ¥ ∑§Ê ¬˝ÃË∑§Êà◊∑§ M§¬ ◊¥ Á‹πŸÊ ÃÕÊ ÁfllÊÁÕ¸ÿÊ¥ ∑§Ê •fl‹Ê∑§Ÿ ∑§⁄UŸ ∑§ Á‹∞ ∑§„ŸÊ
+(2)
+⁄UÊ‚ÊÿÁŸ∑§ •Á÷Á∑˝§ÿÊ ∑§Ê ¬Á⁄U÷ÊÁ·Ã ∑§⁄UŸÊ ÃÕÊ ©ŒÊ„⁄UáÊ ŒŸÊ
+(3)
+©Ÿ ⁄UÊ‚ÊÿÁŸ∑§ •Á÷Á∑˝§ÿÊ•Ê¥ ¬⁄U ¬Á⁄UøøÊ¸ ∑§⁄UŸÊ Á¡Ÿ∑§Ê ÁfllÊÁÕ¸ÿÊ¥ Ÿ ©Ÿ∑§ ¡ËflŸ ◊¥ ‚¥÷ÊÁflÃ M§¬ ‚ •fl‹Ê∑§Ÿ ∑§⁄U
+(4)
+⁄UπÊ „Ò
+74. Which of the following is a set of animals in which all show external fertilization ?
+(1) Hens, lizards, butterflies (2) Lizards, butterflies, frogs
+(3) Butterflies, frogs, fish (4) Frogs, fish, starfish
+ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ©Ÿ ¡¥ÃÈ•Ê¥ ∑§Ê ‚◊ÈìÊÿ ∑§ÊÒŸ ‚Ê „Ò ¡Ê ‚÷Ë ’Ês ÁŸ·øŸ ∑§Ê Œ‡ÊÊ¸Ã „Ò¥?
+◊ÈªË¸, Á¿U¬∑§‹Ë, ÁÃÃ‹Ë Á¿U¬∑§‹Ë, ÁÃÃ‹Ë, ◊¥…∏∑§
+(1) (2)
+ÁÃÃ‹Ë, ◊¥…∏∑§, ◊¿U‹Ë ◊¥…∏∑§, ◊¿U‹Ë, S≈UÊÚ⁄UÁ»§‡Ê
+(3) (4)
+P-II !SAS-24-II! 28 M
+===== PAGE 29 =====
+75. Consider the test item given below and match the following :
+Column - A Column - B
+Unit of force Joule
+Symbol of iron HCl
+Formula of hydrochloric acid Ag
+Unit of work
+Symbol of silver Calorie
+Symbol of battery Fe
+Newton
+Which of the following is not a reason that can be given to justify that the item is poorly
+constructed ?
+(1) For an entry in column A there are at the most two plausible entries in column B
+(2) There are unequal entries in column A and B
+(3) The matching pairs can be easily guessed
+(4) There is inconsistency among entries
+ŸËø ŒË ªß¸ ¬⁄UËˇÊáÊ ‚Ê◊ª˝Ë ¬⁄U ÁfløÊ⁄U ∑§ËÁ¡∞ ÃÕÊ ÁŸêŸÁ‹ÁπÃ ∑§Ê ‚È◊‹ ∑§ËÁ¡∞ —
+∑§ÊÚ‹◊ - A ∑§ÊÚ‹◊ - B
+’‹ ∑§Ë ß∑§Êß¸ (◊ÊòÊ∑§) ¡Í‹
+‹ÊÒ„ ∑§Ê Áøã„
+HCl
+„Êß«˛UÊÄ‹ÊÁ⁄U∑§ •ê‹ ∑§Ê ‚ÍòÊ
+Ag
+∑§Êÿ¸ ∑§Ë ß∑§Êß¸ (◊ÊòÊ∑§)
+øÊ°ŒË ∑§Ê Áøã„ ∑Ò§‹Ê⁄UË
+’Ò≈U⁄UË ∑§Ê Áøã„
+Fe
+ãÿÍ≈UŸ
+ÿ„ ©ÁøÃ Á‚h ∑§⁄UŸ ∑§ Á‹∞ Á∑§ ‚Ê◊ª˝Ë ¡Ò‚-ÃÒ‚ ’ŸÊ ŒË ªß¸ „Ò ß‚∑§Ê ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ê ∑§Ê⁄UáÊ Ÿ„Ë¥ ÁŒÿÊ ¡Ê
+‚∑§ÃÊ „Ò?
+∑§ÊÚ‹◊ ◊¥ Á∑§‚Ë ¬˝ÁflÁc≈U ∑§ Á‹∞ ∑§ÊÚ‹◊ ◊¥ •Áœ∑§Ã◊ ŒÊ ÿÈÁÄÃÿÈÄÃ ¬˝ÁflÁc≈UÿÊ° „Ò¥
+(1) A B
+∑§ÊÚ‹◊ •ÊÒ⁄U ◊¥ •‚◊ÊŸ ¬˝ÁflÁc≈UÿÊ° „Ò¥
+(2) A B
+Á◊‹Ã „È∞ ÿÈÇ◊Ê¥ ∑§Ê ‚⁄U‹ÃÊ ‚ •ŸÈ◊ÊŸ ‹ªÊÿÊ ¡Ê ‚∑§ÃÊ „Ò
+(3)
+¬˝ÁflÁc≈UÿÊ¥ ◊¥ (∑§ ’Ëø ◊¥) Áfl‚¥ªÁÃ „Ò
+(4)
+P-II !SAS-24-II! 29 M
+===== PAGE 30 =====
+76. Read the following statements and select the correct option.
+Assertion (A) :
+Dried raisins when left in plain water for some time swell due to osmosis.
+Reason (R) :
+Plant cells have a selectively permeable cell membrane.
+(1) (A) and (R) are both correct and (R) is the correct explanation for (A).
+(2) (A) and (R) are both correct but (R) is not the correct explanation for (A).
+(3) (A) is correct but (R) is incorrect.
+(4) (A) is incorrect but (R) is correct.
+ÁŸêŸÁ‹ÁπÃ ∑§ÕŸÊ¥ ∑§Ê ¬Á…∏∞ •ÊÒ⁄U ‚„Ë Áfl∑§À¬ ∑§Ê øÿŸ ∑§ËÁ¡∞ —
+•Á÷∑§ÕŸ (A) :
+‚ÍπË „Èß¸ Á∑§‡ÊÁ◊‡Ê ∑§Ê ¡’ ∑È§¿U ‚◊ÿ ∑§ Á‹∞ ‚ÊŒ ¡‹ ◊¥ ¿UÊ«∏ ÁŒÿÊ ªÿÊ ÃÊ fl„ ¬⁄UÊ‚⁄UáÊ ∑§ ∑§Ê⁄UáÊ »Í§‹ ¡ÊÃË „Ò–
+Ã∑¸§ (R) :
+¬ÊŒ¬ ∑§ÊÁ‡Ê∑§Ê•Ê¥ ◊¥ fl⁄UáÊÊà◊∑§ M§¬ ‚ ¬Ê⁄Uªêÿ ∑§ÊÁ‡Ê∑§Ê Á¤ÊÀ‹Ë „ÊÃË „Ò–
+(1) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ ÃÕÊ (R), (A) ∑§Ë ‚„Ë √ÿÊÅÿÊ „Ò–
+(2) (A) •ÊÒ⁄U (R) ŒÊŸÊ¥ ‚„Ë „Ò¥ ¬⁄UãÃÈ (R), (A) ∑§Ë ‚„Ë √ÿÊÅÿÊ Ÿ„Ë¥ „Ò–
+(3) (A) ‚„Ë „Ò ¬⁄UãÃÈ (R) ª‹Ã „Ò–
+(4) (A) ª‹Ã „Ò ¬⁄UãÃÈ (R) ‚„Ë „Ò–
+77. Which of the following would be a most suitable strategy to introduce the topic ‘deficiency diseases’
+at upper primary level ?
+(1) Provide a definition of balanced diet and introduce the concept of deficiency.
+(2) Arrange for a doctor’s prescription pertaining to a deficiency disease and hold a discussion
+around it.
+(3) List the various nutrients and the functions they perform in human body.
+(4) Hold a discussion on common human diseases.
+©ìÊ ¬˝ÊÕÁ◊∑§ SÃ⁄U ¬⁄U “•÷Êfl¡ãÿ ⁄UÊª” Áfl·ÿ ∑§Ê ¬˝SÃÈÃ ∑§⁄UŸ ∑§Ë ÁŸêŸÁ‹ÁπÃ ◊¥ ‚ ∑§ÊÒŸ ‚Ë ‚’‚ ©¬ÿÈÄÃ ⁄UáÊŸËÁÃ „ÊªË?
+‚¥ÃÈÁ‹Ã •Ê„Ê⁄U ∑§Ë ¬Á⁄U÷Ê·Ê ¬˝ŒÊŸ ∑§⁄UŸÊ ÃÕÊ •÷Êfl ∑§Ë •flœÊ⁄UáÊÊ ∑§Ê ¬˝SÃÈÃ ∑§⁄UŸÊ
+(1)
+•÷Êfl¡ãÿ ⁄UÊª ‚ ‚¥’¥ÁœÃ «UÊÚÄ≈U⁄U (ÁøÁ∑§à‚∑§) ∑§ ¬˝Œ‡ÊŸ ∑§Ë √ÿflSÕÊ ∑§⁄U ©‚ ¬⁄U ¬Á⁄UøøÊ¸ ∑§⁄UŸÊ
+(2)
+◊ÊŸfl ‡Ê⁄UË⁄U ◊¥ ÁflÁ÷ÛÊ ¬Ê·∑§Ê¥ •ÊÒ⁄U Á¡Ÿ Á∑˝§ÿÊ•Ê¥ ∑§Ê fl ÁŸc¬ÊŒŸ ∑§⁄UÃ „Ò¥ ©‚ ‚ÍøË’h ∑§⁄UŸÊ
+(3)
+‚Ê◊Êãÿ ◊ÊŸfl ‚¥’¥œË ⁄UÊªÊ¥ ¬⁄U ¬Á⁄UøøÊ¸ ∑§⁄UŸÊ
+(4)
+P-II !SAS-24-II! 30 M
