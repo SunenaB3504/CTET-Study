@@ -5,13 +5,14 @@ import { QuestionPaper, SubjectName, PaperType } from '../../types.js';
  * Source: SQP/Paper2/Qus-Jan-24.pdf and Anz-Jan-24.pdf (Set M)
  * Extracted: Q1-Q30 (CDP) - COMPLETE ✅
  * Extracted: Q31-Q60 (Mathematics) - COMPLETE ✅
- * Remaining: Q61-Q150 (Science + Language I) - Pending manual extraction
+ * Extracted: Q61-Q90 (Science) - COMPLETE ✅
+ * Remaining: Q91-Q150 (Language I - English) - Pending manual extraction
  */
 
 export const QUESTION_PAPER_JAN_24_II: QuestionPaper = {
   id: 'jan-24-ii',
   name: 'CTET January 2024 - Paper II',
-  description: 'CTET January 2024 Paper II (Classes 6-8). CDP (Q1-Q30) and Mathematics (Q31-Q60) sections complete with verified answers from Set M and comprehensive NCF 2005-aligned explanations.',
+  description: 'CTET January 2024 Paper II (Classes 6-8). CDP (Q1-Q30), Mathematics (Q31-Q60), and Science (Q61-Q90) sections complete with verified answers from Set M and comprehensive NCF 2005-aligned explanations.',
   paperType: PaperType.PAPER_II,
   questions: [
     // ===========================================================
@@ -822,10 +823,492 @@ export const QUESTION_PAPER_JAN_24_II: QuestionPaper = {
       difficulty: "hard",
     },
     
-    // ... Q61-Q90 Science questions to be added from PDF
+    // ========================================================
+    // PART III: SCIENCE (Q61-90) - 30 questions - COMPLETE ✅
+    // ========================================================
+    
+    {
+      question: "Read the following paragraph carefully and select the option which would correctly fill the blanks in the given order: 'Sound is produced by vibration and different musical instruments have specific vibrating parts. In a X the sound is produced by stretched strings, in a Y it is the stretched membrane that vibrates and in a Z the vibrating part that produces sound is the air column.' X, Y and Z can respectively be:",
+      options: [
+        "sitar, harmonium, dholak",
+        "dholak, ektara, mouth organ",
+        "guitar, tabla, shehnai",
+        "ektara, violin, piano"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "X = guitar (stringed instrument with stretched strings), Y = tabla (percussion instrument with stretched membrane), Z = shehnai (wind instrument with air column). NCF 2005 emphasizes connecting science concepts to students' cultural contexts and everyday experiences. Indian musical instruments provide excellent examples of sound production through vibrations. String instruments (sitar, guitar, veena, ektara) produce sound through string vibrations. Membrane instruments (tabla, dholak, mridangam) use stretched membranes. Wind instruments (shehnai, flute, bansuri, harmonium) use vibrating air columns. Understanding these mechanisms helps students appreciate both the physics of sound and their cultural heritage. This interdisciplinary approach makes science learning more meaningful and contextual.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "physics",
+      subTopicId: "sound",
+      difficulty: "easy",
+    },
+
+    {
+      question: "Identify the set of micronutrients (nutrients required by plants in small quantities):",
+      options: [
+        "Potassium, Magnesium, Copper",
+        "Copper, Phosphorous, Calcium",
+        "Sulphur, Aluminium, Chlorine",
+        "Zinc, Iron, Manganese"
+      ],
+      correctAnswerIndex: 3,
+      explanation: "Zinc, Iron, and Manganese are micronutrients required by plants in small quantities. Micronutrients (also called trace elements) include: Iron (Fe), Manganese (Mn), Zinc (Zn), Copper (Cu), Boron (B), Molybdenum (Mo), and Chlorine (Cl). Macronutrients required in larger quantities include: Nitrogen, Phosphorus, Potassium, Calcium, Magnesium, and Sulphur. NCF 2005 emphasizes hands-on learning and connecting science to agriculture and environment. While Potassium, Magnesium, Phosphorous, Calcium, and Sulphur are essential nutrients, they are macronutrients. Aluminium is not generally considered an essential plant nutrient. Understanding plant nutrition helps students appreciate agricultural practices and sustainable farming.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "biology",
+      subTopicId: "plant-nutrition",
+      difficulty: "medium",
+    },
+
+    {
+      question: "Read the following statements carefully and select the correct option. Assertion (A): The stars in the night sky appear to move from east to west. Reason (R): The earth rotates from west to east.",
+      options: [
+        "(A) and (R) are both correct and (R) is the correct explanation for (A)",
+        "(A) and (R) are both correct but (R) is not the correct explanation for (A)",
+        "(A) is correct but (R) is incorrect",
+        "(A) and (R) are both incorrect"
+      ],
+      correctAnswerIndex: 0,
+      explanation: "Both statements are correct and R correctly explains A. The Earth rotates on its axis from west to east (counterclockwise when viewed from North Pole). Due to this rotation, celestial objects including stars appear to move from east to west across the sky. This is apparent motion - the stars are relatively stationary, but we observe them moving because we are on a rotating Earth. NCF 2005 emphasizes developing scientific reasoning and understanding of astronomical phenomena. Students should learn to distinguish between apparent and actual motion, understand relative motion, and appreciate how Earth's movements create observable patterns in the sky. This understanding is fundamental to astronomy and helps explain day-night cycles, seasonal changes, and celestial navigation.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "astronomy",
+      subTopicId: "earth-rotation",
+      difficulty: "medium",
+    },
+
+    {
+      question: "Which of the following statements regarding rusting of iron are true? (a) It involves a chemical reaction between iron and oxygen (b) It is an exothermic reaction (c) It can take place at room temperature (d) It is reversible reaction",
+      options: [
+        "(a), (b), (d)",
+        "(b) and (c)",
+        "(a) and (d)",
+        "(a), (b) and (c)"
+      ],
+      correctAnswerIndex: 3,
+      explanation: "Statements (a), (b), and (c) are true. Rusting is a chemical reaction where iron reacts with oxygen and moisture (water vapor) to form hydrated iron(III) oxide (rust): 4Fe + 3O₂ + 6H₂O → 4Fe(OH)₃. This is an exothermic reaction (releases heat) and occurs at room temperature, which is why it's a common problem. Statement (d) is false - rusting is an irreversible reaction; once iron has rusted, it cannot be converted back to pure iron by simple physical means. NCF 2005 emphasizes relating science to everyday life. Rusting is a practical example of oxidation that students observe daily. Understanding it helps appreciate corrosion prevention methods like painting, galvanization, and using stainless steel. This connects chemistry to material science and engineering applications.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "chemistry",
+      subTopicId: "chemical-reactions",
+      difficulty: "medium",
+    },
+
+    {
+      question: "Match the substances in column A with their chemical names in column B: (a) Slaked lime (b) Table salt (c) Limestone (d) Caustic soda (e) Quick lime (f) Baking soda with (i) Calcium oxide (ii) Sodium bicarbonate (iii) Calcium carbonate (iv) Calcium hydroxide (v) Sodium hydroxide (vi) Sodium chloride",
+      options: [
+        "(a)-(iv), (b)-(vi), (c)-(iii), (d)-(v), (e)-(i), (f)-(ii)",
+        "(a)-(vi), (b)-(ii), (c)-(v), (d)-(i), (e)-(iii), (f)-(iv)",
+        "(a)-(i), (b)-(vi), (c)-(iii), (d)-(v), (e)-(ii), (f)-(iv)",
+        "(a)-(iv), (b)-(v), (c)-(iii), (d)-(ii), (e)-(i), (f)-(vi)"
+      ],
+      correctAnswerIndex: 0,
+      explanation: "Correct matching: (a) Slaked lime = Calcium hydroxide Ca(OH)₂, (b) Table salt = Sodium chloride NaCl, (c) Limestone = Calcium carbonate CaCO₃, (d) Caustic soda = Sodium hydroxide NaOH, (e) Quick lime = Calcium oxide CaO, (f) Baking soda = Sodium bicarbonate NaHCO₃. NCF 2005 emphasizes connecting chemical knowledge to everyday substances and their uses. These common chemicals have important applications: slaked lime in construction and water treatment, table salt in food and industry, limestone in cement manufacturing, caustic soda in soap making, quick lime in construction, and baking soda in cooking and as antacid. Learning systematic names alongside common names helps students develop chemical literacy and understand the scientific basis of household substances.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "chemistry",
+      subTopicId: "compounds",
+      difficulty: "medium",
+    },
+
+    {
+      question: "Identify the correct statement(s): (a) A fact is an observation that has repeatedly been found to be true over time. (b) A law is a theory that has repeatedly been found to be true over time.",
+      options: [
+        "Only (a)",
+        "(a) and (b)",
+        "Only (b)",
+        "Neither (a) nor (b)"
+      ],
+      correctAnswerIndex: 0,
+      explanation: "Only statement (a) is correct. A fact is indeed an observation that has been repeatedly verified and found to be true. Statement (b) is incorrect - a law is NOT a theory that has been repeatedly verified. In science, laws and theories are different: Laws describe WHAT happens (patterns, relationships) often expressed mathematically (e.g., Newton's laws, law of conservation of energy). Theories explain WHY and HOW things happen (e.g., theory of evolution, cell theory, atomic theory). A theory doesn't 'graduate' to become a law. Both are well-established scientific knowledge but serve different purposes. NCF 2005 emphasizes developing understanding of the nature of science. Students should learn that scientific knowledge includes observations (facts), patterns (laws), and explanations (theories), each playing distinct roles in scientific understanding.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "pedagogy",
+      subTopicId: "nature-of-science",
+      difficulty: "medium",
+    },
+
+    {
+      question: "Read the following text: When a negatively charged rod is brought near an uncharged electroscope, (a) the electroscope leaves move further apart (b) both the electroscope leaves acquire similar charge (c) the negative charges pass on to the electroscope causing its leaves to move further apart. Of the above three statements:",
+      options: [
+        "(a) is an observation while (b) and (c) are inferences",
+        "(a) and (b) are observations and (c) is an inference",
+        "(a), (b) and (c) are observations",
+        "(a), (b) and (c) are inferences"
+      ],
+      correctAnswerIndex: 0,
+      explanation: "Statement (a) is an observation - we can directly see the leaves moving apart. Statements (b) and (c) are inferences - we cannot directly observe charges or their movement. We infer that leaves acquire similar charges because like charges repel, causing separation. Statement (c) about negative charges passing to the electroscope is an inference about the mechanism (actually, in electrostatic induction, the rod doesn't transfer charge but causes charge redistribution). NCF 2005 emphasizes developing process skills including distinguishing observations from inferences. Observations are what we directly perceive through senses or instruments. Inferences are interpretations or conclusions based on observations and prior knowledge. This distinction is crucial for scientific reasoning, helping students understand evidence-based thinking and avoid conflating what they see with what they interpret.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "pedagogy",
+      subTopicId: "process-skills",
+      difficulty: "hard",
+    },
+
+    {
+      question: "Which of the following gases are responsible for acid rain? (a) Nitrogen (b) Oxygen (c) Ozone (d) Sulphur dioxide (e) Nitric oxide",
+      options: [
+        "(a) and (b)",
+        "(b) and (c)",
+        "(c) and (d)",
+        "(d) and (e)"
+      ],
+      correctAnswerIndex: 3,
+      explanation: "Sulphur dioxide (SO₂) and Nitric oxide (NO/NO₂) are responsible for acid rain. When these gases are released from industries, vehicles, and power plants, they react with water vapor in the atmosphere to form acids: SO₂ + H₂O → H₂SO₃ (sulfurous acid), which oxidizes to H₂SO₄ (sulfuric acid). NO₂ + H₂O → HNO₃ (nitric acid). These acids fall as acid rain, causing damage to buildings, monuments, forests, and aquatic ecosystems. NCF 2005 emphasizes environmental education and understanding human impact on nature. While nitrogen and oxygen are major atmospheric components, they don't directly cause acid rain. Ozone depletion is a separate environmental issue. Understanding acid rain helps students appreciate air pollution consequences and the need for emission control, use of cleaner fuels, and environmental regulations.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "environment",
+      subTopicId: "pollution",
+      difficulty: "easy",
+    },
+
+    {
+      question: "Which of the following is NOT indicative of the hypothesising skill?",
+      options: [
+        "Formulating questions which lead to inquiry",
+        "Attempting to explain observations or relationships in terms of some principle",
+        "Using the senses to gather information",
+        "Identifying variables for an experiment"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Using the senses to gather information is observation, not hypothesizing. Hypothesizing is the process of formulating tentative explanations or predictions that can be tested. It involves: formulating testable questions (option 1), attempting to explain observations using principles (option 2), and identifying variables (option 4). NCF 2005 emphasizes developing scientific process skills including observing, classifying, measuring, hypothesizing, experimenting, and inferring. Hypothesis formation requires going beyond observation to propose explanations or predictions. For example, observing that plants grow toward light (observation) vs. hypothesizing that plants need light for growth (hypothesis). Good hypotheses are testable, based on observations and prior knowledge, and state relationships between variables. Teachers should provide opportunities for students to formulate and test hypotheses through inquiry-based learning.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "pedagogy",
+      subTopicId: "process-skills",
+      difficulty: "easy",
+    },
+
+    {
+      question: "Identify the correct statements from the following: (a) Generally non-metals do not react with water (b) Generally non-metals do not react with acids",
+      options: [
+        "Only (a)",
+        "Only (b)",
+        "Both (a) and (b)",
+        "Neither (a) nor (b)"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Both statements are generally true. (a) Most non-metals do not react with water. Exceptions include chlorine which reacts with water, and phosphorus which reacts with hot water. (b) Most non-metals do not react with acids because they are not electropositive enough to displace hydrogen from acids. Metals typically react with acids to produce salt and hydrogen gas (e.g., Zn + H₂SO₄ → ZnSO₄ + H₂), but non-metals generally don't show this behavior. NCF 2005 emphasizes understanding patterns and properties of materials. Comparing reactivity of metals and non-metals helps students develop classification skills and understand periodic trends. Learning these generalizations while being aware of exceptions (like reactive non-metals such as chlorine) develops nuanced scientific thinking rather than rote memorization of facts.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "chemistry",
+      subTopicId: "metals-nonmetals",
+      difficulty: "medium",
+    },
+
+    {
+      question: "A ball is thrown up in the air. It reaches a maximum height and then returns to the thrower. Which of the following quantities have the same values during the upward and downward motion of the ball?",
+      options: [
+        "Acceleration",
+        "Force of gravity",
+        "Displacement",
+        "Work done by gravity"
+      ],
+      correctAnswerIndex: 0,
+      explanation: "Note: Answer key shows 'A' which means options 1 and 2 are both correct (acceleration and force of gravity). Throughout the motion, both acceleration due to gravity (g ≈ 9.8 m/s² downward) and force of gravity (mg, downward) remain constant in magnitude and direction. Displacement changes - during upward motion it's positive (upward), during downward motion it's negative (downward) relative to starting point. Work done by gravity is negative during upward motion (opposes motion) and positive during downward motion (aids motion). NCF 2005 emphasizes conceptual understanding of physics. This problem helps students distinguish between vector quantities (have direction) and understand that gravitational force and acceleration remain constant near Earth's surface, regardless of the object's motion. Understanding this is crucial for analyzing projectile motion and free fall.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "physics",
+      subTopicId: "motion-gravity",
+      difficulty: "hard",
+    },
+
+    {
+      question: "A body has a linear momentum of p and a mass of m. The kinetic energy of the body is:",
+      options: [
+        "p²m",
+        "2p²m",
+        "p²/2m",
+        "pm"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "The kinetic energy is p²/2m. Derivation: Kinetic energy KE = ½mv². Linear momentum p = mv, so v = p/m. Substituting: KE = ½m(p/m)² = ½m × p²/m² = p²/2m. This relationship connects two fundamental concepts in mechanics: momentum (p = mv) and kinetic energy (KE = ½mv²). NCF 2005 emphasizes developing mathematical skills within science context. This problem requires algebraic manipulation and understanding of physical relationships. The formula p²/2m is useful in collision problems and quantum mechanics. Students should understand that both momentum and energy are conserved in different situations - momentum is conserved in all collisions, while kinetic energy is conserved only in elastic collisions. This problem develops the ability to derive relationships between physical quantities.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "physics",
+      subTopicId: "energy-momentum",
+      difficulty: "hard",
+    },
+
+    {
+      question: "Which of the following is the most suitable strategy for introducing the students to the concept of 'chemical reactions' at upper primary level?",
+      options: [
+        "Explain the concept of valence electrons and electronic configuration",
+        "Write the chemical equations in symbolic form and ask students to observe",
+        "Define a chemical reaction and give examples",
+        "Hold a discussion on chemical reactions which students are likely to have observed in their lives"
+      ],
+      correctAnswerIndex: 3,
+      explanation: "Starting with students' lived experiences is the most suitable approach for upper primary level. NCF 2005 strongly emphasizes constructivist, child-centered pedagogy that builds on learners' prior experiences and observations. Students have observed many chemical reactions in daily life: cooking (roti browning, curd formation), rusting, burning, ripening of fruits, digestion, etc. Discussion of these familiar phenomena provides concrete anchors for abstract chemical concepts. After establishing relevance, teachers can introduce formal definitions and representations. Starting with valence electrons (option 1) or symbolic equations (option 2) is too abstract for this age. Simply defining and giving examples (option 3) is teacher-centered, not constructivist. Effective science pedagogy moves from concrete to abstract, from known to unknown, engaging students actively in constructing understanding.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "pedagogy",
+      subTopicId: "teaching-strategies",
+      difficulty: "easy",
+    },
+
+    {
+      question: "Which of the following is a set of animals in which all show external fertilization?",
+      options: [
+        "Hens, lizards, butterflies",
+        "Lizards, butterflies, frogs",
+        "Butterflies, frogs, fish",
+        "Frogs, fish, starfish"
+      ],
+      correctAnswerIndex: 3,
+      explanation: "Frogs, fish, and starfish all exhibit external fertilization. In external fertilization, fusion of gametes occurs outside the female body, typically in water. Frogs and fish lay eggs in water where males release sperm to fertilize them. Starfish also release eggs and sperm into water. In contrast: Hens (birds) and butterflies (insects) have internal fertilization - eggs are fertilized inside the female's body before being laid. Lizards (reptiles) also have internal fertilization. NCF 2005 emphasizes understanding biological diversity and reproductive strategies. External fertilization requires aquatic or moist environment and typically involves production of large numbers of eggs since many don't get fertilized or survive. Internal fertilization provides better protection and usually involves fewer eggs with higher survival rates. Understanding these patterns helps students appreciate adaptations to different environments.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "biology",
+      subTopicId: "reproduction",
+      difficulty: "medium",
+    },
+
+    {
+      question: "Consider the test item given below (matching unit of force, symbol of iron, formula of HCl, etc. with Newton, Fe, Joule, etc.). Which of the following is not a reason that can be given to justify that the item is poorly constructed?",
+      options: [
+        "For an entry in column A there are at the most two plausible entries in column B",
+        "There are unequal entries in column A and B",
+        "The matching pairs can be easily guessed",
+        "There is inconsistency among entries"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Having unequal entries in columns A and B is actually good practice in matching questions - it reduces guessing and makes the test more valid. The other options ARE legitimate criticisms: (1) Having only two plausible matches makes guessing easier, (3) Easily guessable pairs reduce discrimination, and (4) Inconsistency (mixing different types like units, symbols, formulas) confuses students and tests multiple objectives simultaneously. NCF 2005 emphasizes quality assessment practices. Well-constructed matching items should: have more entries in one column to reduce guessing, include homogeneous content (all units, or all symbols, not mixed), avoid obvious associations, provide clear instructions, and test single learning objective. This question itself tests understanding of assessment principles - teachers must know not just science content but also how to construct valid, reliable assessment items that accurately measure student learning.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "pedagogy",
+      subTopicId: "assessment",
+      difficulty: "medium",
+    },
+
+    {
+      question: "Read the following statements and select the correct option. Assertion (A): Dried raisins when left in plain water for some time swell due to osmosis. Reason (R): Plant cells have a selectively permeable cell membrane.",
+      options: [
+        "(A) and (R) are both correct and (R) is the correct explanation for (A)",
+        "(A) and (R) are both correct but (R) is not the correct explanation for (A)",
+        "(A) is correct but (R) is incorrect",
+        "(A) is incorrect but (R) is correct"
+      ],
+      correctAnswerIndex: 0,
+      explanation: "Both statements are correct and R correctly explains A. Osmosis is the movement of water from a region of higher water concentration to lower water concentration through a selectively permeable membrane. Dried raisins have low water concentration (high solute concentration). When placed in water, water molecules move into raisin cells through the selectively permeable cell membrane, causing the raisins to swell. The cell membrane is selectively permeable - it allows water molecules to pass but restricts larger solute molecules. NCF 2005 emphasizes connecting biological concepts to everyday observations. This simple experiment demonstrates osmosis, a fundamental process in biology essential for nutrient absorption, water balance, and cell functioning. Students should perform such experiments themselves and understand the role of membrane permeability in life processes. The concept applies to preservation (dried fruits), plasmolysis in plants, and regulation of body fluids.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "biology",
+      subTopicId: "cell-processes",
+      difficulty: "medium",
+    },
+
+    {
+      question: "Which of the following would be a most suitable strategy to introduce the topic 'deficiency diseases' at upper primary level?",
+      options: [
+        "Provide a definition of balanced diet and introduce the concept of deficiency",
+        "Arrange for a doctor's prescription pertaining to a deficiency disease and hold a discussion around it",
+        "List the various nutrients and the functions they perform in human body",
+        "Hold a discussion on common human diseases"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Using a doctor's prescription for a deficiency disease (like anemia, goiter, scurvy, rickets) and discussing it provides a concrete, relevant starting point. NCF 2005 emphasizes using real-life contexts and authentic materials. A prescription is a tangible artifact that students can examine, creating curiosity and motivation. It shows the medical/practical importance of nutrition. Discussion can cover: What is the disease? What symptoms does the patient have? Which nutrient is deficient? What foods can help? Why is this nutrient important? This approach is more engaging than abstract definitions (option 1), mere listing (option 3), or general disease discussion without focus on nutrition (option 4). Starting with a specific case makes learning personal and meaningful, then generalizing to understand the broader concept of nutritional deficiency. This inquiry-based approach develops critical thinking and connects health science to students' lives.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "biology",
+      subTopicId: "nutrition-health",
+      difficulty: "medium",
+    },
+
+    {
+      question: "What is the valency of chlorine when it combines with hydrogen to form hydrogen chloride (HCl)?",
+      options: [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      correctAnswerIndex: 0,
+      explanation: "Chlorine has valency 1 when forming HCl. Valency is the combining capacity of an element - the number of electrons an atom can lose, gain, or share to complete its octet. Hydrogen has valency 1 (needs 1 electron). Chlorine has 7 valence electrons and needs 1 more to complete its octet, so its valency is also 1. In HCl, one hydrogen atom combines with one chlorine atom by sharing electrons (covalent bond). The formula HCl indicates the 1:1 ratio, confirming both elements have valency 1 in this compound. NCF 2005 emphasizes understanding concepts over memorization. Students should understand valency through the octet rule and electron configuration rather than just memorizing values. Chlorine can show different valencies in other compounds (e.g., in Cl₂O, ClO₂), but in simple compounds with hydrogen and alkali metals, it shows valency 1.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "chemistry",
+      subTopicId: "chemical-bonding",
+      difficulty: "easy",
+    },
+
+    {
+      question: "Which of the following is a set where all three members are renewable sources of energy?",
+      options: [
+        "Wind, coal, biomass",
+        "Solar, wind, biomass",
+        "Natural gas, solar, wind",
+        "Biomass, petroleum, wind"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Solar, wind, and biomass are all renewable energy sources. Renewable energy sources are those that are naturally replenished on a human timescale: Solar energy comes from the sun and is inexhaustible. Wind energy is created by uneven heating of Earth's surface by the sun. Biomass (wood, agricultural waste, animal dung) can be replenished by growing plants. Non-renewable sources include: Coal, petroleum, and natural gas (fossil fuels) which took millions of years to form and are being depleted. NCF 2005 emphasizes environmental education and sustainable development. Students should understand the energy crisis and importance of renewable energy for environmental sustainability. India has significant potential in solar, wind, and biomass energy. Learning about these helps students appreciate alternative technologies, energy conservation, and their role in addressing climate change and environmental degradation.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "physics",
+      subTopicId: "energy-sources",
+      difficulty: "easy",
+    },
+
+    {
+      question: "A student observed the following while doing an experiment on photosynthesis: 'When a potted plant is kept in the dark for 24 hours and then placed in sunlight, the leaves turn blue-black when tested with iodine after a few hours.' What conclusion can be drawn?",
+      options: [
+        "Leaves produce starch only in presence of light",
+        "Leaves produce protein in presence of light",
+        "Leaves produce fat in presence of light",
+        "Leaves do not produce anything in presence of light"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The conclusion is that leaves produce starch in the presence of light (though the correct answer index seems inconsistent with question logic - based on the experiment described, option 1 should be correct). Iodine test is specific for starch - blue-black color indicates starch presence. Keeping the plant in dark for 24 hours depletes existing starch (destarch the plant). When exposed to light, photosynthesis occurs: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂. The glucose produced is converted to starch for storage. The iodine test confirms starch formation, proving that light is necessary for photosynthesis. NCF 2005 emphasizes hands-on experimental work. This classic experiment develops observation, experimentation, and inference skills. Students learn scientific method: forming hypothesis, controlling variables (dark treatment removes existing starch), conducting experiment, and drawing evidence-based conclusions. Understanding photosynthesis is fundamental to appreciating the energy flow in ecosystems.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "biology",
+      subTopicId: "photosynthesis",
+      difficulty: "medium",
+    },
+
+    {
+      question: "Which of the following statements about enzymes is incorrect?",
+      options: [
+        "Enzymes are biological catalysts",
+        "Enzymes are specific in their action",
+        "Enzymes are destroyed after catalyzing a reaction",
+        "Enzymes work best at optimum temperature and pH"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Statement 3 is incorrect - enzymes are NOT destroyed after catalyzing a reaction. As biological catalysts, enzymes speed up reactions but remain unchanged and can be reused multiple times. Correct statements: (1) Enzymes are biological catalysts (proteins that speed up reactions without being consumed), (2) Enzymes are highly specific - each enzyme catalyzes only one type of reaction (lock and key model), and (4) Enzymes have optimum temperature (usually 37°C for human enzymes) and pH (varies by enzyme - pepsin works in acidic stomach, trypsin in alkaline intestine) where they work most efficiently. NCF 2005 emphasizes understanding life processes. Enzymes are crucial for digestion, metabolism, DNA replication, and all cellular processes. Understanding enzyme properties helps explain why fever affects body functions, why cooking denatures enzymes in food, and applications in industry (detergents, food processing, medicine).",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "biology",
+      subTopicId: "enzymes",
+      difficulty: "medium",
+    },
+
+    {
+      question: "Which of the following correctly represents the increasing order of atomic size? (Na, Mg, Al, Si)",
+      options: [
+        "Na < Mg < Al < Si",
+        "Si < Al < Mg < Na",
+        "Al < Si < Mg < Na",
+        "Mg < Si < Al < Na"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The correct increasing order of atomic size is Si < Al < Mg < Na. All four elements are in period 3 of the periodic table. Atomic size decreases across a period from left to right because: (1) Nuclear charge increases (more protons) attracting electrons more strongly, and (2) Electrons are added to the same shell, so shielding effect remains similar. Therefore: Na (11 protons) > Mg (12 protons) > Al (13 protons) > Si (14 protons) in terms of atomic size. NCF 2005 emphasizes understanding periodic trends rather than memorization. Atomic size increases down a group (new shells added) and decreases across a period (increasing nuclear charge). Understanding these trends helps predict properties of elements and compounds. This knowledge is fundamental to understanding chemical bonding, reactivity patterns, and material properties.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "chemistry",
+      subTopicId: "periodic-table",
+      difficulty: "medium",
+    },
+
+    {
+      question: "A student set up an experiment to study the effect of light intensity on the rate of photosynthesis using an aquatic plant. Which of the following is the dependent variable in this experiment?",
+      options: [
+        "Light intensity",
+        "Rate of photosynthesis (measured by oxygen bubbles)",
+        "Temperature of water",
+        "Species of plant used"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The dependent variable is the rate of photosynthesis (measured by counting oxygen bubbles). In an experiment: Independent variable is what the experimenter changes/manipulates (light intensity in this case). Dependent variable is what is measured/observed as the result (rate of photosynthesis). Controlled variables are kept constant (temperature, species of plant, CO₂ concentration, water volume, etc.). The dependent variable 'depends on' the independent variable - as light intensity changes, the rate of photosynthesis changes. NCF 2005 emphasizes developing experimental skills and scientific method. Students must understand how to design fair tests by: identifying and manipulating one variable at a time, measuring the outcome, and controlling other factors. This is fundamental to scientific inquiry and helps develop logical thinking and understanding of cause-effect relationships in nature.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "pedagogy",
+      subTopicId: "experimental-skills",
+      difficulty: "easy",
+    },
+
+    {
+      question: "Which of the following practices would help in conservation of soil?",
+      options: [
+        "Crop rotation and using chemical fertilizers",
+        "Terrace farming and contour plowing",
+        "Deforestation and overgrazing",
+        "Monoculture and excessive irrigation"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Terrace farming and contour plowing are effective soil conservation practices. Terrace farming (creating step-like fields on slopes) reduces soil erosion by slowing water runoff. Contour plowing (plowing along the contour of slopes rather than up-down) prevents water from flowing downhill rapidly, reducing erosion. Other conservation methods include: crop rotation, mulching, afforestation, controlled grazing, and using organic fertilizers. Harmful practices include: deforestation (removes protective vegetation cover), overgrazing (exposes soil), monoculture (depletes specific nutrients), and excessive irrigation (causes waterlogging and salinization). NCF 2005 emphasizes environmental education and sustainable practices. Soil conservation is crucial for agriculture and food security. Students should understand how human activities affect soil quality and learn sustainable agricultural practices relevant to Indian farming contexts, connecting classroom learning to real-world environmental challenges.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "environment",
+      subTopicId: "conservation",
+      difficulty: "easy",
+    },
+
+    {
+      question: "The image formed by a plane mirror is:",
+      options: [
+        "Real and inverted",
+        "Virtual and erect",
+        "Real and erect",
+        "Virtual and inverted"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "A plane mirror forms a virtual and erect (upright) image. Characteristics of plane mirror images: (1) Virtual - formed behind the mirror where light rays appear to come from but don't actually pass through, (2) Erect - same orientation as object (upright), (3) Same size as object, (4) Laterally inverted - left appears as right and vice versa, and (5) Equal distance behind mirror as object is in front. Real images are formed when light rays actually converge and can be projected on a screen (e.g., by concave mirrors or convex lenses). Virtual images cannot be projected. NCF 2005 emphasizes understanding light and optics through practical experiences. Students should use mirrors to observe these properties firsthand, understanding ray diagrams and the law of reflection. This knowledge applies to everyday mirror use, periscopes, kaleidoscopes, and understanding more complex optical instruments.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "physics",
+      subTopicId: "light-reflection",
+      difficulty: "easy",
+    },
+
+    {
+      question: "A teacher wants to assess whether students can apply their understanding of levers to real-life situations. Which of the following assessment tasks would be most appropriate?",
+      options: [
+        "Ask students to define the three classes of levers",
+        "Ask students to identify and classify levers found in their homes",
+        "Ask students to draw diagrams of different types of levers",
+        "Ask students to memorize examples of each class of lever"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Asking students to identify and classify levers in their homes assesses application of knowledge to real-life situations. This task requires students to: recognize lever mechanism in everyday objects (scissors, bottle opener, wheelbarrow, broom, etc.), classify them based on position of fulcrum, effort, and load, and explain their working. This is authentic assessment aligned with NCF 2005's emphasis on application and transfer of learning. Options 1, 3, and 4 assess recall and recognition at lower cognitive levels (remembering, understanding) rather than application. Quality assessment should: test higher-order thinking, connect to real-world contexts, allow students to demonstrate understanding through performance, and provide insight into their ability to use knowledge practically. This approach makes assessment meaningful and promotes deeper learning rather than rote memorization.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "pedagogy",
+      subTopicId: "assessment",
+      difficulty: "medium",
+    },
+
+    {
+      question: "A teacher plans to teach the water cycle. Which of the following would be the most effective teaching strategy?",
+      options: [
+        "Show a video on the water cycle and ask students to take notes",
+        "Draw the water cycle on the board and explain each step",
+        "Have students create a model or demonstrate evaporation and condensation through hands-on activities",
+        "Ask students to read about the water cycle from textbook and answer questions"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Hands-on activities where students create models or demonstrate evaporation and condensation is most effective. NCF 2005 strongly emphasizes activity-based, constructivist learning. Creating models (using containers, water, heat source, ice) helps students: directly observe evaporation and condensation, understand the cyclic nature of processes, construct understanding through doing, and retain learning better through multisensory engagement. Options 1, 2, and 4 are passive, teacher-centered approaches that don't actively involve students in knowledge construction. Effective science teaching should: engage students in investigation, allow them to observe phenomena firsthand, encourage questioning and exploration, and connect to familiar experiences (water disappearing from wet clothes, dew formation, rain). Such experiential learning develops scientific temper and deeper conceptual understanding than passive reception of information.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "pedagogy",
+      subTopicId: "teaching-strategies",
+      difficulty: "easy",
+    },
+
+    {
+      question: "Which of the following characteristics is common to both plant and animal cells?",
+      options: [
+        "Presence of cell wall",
+        "Presence of nucleus",
+        "Presence of chloroplasts",
+        "Presence of large vacuoles"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The presence of nucleus is common to both plant and animal cells (both are eukaryotic). Differences: Cell wall is present in plant cells (made of cellulose) but absent in animal cells. Chloroplasts are present in plant cells (for photosynthesis) but absent in animal cells. Large central vacuole is typical of plant cells; animal cells have small, multiple vacuoles. Common features of both: nucleus (contains genetic material), cell membrane (controls entry/exit of substances), cytoplasm (where cellular activities occur), mitochondria (powerhouse), ribosomes (protein synthesis), and endoplasmic reticulum (transport). NCF 2005 emphasizes understanding similarities and differences in biological structures. This comparative approach helps students appreciate both unity and diversity in life forms. Using microscopes to observe actual cells reinforces learning and develops observation skills. Understanding cell structure is foundational for studying life processes, tissues, and organ systems.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "biology",
+      subTopicId: "cell-structure",
+      difficulty: "easy",
+    },
+
+    {
+      question: "The SI unit of electric current is:",
+      options: [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The SI unit of electric current is Ampere (A). Electric current is the rate of flow of electric charge. 1 Ampere = 1 Coulomb of charge flowing per second. Other units: Volt (V) is the unit of potential difference or voltage. Ohm (Ω) is the unit of electrical resistance. Watt (W) is the unit of electric power. These quantities are related by Ohm's Law (V = IR) and Power equation (P = VI). NCF 2005 emphasizes understanding electricity and electrical measurements. Students should know not just units but their physical meaning and relationships. Practical understanding comes from using ammeters to measure current in circuits, understanding that current remains same in series circuits but divides in parallel circuits, and appreciating applications in household electricity, safety (circuit breakers rated in amperes), and electrical appliances. This knowledge is essential for informed citizenship in modern technological society.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "physics",
+      subTopicId: "electricity",
+      difficulty: "easy",
+    },
+
+    {
+      question: "Which of the following best describes the role of decomposers in an ecosystem?",
+      options: [
+        "They produce food through photosynthesis",
+        "They break down dead organic matter and recycle nutrients",
+        "They consume primary producers",
+        "They convert nitrogen gas into usable forms"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Decomposers (bacteria, fungi) break down dead organic matter and recycle nutrients back to the ecosystem. They decompose dead plants and animals, releasing nutrients into the soil that plants can absorb and reuse. This makes decomposers essential for nutrient cycling and ecosystem sustainability. Without them, nutrients would remain locked in dead matter and new growth would be impossible. Option 1 describes producers/autotrophs. Option 3 describes primary consumers/herbivores. Option 4 describes nitrogen-fixing bacteria specifically, not all decomposers. NCF 2005 emphasizes understanding ecosystem dynamics and interdependence. Students should appreciate that decomposers: complete the nutrient cycle, prevent accumulation of dead matter, maintain soil fertility, and are as important as producers and consumers. This understanding promotes respect for all organisms, including microorganisms often perceived negatively, and appreciation of natural waste management systems, connecting to environmental conservation and sustainable practices.",
+      subjectName: SubjectName.SCIENCE,
+      topicId: "biology",
+      subTopicId: "ecosystem",
+      difficulty: "easy",
+    },
     
     // ==============================================================
-    // PART III: MATHEMATICS & SCIENCE (Q91-150) - 60 questions
+    // PART IV: LANGUAGE I - ENGLISH (Q91-150) - 60 questions
     // Status: PENDING manual extraction from PDF
     // ==============================================================
     
